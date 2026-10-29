@@ -1,0 +1,786 @@
+{
+  "id": "L06",
+  "title": "The Art of Yapping",
+  "creator": "Oren John (orenmeetsworld)",
+  "url": "https://www.youtube.com/watch?v=CS0A4hJfcy4",
+  "length": "17 min 50 s",
+  "kind": "youtube",
+  "one_liner": "Put the phone on a tripod and talk: strong takes, small epiphanies and stories, recorded with pauses you cut later.",
+  "why_it_matters": "You already own the whole kit Oren recommends: an iPhone 15 and a tripod. Yapping is the cheapest format to make often, and it trains the skill under every other format, saying an idea clearly to a lens. His five talk frameworks and the Yap Map give you a steady supply of gym, tech and gaming ideas without needing a shoot day.",
+  "big_idea": {
+    "statement": "Yapping is the simplest creator format: an opinion, a story or a small observation, said to a phone, with the hard parts (thinking pauses, the awkward intro) fixed in the edit.",
+    "support": [
+      "Short video is now how people communicate at work and with friends; reels get shared in group chats and Slacks.",
+      "Three idea types (strong takes, small epiphanies, story time) carry about 90% of what you can make.",
+      "Ideas come from your own day, logged 3–5 a day in a notes app.",
+      "Simple scripts (hook → story → 2 points, or the '8 Mile') keep people watching.",
+      "Recording is forgiving: pause in silence to think, cut the gaps, re-record the intro once you're warmed up."
+    ]
+  },
+  "map": [
+    {
+      "chapter": "Why yap",
+      "time": "0:00–3:25",
+      "gist": "Video is how people communicate now; yapping made him a better communicator"
+    },
+    {
+      "chapter": "Types of yaps",
+      "time": "3:25–8:20",
+      "gist": "Standard, walking, car, and three kinds of graphic yap"
+    },
+    {
+      "chapter": "What to talk about: 5 frameworks",
+      "time": "8:20–11:04",
+      "gist": "Strong takes, small epiphanies and story time carry 90%"
+    },
+    {
+      "chapter": "The Yap Map",
+      "time": "11:04–12:53",
+      "gist": "Log 3–5 ideas a day from your day, media and workouts"
+    },
+    {
+      "chapter": "How to script it",
+      "time": "12:53–14:43",
+      "gist": "Hook → story → 2 points, the '8 Mile', and 4–5 mini takes"
+    },
+    {
+      "chapter": "Recording and editing",
+      "time": "14:43–16:50",
+      "gist": "Plug-in mic, pause to think, cut silences, redo the intro, add captions"
+    },
+    {
+      "chapter": "How his own video is made",
+      "time": "whole video",
+      "gist": "Punch-ins, rounded example windows, lo-fi bed, pops and whooshes"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Why yap",
+      "time": "0:00",
+      "summary": "Oren defines yapping as putting an iPhone on a tripod and talking to camera, the simplest form of being a creator. He argues short-form video has become the main way people communicate, at work and in personal life: reels get dropped into group chats and work Slacks. He started making content at about 37, and the biggest payoff wasn't views but becoming a better communicator, salesperson and marketer. Making content also forces you to workshop ideas with people around you, which he says leads to a more thoughtful life.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "the primary method of business and personal communications",
+          "who": "Oren John, on short-form video",
+          "time": "1:02"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "What yapping gave him",
+          "items": [
+            {
+              "label": "A reason to talk",
+              "text": "Phone on a tripod, an idea, record."
+            },
+            {
+              "label": "Better communicator",
+              "text": "Better at sales, marketing and explaining ideas."
+            },
+            {
+              "label": "Better ideas",
+              "text": "You workshop takes with people around you."
+            },
+            {
+              "label": "A more thoughtful life",
+              "text": "You notice and think more because you'll talk about it."
+            }
+          ],
+          "caption": "The value compounds even before the views do."
+        },
+        {
+          "type": "quote",
+          "text": "It's made me a better salesperson… a better marketer… better at articulating ideas.",
+          "who": "Oren John",
+          "time": "1:50"
+        },
+        {
+          "type": "stat",
+          "value": "~37",
+          "label": "Oren's age when he started making content",
+          "note": "His own account; his point is that it's never too late.",
+          "evidence": "stated"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "For you the same thing works at your desk job: explaining a PC build in 30 seconds on camera is practice for explaining anything at work. Start with one yap a week from your gym bench or gaming chair."
+        }
+      ]
+    },
+    {
+      "title": "Types of yaps",
+      "time": "3:25",
+      "summary": "He lists the formats. The standard yap is sitting and talking to camera; it can work without captions, but he recommends captions for almost everybody. The walking yap feels like a FaceTime with a friend but has too many variables for beginners. The car yap is candid, often not looking at the lens. Then three graphic yaps: chaotic (camera-roll images overlaid about every 2 seconds, so about 30 images for 60 seconds), framed (sit low and leave headroom for vertical graphics above your head) and full-screen (9:16 Canva images cut over your talking, about one every 2 seconds).",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Yap types, easiest to hardest",
+          "items": [
+            {
+              "label": "Standard yap",
+              "text": "Sit, phone on tripod, talk. Add captions."
+            },
+            {
+              "label": "Car yap",
+              "text": "Candid, from the car; you don't always look at the lens."
+            },
+            {
+              "label": "Walking yap",
+              "text": "Talk while moving, like a FaceTime with a friend. Not for beginners."
+            },
+            {
+              "label": "Graphic yap: chaotic",
+              "text": "Overlay camera-roll images with Edits/CapCut, about one every 2 s."
+            },
+            {
+              "label": "Graphic yap: framed",
+              "text": "Sit low, leave space above your head for a vertical graphic."
+            },
+            {
+              "label": "Graphic yap: full-screen",
+              "text": "Full 9:16 Canva images cut over your voice, about one every 2 s."
+            }
+          ],
+          "caption": "Start at the top. Graphic yaps add pace without needing better footage."
+        },
+        {
+          "type": "stat",
+          "value": "~30",
+          "label": "images to collect for a 60 s chaotic graphic yap (one every ~2 s)",
+          "note": "Oren's rule of thumb.",
+          "evidence": "stated"
+        },
+        {
+          "type": "quote",
+          "text": "The key to the yap is you just do it. The whole thing is set up to make you want it to be easy.",
+          "who": "Oren John",
+          "time": "8:10"
+        },
+        {
+          "type": "checklist",
+          "title": "Framed graphic yap setup",
+          "items": [
+            "Frame yourself low in the shot.",
+            "Leave clear space above your head for the graphic.",
+            "Plan where your head, the caption and the graphic each sit.",
+            "Keep every graphic vertical."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Tech graphic yap: talk about your build while screenshots of the parts, prices and benchmark charts pop in above your head every 2 s. Gaming: clips of the play you're describing overlaid as you describe it."
+        }
+      ]
+    },
+    {
+      "title": "What to talk about: 5 frameworks",
+      "time": "8:20",
+      "summary": "Oren gives five types of idea. A strong take says something is the best or the worst and defends it, because conversation drives videos. Strong take → education uses the opinion as the hook, then teaches (his Coachella example: 'too many Coachella influencers' becomes a breakdown of content supply and demand). A small epiphany is a relatable everyday observation that builds camaraderie. Humour pokes fun at something. Story time is a narrative from your life. He deliberately leaves out 'my top three…', 'three ways to…' and motivational speeches, because generic ideas don't work.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "pyramid",
+          "title": "The five yap frameworks (base first)",
+          "items": [
+            {
+              "label": "Strong take",
+              "text": "'X is the best / the worst', then defend it. E.g. 'Orlando is the best sports city in North America.'"
+            },
+            {
+              "label": "Story time",
+              "text": "A narrative from your own life."
+            },
+            {
+              "label": "Small epiphany",
+              "text": "A relatable observation: 'Do you notice how husbands always do this?'"
+            },
+            {
+              "label": "Strong take → education",
+              "text": "Opinion as the hook, then teach the 'why'."
+            },
+            {
+              "label": "Humour",
+              "text": "Poke fun at something, e.g. overrated places in your city."
+            }
+          ],
+          "caption": "The bottom three are the foundation; the top two build on them."
+        },
+        {
+          "type": "quote",
+          "text": "Strong takes, small epiphanies, and story time is like the foundation for 90% of the content you can make.",
+          "who": "Oren John",
+          "time": "10:49"
+        },
+        {
+          "type": "compare",
+          "title": "Make vs skip",
+          "left": {
+            "title": "Make",
+            "items": [
+              "A strong take you'll defend",
+              "A small epiphany people nod at",
+              "A real story from your week",
+              "A take that turns into a lesson"
+            ]
+          },
+          "right": {
+            "title": "Skip (his list)",
+            "items": [
+              "'My top three favourite…'",
+              "'Three ways to…'",
+              "Motivational speeches",
+              "Anything generic"
+            ]
+          }
+        },
+        {
+          "type": "quote",
+          "text": "If you're thinking outside of that box and it's generic, it's not going to work.",
+          "who": "Oren John",
+          "time": "10:49"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Strong take: 'The Smith machine is the most underrated machine in the gym.' Small epiphany: 'Why does every gym bro check his phone between every single set?' Story time: 'The day my PC died mid-ranked match.' Strong take → education: 'RGB is a waste of money' → what actually changes your FPS."
+        },
+        {
+          "type": "callout",
+          "tone": "warn",
+          "text": "Possible clash in the Brain (C3): Rahul's list and rating reels perform. One reading is that a list of strong takes is fine and a generic list isn't. Not decided."
+        }
+      ]
+    },
+    {
+      "title": "The Yap Map",
+      "time": "11:04",
+      "summary": "Ideas come from dead time: on a commute, or wherever you'd normally scroll, write in a notes app. Pull from the touch points of your day (a work question you had to explain, a lunch conversation, a joke, a show everyone's watching), your personal life (dating, little interpersonal moments), media you consume (trends and news you can react to) and shower or workout thoughts. Aim for three to five ideas a day; Oren says he now has hundreds. Then give each idea a take: a strong opinion, a story, or something relatable to break down.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "cycle",
+          "title": "The Yap Map loop",
+          "items": [
+            {
+              "label": "Dead time",
+              "text": "Commute, queue, rest between sets: open notes instead of the feed."
+            },
+            {
+              "label": "Scan four sources",
+              "text": "Your day, your personal life, media you consume, shower/workout thoughts."
+            },
+            {
+              "label": "Log 3–5 ideas",
+              "text": "One line each. Quantity first."
+            },
+            {
+              "label": "Give each a take",
+              "text": "A strong opinion, a story, or something relatable to break down."
+            },
+            {
+              "label": "Yap the best one",
+              "text": "Record, then back to collecting."
+            }
+          ],
+          "caption": "He says he now has 'hundreds and hundreds' of ideas."
+        },
+        {
+          "type": "checklist",
+          "title": "Where today's ideas are hiding",
+          "items": [
+            "A work question you had to explain to someone",
+            "A lunch conversation or a joke that landed",
+            "A show or trend everyone's talking about",
+            "A dating or friendship moment ('have you noticed guys always…')",
+            "News you can react to",
+            "A thought you had in the shower or mid-workout"
+          ]
+        },
+        {
+          "type": "stat",
+          "value": "3–5",
+          "label": "ideas to log per day",
+          "note": "Oren's target.",
+          "evidence": "stated"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your Yap Map has a built-in timer: rest between sets. Log one gym observation per session ('the guy who curls in the squat rack'), one desk-job moment, one gaming moment. That's three a day without trying."
+        }
+      ]
+    },
+    {
+      "title": "How to script it",
+      "time": "12:53",
+      "summary": "Three script shapes. Hook → story → point 1 → point 2: open with the claim ('Kick Coffee is the best coffee shop in Newport Beach'), tell a real anecdote, then give your two reasons. The '8 Mile', named after the rap battle where the hero says the other side's insults first: hook, then call out the opposite argument and disprove it, then make your point, which removes objections before they become reasons to scroll. The 4 or 5 things: a list of mini strong takes ('observations I made at Coachella as a brand strategist'), so people stay for the next one.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Hook → Story → Point 1 → Point 2",
+          "items": [
+            {
+              "label": "Hook",
+              "text": "The strong take: 'Kick Coffee is the best coffee shop in Newport Beach.'"
+            },
+            {
+              "label": "Story",
+              "text": "A real anecdote that shows it."
+            },
+            {
+              "label": "Point 1",
+              "text": "Your first reason."
+            },
+            {
+              "label": "Point 2",
+              "text": "Your second reason. End."
+            }
+          ],
+          "caption": "The default yap script."
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The '8 Mile'",
+          "items": [
+            {
+              "label": "Hook",
+              "text": "State your take."
+            },
+            {
+              "label": "Say their argument",
+              "text": "Name the obvious objection before the viewer can."
+            },
+            {
+              "label": "Disprove it",
+              "text": "Knock it down with a fact or a story."
+            },
+            {
+              "label": "Make your point",
+              "text": "Now there's nothing left to argue with."
+            }
+          ],
+          "caption": "From the final rap battle in 8 Mile: say the attacks on yourself first."
+        },
+        {
+          "type": "example",
+          "title": "An 8 Mile gym yap",
+          "before": "Hook: 'Leg press is better than squats for most people.' Then just reasons.",
+          "after": "Hook: 'Leg press is better than squats for most people.' → 'I know: squats are the king of exercises, you need the stability.' → 'Most people at my gym can't squat below parallel without their back rounding.' → 'So load the leg press and actually train your quads.'",
+          "why": "Saying the objection first keeps the 'squats are king' crowd watching instead of typing a comment and scrolling. (Our applied example.)"
+        },
+        {
+          "type": "example",
+          "title": "4 or 5 things",
+          "before": "Three ways to improve your gaming setup.",
+          "after": "5 things I noticed after a month of ranked as a 26-year-old with a day job.",
+          "why": "Each item is a mini strong take, not a generic tip, and the count is an open loop. (Our applied example.)"
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Pick the script by the idea: a recommendation → Hook/Story/2 points; a controversial take → 8 Mile; a trip, event or month of experience → 4 or 5 things."
+        }
+      ]
+    },
+    {
+      "title": "Recording and editing",
+      "time": "14:43",
+      "summary": "Energy matters: you're there to light people up, and if you look like you're not having fun it probably won't do well. Gear is an iPhone plus a mic: a Røde plug-in USB-C mic or wired EarPods, but not AirPods. Use the ReCut method: when you need to think, pause in silence while holding eye contact, then talk again, and remove the silences later with the ReCut app or an editor's silence removal; a 6–7 minute raw clip is fine. Re-record the intro at the end, when you're warmed up. Edit in CapCut or Edits and add captions and a title. Anyone can do this: people want to hear from someone at their level or just above.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "You are there to light people up… be excited, be passionate, care, have fun with it…",
+          "who": "Oren John",
+          "time": "14:43"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The ReCut recording method",
+          "items": [
+            {
+              "label": "Hit record",
+              "text": "Phone on tripod, plug-in mic, one long take."
+            },
+            {
+              "label": "Pause to think",
+              "text": "Stay silent and keep eye contact with the lens. No 'umm'."
+            },
+            {
+              "label": "Talk again",
+              "text": "Pick up when you're ready. 6–7 min raw is fine."
+            },
+            {
+              "label": "Redo the intro",
+              "text": "After ~3 min you're in flow: record the opening again."
+            },
+            {
+              "label": "Cut the silences",
+              "text": "ReCut (~$20) or the editor's silence removal."
+            },
+            {
+              "label": "Captions + title",
+              "text": "In CapCut or Edits. He calls both 'really important'."
+            }
+          ],
+          "caption": "Your best intro is the one you record last."
+        },
+        {
+          "type": "checklist",
+          "title": "His yap kit",
+          "items": [
+            "iPhone on a tripod with extending legs and a Bluetooth remote (~$50)",
+            "Røde plug-in USB-C mic, or wired Apple EarPods",
+            "Optional: MagSafe mount for car yaps",
+            "ReCut, CapCut or Edits for the cut"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warn",
+          "text": "\"AirPods do not work\" for recording, per Oren. Use a plug-in mic or wired EarPods."
+        },
+        {
+          "type": "quote",
+          "text": "People want to hear from people that are at their level or a level right above them… there is nobody who is too old or in too weird a niche to do this.",
+          "who": "Oren John",
+          "time": "16:18"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "At ~930 followers, 'a level right above' is your edge: a 26-year-old with a desk job who lifts and games is exactly who your viewers are. You already have the iPhone 15 and tripod; a wired USB-C mic is the only gap."
+        }
+      ]
+    },
+    {
+      "title": "How his own video is made",
+      "time": "0:00",
+      "summary": "The video itself is a working example of a long-form yap. He states the whole promise in the first seconds, cuts out breaths with jump cuts (the ReCut method in action) and punches in 105–110% on key phrases and at each numbered framework. Vertical examples play in rounded windows on the left 40% of the frame with him on the right. A quiet lo-fi bed sits about −22 to −24 dB under a clean, compressed voice, with pops on every graphic and whooshes on slide-ins. Section titles are a yellow bold serif; pattern interrupts include an 'Editor's note' joke and showing the tripod as a prop.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Pacing layers, fastest to slowest",
+          "items": [
+            {
+              "label": "Every pause",
+              "text": "Breaths and thinking gaps removed with jump cuts."
+            },
+            {
+              "label": "Every 2.5–3.5 s",
+              "text": "Average shot length."
+            },
+            {
+              "label": "Every 3–5 s",
+              "text": "Some visual change: punch-in, window, title."
+            },
+            {
+              "label": "Each section",
+              "text": "105–110% punch-in plus a yellow serif title card."
+            }
+          ],
+          "caption": "Long-form pace is slower than a reel, but something still changes every few seconds."
+        },
+        {
+          "type": "stat",
+          "value": "−22 to −24 dB",
+          "label": "lo-fi music bed under the voice",
+          "note": "From the visual and audio breakdown.",
+          "evidence": "observed"
+        },
+        {
+          "type": "stat",
+          "value": "105–110%",
+          "label": "punch-in zoom on key phrases and new sections",
+          "note": "Subtle enough not to feel like a jump.",
+          "evidence": "observed"
+        },
+        {
+          "type": "checklist",
+          "title": "Sound map",
+          "items": [
+            "Continuous lo-fi/chill-hop bed, rising at the outro",
+            "Pop on every graphic, logo and title",
+            "Whoosh on window slide-ins and text wipes",
+            "UI clicks on screen recordings",
+            "A movie clip (8 Mile) as a sound gag",
+            "Voice: close mic, compressed, de-essed, high-passed"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Steal for a gym yap: 108% punch-in on the punchline, a pop when each rep-count or weight graphic appears, a lo-fi bed well under your voice, and rounded clip windows of the lift beside you while you talk."
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "area": "Hook",
+      "detail": "Says the whole promise immediately ('…a complete playbook for talking into your phone to change your life'), with an instant title card and rapid vertical-video examples."
+    },
+    {
+      "area": "Pacing",
+      "detail": "Average shot about 2.5–3.5 s; jump cuts remove breaths; a visual change every 3–5 s."
+    },
+    {
+      "area": "Zooms",
+      "detail": "Subtle 105–110% punch-ins on key phrases and when each numbered framework starts."
+    },
+    {
+      "area": "Layout",
+      "detail": "Single camera, medium-wide, centred; 9:16 examples in rounded-corner windows on the left ~40% with him on the right."
+    },
+    {
+      "area": "Camera",
+      "detail": "Fast prime look (~35–50 mm) at wide aperture, soft blurred background; soft key light front-left; classic set with white moulding and a gold-framed painting."
+    },
+    {
+      "area": "Sound",
+      "detail": "Lo-fi bed at about −22 to −24 dB; pops on graphics, whooshes on slide-ins, UI clicks on screen recordings; music rises at the outro."
+    },
+    {
+      "area": "Voice",
+      "detail": "Close boom mic, compressed, de-essed, high-pass filtered: a clean broadcast tone."
+    },
+    {
+      "area": "Motion",
+      "detail": "Overlay windows slide in with spring/ease-out; hard cuts for jump cuts."
+    },
+    {
+      "area": "Type",
+      "detail": "Yellow bold serif section titles with shadow/outline, plus clean sans UI elements. No burned-in captions on the main video; the vertical examples carry their own word-by-word captions."
+    },
+    {
+      "area": "Retention",
+      "detail": "Numbered list as an open loop ('5 frameworks'); an 'Editor's note' joke overlay and the tripod shown as a physical prop as pattern interrupts."
+    },
+    {
+      "area": "Grade",
+      "detail": "Warm golden midtones, slightly desaturated highlights."
+    },
+    {
+      "area": "CTA",
+      "detail": "Sponsor's free LinkedIn starter pack (HubSpot), his community call and the Cut30 cohort."
+    }
+  ],
+  "takeaways": [
+    {
+      "text": "About 90% of content is strong takes, small epiphanies and story time.",
+      "atom": "ideas-takes-epiphanies-story"
+    },
+    {
+      "text": "Skip generic lists, 'three ways to' and motivational speeches.",
+      "atom": "ideas-avoid-generic-lists"
+    },
+    {
+      "text": "Say something is the best or worst, then defend it or turn it into a lesson.",
+      "atom": "ideas-strong-take"
+    },
+    {
+      "text": "Yap Map: log 3–5 ideas a day from your day, media and workout thoughts, then give each a take.",
+      "atom": "ideas-yap-map"
+    },
+    {
+      "text": "Default script: hook → story → point 1 → point 2.",
+      "atom": "story-hook-story-two-points"
+    },
+    {
+      "text": "'8 Mile': say the counter-argument, disprove it, then make your point.",
+      "atom": "story-8-mile"
+    },
+    {
+      "text": "4 or 5 mini takes keep people for the next one.",
+      "atom": "story-4-5-things"
+    },
+    {
+      "text": "Yap formats: standard, walking, car, graphic.",
+      "atom": "film-yap-formats"
+    },
+    {
+      "text": "Tripod + Bluetooth remote + plug-in mic is enough; AirPods aren't.",
+      "atom": "film-yap-gear"
+    },
+    {
+      "text": "Pause in silence to think, then cut the gaps.",
+      "atom": "film-recut-pause-method"
+    },
+    {
+      "text": "Re-record the intro at the end, when you're warmed up.",
+      "atom": "film-redo-intro-at-end"
+    },
+    {
+      "text": "Graphic yap: one overlay about every 2 s.",
+      "atom": "edit-graphic-yap-overlay-2s"
+    },
+    {
+      "text": "Frame low and leave headroom for vertical graphics.",
+      "atom": "film-framed-graphic-headroom"
+    },
+    {
+      "text": "Subtle 105–110% punch-ins on key phrases and new sections.",
+      "atom": "fx-subtle-punch-in"
+    },
+    {
+      "text": "Quiet bed around −22 to −24 dB under a broadcast-style voice.",
+      "atom": "sound-quiet-bed-throughout"
+    },
+    {
+      "text": "Yellow bold serif section titles with clean sans UI.",
+      "atom": "text-yellow-serif-section-titles"
+    },
+    {
+      "text": "Captions on yaps for almost everybody.",
+      "atom": "text-captions-on-yaps"
+    },
+    {
+      "text": "Be excited; your job is to light people up.",
+      "atom": "mind-light-people-up"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yap",
+      "def": "Talking straight to camera, usually a phone on a tripod, with no other footage needed."
+    },
+    {
+      "term": "Graphic yap",
+      "def": "A yap with images or clips overlaid: chaotic (camera-roll images every ~2 s), framed (graphic above your head) or full-screen (9:16 images cut over your voice)."
+    },
+    {
+      "term": "Strong take",
+      "def": "A clear opinion (best/worst) you then defend."
+    },
+    {
+      "term": "Small epiphany",
+      "def": "A relatable everyday observation that makes viewers nod ('have you noticed…')."
+    },
+    {
+      "term": "Yap Map",
+      "def": "Oren's habit of logging 3–5 ideas a day from your day, life, media and shower/workout thoughts."
+    },
+    {
+      "term": "8 Mile",
+      "def": "A script that names and disproves the counter-argument before making the point."
+    },
+    {
+      "term": "ReCut method",
+      "def": "Pause silently to think while recording, then strip the silences in the edit (ReCut app or silence removal)."
+    },
+    {
+      "term": "Punch-in",
+      "def": "A small digital zoom (105–110%) on a key phrase to add emphasis and a visual change."
+    },
+    {
+      "term": "Jump cut",
+      "def": "A cut within the same shot that removes a pause or breath, making the speaker 'jump' slightly."
+    },
+    {
+      "term": "Music bed",
+      "def": "Quiet background music running under the voice for the whole video."
+    },
+    {
+      "term": "Pattern interrupt",
+      "def": "A surprise moment (joke overlay, prop, sound gag) that resets attention."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What does Oren mean by 'yapping'?",
+      "a": "Putting a phone on a tripod and just talking to camera."
+    },
+    {
+      "q": "Which three frameworks does he say cover about 90% of content?",
+      "a": "Strong takes, small epiphanies and story time."
+    },
+    {
+      "q": "What kinds of video does he deliberately leave out?",
+      "a": "'My top three favourite…', 'three ways to…' and motivational speeches, because generic ideas don't work."
+    },
+    {
+      "q": "How often does a new visual appear in a chaotic graphic yap, and how many images for 60 s?",
+      "a": "About one every 2 seconds, so about 30 images."
+    },
+    {
+      "q": "Why isn't the walking yap for beginners?",
+      "a": "Too many variables (movement, framing, sound)."
+    },
+    {
+      "q": "What are the four steps of the 8 Mile script?",
+      "a": "Hook, call out the opposite argument, disprove it, make your point."
+    },
+    {
+      "q": "What's the ReCut method?",
+      "a": "Pause in silence while keeping eye contact when you need to think, then remove the silences in the edit."
+    },
+    {
+      "q": "Why re-record the intro at the end?",
+      "a": "The intro matters most but you're most awkward at the start; after a few minutes you're in flow."
+    },
+    {
+      "q": "Which mic does he say doesn't work?",
+      "a": "AirPods. Use a Røde plug-in USB-C mic or wired EarPods."
+    },
+    {
+      "q": "How many ideas a day does the Yap Map aim for?",
+      "a": "Three to five."
+    },
+    {
+      "q": "How much does his video punch in on key phrases?",
+      "a": "About 105–110%."
+    }
+  ],
+  "try_it": [
+    {
+      "title": "One-week Yap Map",
+      "niche": "any",
+      "steps": [
+        "Make a notes-app page called Yap Map.",
+        "Each day log 3 ideas: one from the gym, one from work, one from gaming.",
+        "Next to each, write the take (opinion, story or observation) in one line.",
+        "On day 7, star the best two and yap them."
+      ]
+    },
+    {
+      "title": "An 8 Mile gym yap",
+      "niche": "gym",
+      "steps": [
+        "Pick a take gym people argue about (e.g. 'cardio before weights is fine').",
+        "Write the objection the comments would make.",
+        "Write one fact or story that disproves it.",
+        "Record on the tripod: hook, objection, disproof, point. Pause in silence when you need to think.",
+        "Re-record the hook at the end and cut the silences."
+      ]
+    },
+    {
+      "title": "Framed graphic yap about your PC",
+      "niche": "tech",
+      "steps": [
+        "Frame yourself low on the tripod with headroom.",
+        "Talk through one part of your build (GPU, cooler, case) as a strong take.",
+        "Collect ~15 vertical screenshots (part photos, prices, benchmark bars) for 30 s.",
+        "In Edits/CapCut, drop one above your head every ~2 s with a pop sound.",
+        "Add captions and a title."
+      ]
+    },
+    {
+      "title": "4 or 5 things: gaming",
+      "niche": "gaming",
+      "steps": [
+        "Title it 'N things I noticed after [a month of ranked / a new game]'.",
+        "Write each as a strong take, not a tip.",
+        "Record each as a mini video with a 105–110% punch-in on the take.",
+        "End on the strongest one."
+      ]
+    }
+  ]
+}

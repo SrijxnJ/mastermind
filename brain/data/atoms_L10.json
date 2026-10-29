@@ -1,0 +1,412 @@
+{
+ "source": {
+  "id": "L10",
+  "title": "Storyboard first, then let Claude edit (pause-and-play teardown)",
+  "creator": "Chanyoung Ryu \"Chandler\" (@chandlerintelligence)",
+  "url": "https://www.instagram.com/p/DfAMeazmN77/",
+  "kind": "ig-reel",
+  "file": "lessons/10_storyboard-first-claude-edit.md",
+  "summary": "Before Claude edits (or you shoot), have it write the whole video as a storyboard table of line, on-screen element, tool and sound cue, agree on it, then build. Shown as a pause-and-play breakdown of a $97 workflow with recipes for text behind the head, shadowed captions, a moody FFmpeg grade and a whip pan."
+ },
+ "atoms": [
+  {
+   "id": "l10-storyboard-before-edit",
+   "title": "Storyboard table before any edit",
+   "text": "Before Claude touches the footage (he does it even before shooting), it writes the whole video as a table: every line, what is on screen, which tool makes it. You fix the plan and agree on it, then Claude builds the edit from it. Chandler's columns: # / Freeze (time) / Chandler says / On screen.",
+   "how": "Prompt: \"Before editing anything, write the storyboard as a table: # | time | what I say | on screen | tool | sound cue. Wait for my OK.\" Review it, change rows, then say \"build it\".",
+   "topic": "process",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short",
+    "yt-long"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [
+    "C30"
+   ],
+   "evidence": "stated",
+   "quote": "Before Claude edits anything, have it write a storyboard, so that you both agree on what the video looks like first. I always do this before I shoot."
+  },
+  {
+   "id": "l10-storyboard-score-emphasis",
+   "title": "SCORE and EMPHASIS lines per beat",
+   "text": "The source creator's storyboard (\"claude-editing / storyboard, v2, 24 beats\") gives each beat timecodes, duration, shot type, the spoken line, a direction, an EMPHASIS line (which word goes gold serif, which is struck through) and a SCORE line with music cues such as \"drop 1 on 'Claude did.'\" and \"tape stop under the scratch 0:28.3, drop 2 on 'storyboard'\".",
+   "how": "Add two fields to every storyboard row: EMPHASIS (word + treatment) and SCORE (music event + the exact word it lands on).",
+   "topic": "sound",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": "SCORE: drop 1 on 'Claude did.'"
+  },
+  {
+   "id": "l10-dropout-after-punchline",
+   "title": "Half-second music dropout after the punchline",
+   "text": "Right after the hook line \"Claude did.\" the whole mix drops to near-silence (-42 LUFS) for about 0.5 s at 2.50 s, then the beat returns. The rest of the 85 s has no silence at all.",
+   "how": "Cut the music (and room tone) for 0.4-0.6 s directly after the punchline word, then bring the beat back on the next line. CapCut: split the music and delete the 0.5 s piece.",
+   "topic": "sound",
+   "stage": "sound",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": ""
+  },
+  {
+   "id": "l10-pause-and-play-breakdown",
+   "title": "Pause-and-play breakdown of a reel",
+   "text": "Play another creator's popular or paid reel with its audio in a rounded card. Freeze it at each effect, shrink it to a thumbnail beside your head, explain how to make that effect, then play on. In L10 the source plays 10 times, 19.9 s of 85 s (23%), and its own lines carry the story.",
+   "how": "Card top-right at ~50% width while it plays, ~13% width thumbnail while you talk; whoosh when it grows. Plan freeze times in the storyboard's Freeze column.",
+   "topic": "ideas",
+   "stage": "idea",
+   "formats": [
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all",
+    "tech"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [
+    "C31"
+   ],
+   "evidence": "observed",
+   "quote": "Format: Pause-and-play breakdown"
+  },
+  {
+   "id": "l10-undercut-paid-hook",
+   "title": "Undercut a paid course in the hook",
+   "text": "Open with the rival's strongest line (\"I didn't edit a single second of this video. Claude did.\"), then undercut its price: \"This guy's selling this for 97 bucks. I'm giving it away for free.\" A $97 checkout card pops on the source as he says it.",
+   "how": "",
+   "topic": "hooks",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all",
+    "tech"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [
+    "C11",
+    "C1"
+   ],
+   "evidence": "stated",
+   "quote": "This guy's selling this for 97 bucks. I'm giving it away for free."
+  },
+  {
+   "id": "l10-text-behind-head",
+   "title": "Text behind your head",
+   "text": "Cut the speaker out with a person-segmentation model and put words on a layer between the background and the person, so the title sits behind the head. He uses it for the topic title, his brand name (\"Chandler Intelligence\", two-tone) and the CTA keyword \"EDIT\" (huge, outlined, low opacity).",
+   "how": "AI: \"cut me out with a person segmentation model, put the words behind me\" (he renders with Remotion; HyperFrames can do the same). CapCut: duplicate the clip, Remove background on the top copy, put the text track between the two copies.",
+   "topic": "effects",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "stated",
+   "quote": "Tell Claude to cut you out with a person's segmentation model, then put the words behind you using Remotion."
+  },
+  {
+   "id": "l10-apply-effect-on-yourself",
+   "title": "Demo each effect on your own shot",
+   "text": "Each technique is applied to his own footage as he names it: grade-panel sliders move and his saturation measurably drops (SATAVG ~8 to ~4.5 at 56 s), his shot shrinks into the centre of the 3x3 wall, the words go behind his head. It works as proof and as a pattern interrupt.",
+   "how": "In the storyboard, mark the word where each effect should switch on in your own shot, not just on the example.",
+   "topic": "effects",
+   "stage": "edit",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all",
+    "tech"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": ""
+  },
+  {
+   "id": "l10-plain-shadow-captions",
+   "title": "Plain shadowed captions, no box",
+   "text": "Captions as plain white bold sans (SF Pro/Inter-like) with a soft drop shadow and no background box, 1-3 words, centred at ~61% height just above the laptop edge. He calls it cleaner than the source's green box.",
+   "how": "CapCut: Text > white bold sans, Shadow on (soft, ~40% opacity), no background; auto-captions split to 1-3 words.",
+   "topic": "text",
+   "stage": "edit",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [
+    "C29"
+   ],
+   "evidence": "stated",
+   "quote": "I'd lose the green box though. Plain text with shadow looks way cleaner."
+  },
+  {
+   "id": "l10-prompt-bar-on-screen",
+   "title": "Type the real prompt on screen",
+   "text": "The exact prompt types on in a dark rounded chat bar with an orange send button (Claude-app look), top-centre above the head. Five full prompts are shown, so the viewer can screenshot them. Claude drew the bars as vector graphics.",
+   "how": "Ask Claude: \"draw a chat prompt bar as a vector graphic and type this text on, 1 character per frame\".",
+   "topic": "text",
+   "stage": "graphics",
+   "formats": [
+    "reel60",
+    "reel90",
+    "yt-short",
+    "yt-long"
+   ],
+   "niches": [
+    "tech"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": "Ask Claude to draw these for you as vector graphics."
+  },
+  {
+   "id": "l10-real-screenshot-not-mockup",
+   "title": "Real screenshot beats an AI mock-up",
+   "text": "For UI graphics such as an editor timeline, a real screenshot looks better than a generated mock-up. He shows both, back to back.",
+   "how": "Capture the real screen (timeline, app, settings) and put it in a rounded dark card; keep generated mock-ups for things that don't exist.",
+   "topic": "editing",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short",
+    "yt-long"
+   ],
+   "niches": [
+    "all",
+    "tech"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "stated",
+   "quote": "You could create a mock-up of your editor timeline, but a real screenshot would look much better."
+  },
+  {
+   "id": "l10-card-on-the-word",
+   "title": "Tool card lands on the word",
+   "text": "GitHub repo cards (openai/whisper, yt-dlp) and logo cards (FFmpeg) appear exactly when the tool is named, timed from Whisper word timestamps. The caption: captions, tool labels and repo cards \"land exactly when I say them\".",
+   "how": "Get word timings (faster-whisper), then start each card on the first frame of its word, with a pop.",
+   "topic": "text",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "tech"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "stated",
+   "quote": "Whisper gets the timing of every word, so captions, tool labels and GitHub repo cards land exactly when I say them."
+  },
+  {
+   "id": "l10-moody-grade-recipe",
+   "title": "Moody grade: highlights down, blacks up",
+   "text": "His recommended look: curves pull the highlights down and lift the blacks, saturation down 15%, then a soft vignette. On-screen panel values: Highlights -35, Blacks +12, Saturation -15, Vignette -40. His own footage sits at mean luma ~25-28% with very low saturation and warm practical lamps.",
+   "how": "CapCut/Edits Adjust: Highlights -35, Blacks +12, Saturation -15, Vignette -40. ffmpeg (our take): curves=all='0/0.05 0.75/0.66 1/0.88',eq=saturation=0.85,vignette=PI/5.",
+   "topic": "colour",
+   "stage": "edit",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short",
+    "yt-long"
+   ],
+   "niches": [
+    "tech",
+    "travel"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [
+    "C32"
+   ],
+   "evidence": "stated",
+   "quote": "Curves to pull the highlights down and lift the blacks. Saturation down 15%. Then a soft vignette."
+  },
+  {
+   "id": "l10-grade-slider-reveal",
+   "title": "Before/after slider reveals the grade",
+   "text": "The source shows a warm look switched on, then a vertical slider wipes across to take it off: a before/after reveal. Chandler: FFmpeg makes the colour change, Remotion the slider.",
+   "how": "Stack graded over ungraded and animate a vertical wipe mask with an eased move. CapCut: overlay the graded copy and keyframe a linear mask.",
+   "topic": "effects",
+   "stage": "edit",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all",
+    "travel",
+    "gym"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "stated",
+   "quote": "FFMpeg for the color change and Remotion again for the slider effect."
+  },
+  {
+   "id": "l10-whip-not-recursive-zoom",
+   "title": "Whip pan over recursive zoom",
+   "text": "He skips the source's recursive zoom (\"shrink the shot into a picture of itself, 3 levels deep, then push through it with a spin and blur\") as \"a bit too much\" and uses a whip pan, which \"looks cleaner\". Measured: about 5 frames of horizontal motion blur into a new framing, with a whoosh and a hit.",
+   "how": "Whip: 4-6 frames of directional blur/offset across the cut + whoosh starting ~2 frames before it. CapCut: Transitions > Swipe/Whip, ~0.2 s.",
+   "topic": "transitions",
+   "stage": "edit",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [],
+   "evidence": "stated",
+   "quote": "For transitions I skipped the recursive zoom and went with a whip pan. It looks cleaner."
+  },
+  {
+   "id": "l10-3x3-reel-wall",
+   "title": "3x3 wall of reels proves a trend",
+   "text": "To show that \"lots of people are doing this\", his shot shrinks into the centre tile of a 3x3 grid and 8 downloaded reels pop in around it, one per frame. The grid then stays on as the thumbnail.",
+   "how": "Download 8 examples with yt-dlp; prompt: \"Shrink my shot into the centre tile of a 3x3 grid, then pop 8 of these reels in around it, one per frame.\"",
+   "topic": "effects",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all",
+    "tech",
+    "gaming"
+   ],
+   "sources": [
+    "L10"
+   ],
+   "clashes": [
+    "C31"
+   ],
+   "evidence": "stated",
+   "quote": "Shrink my shot into the centre tile of a 3x3 grid, then pop 8 of these reels in around it, one per frame."
+  }
+ ],
+ "clashes": [
+  {
+   "id": "C29",
+   "topic": "Caption style",
+   "a": "L10: lose the box, plain white text with a soft shadow looks way cleaner",
+   "b": "L03, R1: word-by-word captions with the key word in a coloured highlight box; L04: uppercase caption bar",
+   "status": "open"
+  },
+  {
+   "id": "C30",
+   "topic": "Plan vs improvise",
+   "a": "L10: storyboard every line and agree on it before editing, even before shooting",
+   "b": "L06: 'the key to the yap is you just do it' + ReCut unscripted pauses; L08 Briar: 'say something crazy and get into it' (relates to C13/C21)",
+   "status": "open"
+  },
+  {
+   "id": "C31",
+   "topic": "Breaking down others' reels",
+   "a": "L10: build a post around another creator's reel, playing it with audio for 23% of the runtime (pause-and-play)",
+   "b": "SP growth-originality and research notes: YouTube (1 Oct) and Instagram down-rank reposts and near-duplicates of others' clips",
+   "status": "open"
+  },
+  {
+   "id": "C32",
+   "topic": "Grade blacks",
+   "a": "L10: moody grade lifts the blacks, saturation -15%, soft vignette",
+   "b": "L07: high contrast, deep blacks, neon accents; SP gym grade: higher contrast",
+   "status": "open"
+  }
+ ]
+}

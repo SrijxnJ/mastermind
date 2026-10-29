@@ -1,0 +1,3 @@
+# Enough to build the map, the wiki and run semantic search. The tools and skills need more: see tools/SETUP_MAC.md.
+fastembed>=0.9
+numpy>=2.0

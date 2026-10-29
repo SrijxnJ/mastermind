@@ -1,0 +1,3640 @@
+{
+ "niche": "gaming",
+ "updated": "2026-10-27",
+ "method": "ig-viral outlier method on YouTube as the main corpus (Instagram had no usable public reel URLs from web search, see confidence). 102 Indian gaming creators listed (BGMI, Free Fire, Valorant, CS2, LoL, Hindi let's-play, co-op horror, clip editors, shorts-first meme channels; 3K to 53M subs). One paced yt-dlp --flat-playlist request per channel tab (Shorts; long-form for 26 channels), 2.5 to 3 s apart, no parallel requests, no login. 92 channels returned usable view counts (3,905 videos). Each video's outlier multiple = views / that channel's own median for that format (Shorts and long-form measured separately). Rows from channels with a median under 1,000 views are kept in the creator table but excluded from formula statistics (3,785 videos remain). Hook = the title (hook_source 'title'): YouTube's bot wall ('Sign in to confirm you're not a bot') blocked per-video metadata after 11 videos, so captions, upload dates and Short lengths were not fetched for the rest and we did not work around it. captured.tsv (587 rows: every >=3x video plus the two lowest per channel-format as the floor) was run through ig-viral/swipe.py -> brain/research/viral/gaming_swipe.md. Because swipe.py named only 56 of 587 hooks with the 26 ig-reel formulas, hooks (titles with hashtags stripped) were also classified with 13 gaming-specific G-formulas (regex, priority order G11 > G13 > G7 > G4 > G5 > G2 > G9 > G3 > G8 > G1 > G10 > G12, else G6 if 4 words or fewer) and compared top third vs bottom third by multiple, per format. Profiles: 15 small-to-mid creators closest to Srijan's lane scored against ig-profile/rubric.json from public channel pages and web-search snippets only; 5 rubric items (pinned, highlights, photo, recent activity, stories) are not observable without opening Instagram and are left null. Copy the formula, never the video: every row is attributed.",
+ "sample": {
+  "creators": 102,
+  "channels_measured": 92,
+  "videos": 3905,
+  "date_range": "Last 40 uploads per channel (Shorts tab, plus the long-form tab for 26 channels), collected 27 Oct 2026. Flat listings carry no dates; the 11 outliers we could date run 2023-08-04 to 2026-08-27, and feed depth ranges from about 3 weeks (daily posters) to 2+ years (rare posters). Position in the feed (0 = newest) is used as the recency proxy."
+ },
+ "creators": [
+  {
+   "name": "Techno Gamerz",
+   "handle": "@TechnoGamerzOfficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TechnoGamerzOfficial",
+   "followers": 53400000,
+   "median_views": 9850000,
+   "videos_sampled": 40,
+   "style": "Hindi story and horror let's-play episodes (GTA, 007 First Light, Backrooms), big facecam, numbered parts.",
+   "top_outlier": {
+    "title": "I STARTED MY OWN CAR BUSINESS | GTA 5 GAMEPLAY #169",
+    "views": 26000000,
+    "multiple": 2.64,
+    "url": "https://www.youtube.com/watch?v=2CvGbR_RkM8",
+    "date": null,
+    "length_s": 6340
+   }
+  },
+  {
+   "name": "Ujjwal",
+   "handle": "@UjjwalGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@UjjwalGamer",
+   "followers": 12800000,
+   "median_views": 7350000,
+   "videos_sampled": 40,
+   "style": "Short punchy premise games with all-caps titles.",
+   "top_outlier": {
+    "title": "MY FIRST DAY IN NEW GANGSTER CITY",
+    "views": 24000000,
+    "multiple": 3.27,
+    "url": "https://www.youtube.com/watch?v=7lK3Hz3XUtY",
+    "date": null,
+    "length_s": 3582
+   }
+  },
+  {
+   "name": "Total Gaming",
+   "handle": "@TotalGaming093",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TotalGaming093",
+   "followers": 45900000,
+   "median_views": 16000000,
+   "videos_sampled": 40,
+   "style": "Faceless Hindi voice, Free Fire roots, now Roblox and GTA 5 Hindi-dubbed story series with friends (Amitbhai).",
+   "top_outlier": {
+    "title": "EASY 999 IQ MOMENT [SOLO VS SQUAD] | GARENA FREE FIRE #shorts #youtubeshorts",
+    "views": 100000000,
+    "multiple": 6.25,
+    "url": "https://www.youtube.com/shorts/mjKB_BwI_2c",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "CarryMinati",
+   "handle": "@CarryMinati",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@CarryMinati",
+   "followers": 45800000,
+   "median_views": 7000000,
+   "videos_sampled": 17,
+   "style": "Roasts and comedy; gaming lives on CarryisLive.",
+   "top_outlier": {
+    "title": "Toh guys, naya vlog aane vaala hai taiyaar rehna 💀 #vlogparody #carryminati",
+    "views": 70000000,
+    "multiple": 10.0,
+    "url": "https://www.youtube.com/shorts/KQWjB9tvRWg",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "CarryisLive",
+   "handle": "@CarryisLive",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@CarryisLive",
+   "followers": 12700000,
+   "median_views": 931000,
+   "videos_sampled": 79,
+   "style": "Carry's gaming channel: Indian-themed horror games, live highlights.",
+   "top_outlier": {
+    "title": "THIS IS NOT A GAME 🤯",
+    "views": 6100000,
+    "multiple": 6.74,
+    "url": "https://www.youtube.com/watch?v=Ywtya3SHMvU",
+    "date": null,
+    "length_s": 1947
+   },
+   "median_views_by_format": {
+    "short": 931000,
+    "long": 905000
+   }
+  },
+  {
+   "name": "Triggered Insaan",
+   "handle": "@TriggeredInsaan",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@triggeredinsaan",
+   "followers": 27000000,
+   "median_views": 16000000,
+   "videos_sampled": 39,
+   "style": "Reaction/roast and storytime; gaming roots with Live Insaan.",
+   "top_outlier": {
+    "title": "Ruchika and I became Parents for 24 Hours",
+    "views": 42000000,
+    "multiple": 2.62,
+    "url": "https://www.youtube.com/watch?v=eP9Hja-UF4k",
+    "date": null,
+    "length_s": 1122
+   }
+  },
+  {
+   "name": "Live Insaan",
+   "handle": "@LiveInsaan",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@liveinsaan",
+   "followers": 15700000,
+   "median_views": 3350000,
+   "videos_sampled": 40,
+   "style": "Horror and odd-job simulators in Hinglish, heavy facecam, friend stakes ('If we lose, Harshit gets pitayi').",
+   "top_outlier": {
+    "title": "Granny 3 Hot Air Balloon Escape karliya",
+    "views": 8400000,
+    "multiple": 2.51,
+    "url": "https://www.youtube.com/watch?v=QiLIPHO5ULA",
+    "date": null,
+    "length_s": 2532
+   }
+  },
+  {
+   "name": "BeastBoyShub",
+   "handle": "@BeastBoyShub",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@BeastBoyShub",
+   "followers": 7260000,
+   "median_views": 216000,
+   "videos_sampled": 80,
+   "style": "English-Hinglish co-op horror/comedy (Lethal Company, Backrooms, story games).",
+   "top_outlier": {
+    "title": "BBS Tries Mimic Party (Pushing 30 Btw)",
+    "views": 8500000,
+    "multiple": 39.35,
+    "url": "https://www.youtube.com/shorts/JJ8j8oPtL-s",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 216000,
+    "long": 848500
+   }
+  },
+  {
+   "name": "Mythpat",
+   "handle": "@Mythpat",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Mythpat",
+   "followers": 17600000,
+   "median_views": 8300000,
+   "videos_sampled": 29,
+   "style": "Over-the-top comedic horror let's-plays with collaborators.",
+   "top_outlier": {
+    "title": "when ACP plays AMONG US",
+    "views": 81000000,
+    "multiple": 9.76,
+    "url": "https://www.youtube.com/shorts/C4DXGeq1SaU",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "MythPlays",
+   "handle": "@Mythpatty",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Mythpatty",
+   "followers": 2500000,
+   "median_views": 556500,
+   "videos_sampled": 45,
+   "style": "Hindi/Hinglish co-op chaos with friends: horror, social-deduction, party games",
+   "top_outlier": {
+    "title": "Can ACP play Among Us?",
+    "views": 49000000,
+    "multiple": 88.05,
+    "url": "https://www.youtube.com/shorts/cQznMa_iPoM",
+    "date": "2023-08-31",
+    "length_s": 56
+   },
+   "median_views_by_format": {
+    "short": 556500,
+    "long": 1200000
+   }
+  },
+  {
+   "name": "Payal Gaming",
+   "handle": "@payalgaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@PAYALGAMING",
+   "followers": 4680000,
+   "median_views": 818500,
+   "videos_sampled": 40,
+   "style": "BGMI, S8UL, LAN/esports vlogs.",
+   "top_outlier": {
+    "title": "Aur karo streamsnipe 🤣 #shortsfeed #payalgaming",
+    "views": 7100000,
+    "multiple": 8.67,
+    "url": "https://www.youtube.com/shorts/dWpPf9pJi8A",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Kaash Plays",
+   "handle": "@KaashPlays",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@KaashPlays",
+   "followers": 1820000,
+   "median_views": 638000,
+   "videos_sampled": 40,
+   "style": "Creator-life vlogs and gaming with S8UL friends.",
+   "top_outlier": {
+    "title": "RCB fans this year 😢 #viratkohli",
+    "views": 28000000,
+    "multiple": 43.89,
+    "url": "https://www.youtube.com/shorts/tBRrWZpw1CE",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Antaryami Gaming",
+   "handle": "@AntaryamiGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@AntaryamiGaming",
+   "followers": 4020000,
+   "median_views": 68500,
+   "videos_sampled": 40,
+   "style": "BGMI gameplay with emoji-heavy Hinglish titles.",
+   "top_outlier": {
+    "title": "Emergency #comedy #funny",
+    "views": 1900000,
+    "multiple": 27.74,
+    "url": "https://www.youtube.com/shorts/T_9VK-0j1eI",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "GamerFleet",
+   "handle": "@GamerFleet",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@GamerFleet",
+   "followers": 6050000,
+   "median_views": 1400000,
+   "videos_sampled": 40,
+   "style": "Hindi Minecraft, vlogs, racing sim.",
+   "top_outlier": {
+    "title": "FUNNIEST MEMES OF SOURAV JOSHI VLOGS😂",
+    "views": 11000000,
+    "multiple": 7.86,
+    "url": "https://www.youtube.com/watch?v=elNjwIIf7qQ",
+    "date": null,
+    "length_s": 878
+   }
+  },
+  {
+   "name": "Anshu Bisht",
+   "handle": "@AnshuBisht",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@AnshuBisht",
+   "followers": 8090000,
+   "median_views": 2450000,
+   "videos_sampled": 40,
+   "style": "'100 days' Minecraft challenges.",
+   "top_outlier": {
+    "title": "100 days but TREASURE CHEST ARE SUPER OP Minecraft 😱",
+    "views": 3700000,
+    "multiple": 1.51,
+    "url": "https://www.youtube.com/watch?v=egfQyS_tn1M",
+    "date": null,
+    "length_s": 6913
+   }
+  },
+  {
+   "name": "NotGamerFleet",
+   "handle": "@NotGamerFleet",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@NotGamerFleet",
+   "followers": 4870000,
+   "median_views": 1800000,
+   "videos_sampled": 80,
+   "style": "Hindi/Hinglish co-op chaos with friends: horror, social-deduction, party games",
+   "top_outlier": {
+    "title": "@GamerFleet is Professional 🤣 | #gamerfleet #shorts",
+    "views": 47000000,
+    "multiple": 26.11,
+    "url": "https://www.youtube.com/shorts/9BEXAKiAQBM",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 1800000,
+    "long": 1200000
+   }
+  },
+  {
+   "name": "Chapati Hindustani Gamer",
+   "handle": "@ChapatiHindustaniGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@ChapatiHindustaniGamer",
+   "followers": 8770000,
+   "median_views": 260000,
+   "videos_sampled": 40,
+   "style": "Hindi horror and funny game commentary, now also food/vlogs.",
+   "top_outlier": {
+    "title": "How gamers solve problems",
+    "views": 7300000,
+    "multiple": 28.08,
+    "url": "https://www.youtube.com/shorts/9wA6obRlKDM",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "SenpaiUnlimited",
+   "handle": "@SenpaiUnlimited",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SenpaiUnlimited",
+   "followers": 1980000,
+   "median_views": 691500,
+   "videos_sampled": 52,
+   "style": "Hinglish co-op with other Indian creators.",
+   "top_outlier": {
+    "title": "I Got Kitsune and Yeti from Gifts in Blox Fruits #shorts #roblox",
+    "views": 2400000,
+    "multiple": 3.47,
+    "url": "https://www.youtube.com/shorts/4KmBa8jhriA",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 691500,
+    "long": 541500
+   }
+  },
+  {
+   "name": "SenpaiVerse",
+   "handle": "@SenpaiVersee",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SenpaiVersee",
+   "followers": 497000,
+   "median_views": 442000,
+   "videos_sampled": 35,
+   "style": "Hindi/Hinglish co-op chaos with friends: horror, social-deduction, party games",
+   "top_outlier": {
+    "title": "Poppy Playtime Chapter 5 (FULL GAME)",
+    "views": 2500000,
+    "multiple": 5.66,
+    "url": "https://www.youtube.com/watch?v=_eChMu-tfQk",
+    "date": null,
+    "length_s": 12131
+   }
+  },
+  {
+   "name": "Dattrax Gaming",
+   "handle": "@DattraxGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@DattraxGaming",
+   "followers": 3400000,
+   "median_views": 111500,
+   "videos_sampled": 40,
+   "style": "Hindi/Hinglish co-op chaos with friends: horror, social-deduction, party games",
+   "top_outlier": {
+    "title": "THE ULTIMATE GOLDEN CAR HEIST In GTA 5 Real Life!🔥",
+    "views": 1300000,
+    "multiple": 11.66,
+    "url": "https://www.youtube.com/shorts/dwkJ7eUtpmA",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "ShreeMan Legend Live",
+   "handle": "@shreemanlegendliveofficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@shreemanlegendliveofficial",
+   "followers": 2530000,
+   "median_views": 331000,
+   "videos_sampled": 71,
+   "style": "Marathi/Hindi streamer; co-op highlights.",
+   "top_outlier": {
+    "title": "Has Has ke Thakna Hai ? | Pura IGC Ek ZOO Me 😂",
+    "views": 869000,
+    "multiple": 6.63,
+    "url": "https://www.youtube.com/watch?v=G2EVPNjlid4",
+    "date": null,
+    "length_s": 851
+   },
+   "median_views_by_format": {
+    "short": 331000,
+    "long": 131000
+   }
+  },
+  {
+   "name": "ShreeMan Highlights",
+   "handle": "@shreeman31",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@shreeman31",
+   "followers": 8080,
+   "median_views": 11000,
+   "videos_sampled": 40,
+   "style": "Official highlights channel cutting his streams into short funniest moments.",
+   "top_outlier": {
+    "title": "Why Always Tiwari? 😂 #shorts #shreemanlegend",
+    "views": 40000,
+    "multiple": 3.64,
+    "url": "https://www.youtube.com/shorts/mGUPdjmt87M",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Creator Studios",
+   "handle": "@creatorstudiosofficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@creatorstudiosofficial",
+   "followers": 16000,
+   "median_views": 3500,
+   "videos_sampled": 40,
+   "style": "Clip/highlight channel cutting a bigger streamer's moments",
+   "top_outlier": {
+    "title": "Shreeman Legend Kaam25 Hogaya #shorts",
+    "views": 35000,
+    "multiple": 10.0,
+    "url": "https://www.youtube.com/shorts/_ZcB2Tj-3T8",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "The Legend Shreemaan (fan clips)",
+   "handle": "@THELEGENDSHREEMAAN",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@THELEGENDSHREEMAAN",
+   "followers": 3670,
+   "median_views": 4300,
+   "videos_sampled": 40,
+   "style": "Clip/highlight channel cutting a bigger streamer's moments",
+   "top_outlier": {
+    "title": "Watchparty Funny moment🫂🤣 #shreemanlegend #jonathangaming",
+    "views": 1300000,
+    "multiple": 302.33,
+    "url": "https://www.youtube.com/shorts/lF3oYdMjDxY",
+    "date": "2026-08-27",
+    "length_s": 22
+   }
+  },
+  {
+   "name": "JerryVirus",
+   "handle": "@JerryVirus",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@JerryVirus",
+   "followers": 69700,
+   "median_views": 15000,
+   "videos_sampled": 80,
+   "style": "Hindi R.E.P.O. shorts and highlights.",
+   "top_outlier": {
+    "title": "यह गेम Horror कम, Funny ज़्यादा है | REPO Highlights",
+    "views": 98000,
+    "multiple": 78.4,
+    "url": "https://www.youtube.com/watch?v=1eFtfWzb9dk",
+    "date": "2025-12-07",
+    "length_s": 767
+   },
+   "median_views_by_format": {
+    "short": 15000,
+    "long": 1250
+   }
+  },
+  {
+   "name": "Xyaa",
+   "handle": "@XyaaLive",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@XyaaLive",
+   "followers": 755000,
+   "median_views": 87000,
+   "videos_sampled": 40,
+   "style": "Hinglish streamer, co-op games.",
+   "top_outlier": {
+    "title": "Tum ek kaam karo, Gaming ki tayyari shuru kar do! #hyperx #hyperxindia",
+    "views": 425000,
+    "multiple": 4.89,
+    "url": "https://www.youtube.com/shorts/tU0R4blrIqA",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Hitesh KS",
+   "handle": "@HiteshKS",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@HiteshKS",
+   "followers": 798000,
+   "median_views": 206500,
+   "videos_sampled": 40,
+   "style": "Hindi gaming, horror and co-op.",
+   "top_outlier": {
+    "title": "😮 Top 3 MAGIC TRICKS 😮 | Hitesh KS",
+    "views": 1000000,
+    "multiple": 4.84,
+    "url": "https://www.youtube.com/watch?v=kGDCy11rG7I",
+    "date": null,
+    "length_s": 1193
+   }
+  },
+  {
+   "name": "Hitesh KS Hindi Gaming",
+   "handle": "@HiteshKSHindiGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@HiteshKSHindiGaming",
+   "followers": 2530000,
+   "median_views": 7000,
+   "videos_sampled": 40,
+   "style": "Hindi gaming, horror and co-op.",
+   "top_outlier": {
+    "title": "🦆 Batak ne Bachey ko Dara diyaa 😂 | UNTITLED GOOSE GAME | Hitesh KS  #gaming #hiteshksfunny #funny",
+    "views": 19000,
+    "multiple": 2.71,
+    "url": "https://www.youtube.com/shorts/sKpHK1W2N9E",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Ezio18rip",
+   "handle": "@ezio18rip",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@ezio18rip",
+   "followers": 1880000,
+   "median_views": 91000,
+   "videos_sampled": 80,
+   "style": "Himlands Minecraft series, horror crossovers.",
+   "top_outlier": {
+    "title": "MY PAV ANTHEM x RRR x HIMLANDS #EZIO #ezio18rip #Himlands #pav #pavistheshakti",
+    "views": 5200000,
+    "multiple": 57.14,
+    "url": "https://www.youtube.com/shorts/2pFmApDpgc8",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 91000,
+    "long": 184500
+   }
+  },
+  {
+   "name": "DEFUSED LIVE",
+   "handle": "@defusedlive",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@defusedlive",
+   "followers": 332000,
+   "median_views": 69500,
+   "videos_sampled": 52,
+   "style": "Hindi horror let's-plays.",
+   "top_outlier": {
+    "title": "ALOO MAT KHAO #shorts",
+    "views": 339000,
+    "multiple": 4.88,
+    "url": "https://www.youtube.com/shorts/lgLcNMpNSf4",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 69500,
+    "long": 145000
+   }
+  },
+  {
+   "name": "Bhupesh",
+   "handle": "@bhupeshyt",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@bhupeshyt",
+   "followers": 86800,
+   "median_views": 9950,
+   "videos_sampled": 80,
+   "style": "Hinglish co-op horror with friends.",
+   "top_outlier": {
+    "title": "GTA 5 BIKE RACES ARE CRAZY",
+    "views": 66000,
+    "multiple": 5.74,
+    "url": "https://www.youtube.com/watch?v=FqeokbSOP0k",
+    "date": null,
+    "length_s": 907
+   },
+   "median_views_by_format": {
+    "short": 9950,
+    "long": 11500
+   }
+  },
+  {
+   "name": "Slayy Point",
+   "handle": "@SlayyPointOfficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SlayyPointOfficial",
+   "followers": 10600000,
+   "median_views": 14000000,
+   "videos_sampled": 40,
+   "style": "Comedy duo (Gautami and Abhyudaya); gaming channel plus horror collabs (Netflix India horror house).",
+   "top_outlier": {
+    "title": "Testing India's Most Expensive Luxury Train",
+    "views": 36000000,
+    "multiple": 2.57,
+    "url": "https://www.youtube.com/watch?v=3pCDMXuurVM",
+    "date": null,
+    "length_s": 1314
+   }
+  },
+  {
+   "name": "SlayyPop",
+   "handle": "@SlayyPop",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SlayyPop",
+   "followers": 3280000,
+   "median_views": 3350000,
+   "videos_sampled": 40,
+   "style": "Hindi PC horror and indie games, solo or with friends",
+   "top_outlier": {
+    "title": "Find The School Topper | Sach ya Scam | SlayyPop",
+    "views": 9500000,
+    "multiple": 2.84,
+    "url": "https://www.youtube.com/watch?v=Zq2lBw1WHr8",
+    "date": null,
+    "length_s": 1351
+   }
+  },
+  {
+   "name": "Thugesh",
+   "handle": "@Thugesh",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Thugesh",
+   "followers": 6630000,
+   "median_views": 2350000,
+   "videos_sampled": 18,
+   "style": "Commentary/roast plus gaming.",
+   "top_outlier": {
+    "title": "Scammer Dost! 😂",
+    "views": 35000000,
+    "multiple": 14.89,
+    "url": "https://www.youtube.com/shorts/o4L-niHK99w",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Snax Gaming",
+   "handle": "@SnaxGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SnaxGaming",
+   "followers": 2670000,
+   "median_views": 452000,
+   "videos_sampled": 40,
+   "style": "BGMI creator turned vlogger.",
+   "top_outlier": {
+    "title": "Age is just a number",
+    "views": 3800000,
+    "multiple": 8.41,
+    "url": "https://www.youtube.com/shorts/PpxI8bIN-SM",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Gyan Gaming",
+   "handle": "@GyanGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@GyanGaming",
+   "followers": 19600000,
+   "median_views": 1400000,
+   "videos_sampled": 40,
+   "style": "Free Fire, community events.",
+   "top_outlier": {
+    "title": "18M Gyan Gaming #freefire",
+    "views": 34000000,
+    "multiple": 24.29,
+    "url": "https://www.youtube.com/shorts/5SIy89r2bdY",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "ProBoiz 95",
+   "handle": "@ProBoiz95",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@ProBoiz95",
+   "followers": 9360000,
+   "median_views": 8450000,
+   "videos_sampled": 40,
+   "style": "Hindi Minecraft 'but' premises.",
+   "top_outlier": {
+    "title": "Minecraft But Every Drop is a Gun!",
+    "views": 15000000,
+    "multiple": 1.78,
+    "url": "https://www.youtube.com/watch?v=lxKoCx8pB5c",
+    "date": null,
+    "length_s": 1477
+   }
+  },
+  {
+   "name": "SauraXD",
+   "handle": "@SauraXD",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SauraXD",
+   "followers": 244000,
+   "median_views": 317000,
+   "videos_sampled": 40,
+   "style": "Valorant India funny moments, Hinglish.",
+   "top_outlier": {
+    "title": "Valorant Ranked Hits Differently At 3am",
+    "views": 1900000,
+    "multiple": 5.99,
+    "url": "https://www.youtube.com/watch?v=7wg3Usnkd7Y",
+    "date": null,
+    "length_s": 615
+   }
+  },
+  {
+   "name": "TheBrownVoid",
+   "handle": "@TheBrownVoid",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TheBrownVoid",
+   "followers": 46800,
+   "median_views": 8050,
+   "videos_sampled": 80,
+   "style": "Valorant funny moments India, squad comms.",
+   "top_outlier": {
+    "title": "Me trying to lurk 😂😅 #brownvoid #valorant #valorantclips #valorantfunny",
+    "views": 47000,
+    "multiple": 5.84,
+    "url": "https://www.youtube.com/shorts/E6z-o8mAsso",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 8050,
+    "long": 58000
+   }
+  },
+  {
+   "name": "Kevvv FPS",
+   "handle": "@kevvvfps",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@kevvvfps",
+   "followers": 62900,
+   "median_views": 94000,
+   "videos_sampled": 78,
+   "style": "Valorant India shorts.",
+   "top_outlier": {
+    "title": "Bro Can't Stop Saying This One Word!",
+    "views": 1000000,
+    "multiple": 10.64,
+    "url": "https://www.youtube.com/shorts/fpHg2QL_nls",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 94000,
+    "long": 25500
+   }
+  },
+  {
+   "name": "RG's Chillin",
+   "handle": "@rgschillin5069",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@rgschillin5069",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "Valorant character skits with a Punjabi persona ('Sukhwinder').",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Salty Boys",
+   "handle": "@SaltyBoys",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SaltyBoys",
+   "followers": 7990,
+   "median_views": 1500,
+   "videos_sampled": 80,
+   "style": "CS2 India server funny moments and Hindi voice chats.",
+   "top_outlier": {
+    "title": "Funniest 1V5 Clutch💀",
+    "views": 15000,
+    "multiple": 10.0,
+    "url": "https://www.youtube.com/shorts/1mojaX9KnqE",
+    "date": null,
+    "length_s": null
+   },
+   "median_views_by_format": {
+    "short": 1500,
+    "long": 3000
+   }
+  },
+  {
+   "name": "SkRossi",
+   "handle": "@SkRossi",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SkRossi",
+   "followers": 167000,
+   "median_views": 25500,
+   "videos_sampled": 30,
+   "style": "Indian Valorant pro/creator, sponsored gear content.",
+   "top_outlier": {
+    "title": "his reaction is priceless 😂 #valorant #shorts #valorantindia #valorantclips #valorantlive #gaming",
+    "views": 300000,
+    "multiple": 11.76,
+    "url": "https://www.youtube.com/shorts/ckpAjEbnbl8",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Your Zack",
+   "handle": "@itsyourszack",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@itsyourszack",
+   "followers": 232000,
+   "median_views": 379500,
+   "videos_sampled": 34,
+   "style": "Hinglish horror with comic heartbreak framing.",
+   "top_outlier": {
+    "title": "Kamla Ne Dil Tod Diya 😭💔| Playing Horror Game ",
+    "views": 1400000,
+    "multiple": 3.69,
+    "url": "https://www.youtube.com/watch?v=LBxgOPk5RLg",
+    "date": null,
+    "length_s": 2163
+   }
+  },
+  {
+   "name": "Chimkandian",
+   "handle": "@Chimkandian",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Chimkandian",
+   "followers": 1010000,
+   "median_views": 118500,
+   "videos_sampled": 40,
+   "style": "Hindi PC horror and indie games, solo or with friends",
+   "top_outlier": {
+    "title": "Shizuka Ne Yeh Kya Dikhaya | chimkandi",
+    "views": 19000000,
+    "multiple": 160.34,
+    "url": "https://www.youtube.com/shorts/0CKAN4zG9Xs",
+    "date": "2024-04-09",
+    "length_s": 59
+   }
+  },
+  {
+   "name": "Dedtox",
+   "handle": "@Dedtox",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Dedtox",
+   "followers": 93400,
+   "median_views": 8850,
+   "videos_sampled": 40,
+   "style": "Backrooms lore explainers in Hindi",
+   "top_outlier": {
+    "title": "Aesteromorphs Edit",
+    "views": 46000,
+    "multiple": 5.2,
+    "url": "https://www.youtube.com/shorts/5BBG701pGnY",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "RON GAMING",
+   "handle": "@RONGAMING72",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@RONGAMING72",
+   "followers": 4580000,
+   "median_views": 125000,
+   "videos_sampled": 40,
+   "style": "Hindi PC horror and indie games, solo or with friends",
+   "top_outlier": {
+    "title": "MOMO Plays BGMI On PC For The First Time 😂😂 #shorts #rongaming #bgmi #ron",
+    "views": 452000,
+    "multiple": 3.62,
+    "url": "https://www.youtube.com/shorts/nxnHLsz2ZK8",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "MortaL",
+   "handle": "@MortaLyt",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@MortaLyt",
+   "followers": 6950000,
+   "median_views": 56000,
+   "videos_sampled": 40,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": {
+    "title": "MY GOBU ❤️🔥💣",
+    "views": 740000,
+    "multiple": 13.21,
+    "url": "https://www.youtube.com/shorts/mIksrtbgbE8",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Scout",
+   "handle": "@officialscoutop",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@officialscoutop",
+   "followers": 5210000,
+   "median_views": 609500,
+   "videos_sampled": 40,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": {
+    "title": "Gile-shikve khaane ke waqt yaad hi nahi aate. ❤️🍽️#ScoutOP #ScoutArmy #BiggBoss20 #BB20",
+    "views": 2400000,
+    "multiple": 3.94,
+    "url": "https://www.youtube.com/shorts/VAE29Uja-7w",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Jonathan Gaming",
+   "handle": "@JONATHANGAMINGYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@JONATHANGAMINGYT",
+   "followers": 7970000,
+   "median_views": 1000000,
+   "videos_sampled": 9,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": {
+    "title": "NO ONE CAN DEFEAT YOU, UNTIL YOU YOURSELF ACCEPT YOUR DEFEAT💪🏻",
+    "views": 4100000,
+    "multiple": 4.1,
+    "url": "https://www.youtube.com/shorts/XVn5NB5q3Jo",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Dynamo Gaming",
+   "handle": "@DynamoGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@DynamoGaming",
+   "followers": 10100000,
+   "median_views": 194000,
+   "videos_sampled": 40,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": {
+    "title": "HOK x INDIA x UltraMan Collab 🤖🔥",
+    "views": 14000000,
+    "multiple": 72.16,
+    "url": "https://www.youtube.com/shorts/cWv9mp1kN1k",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Kronten Gaming",
+   "handle": "@KrontenGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@KrontenGaming",
+   "followers": 2000000,
+   "median_views": 144500,
+   "videos_sampled": 22,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": {
+    "title": "AKELA SAMAJKE AAGAYE THE MUJE MARNE 😂😂 PHIR AAGE KYA PEL DIYA 1V4 CLUTCH #SHORTS #SHORT",
+    "views": 681000,
+    "multiple": 4.71,
+    "url": "https://www.youtube.com/shorts/PD8HtKSPre8",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "GodNixon",
+   "handle": "@GodNixon",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@godnixon",
+   "followers": 1440000,
+   "median_views": 39000,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "Tag Your Squad",
+    "views": 6600000,
+    "multiple": 169.23,
+    "url": "https://www.youtube.com/shorts/V6Q1RK4X5V0",
+    "date": "2026-07-17",
+    "length_s": 35
+   }
+  },
+  {
+   "name": "ClutchGod",
+   "handle": "@clutchgod960",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@clutchgod960",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Neyoo",
+   "handle": "@NEYOOGAMINGYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@NEYOOGAMINGYT",
+   "followers": 783000,
+   "median_views": 165000,
+   "videos_sampled": 40,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": {
+    "title": "Socha bahar ride pe jaake aata hoon 🥲",
+    "views": 6000000,
+    "multiple": 36.36,
+    "url": "https://www.youtube.com/shorts/sWMmR4tJ17o",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Rakazone Gaming",
+   "handle": "@RakaZoneGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@RakaZoneGaming",
+   "followers": 532000,
+   "median_views": 86000,
+   "videos_sampled": 40,
+   "style": "GTA 5 RP / story series with a creator cast",
+   "top_outlier": {
+    "title": "Scout in Big Boss 😮 #shorts",
+    "views": 1200000,
+    "multiple": 13.95,
+    "url": "https://www.youtube.com/shorts/1sCDR767gdc",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "8bit Binks69",
+   "handle": "@8bitBinks69",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@8bitBinks69",
+   "followers": 380000,
+   "median_views": 36500,
+   "videos_sampled": 40,
+   "style": "Valorant streamer / ex-pro; clips, tips, lifestyle",
+   "top_outlier": {
+    "title": "The 3000$ Challenge 😱😱🤑💸💸",
+    "views": 273000,
+    "multiple": 7.48,
+    "url": "https://www.youtube.com/shorts/Lxjfl6F-wVA",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "HydraFlick",
+   "handle": "@HydraFlick",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@HydraFlick",
+   "followers": 351000,
+   "median_views": 22000,
+   "videos_sampled": 40,
+   "style": "Valorant streamer / ex-pro; clips, tips, lifestyle",
+   "top_outlier": {
+    "title": "Punish Opponents with IQ #shorts #valorant",
+    "views": 133000,
+    "multiple": 6.05,
+    "url": "https://www.youtube.com/shorts/NbSyFrBHlME",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Meow16K",
+   "handle": "@Meow16K",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Meow16k",
+   "followers": 62100,
+   "median_views": 4200,
+   "videos_sampled": 40,
+   "style": "Valorant streamer / ex-pro; clips, tips, lifestyle",
+   "top_outlier": {
+    "title": "Game khelneka sahi waqt konsa hai dosto? 🙂‍↕️ #india #gaming #asusroglaptops #asusrogstrix",
+    "views": 35000,
+    "multiple": 8.33,
+    "url": "https://www.youtube.com/shorts/fYoQ4OBhgus",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Rite2Ace",
+   "handle": "@Rite2Ace",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@rite2ace",
+   "followers": 33900,
+   "median_views": 3250,
+   "videos_sampled": 40,
+   "style": "CS2/Valorant ex-pro streamer clips",
+   "top_outlier": {
+    "title": "Sometimes failure leads to success. You can't clutch them all :( #fyp #valorantclips #valorantindia",
+    "views": 22000,
+    "multiple": 6.77,
+    "url": "https://www.youtube.com/shorts/1Li8BhMXblE",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Tru Gaming",
+   "handle": "@TruGaming001",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TruGaming001",
+   "followers": 324000,
+   "median_views": 1300,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "I barely managed to escape.",
+    "views": 2600,
+    "multiple": 2.0,
+    "url": "https://www.youtube.com/shorts/Bjdoal4wPMA",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Phoenix Gaming",
+   "handle": "@PHOENIXGAMINGTM",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@PHOENIXGAMINGTM",
+   "followers": 59600,
+   "median_views": 7000,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "Dragon Ball Super 🔥",
+    "views": 4200000,
+    "multiple": 600.0,
+    "url": "https://www.youtube.com/shorts/PeML371kghE",
+    "date": "2023-08-04",
+    "length_s": 29
+   }
+  },
+  {
+   "name": "Toxic Rock Gaming",
+   "handle": "@rock-live90",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@rock-live90",
+   "followers": 370000,
+   "median_views": 218000,
+   "videos_sampled": 21,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "Wait For New Glitch 😂 #bgmi #bgmishorts",
+    "views": 776000,
+    "multiple": 3.56,
+    "url": "https://www.youtube.com/shorts/VuTJCmPfPTY",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Fury Gaming",
+   "handle": "@furygamin9",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@furygamin9",
+   "followers": 74000,
+   "median_views": 26000,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "GAME OVER 💀",
+    "views": 90000,
+    "multiple": 3.46,
+    "url": "https://www.youtube.com/shorts/Gx-OaxUNQUE",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Electro ice-zard",
+   "handle": "@Electrobgmii",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Electrobgmii",
+   "followers": 704000,
+   "median_views": 10900,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "Wait for Trolling 🤣😂 #shorts",
+    "views": 458000,
+    "multiple": 42.02,
+    "url": "https://www.youtube.com/shorts/hf9LTyY9qiU",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "GoD camper gaming",
+   "handle": "@GoD_camper_gaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@GoD_camper_gaming",
+   "followers": 3180,
+   "median_views": 1150,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "Wait for 1vs4 ever￼￼ 💀…#ytshorts #shorts #bgmi #viral",
+    "views": 17000,
+    "multiple": 14.78,
+    "url": "https://www.youtube.com/shorts/eZL7PjG3rMg",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "MLIMM Gaming",
+   "handle": "@mlimm_gaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@mlimm_gaming",
+   "followers": 77500,
+   "median_views": 10500,
+   "videos_sampled": 40,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": {
+    "title": "Prrra hai apna no4😂📈",
+    "views": 110000,
+    "multiple": 10.48,
+    "url": "https://www.youtube.com/shorts/LGJq0s8NmD8",
+    "date": "2026-06-05",
+    "length_s": 59
+   }
+  },
+  {
+   "name": "AMIT FF 2.0",
+   "handle": "@amitff2.077",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@amitff2.077",
+   "followers": 1160000,
+   "median_views": 4550000,
+   "videos_sampled": 24,
+   "style": "Free Fire meme-edit / skit shorts (shorts-first, often faceless)",
+   "top_outlier": {
+    "title": "Free Fire Ek Real Zindagi || Comedy Video | AMIT FF 2.0",
+    "views": 33000000,
+    "multiple": 7.25,
+    "url": "https://www.youtube.com/watch?v=P8fSnsZVCoI",
+    "date": null,
+    "length_s": 916
+   }
+  },
+  {
+   "name": "Desi Gamers",
+   "handle": "@DesiGamers",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@DesiGamers",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Tonde Gamer",
+   "handle": "@TondeGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TondeGamer",
+   "followers": 19700000,
+   "median_views": 1700000,
+   "videos_sampled": 40,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": {
+    "title": "Hecker hai Bhai Hecker 🧐",
+    "views": 10000000,
+    "multiple": 5.88,
+    "url": "https://www.youtube.com/shorts/7o48djdpZgs",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Lokesh Gamer",
+   "handle": "@LokeshGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@LOKESHGAMER",
+   "followers": 16500000,
+   "median_views": 349000,
+   "videos_sampled": 40,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": {
+    "title": "Lokesh Gamer BMW M4 #shorts #shortsfeed #freefire",
+    "views": 6700000,
+    "multiple": 19.2,
+    "url": "https://www.youtube.com/shorts/gUXMCb7xNJI",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Two Side Gamers",
+   "handle": "@TwoSideGamersYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TwoSideGamersYT",
+   "followers": 12900000,
+   "median_views": 321500,
+   "videos_sampled": 40,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": {
+    "title": "Free Fire New Character Ritikano🤣😂 Guess The Character Name #freefire -Garena Free Fire",
+    "views": 19000000,
+    "multiple": 59.1,
+    "url": "https://www.youtube.com/shorts/8oJ5q4mLD0Q",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Fun With SRB YT",
+   "handle": "@funwithsrbyt",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@funwithsrbyt",
+   "followers": 1210000,
+   "median_views": 983500,
+   "videos_sampled": 40,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": {
+    "title": "Gajini Be Like Dhulpet Naku Dulekkuva 🤭😂|| @funwithsrbyt|| #freefire #comedy #ytshorts #srb #scb",
+    "views": 4400000,
+    "multiple": 4.47,
+    "url": "https://www.youtube.com/shorts/Fx0oHNSxYIU",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "TLS WARRIOR",
+   "handle": "@TLSWARRIOR",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@TLSWARRIOR",
+   "followers": 5580000,
+   "median_views": 2500000,
+   "videos_sampled": 40,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": {
+    "title": "EK GAREEB V BADGE YOUTUBER 💀😂 FREEFIRE FUNNY MOMENTS #freefire #shorts #funny #tlswarrior",
+    "views": 7600000,
+    "multiple": 3.04,
+    "url": "https://www.youtube.com/shorts/cwqu2cxNAeY",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "PANSHU LIVE",
+   "handle": "@PANSHULive",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@PANSHULive",
+   "followers": 35000,
+   "median_views": 2350,
+   "videos_sampled": 40,
+   "style": "Free Fire meme-edit / skit shorts (shorts-first, often faceless)",
+   "top_outlier": {
+    "title": "Legendry Action bundle 😈 #panshulive #freefire",
+    "views": 25000,
+    "multiple": 10.64,
+    "url": "https://www.youtube.com/shorts/f-I5CskPqM0",
+    "date": "2025-12-23",
+    "length_s": 17
+   }
+  },
+  {
+   "name": "HASHTAG GAMER 1M",
+   "handle": "@HASHTAG._.GAMER._.1M",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@HASHTAG._.GAMER._.1M",
+   "followers": 811000,
+   "median_views": 26000,
+   "videos_sampled": 40,
+   "style": "Free Fire meme-edit / skit shorts (shorts-first, often faceless)",
+   "top_outlier": {
+    "title": "School Wali Girl Ne Kaha \"Teri Aukaat Kya Hai\" 💔😭 Fir Dekho Kya Hua 😈 #shorts #freefire #shorts",
+    "views": 672000,
+    "multiple": 25.85,
+    "url": "https://www.youtube.com/shorts/zxAhj6iYcRU",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "LUCIFER DANGE",
+   "handle": "@LUCIFER_DANGE",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@LUCIFER_DANGE",
+   "followers": 23400,
+   "median_views": 10000,
+   "videos_sampled": 40,
+   "style": "Free Fire meme-edit / skit shorts (shorts-first, often faceless)",
+   "top_outlier": {
+    "title": "Wait For End 🥵😂 #shorts #funny #freefirefunny #comedyshorts #freefireshorts #viral  #youtubeshorts",
+    "views": 2300000,
+    "multiple": 230.0,
+    "url": "https://www.youtube.com/shorts/k4ypo-kQbaM",
+    "date": "2026-02-08",
+    "length_s": 25
+   }
+  },
+  {
+   "name": "DARK KILLER FF",
+   "handle": "@darkkiller_ff1",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@darkkiller_ff1",
+   "followers": 26500,
+   "median_views": 7800,
+   "videos_sampled": 40,
+   "style": "Free Fire meme-edit / skit shorts (shorts-first, often faceless)",
+   "top_outlier": {
+    "title": "#nobatidao",
+    "views": 45000,
+    "multiple": 5.77,
+    "url": "https://www.youtube.com/shorts/7PIAKA_WJYo",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "NOOB NAWAB YT",
+   "handle": "@noob_nawab_yt",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@noob_nawab_yt",
+   "followers": 3100,
+   "median_views": 18000,
+   "videos_sampled": 21,
+   "style": "Free Fire meme-edit / skit shorts (shorts-first, often faceless)",
+   "top_outlier": {
+    "title": "Raju Kalakar #viralvideo #art #rajukalakar #viralshort",
+    "views": 118000,
+    "multiple": 6.56,
+    "url": "https://www.youtube.com/shorts/4pAVQiMxrPs",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Half Skirmish",
+   "handle": "@halfskirmish",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@halfskirmish",
+   "followers": 1230,
+   "median_views": 354,
+   "videos_sampled": 40,
+   "style": "Valorant India funny moments, trolling, Mumbai-server chaos",
+   "top_outlier": {
+    "title": "Toxic Kids in Valorant India *FUNNY*",
+    "views": 96000,
+    "multiple": 270.8,
+    "url": "https://www.youtube.com/watch?v=a7qunolVv3g",
+    "date": null,
+    "length_s": 694
+   }
+  },
+  {
+   "name": "Lmaoo Noob",
+   "handle": "@Lmaoonoob",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Lmaoonoob",
+   "followers": 630,
+   "median_views": 1700,
+   "videos_sampled": 40,
+   "style": "Valorant India funny moments, trolling, Mumbai-server chaos",
+   "top_outlier": {
+    "title": "Trolling Random Teammates In Valorant Mumbai Server 😹 | #valorant #funny #valorantclips #foryou #fyp",
+    "views": 17000,
+    "multiple": 10.0,
+    "url": "https://www.youtube.com/shorts/dVyvVJ0MHNQ",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "RishYT",
+   "handle": "@ytRish",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@ytRish",
+   "followers": 1880,
+   "median_views": 1700,
+   "videos_sampled": 40,
+   "style": "Valorant India funny moments, trolling, Mumbai-server chaos",
+   "top_outlier": {
+    "title": "VALORANT Agent Insta Lock Toxicity in Mumbai Servers at all time HIGH | Valorant India Toxic Players",
+    "views": 24000,
+    "multiple": 14.12,
+    "url": "https://www.youtube.com/watch?v=vV141UWbJsI",
+    "date": null,
+    "length_s": 855
+   }
+  },
+  {
+   "name": "omzhp",
+   "handle": "@omzhp",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@omzhp",
+   "followers": 4930,
+   "median_views": 5750,
+   "videos_sampled": 40,
+   "style": "Valorant India funny moments, trolling, Mumbai-server chaos",
+   "top_outlier": {
+    "title": "Heavy Breather Mic Troll in Valorant",
+    "views": 15000,
+    "multiple": 2.61,
+    "url": "https://www.youtube.com/watch?v=7ubLK48SStM",
+    "date": null,
+    "length_s": 790
+   }
+  },
+  {
+   "name": "N3haL",
+   "handle": "@N3hal",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@N3hal",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "CS2 India funny moments, friend-group comms",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Harsh Khelraay",
+   "handle": "@HarshKhelraay",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@HarshKhelraay",
+   "followers": 150000,
+   "median_views": 69000,
+   "videos_sampled": 40,
+   "style": "Valorant/LoL/BGMI creator with meme shorts",
+   "top_outlier": {
+    "title": "BEST MECCHA CHAMELEON SPOT 🤣",
+    "views": 2100000,
+    "multiple": 30.43,
+    "url": "https://www.youtube.com/shorts/08op56-VlmI",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Rengoku Gaming",
+   "handle": "@Rengoku_Gamingofficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Rengoku_Gamingofficial",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "Valorant/LoL/BGMI creator with meme shorts",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "No Pressure",
+   "handle": "@NoPressure_cs",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@NoPressure_cs",
+   "followers": 283,
+   "median_views": 375,
+   "videos_sampled": 40,
+   "style": "CS2 India funny moments, friend-group comms",
+   "top_outlier": {
+    "title": "Minecraft Bedwars ! | #minecraftshorts #minecraft #minecraftpe",
+    "views": 1400,
+    "multiple": 3.73,
+    "url": "https://www.youtube.com/shorts/fvNCtfQeCUA",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "BerzereX",
+   "handle": "@BERZEREX",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@BERZEREX",
+   "followers": 239,
+   "median_views": 574,
+   "videos_sampled": 40,
+   "style": "CS2 India funny moments, friend-group comms",
+   "top_outlier": {
+    "title": "Multi Wither #minecraft #wither #fight #phonk",
+    "views": 2700,
+    "multiple": 4.7,
+    "url": "https://www.youtube.com/shorts/9qDWY0ffLt8",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Droid Plays",
+   "handle": "@DroidPlays27",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@DroidPlays27",
+   "followers": 2290,
+   "median_views": 1000,
+   "videos_sampled": 40,
+   "style": "Indian esports news shorts",
+   "top_outlier": {
+    "title": "Goldy Bhai Vs Owais Controversy! #bgis #soul #bgmi",
+    "views": 24000,
+    "multiple": 24.0,
+    "url": "https://www.youtube.com/shorts/0I6jekr6rjY",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Mr STUD SUJEET",
+   "handle": "@studsujeet",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@studsujeet",
+   "followers": 27700,
+   "median_views": 1100,
+   "videos_sampled": 40,
+   "style": "GTA 6 / gaming news and explainer shorts",
+   "top_outlier": {
+    "title": "GTA 6 Launch Trailer Breakdown: Everything New YOU MISSED",
+    "views": 4700,
+    "multiple": 4.27,
+    "url": "https://www.youtube.com/shorts/wKUFkM_-uhQ",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "MehulBest",
+   "handle": "@mehulbestYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@mehulbestYT",
+   "followers": 2430,
+   "median_views": 1350,
+   "videos_sampled": 40,
+   "style": "GTA 6 / gaming news and explainer shorts",
+   "top_outlier": {
+    "title": "Ps5 back in stock🎉🎉 #ps5 #viral #shorts",
+    "views": 15000,
+    "multiple": 11.11,
+    "url": "https://www.youtube.com/shorts/2nODriUUd28",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "The Outlaw",
+   "handle": "@OutlawIndia",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@OutlawIndia",
+   "followers": 43700,
+   "median_views": 29000,
+   "videos_sampled": 29,
+   "style": "GTA 6 / gaming news and explainer shorts",
+   "top_outlier": {
+    "title": "GTA 5's Most Useless Stairs 💀",
+    "views": 4600000,
+    "multiple": 158.62,
+    "url": "https://www.youtube.com/shorts/F04ELGmdFC0",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Yessmartypie",
+   "handle": "@Yessmartypie",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@YesSmartyPie",
+   "followers": 6910000,
+   "median_views": 866500,
+   "videos_sampled": 40,
+   "style": "Hindi Minecraft SMP / challenge series",
+   "top_outlier": {
+    "title": "Most OP Clutch in Minecraft",
+    "views": 10000000,
+    "multiple": 11.54,
+    "url": "https://www.youtube.com/shorts/v2fka3xPjo0",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Rachitroo",
+   "handle": "@Rachitroo",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Rachitroo",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "Hindi Minecraft SMP / challenge series",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Joker Ki Haveli",
+   "handle": "@JokerKiHaveli",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@JokerKiHaveli",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "Hindi PC horror and indie games, solo or with friends",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Sharkshe",
+   "handle": "@Sharkshe",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@SHARKSHE",
+   "followers": 581000,
+   "median_views": 110500,
+   "videos_sampled": 40,
+   "style": "Valorant streamer / ex-pro; clips, tips, lifestyle",
+   "top_outlier": {
+    "title": "Budget Challenge 💸🖤🔝🦈 ft. @JONATHAN GAMING",
+    "views": 1600000,
+    "multiple": 14.48,
+    "url": "https://www.youtube.com/shorts/cf_afLIoQ4I",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "Rawknee",
+   "handle": "@RawkneeGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@RawkneeGaming",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "BGMI pro/streamer; esports, squad and lifestyle shorts",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Gaming Engineer",
+   "handle": "@GamingEngineerOfficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@GamingEngineerOfficial",
+   "followers": 1540000,
+   "median_views": 323500,
+   "videos_sampled": 40,
+   "style": "Hindi Roblox horror and comedy",
+   "top_outlier": {
+    "title": "Alert ⚠️:These Plugs are NOT for kids 🤣 #shorts #gamingengineer",
+    "views": 7100000,
+    "multiple": 21.95,
+    "url": "https://www.youtube.com/shorts/YPHDVhMoExA",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "iFlicks",
+   "handle": "@iflickss",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@iflickss",
+   "followers": 191000,
+   "median_views": 25000,
+   "videos_sampled": 40,
+   "style": "Valorant/LoL/BGMI creator with meme shorts",
+   "top_outlier": {
+    "title": "WTF Shocking… GodLike in PMWC Finals…🥶 | EWC #GodLike #PMWC2026",
+    "views": 560000,
+    "multiple": 22.4,
+    "url": "https://www.youtube.com/shorts/cwH0BO3u3iQ",
+    "date": null,
+    "length_s": null
+   }
+  },
+  {
+   "name": "8bit Goldy",
+   "handle": "@8bitGoldy",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@8bitGoldy",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "GTA 5 RP / story series with a creator cast",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Crazy Deep",
+   "handle": "@CrazyDeep",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@CrazyDeep",
+   "followers": null,
+   "median_views": null,
+   "videos_sampled": 0,
+   "style": "BGMI funny moments, trolling and meme edits (shorts-first)",
+   "top_outlier": null,
+   "note": "not measured: handle not found or tab returned no view counts (27 Oct 2026)"
+  },
+  {
+   "name": "Sooneeta",
+   "handle": "@Sooneeta",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/@Sooneeta",
+   "followers": 11100000,
+   "median_views": 635500,
+   "videos_sampled": 40,
+   "style": "Free Fire gameplay and challenge shorts",
+   "top_outlier": {
+    "title": "Destroying Ego of Random Teammate 😎 #shorts #freefire #sooneeta",
+    "views": 11000000,
+    "multiple": 17.31,
+    "url": "https://www.youtube.com/shorts/jMslYd4Q3RU",
+    "date": null,
+    "length_s": null
+   }
+  }
+ ],
+ "outliers": [
+  {
+   "creator": "Phoenix Gaming",
+   "handle": "@PHOENIXGAMINGTM",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/PeML371kghE",
+   "hook": "Dragon Ball Super 🔥",
+   "hook_source": "title",
+   "views": 4200000,
+   "median": 7000,
+   "multiple": 600.0,
+   "length_s": 29,
+   "date": "2023-08-04",
+   "format": "yt-short",
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook_score": 22.4
+  },
+  {
+   "creator": "The Legend Shreemaan (fan clips)",
+   "handle": "@THELEGENDSHREEMAAN",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/lF3oYdMjDxY",
+   "hook": "Watchparty Funny moment🫂🤣",
+   "hook_source": "title",
+   "views": 1300000,
+   "median": 4300,
+   "multiple": 302.33,
+   "length_s": 22,
+   "date": "2026-08-27",
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 19.4
+  },
+  {
+   "creator": "LUCIFER DANGE",
+   "handle": "@LUCIFER_DANGE",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/k4ypo-kQbaM",
+   "hook": "Wait For End 🥵😂",
+   "hook_source": "title",
+   "views": 2300000,
+   "median": 10000,
+   "multiple": 230.0,
+   "length_s": 25,
+   "date": "2026-02-08",
+   "format": "yt-short",
+   "formula_id": "G7",
+   "formula_name": "Wait-For-It Payoff",
+   "hook_score": 22.4
+  },
+  {
+   "creator": "GodNixon",
+   "handle": "@GodNixon",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/V6Q1RK4X5V0",
+   "hook": "Tag Your Squad",
+   "hook_source": "title",
+   "views": 6600000,
+   "median": 39000,
+   "multiple": 169.23,
+   "length_s": 35,
+   "date": "2026-07-17",
+   "format": "yt-short",
+   "formula_id": "G11",
+   "formula_name": "Viewer Task CTA",
+   "hook_score": 45.2
+  },
+  {
+   "creator": "Chimkandian",
+   "handle": "@Chimkandian",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/0CKAN4zG9Xs",
+   "hook": "Shizuka Ne Yeh Kya Dikhaya | chimkandi",
+   "hook_source": "title",
+   "views": 19000000,
+   "median": 118500,
+   "multiple": 160.34,
+   "length_s": 59,
+   "date": "2024-04-09",
+   "format": "yt-short",
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook_score": 42.2
+  },
+  {
+   "creator": "The Outlaw",
+   "handle": "@OutlawIndia",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/F04ELGmdFC0",
+   "hook": "GTA 5's Most Useless Stairs 💀",
+   "hook_source": "title",
+   "views": 4600000,
+   "median": 29000,
+   "multiple": 158.62,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 35.6
+  },
+  {
+   "creator": "GodNixon",
+   "handle": "@GodNixon",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/ZVV9Galw724",
+   "hook": "bro is gone 💀",
+   "hook_source": "title",
+   "views": 5400000,
+   "median": 39000,
+   "multiple": 138.46,
+   "length_s": 16,
+   "date": "2026-08-05",
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 10.2
+  },
+  {
+   "creator": "MythPlays",
+   "handle": "@Mythpatty",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/cQznMa_iPoM",
+   "hook": "Can ACP play Among Us?",
+   "hook_source": "title",
+   "views": 49000000,
+   "median": 556500,
+   "multiple": 88.05,
+   "length_s": 56,
+   "date": "2023-08-31",
+   "format": "yt-short",
+   "formula_id": "G9",
+   "formula_name": "Absurd Premise / Can X Do Y",
+   "hook_score": 39.2
+  },
+  {
+   "creator": "Phoenix Gaming",
+   "handle": "@PHOENIXGAMINGTM",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/FEczPGaI9C8",
+   "hook": "Super Ultra ProMax Camper 🤣",
+   "hook_source": "title",
+   "views": 550000,
+   "median": 7000,
+   "multiple": 78.57,
+   "length_s": 52,
+   "date": "2023-08-17",
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 24.8
+  },
+  {
+   "creator": "JerryVirus",
+   "handle": "@JerryVirus",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=1eFtfWzb9dk",
+   "hook": "यह गेम Horror कम, Funny ज़्यादा है | REPO Highlights",
+   "hook_source": "title",
+   "views": 98000,
+   "median": 1250,
+   "multiple": 78.4,
+   "length_s": 767,
+   "date": "2025-12-07",
+   "format": "yt-long",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 39.8
+  },
+  {
+   "creator": "Dynamo Gaming",
+   "handle": "@DynamoGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/cWv9mp1kN1k",
+   "hook": "HOK x INDIA x UltraMan Collab 🤖🔥",
+   "hook_source": "title",
+   "views": 14000000,
+   "median": 194000,
+   "multiple": 72.16,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook_score": 24.2
+  },
+  {
+   "creator": "Two Side Gamers",
+   "handle": "@TwoSideGamersYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/8oJ5q4mLD0Q",
+   "hook": "Free Fire New Character Ritikano🤣😂 Guess The Character Name -Garena Free Fire",
+   "hook_source": "title",
+   "views": 19000000,
+   "median": 321500,
+   "multiple": 59.1,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G11",
+   "formula_name": "Viewer Task CTA",
+   "hook_score": 46.2
+  },
+  {
+   "creator": "The Legend Shreemaan (fan clips)",
+   "handle": "@THELEGENDSHREEMAAN",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/aSIzeACgdTg",
+   "hook": "Malik...Ek Fek Ke Maro Idhar Bhi...🤣",
+   "hook_source": "title",
+   "views": 247000,
+   "median": 4300,
+   "multiple": 57.44,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 27.2
+  },
+  {
+   "creator": "Ezio18rip",
+   "handle": "@ezio18rip",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/2pFmApDpgc8",
+   "hook": "MY PAV ANTHEM x RRR x HIMLANDS",
+   "hook_source": "title",
+   "views": 5200000,
+   "median": 91000,
+   "multiple": 57.14,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook_score": 34.2
+  },
+  {
+   "creator": "Kaash Plays",
+   "handle": "@KaashPlays",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/tBRrWZpw1CE",
+   "hook": "RCB fans this year 😢",
+   "hook_source": "title",
+   "views": 28000000,
+   "median": 638000,
+   "multiple": 43.89,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook_score": 12.6
+  },
+  {
+   "creator": "Electro ice-zard",
+   "handle": "@Electrobgmii",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/hf9LTyY9qiU",
+   "hook": "Wait for Trolling 🤣😂",
+   "hook_source": "title",
+   "views": 458000,
+   "median": 10900,
+   "multiple": 42.02,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G7",
+   "formula_name": "Wait-For-It Payoff",
+   "hook_score": 19.4
+  },
+  {
+   "creator": "BeastBoyShub",
+   "handle": "@BeastBoyShub",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/JJ8j8oPtL-s",
+   "hook": "BBS Tries Mimic Party (Pushing 30 Btw)",
+   "hook_source": "title",
+   "views": 8500000,
+   "median": 216000,
+   "multiple": 39.35,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G9",
+   "formula_name": "Absurd Premise / Can X Do Y",
+   "hook_score": 47.0
+  },
+  {
+   "creator": "Neyoo",
+   "handle": "@NEYOOGAMINGYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/sWMmR4tJ17o",
+   "hook": "Socha bahar ride pe jaake aata hoon 🥲",
+   "hook_source": "title",
+   "views": 6000000,
+   "median": 165000,
+   "multiple": 36.36,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 5.4
+  },
+  {
+   "creator": "Harsh Khelraay",
+   "handle": "@HarshKhelraay",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/08op56-VlmI",
+   "hook": "BEST MECCHA CHAMELEON SPOT 🤣",
+   "hook_source": "title",
+   "views": 2100000,
+   "median": 69000,
+   "multiple": 30.43,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 12.6
+  },
+  {
+   "creator": "Chapati Hindustani Gamer",
+   "handle": "@ChapatiHindustaniGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/9wA6obRlKDM",
+   "hook": "How gamers solve problems",
+   "hook_source": "title",
+   "views": 7300000,
+   "median": 260000,
+   "multiple": 28.08,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G3",
+   "formula_name": "Gamer-Life Relatable",
+   "hook_score": 27.6
+  },
+  {
+   "creator": "Antaryami Gaming",
+   "handle": "@AntaryamiGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/T_9VK-0j1eI",
+   "hook": "Emergency",
+   "hook_source": "title",
+   "views": 1900000,
+   "median": 68500,
+   "multiple": 27.74,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 20.4
+  },
+  {
+   "creator": "NotGamerFleet",
+   "handle": "@NotGamerFleet",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/9BEXAKiAQBM",
+   "hook": "@GamerFleet is Professional 🤣",
+   "hook_source": "title",
+   "views": 47000000,
+   "median": 1800000,
+   "multiple": 26.11,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G8",
+   "formula_name": "Big-Name Crossover",
+   "hook_score": 19.4
+  },
+  {
+   "creator": "HASHTAG GAMER 1M",
+   "handle": "@HASHTAG._.GAMER._.1M",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/zxAhj6iYcRU",
+   "hook": "School Wali Girl Ne Kaha \"Teri Aukaat Kya Hai\" 💔😭 Fir Dekho Kya Hua 😈",
+   "hook_source": "title",
+   "views": 672000,
+   "median": 26000,
+   "multiple": 25.85,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G7",
+   "formula_name": "Wait-For-It Payoff",
+   "hook_score": 24.4
+  },
+  {
+   "creator": "Chimkandian",
+   "handle": "@Chimkandian",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/WF_ZBZd3Evg",
+   "hook": "Shinchan Ki Satakli 😱😢💀😂🤔🗡️",
+   "hook_source": "title",
+   "views": 3000000,
+   "median": 118500,
+   "multiple": 25.32,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook_score": 19.4
+  },
+  {
+   "creator": "Gyan Gaming",
+   "handle": "@GyanGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/5SIy89r2bdY",
+   "hook": "18M Gyan Gaming",
+   "hook_source": "title",
+   "views": 34000000,
+   "median": 1400000,
+   "multiple": 24.29,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 45.8
+  },
+  {
+   "creator": "JerryVirus",
+   "handle": "@JerryVirus",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=OxSWCzDQdWM",
+   "hook": "मुझे क्या, मैं तो अपनी Masti में हूँ । ULTIMATE RAGE | REPO Highlights",
+   "hook_source": "title",
+   "views": 30000,
+   "median": 1250,
+   "multiple": 24.0,
+   "length_s": 758,
+   "date": null,
+   "format": "yt-long",
+   "formula_id": "G4",
+   "formula_name": "Rage / Troll / Expose",
+   "hook_score": 40.8
+  },
+  {
+   "creator": "Droid Plays",
+   "handle": "@DroidPlays27",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/0I6jekr6rjY",
+   "hook": "Goldy Bhai Vs Owais Controversy!",
+   "hook_source": "title",
+   "views": 24000,
+   "median": 1000,
+   "multiple": 24.0,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G1",
+   "formula_name": "Friend Callout",
+   "hook_score": 62.6
+  },
+  {
+   "creator": "Droid Plays",
+   "handle": "@DroidPlays27",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/7IKvzv7Vr5M",
+   "hook": "Chinese Are Insane",
+   "hook_source": "title",
+   "views": 23000,
+   "median": 1000,
+   "multiple": 23.0,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 37.4
+  },
+  {
+   "creator": "HASHTAG GAMER 1M",
+   "handle": "@HASHTAG._.GAMER._.1M",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/DLU2d4d4ibE",
+   "hook": "🔥 Train Mein Mili 3 Cute Girls Ne Diya Number 😱 Phir Bot Account Se Kiya Aisa Prank 😂🔥",
+   "hook_source": "title",
+   "views": 590000,
+   "median": 26000,
+   "multiple": 22.69,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 28.9
+  },
+  {
+   "creator": "iFlicks",
+   "handle": "@iflickss",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/cwH0BO3u3iQ",
+   "hook": "WTF Shocking… GodLike in PMWC Finals…🥶 | EWC",
+   "hook_source": "title",
+   "views": 560000,
+   "median": 25000,
+   "multiple": 22.4,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G10",
+   "formula_name": "News / Drop / Event",
+   "hook_score": 27.2
+  },
+  {
+   "creator": "Gaming Engineer",
+   "handle": "@GamingEngineerOfficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/YPHDVhMoExA",
+   "hook": "Alert ⚠️:These Plugs are NOT for kids 🤣",
+   "hook_source": "title",
+   "views": 7100000,
+   "median": 323500,
+   "multiple": 21.95,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 44.0
+  },
+  {
+   "creator": "Antaryami Gaming",
+   "handle": "@AntaryamiGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/NkX4PNkSUk8",
+   "hook": "Malik ko pel dia",
+   "hook_source": "title",
+   "views": 1500000,
+   "median": 68500,
+   "multiple": 21.9,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G4",
+   "formula_name": "Rage / Troll / Expose",
+   "hook_score": 27.6
+  },
+  {
+   "creator": "LUCIFER DANGE",
+   "handle": "@LUCIFER_DANGE",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/ki8WnrzUOjM",
+   "hook": "Wait For End 🥵😂",
+   "hook_source": "title",
+   "views": 210000,
+   "median": 10000,
+   "multiple": 21.0,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G7",
+   "formula_name": "Wait-For-It Payoff",
+   "hook_score": 22.4
+  },
+  {
+   "creator": "Chapati Hindustani Gamer",
+   "handle": "@ChapatiHindustaniGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/tN5o2Si9zKc",
+   "hook": "IRL SIMULATOR....",
+   "hook_source": "title",
+   "views": 5100000,
+   "median": 260000,
+   "multiple": 19.62,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G3",
+   "formula_name": "Gamer-Life Relatable",
+   "hook_score": 22.8
+  },
+  {
+   "creator": "Lokesh Gamer",
+   "handle": "@LokeshGamer",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/gUXMCb7xNJI",
+   "hook": "Lokesh Gamer BMW M4",
+   "hook_source": "title",
+   "views": 6700000,
+   "median": 349000,
+   "multiple": 19.2,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G3",
+   "formula_name": "Gamer-Life Relatable",
+   "hook_score": 36.8
+  },
+  {
+   "creator": "Sooneeta",
+   "handle": "@Sooneeta",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/jMslYd4Q3RU",
+   "hook": "Destroying Ego of Random Teammate 😎",
+   "hook_source": "title",
+   "views": 11000000,
+   "median": 635500,
+   "multiple": 17.31,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G4",
+   "formula_name": "Rage / Troll / Expose",
+   "hook_score": 27.2
+  },
+  {
+   "creator": "Neyoo",
+   "handle": "@NEYOOGAMINGYT",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/7k4N0NFIrk0",
+   "hook": "@JONATHANGAMINGYT 1HP 1 vs 3 MOGO ESPORTS 😨🤯😱",
+   "hook_source": "title",
+   "views": 2600000,
+   "median": 165000,
+   "multiple": 15.76,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G5",
+   "formula_name": "Skill Flex Number",
+   "hook_score": 47.6
+  },
+  {
+   "creator": "Thugesh",
+   "handle": "@Thugesh",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/o4L-niHK99w",
+   "hook": "Scammer Dost! 😂",
+   "hook_source": "title",
+   "views": 35000000,
+   "median": 2350000,
+   "multiple": 14.89,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G4",
+   "formula_name": "Rage / Troll / Expose",
+   "hook_score": 17.0
+  },
+  {
+   "creator": "GoD camper gaming",
+   "handle": "@GoD_camper_gaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/eZL7PjG3rMg",
+   "hook": "Wait for 1vs4 ever￼￼ 💀…",
+   "hook_source": "title",
+   "views": 17000,
+   "median": 1150,
+   "multiple": 14.78,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G7",
+   "formula_name": "Wait-For-It Payoff",
+   "hook_score": 30.2
+  },
+  {
+   "creator": "The Outlaw",
+   "handle": "@OutlawIndia",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/oYWNUsmNmBA",
+   "hook": "These GTA 5 Barrels Can Save Your Life 💀",
+   "hook_source": "title",
+   "views": 424000,
+   "median": 29000,
+   "multiple": 14.62,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 43.4
+  },
+  {
+   "creator": "Sharkshe",
+   "handle": "@Sharkshe",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/cf_afLIoQ4I",
+   "hook": "Budget Challenge 💸🖤🔝🦈 ft. @JONATHAN GAMING",
+   "hook_source": "title",
+   "views": 1600000,
+   "median": 110500,
+   "multiple": 14.48,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G9",
+   "formula_name": "Absurd Premise / Can X Do Y",
+   "hook_score": 24.2
+  },
+  {
+   "creator": "RishYT",
+   "handle": "@ytRish",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=vV141UWbJsI",
+   "hook": "VALORANT Agent Insta Lock Toxicity in Mumbai Servers at all time HIGH | Valorant India Toxic Players",
+   "hook_source": "title",
+   "views": 24000,
+   "median": 1700,
+   "multiple": 14.12,
+   "length_s": 855,
+   "date": null,
+   "format": "yt-long",
+   "formula_id": "G4",
+   "formula_name": "Rage / Troll / Expose",
+   "hook_score": 35.5
+  },
+  {
+   "creator": "SkRossi",
+   "handle": "@SkRossi",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/ckpAjEbnbl8",
+   "hook": "his reaction is priceless 😂",
+   "hook_source": "title",
+   "views": 300000,
+   "median": 25500,
+   "multiple": 11.76,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 3.0
+  },
+  {
+   "creator": "Dattrax Gaming",
+   "handle": "@DattraxGaming",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/dwkJ7eUtpmA",
+   "hook": "THE ULTIMATE GOLDEN CAR HEIST In GTA 5 Real Life!🔥",
+   "hook_source": "title",
+   "views": 1300000,
+   "median": 111500,
+   "multiple": 11.66,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G3",
+   "formula_name": "Gamer-Life Relatable",
+   "hook_score": 28.4
+  },
+  {
+   "creator": "Kevvv FPS",
+   "handle": "@kevvvfps",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/fpHg2QL_nls",
+   "hook": "Bro Can't Stop Saying This One Word!",
+   "hook_source": "title",
+   "views": 1000000,
+   "median": 94000,
+   "multiple": 10.64,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 66.2
+  },
+  {
+   "creator": "Creator Studios",
+   "handle": "@creatorstudiosofficial",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/_ZcB2Tj-3T8",
+   "hook": "Shreeman Legend Kaam25 Hogaya",
+   "hook_source": "title",
+   "views": 35000,
+   "median": 3500,
+   "multiple": 10.0,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 39.8
+  },
+  {
+   "creator": "Salty Boys",
+   "handle": "@SaltyBoys",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/1mojaX9KnqE",
+   "hook": "Funniest 1V5 Clutch💀",
+   "hook_source": "title",
+   "views": 15000,
+   "median": 1500,
+   "multiple": 10.0,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G5",
+   "formula_name": "Skill Flex Number",
+   "hook_score": 30.8
+  },
+  {
+   "creator": "Lmaoo Noob",
+   "handle": "@Lmaoonoob",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/dVyvVJ0MHNQ",
+   "hook": "Trolling Random Teammates In Valorant Mumbai Server 😹",
+   "hook_source": "title",
+   "views": 17000,
+   "median": 1700,
+   "multiple": 10.0,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G4",
+   "formula_name": "Rage / Troll / Expose",
+   "hook_score": 27.2
+  },
+  {
+   "creator": "Meow16K",
+   "handle": "@Meow16K",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/fYoQ4OBhgus",
+   "hook": "Game khelneka sahi waqt konsa hai dosto? 🙂‍↕️",
+   "hook_source": "title",
+   "views": 35000,
+   "median": 4200,
+   "multiple": 8.33,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G11",
+   "formula_name": "Viewer Task CTA",
+   "hook_score": 15.0
+  },
+  {
+   "creator": "8bit Binks69",
+   "handle": "@8bitBinks69",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/Lxjfl6F-wVA",
+   "hook": "The 3000$ Challenge 😱😱🤑💸💸",
+   "hook_source": "title",
+   "views": 273000,
+   "median": 36500,
+   "multiple": 7.48,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G9",
+   "formula_name": "Absurd Premise / Can X Do Y",
+   "hook_score": 30.8
+  },
+  {
+   "creator": "Rite2Ace",
+   "handle": "@Rite2Ace",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/1Li8BhMXblE",
+   "hook": "Sometimes failure leads to success. You can't clutch them all :(",
+   "hook_source": "title",
+   "views": 22000,
+   "median": 3250,
+   "multiple": 6.77,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G5",
+   "formula_name": "Skill Flex Number",
+   "hook_score": 80.0
+  },
+  {
+   "creator": "HydraFlick",
+   "handle": "@HydraFlick",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/NbSyFrBHlME",
+   "hook": "Punish Opponents with IQ",
+   "hook_source": "title",
+   "views": 133000,
+   "median": 22000,
+   "multiple": 6.05,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 36.8
+  },
+  {
+   "creator": "SauraXD",
+   "handle": "@SauraXD",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=7wg3Usnkd7Y",
+   "hook": "Valorant Ranked Hits Differently At 3am",
+   "hook_source": "title",
+   "views": 1900000,
+   "median": 317000,
+   "multiple": 5.99,
+   "length_s": 615,
+   "date": null,
+   "format": "yt-long",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 47.0
+  },
+  {
+   "creator": "TheBrownVoid",
+   "handle": "@TheBrownVoid",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/E6z-o8mAsso",
+   "hook": "Me trying to lurk 😂😅",
+   "hook_source": "title",
+   "views": 47000,
+   "median": 8050,
+   "multiple": 5.84,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G3",
+   "formula_name": "Gamer-Life Relatable",
+   "hook_score": 16.8
+  },
+  {
+   "creator": "Bhupesh",
+   "handle": "@bhupeshyt",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=FqeokbSOP0k",
+   "hook": "GTA 5 BIKE RACES ARE CRAZY",
+   "hook_source": "title",
+   "views": 66000,
+   "median": 11500,
+   "multiple": 5.74,
+   "length_s": 907,
+   "date": null,
+   "format": "yt-long",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 47.6
+  },
+  {
+   "creator": "SenpaiVerse",
+   "handle": "@SenpaiVersee",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=_eChMu-tfQk",
+   "hook": "Poppy Playtime Chapter 5 (FULL GAME)",
+   "hook_source": "title",
+   "views": 2500000,
+   "median": 442000,
+   "multiple": 5.66,
+   "length_s": 12131,
+   "date": null,
+   "format": "yt-long",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 50.6
+  },
+  {
+   "creator": "Xyaa",
+   "handle": "@XyaaLive",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/tU0R4blrIqA",
+   "hook": "Tum ek kaam karo, Gaming ki tayyari shuru kar do!",
+   "hook_source": "title",
+   "views": 425000,
+   "median": 87000,
+   "multiple": 4.89,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 39.2
+  },
+  {
+   "creator": "DEFUSED LIVE",
+   "handle": "@defusedlive",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/lgLcNMpNSf4",
+   "hook": "ALOO MAT KHAO",
+   "hook_source": "title",
+   "views": 339000,
+   "median": 69500,
+   "multiple": 4.88,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 25.2
+  },
+  {
+   "creator": "Your Zack",
+   "handle": "@itsyourszack",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=LBxgOPk5RLg",
+   "hook": "Kamla Ne Dil Tod Diya 😭💔| Playing Horror Game",
+   "hook_source": "title",
+   "views": 1400000,
+   "median": 379500,
+   "multiple": 3.69,
+   "length_s": 2163,
+   "date": null,
+   "format": "yt-long",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 27.2
+  },
+  {
+   "creator": "ShreeMan Highlights",
+   "handle": "@shreeman31",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/mGUPdjmt87M",
+   "hook": "Why Always Tiwari? 😂",
+   "hook_source": "title",
+   "views": 40000,
+   "median": 11000,
+   "multiple": 3.64,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook_score": 22.4
+  },
+  {
+   "creator": "RON GAMING",
+   "handle": "@RONGAMING72",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/nxnHLsz2ZK8",
+   "hook": "MOMO Plays BGMI On PC For The First Time 😂😂",
+   "hook_source": "title",
+   "views": 452000,
+   "median": 125000,
+   "multiple": 3.62,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": "G9",
+   "formula_name": "Absurd Premise / Can X Do Y",
+   "hook_score": 40.4
+  },
+  {
+   "creator": "SenpaiUnlimited",
+   "handle": "@SenpaiUnlimited",
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/shorts/4KmBa8jhriA",
+   "hook": "I Got Kitsune and Yeti from Gifts in Blox Fruits",
+   "hook_source": "title",
+   "views": 2400000,
+   "median": 691500,
+   "multiple": 3.47,
+   "length_s": null,
+   "date": null,
+   "format": "yt-short",
+   "formula_id": null,
+   "formula_name": "unclassified",
+   "hook_score": 46.4
+  }
+ ],
+ "formulas": [
+  {
+   "id": "G11",
+   "name": "Viewer Task CTA",
+   "top_third": {
+    "short": 18,
+    "long": 1
+   },
+   "bottom_third": {
+    "short": 8,
+    "long": 5
+   },
+   "note": "Joint-best hit rate in Shorts with G13: 10 of 32 cleared 3x (31%). Short imperative that gives the viewer a job (tag, comment, guess). GodNixon 'Tag Your Squad' 169x. Hit rate >=3x: shorts 10/32, long 0/8."
+  },
+  {
+   "id": "G13",
+   "name": "Desi Pop-Culture Mashup",
+   "top_third": {
+    "short": 21,
+    "long": 11
+   },
+   "bottom_third": {
+    "short": 10,
+    "long": 11
+   },
+   "note": "A cartoon, cricket, Bollywood or anime reference dropped into a game. 13 of 41 Shorts cleared 3x (32%), 21 in the top third vs 10 in the bottom, and it owns the extreme top (Dragon Ball 600x, Shizuka 160x, RRR 57x, RCB 44x). Recognition does the hook's work. Hit rate >=3x: shorts 13/41, long 1/29."
+  },
+  {
+   "id": "G8",
+   "name": "Big-Name Crossover",
+   "top_third": {
+    "short": 42,
+    "long": 31
+   },
+   "bottom_third": {
+    "short": 33,
+    "long": 33
+   },
+   "note": "Another big creator's name or a collab in the title. 17% hit rate in Shorts; flat in long-form. Borrowed audience, needs access Srijan does not have yet. Hit rate >=3x: shorts 19/109, long 5/109."
+  },
+  {
+   "id": "G6",
+   "name": "Cryptic Micro-Caption",
+   "top_third": {
+    "short": 278,
+    "long": 26
+   },
+   "bottom_third": {
+    "short": 238,
+    "long": 19
+   },
+   "note": "Two to four words, usually a reaction ('bro is gone', 'Emergency', 'game over'). Largest single bucket; slightly over-indexes up top (278 vs 238). Only works when the first frame is the payoff. Hit rate >=3x: shorts 96/770, long 4/63."
+  },
+  {
+   "id": "G5",
+   "name": "Skill Flex Number",
+   "top_third": {
+    "short": 53,
+    "long": 16
+   },
+   "bottom_third": {
+    "short": 40,
+    "long": 7
+   },
+   "note": "A number or a skill claim (1v5, 999 IQ, clutch, ace). Mild over-index in Shorts (53 vs 41). Hit rate >=3x: shorts 19/141, long 1/34."
+  },
+  {
+   "id": "G4",
+   "name": "Rage / Troll / Expose",
+   "top_third": {
+    "short": 32,
+    "long": 35
+   },
+   "bottom_third": {
+    "short": 30,
+    "long": 14
+   },
+   "note": "Rage, troll, expose, toxic, roast. The best long-form formula: 35 top vs 14 bottom, 18% hit rate (SauraXD 'Making Gamer Girls Cry', ytRish Mumbai-server toxicity, kevvv 'This Streamer Made Fun Of Me'). Neutral in Shorts. Hit rate >=3x: shorts 12/93, long 13/71."
+  },
+  {
+   "id": "G3",
+   "name": "Gamer-Life Relatable",
+   "top_third": {
+    "short": 35,
+    "long": 11
+   },
+   "bottom_third": {
+    "short": 56,
+    "long": 8
+   },
+   "note": "'How gamers...', 'When...', IRL. Under-indexes in Shorts (35 top vs 56 bottom) as a title, even though one of the biggest hits (Chapati 28x) is this shape. The shape is everywhere, so on its own it is noise. Hit rate >=3x: shorts 17/131, long 4/25."
+  },
+  {
+   "id": "G7",
+   "name": "Wait-For-It Payoff",
+   "top_third": {
+    "short": 33,
+    "long": 1
+   },
+   "bottom_third": {
+    "short": 47,
+    "long": 1
+   },
+   "note": "'Wait for end', 'phir dekho kya hua'. Under-indexes (33 vs 47). Overused by Free Fire skit channels. Hit rate >=3x: shorts 16/129, long 0/6."
+  },
+  {
+   "id": "G9",
+   "name": "Absurd Premise / Can X Do Y",
+   "top_third": {
+    "short": 25,
+    "long": 41
+   },
+   "bottom_third": {
+    "short": 32,
+    "long": 35
+   },
+   "note": "'Can X...', survive, escape, tries, challenge. Even in Shorts; dead in long-form (1 of 124 cleared 3x) because it is the default long-form title. Hit rate >=3x: shorts 11/84, long 1/124."
+  },
+  {
+   "id": "G2",
+   "name": "Desi Server / Lobby",
+   "top_third": {
+    "short": 16,
+    "long": 40
+   },
+   "bottom_third": {
+    "short": 13,
+    "long": 42
+   },
+   "note": "India, Indian, Mumbai server, desi, random teammates. About baseline (14% in Shorts, 3% in long-form; it is the niche's default), but it is the title of almost every small Valorant/CS2 outlier (ytRish 14x, Lmaoo Noob 10x, Salty Boys 3.7x). Hit rate >=3x: shorts 6/44, long 4/132."
+  },
+  {
+   "id": "G1",
+   "name": "Friend Callout",
+   "top_third": {
+    "short": 44,
+    "long": 10
+   },
+   "bottom_third": {
+    "short": 53,
+    "long": 11
+   },
+   "note": "A friend or teammate named in the title (@mention, dost, squad, bhai). Slightly under baseline (8% in Shorts, 44 top vs 53 bottom); works only when the friend is a known character (NotGamerFleet's @GamerFleet 26x). Hit rate >=3x: shorts 13/153, long 2/31."
+  },
+  {
+   "id": "G10",
+   "name": "News / Drop / Event",
+   "top_third": {
+    "short": 41,
+    "long": 8
+   },
+   "bottom_third": {
+    "short": 45,
+    "long": 9
+   },
+   "note": "News, drops, events: GTA 6, PMWC/EWC/BGIS, bundles, updates. Baseline overall; small esports-news channels spike on fresh results (iFlicks 22x, Droid Plays 22-24x). Hit rate >=3x: shorts 17/135, long 0/26."
+  },
+  {
+   "id": "G12",
+   "name": "Series Label",
+   "top_third": {
+    "short": 3,
+    "long": 3
+   },
+   "bottom_third": {
+    "short": 5,
+    "long": 26
+   },
+   "note": "Part / Episode / Day N. Never cleared 3x (0 of 47). Bottom-heavy in long-form (3 top vs 26 bottom). Series labels hold a base, they do not break out. Hit rate >=3x: shorts 0/11, long 0/36."
+  },
+  {
+   "id": "hooks.json-26",
+   "name": "The 26 ig-reel formulas",
+   "top_third": {
+    "short_and_long": 16
+   },
+   "bottom_third": {
+    "short_and_long": 24
+   },
+   "note": "swipe.py named only 56 of 587 captured hooks with the 26 formulas (531 unclassified). Classified hooks sit more in the bottom third (24) than the top (16). Head To Head (#17, 'PUBG vs Free Fire') x5 and Verbatim Question (#16, 'Can ACP play Among Us?') x4 were the only repeats in the top third. Indian gaming titles are not written in the education/business hook grammar the 26 come from, which is why the G-series above exists. Median hook score top third 29 vs bottom 31: hookscore.py does not separate gaming titles."
+  }
+ ],
+ "structure": [
+  "Shorts break out, long-form holds: 12% of Shorts cleared 3x their channel median vs 5% of long videos (2,661 vs 1,124 videos).",
+  "The title barely separates winners from losers in Shorts: median title length is 5 words in both the top and bottom third, and hookscore.py gives the top third 29 vs 31 for the bottom. In Shorts the first frame is the hook; the title is a caption. This data cannot see the first frame.",
+  "What the top-third Shorts titles do have: a reaction in 4 words or fewer (14% hit rate vs 11%), Roman Hinglish (15% vs 12%), an @mention of a known person (16% vs 12%), one or two emoji with 💀 or 🤣. ALL-CAPS titles (9% vs 13%) and pipe-separated series titles (5% vs 13%) under-index.",
+  "Long-form is the opposite: the top third is driven by conflict words (rage, troll, toxic, expose, roast: 18% hit rate) and the 'Part / Episode / Day N' label never broke out (0 of 36).",
+  "Age effect: top-third Shorts sit deeper in the feed (median position 20 vs 15), so part of every multiple is time to accumulate views. Outliers among a channel's last five uploads (listed in viral_now) are the cleaner signal.",
+  "Channel size: channels under 100K subs hit 3x on 9% of Shorts vs 13 to 14% for bigger channels, but the biggest multiples in the whole set come from small or mid channels (Half Skirmish 271x on a 354 median, THELEGENDSHREEMAAN 302x on 4,300, GodNixon 169x on 39,000).",
+  "Known lengths (11 dated outliers): the big Shorts hits are 16 to 59 s, most 16 to 35 s (GodNixon 16 s and 35 s, THELEGENDSHREEMAAN 22 s, LUCIFER DANGE 25 s, PHOENIX 29 s). The long-form outlier (JerryVirus REPO highlights) is 12:47.",
+  "CTA: the only CTA that shows up as a title pattern is the viewer task (tag your squad, comment, guess). It ties with G13 for the best hit rate in the set (31 to 32%). No other CTA is visible from titles."
+ ],
+ "unclassified": [
+  {
+   "hook": "GTA 5's Most Useless Stairs 💀",
+   "creator": "The Outlaw (@OutlawIndia), 158.6x",
+   "why_interesting": "Same channel repeats it: 'These GTA 5 Barrels Can Save Your Life 💀' 14.6x, 'Michael's Most Painful Moment in GTA 5 💀' 8.6x. A 'game-world oddity' formula: one weird object inside a famous game, superlative + skull. Not in hooks.json (The Superlative only matches at the start of the line)."
+  },
+  {
+   "hook": "Socha bahar ride pe jaake aata hoon 🥲",
+   "creator": "Neyoo (@NEYOOGAMINGYT), 36.4x",
+   "why_interesting": "First-person Hinglish inner monologue as the title. Same channel: 'Hum saale single he marenge 😭' 6.1x, '2 Crore ka nade recreate kar raha tha 😂' 8.5x; GodNixon 'iPhone 13 Todne Pe Surgery Kardi Guys 😂' 17.2x. Closest shape to Srijan's own voice. Candidate formula: Inner-Monologue Hinglish."
+  },
+  {
+   "hook": "Malik...Ek Fek Ke Maro Idhar Bhi...🤣",
+   "creator": "THE LEGEND SHREEMAAN (@THELEGENDSHREEMAAN), 57.4x",
+   "why_interesting": "The friend's or streamer's own line, quoted verbatim, is the title ('\"Not Your Type\" Voicepack Reaction' 44.4x; JerryVirus 'Jerryyyy utarr naaa 😡' 6.1x). The gaming version of reading a comment out loud. Candidate formula: Verbatim Voice-Chat Quote."
+  },
+  {
+   "hook": "Gen Z Dad Be Like",
+   "creator": "GodNixon (@GodNixon), 9.9x",
+   "why_interesting": "'X be like' persona skit from a BGMI pro. Maps onto 'Corporate employee be like' for Srijan."
+  },
+  {
+   "hook": "Watchparty Funny moment🫂🤣",
+   "creator": "THE LEGEND SHREEMAAN (@THELEGENDSHREEMAAN), 302.3x (22 s, 27 Aug 2026)",
+   "why_interesting": "A fan clip channel cutting a watch-party moment of two big streamers out-multiplied everything recent. The format is 'the reaction, not the game'."
+  },
+  {
+   "hook": "Dragon Ball Super 🔥",
+   "creator": "PHOENIX GAMING (@PHOENIXGAMINGTM), 600x (29 s, Aug 2023)",
+   "why_interesting": "Single pop-culture name as the whole title over a BGMI clip. Old, but it is the purest example of G13: recognition carries the hook."
+  },
+  {
+   "hook": "Train Mein Mili 3 Cute Girls Ne Diya Number 😱 Phir Bot Account Se Kiya Aisa Prank",
+   "creator": "HASHTAG GAMER 1M (@HASHTAG._.GAMER._.1M), 22.7x",
+   "why_interesting": "Long story-bait titles still work on faceless Free Fire skit channels. Not Srijan's audience; noted so it is not copied."
+  }
+ ],
+ "works": [
+  "Give the viewer a job in the title: 'Tag Your Squad' (GodNixon 169x, 35 s), comment/guess prompts. 10 of 32 such Shorts cleared 3x (31%), joint best with G13.",
+  "Desi pop culture dropped into a game: Doraemon/Shinchan characters (Chimkandian 160x, 25x, 24x), RCB (Kaash Plays 44x), RRR (Ezio18rip 57x), Dragon Ball (PHOENIX 600x), Bigg Boss (Rakazone 14x). 13 of 41 such Shorts cleared 3x (32%, level with the viewer-task titles) and they own the extreme top.",
+  "Social-deduction / hide-and-seek party games with friends: Mimic Party, Meccha Chameleon, Among Us. 'Mimic' titles have a median multiple of 2.0x (33% over 3x); BeastBoyShub 'BBS Tries Mimic Party (Pushing 30 Btw)' 39x, Harsh Khelraay 'BEST MECCHA CHAMELEON SPOT 🤣' 30x, MythPlays 'Can ACP play Among Us?' 88x.",
+  "Conflict titles in long-form: troll/rage/toxic/expose/roast is the only formula that over-indexes in long videos (35 top vs 14 bottom, 18% hit rate). SauraXD 'Making Gamer Girls Cry in Valorant' 5.7x, kevvv 'This Streamer Made Fun Of Me. So I Destroyed Him.' 3.5x, ytRish three Mumbai-server toxicity videos at 12.9x to 14.1x.",
+  "Indian-server chaos is the small PC-shooter channel's breakout: Half Skirmish 'Toxic Kids in Valorant India *FUNNY*' 271x, ytRish 14x, Lmaoo Noob 'Trolling Random Teammates In Valorant Mumbai Server 😹' 10x, Salty Boys 'Funniest 1V5 Clutch💀' 10x and 'Peak CS2 India Gameplay (Nothing Makes Sense) 💀' 3.7x (its newest video).",
+  "Short reaction captions in Roman Hinglish with a 💀/🤣: 'bro is gone 💀' (GodNixon 138x, 16 s), 'game over 💀' 72x, 'Emergency' (Antaryami 28x), 'Malik ko pel dia' 22x.",
+  "Clip channels around one streamer: fan editors out-multiply the source (THELEGENDSHREEMAAN 302x; Creator Studios 10x; ShreeMan Highlights runs on a stated 'one month after the stream' permission rule).",
+  "A festival mini-vlog from a gamer: last Diwali Dynamo Gaming 'Diwali & Phatakey - Mini Vlog' 8.8x and Kaash Plays 'Happy Diwali 😭🧨' 7.8x."
+ ],
+ "doesnt": [
+  "Topic alone. GTA 6 titles (111 videos) have a median multiple of 0.96x and 6% cleared 3x; R.E.P.O. 0.96x; Backrooms 0.86x; horror/scary/haunted words 0.95x with 3% over 3x. Everyone in the niche covers these, so the topic is the baseline, not the lift.",
+  "Series labels: Part / Episode / Day N cleared 3x 0 times in 47 videos and sit in the bottom third of long-form (26 bottom vs 3 top). They keep a base audience; they never break out.",
+  "'Wait for end' / 'phir dekho kya hua' bait: 33 top vs 47 bottom in Shorts. Free Fire skit channels have worn it out.",
+  "Generic 'How gamers... / When... / Every gamer...' titles: 35 top vs 56 bottom in Shorts. The relatable shape only works when the clip itself is specific (Chapati 'How gamers solve problems' 28x is the exception, not the rule).",
+  "ALL-CAPS Shorts titles (9% vs 13%) and pipe-separated SEO titles on Shorts (5% vs 13%).",
+  "Business-style hook grammar: the 26 ig-reel formulas named only 56 of 587 hooks, and the named ones sit more in the bottom third (24) than the top (16). hookscore.py does not separate gaming titles (29 top vs 31 bottom).",
+  "Long-form for very small channels: Salty Boys' long-form median is 3,000 and JerryVirus' 1,250; their Shorts medians are 1,500 and 15,000. JerryVirus' 98K REPO highlights (78x) shows a long video can pop, but it took 40 uploads to find one.",
+  "COD MW4 and LoL: zero Indian creators in the 92 channels titled a video about either in their last 40 uploads (3 old COD titles in total). There is no Indian evidence for these yet, only the global trend."
+ ],
+ "can_work": [
+  "CS2/Valorant 'Mumbai server' chaos Shorts with his friends' voice chat (G2 + G4). Why: it is the proven breakout route for small PC-shooter channels (Half Skirmish 271x, ytRish 14x, Lmaoo Noob 10x, Salty Boys 10x), it is footage Srijan already makes, and the Indian CS2 lane is nearly empty (Salty Boys 8K subs, No Pressure 283). Bleep the gaali.",
+  "R.E.P.O. / Mimic-style co-op chaos with the same 3 to 4 friends, titled as a viewer task ('Tag the friend who...') (G11 on co-op footage). Why: G11 has a joint-best hit rate in the set (31%) and the tag turns the clip into a share inside friend groups like his own; co-op party games with friends are the hottest topic shape right now (Mimic 2.0x median).",
+  "Desi pop-culture lines said in his own voice over his own clips: a monster becomes 'Shinchan ki mummy', Backrooms Level 0 becomes 'Pune PG ka corridor' (G13). Why: recognition is the biggest lift in the data (32% hit rate, 13 of 41, and the top of the table), and saying the reference himself avoids copyrighted clips and fits his Hinglish voice.",
+  "First-person Hinglish inner-monologue captions about office-gamer life (candidate formula from the unclassified rows). Why: Neyoo 36x and GodNixon 17x show the 'socha ki...' shape works, and it is exactly how Srijan already talks (self-roast first, short verdict last). His 9-to-6 job is the angle nobody in this sample has.",
+  "Micro-captions of 4 words or fewer with 💀 on a clip whose first frame is already the payoff (G6). Why: 14% hit rate and the biggest recent BGMI hits (GodNixon 'bro is gone 💀' 138x at 16 s); it only works if the edit starts on the moment, which suits his setup-to-payoff-under-20-s lane.",
+  "'Before GTA 6' as a joke line, not GTA 6 news. Why: GTA 6 titles are saturated (0.96x), but the meme form still lifts (Chapati 'iPhone 18 before GTA 6' 7.3x, Mythpat 'First Indian To Buy GTA 6' 4.1x). He has no console for launch day, so the joke is the only GTA 6 content he can make.",
+  "A Diwali (8 Nov) 'gamer's Diwali' mini-vlog Short: rig, Sophie, patakhe, friends online. Why: both festival Shorts in the sample beat their channel by 7.8x to 8.8x last year, and it bridges his gaming and Pune/personality pillars.",
+  "Later, not now: long-form compilations with a conflict title ('My friends sold me out 4 times in R.E.P.O.'). Why: G4 is the only long-form formula that over-indexes, but small channels' long-form medians are a fraction of their Shorts; build the Shorts base first."
+ ],
+ "viral_now": [
+  {
+   "what": "Social-deduction / hide co-op party games (Mimic Party, Meccha Chameleon, Among Us revival)",
+   "evidence": "BeastBoyShub 'BBS Tries Mimic Party' 39.4x; Harsh Khelraay 'BEST MECCHA CHAMELEON SPOT 🤣' 30.4x and 'Indian meme in Mimic party 😭😭' 5.7x (one of his last 4 uploads); Xyaa 'PERFECT CAMOUFLAGE #mecchachameleon' 4.6x; Live Insaan 'Mimic Party vs Ruchika and Harshit' 2.3x (5th newest). Undated, mid-to-recent feed positions.",
+   "until": "Dec 2026 (estimate; party-game cycles run 2 to 3 months)"
+  },
+  {
+   "what": "GTA 6 countdown and 'before GTA 6' jokes",
+   "evidence": "Mythpat 'First Indian To Buy GTA 6 🤣🤣😎😎' 34M views, 4.1x (5th newest); MehulBest 'Don't Buy a PS5 Pro for GTA 6!' 5.6x (4th newest); Chapati Hindustani Gamer 'iPhone 18 before GTA 6' 7.3x. But 111 GTA 6 titles average 0.96x: the topic is saturated, the joke is not. Preload 12 Nov, launch 19 Nov (PS5/Xbox only).",
+   "until": "2026-11-30"
+  },
+  {
+   "what": "Indian mobile-esports result Shorts (PMWC 2026 / EWC, BGIS, PEL 2026, BGMI Survivor League)",
+   "evidence": "Droid Plays' three newest Shorts at 22x to 24x ('Goldy Bhai Vs Owais Controversy!', 'Chinese Are Insane #pel2026', 'Oldest Player In BGIS Semifinals'); iFlicks 'WTF Shocking… GodLike in PMWC Finals' 22.4x. Survivor League (50 creators) runs to 17 Nov.",
+   "until": "2026-11-17"
+  },
+  {
+   "what": "BGMI squad meme Shorts with a micro-caption or a tag task",
+   "evidence": "GodNixon 'Tag Your Squad' 169x (35 s, 17 Jul 2026), 'bro is gone 💀' 138x (16 s, 5 Aug 2026), 'game over 💀' 72x.",
+   "until": "ongoing (3+ months running)"
+  },
+  {
+   "what": "Streamer watch-party and voice-pack reaction clips by fan editors",
+   "evidence": "THE LEGEND SHREEMAAN 'Watchparty Funny moment🫂🤣' 302x (22 s, 27 Aug 2026) and 'Reaction says it all...🫡' 4.9x (4th newest).",
+   "until": "ongoing"
+  },
+  {
+   "what": "Diwali gamer mini-vlogs",
+   "evidence": "Last year: Dynamo Gaming 'Diwali & Phatakey - Mini Vlog' 8.8x, Kaash Plays 'Happy Diwali 😭🧨' 7.8x. Diwali is 8 Nov 2026.",
+   "until": "2026-11-10"
+  },
+  {
+   "what": "Halloween horror (running, but not lifting)",
+   "evidence": "8 Halloween titles, best 1.6x (Gaming Engineer 'Granny Halloween Update'); horror/scary words overall 0.95x. Granny 3/5 updates did better (Live Insaan 2.5x, BeastBoyShub 2.4x).",
+   "until": "2026-10-31"
+  },
+  {
+   "what": "COD MW4 launch memes (global only)",
+   "evidence": "No Indian creator in the 92 channels posted MW4 in their last 40 uploads. The global trend is in brain/research/reports/2026-10-27.md (zanny 525K, nuke-cutscene backlash). No Indian evidence.",
+   "until": "2026-11-15 (global estimate)"
+  }
+ ],
+ "profiles": [
+  {
+   "handle": "@SaltyBoys",
+   "score": 28,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 4,
+    "bio_body": 3,
+    "link": 0,
+    "handle": 2,
+    "category_contact": 0,
+    "grid_legibility": 5,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 17,
+    "observable_max": 60,
+    "basis": "YouTube channel page + IG search snippet"
+   },
+   "name_field": "Salty Boys (IG: @salty_boys___, 13K followers, 74 posts per search snippet)",
+   "bio": "Hello, we are back! The Salty Boys are back! Atif, Sabarmati, and Forest are all back!",
+   "highlights": "not observable without opening Instagram",
+   "pinned": "not observable",
+   "lesson": "The cast is the product (three named friends in the bio, 'Feat. @SauraXD' is their best long video at 5.3x), but nothing in the name or bio says 'CS2 India funny', and the IG handle has stacked underscores. Closest account to Srijan's lane and the clearest warning: the friend group alone does not tell a stranger why to follow."
+  },
+  {
+   "handle": "@SauraXD",
+   "score": 48,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 6,
+    "bio_body": 4,
+    "link": 0,
+    "handle": 4,
+    "category_contact": 5,
+    "grid_legibility": 7,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 29,
+    "observable_max": 60,
+    "basis": "YouTube channel page; IG account not confirmed by search"
+   },
+   "name_field": "SauraXD",
+   "bio": "XD in my name is ironic, i am actually crying inside :( Subscribe for Daily Uploads. Business mail: ...",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Self-roast bio line and titles that are a feeling, not a game ('Valorant Ranked Hits Differently At 3am' 6.0x). Personality is there; searched words are not."
+  },
+  {
+   "handle": "@TheBrownVoid",
+   "score": 45,
+   "breakdown": {
+    "name_field": 2,
+    "bio_first_line": 5,
+    "bio_body": 2,
+    "link": 0,
+    "handle": 5,
+    "category_contact": 5,
+    "grid_legibility": 8,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 27,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "TheBrownVoid",
+   "bio": "Subscribe or else I'll take all your cookies and run away! Business Enquiry: ...",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "The most legible grid in the set: every long title ends '| Valorant Funny Moments India' with a starred keyword up front ('*WORST* Teammates in Valorant India😭'). Template titles build search; the joke bio does nothing."
+  },
+  {
+   "handle": "@kevvvfps",
+   "score": 38,
+   "breakdown": {
+    "name_field": 6,
+    "bio_first_line": 4,
+    "bio_body": 2,
+    "link": 0,
+    "handle": 4,
+    "category_contact": 0,
+    "grid_legibility": 7,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 23,
+    "observable_max": 60,
+    "basis": "YouTube channel page + IG search snippet (@kevvv_fps, 'Kevin Solomon', gaming content creator)"
+   },
+   "name_field": "Kevvv FPS (IG name field: Kevin Solomon)",
+   "bio": "Hi I'm Kevvv. I love video games and if you do too, we're gonna have a blast together!",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Only creator in the 15 with a searched word in the name ('FPS'). Shorts median 94K on 63K subs because titles are curiosity lines ('Bro Can't Stop Saying This One Word!' 10.6x). The IG name field wastes the slot on a real name."
+  },
+  {
+   "handle": "@JerryVirus",
+   "score": 47,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 4,
+    "bio_body": 5,
+    "link": 0,
+    "handle": 3,
+    "category_contact": 6,
+    "grid_legibility": 7,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 28,
+    "observable_max": 60,
+    "basis": "YouTube channel page + IG search snippet (@ig_jerryvirus, ~11K followers, 110 posts; bio: streamer, entertainer, content creator)"
+   },
+   "name_field": "JerryVirus",
+   "bio": "Just here to have fun and build a great community! I play a variety of games. Mostly GTAV RP., but also BGMI (PUBG MOBILE), and other FPS games.",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Devanagari-plus-English titles with a fixed '| REPO Highlights' tail gave the biggest long-form multiple in the lane (78x). Different handle on IG (@ig_jerryvirus) splits the brand."
+  },
+  {
+   "handle": "@XyaaLive",
+   "score": 58,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 7,
+    "bio_body": 3,
+    "link": 4,
+    "handle": 6,
+    "category_contact": 6,
+    "grid_legibility": 6,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 35,
+    "observable_max": 60,
+    "basis": "YouTube channel page + IG search snippet (@xyaalive; bio names her org: creator @revenantesports.gg x @teamx_spark)"
+   },
+   "name_field": "Xyaa",
+   "bio": "Hello! I am a variety gamer and streamer from India! You can watch more games that I play on my 2nd channel. Business queries: ...",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Highest score: same handle on YouTube and IG, one link, a who-and-where bio line, and org affiliation as proof on IG. Her best Shorts are Hinglish lines spoken to camera ('Tum ek kaam karo, Gaming ki tayyari shuru kar do!' 4.9x)."
+  },
+  {
+   "handle": "@bhupeshyt",
+   "score": 33,
+   "breakdown": {
+    "name_field": 2,
+    "bio_first_line": 8,
+    "bio_body": 0,
+    "link": 0,
+    "handle": 4,
+    "category_contact": 0,
+    "grid_legibility": 6,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 20,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "Bhupesh",
+   "bio": "I edit videos for a living and play video games sometimes :D",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Best identity line in the set for Srijan to learn from: a day job plus games, said plainly. Lowercase meme titles ('griefing level : professional'). Nothing else on the page (no link, no contact) converts it."
+  },
+  {
+   "handle": "@defusedlive",
+   "score": 45,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 4,
+    "bio_body": 2,
+    "link": 0,
+    "handle": 5,
+    "category_contact": 6,
+    "grid_legibility": 7,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 27,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "DEFUSED LIVE",
+   "bio": "PRO DEFUSED IN OTHER GAMES 😈 For Promotions & Enquiry: ...",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Inside-joke bio, keyworded long titles ('...Horror video in Hindi'). Group-horror Minecraft with friends holds 145K long-form median; Shorts stall (14 in feed)."
+  },
+  {
+   "handle": "@HarshKhelraay",
+   "score": 43,
+   "breakdown": {
+    "name_field": 2,
+    "bio_first_line": 8,
+    "bio_body": 4,
+    "link": 0,
+    "handle": 6,
+    "category_contact": 0,
+    "grid_legibility": 6,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 26,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "Harsh Khelraay",
+   "bio": "Harsh Salunkhe AKA Harsh Khelraay. Good Valorant player known for Viper plays. Also Good at Photoshop and I do Thumbnail making streams. ... Also i like shouting out loud.",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "A Valorant player whose biggest Short is a party game (Meccha Chameleon 30x). The bio names a specialism (Viper) and a quirk (shouting); the pun handle is memorable and sayable."
+  },
+  {
+   "handle": "@SkRossi",
+   "score": 55,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 8,
+    "bio_body": 6,
+    "link": 3,
+    "handle": 5,
+    "category_contact": 2,
+    "grid_legibility": 6,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 33,
+    "observable_max": 60,
+    "basis": "YouTube channel page (lists IG @skrossi_)"
+   },
+   "name_field": "SkRossi",
+   "bio": "I'm SkRossi (Ganesh Gangadhar). On this channel, I do Valorant Livestreams and sometimes other games as well. I am a part of the Indian Esports community, and I aspire to represent India...",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Clear what-and-why bio, but six links is a menu. His top Shorts are the human moments (reaction 11.8x, 'I can never get an Ace' 8.8x), not the tips."
+  },
+  {
+   "handle": "@HydraFlick",
+   "score": 40,
+   "breakdown": {
+    "name_field": 2,
+    "bio_first_line": 6,
+    "bio_body": 5,
+    "link": 0,
+    "handle": 6,
+    "category_contact": 0,
+    "grid_legibility": 5,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 24,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "HydraFlick",
+   "bio": "Hi, I'm HydraFlick aka Rohan Ledwani, your fellow Indian content creator from Gujarat. ... I'm 27. Full-time Live Streamer/content creator. Vadodara, Gujarat",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Age and city in the bio make him a person (Srijan's '26, Pune' does the same job). Grid is mixed tournament series, which flattens the Shorts median (22K)."
+  },
+  {
+   "handle": "@Meow16K",
+   "score": 52,
+   "breakdown": {
+    "name_field": 2,
+    "bio_first_line": 9,
+    "bio_body": 6,
+    "link": 3,
+    "handle": 6,
+    "category_contact": 0,
+    "grid_legibility": 5,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 31,
+    "observable_max": 60,
+    "basis": "YouTube channel page (lists IG Meow16K)"
+   },
+   "name_field": "Meow16K",
+   "bio": "I'm Saloni Pawar, you can call me Meow. I livestream first-person shooter games LIVE on this channel and play Valorant Professionally for Rising Esports.",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Bio line one carries proof (pro team). Same handle everywhere. Her best Short is a Hinglish question to the viewer ('Game khelneka sahi waqt konsa hai dosto?' 8.3x), the G11 pattern again."
+  },
+  {
+   "handle": "@Lmaoonoob",
+   "score": 55,
+   "breakdown": {
+    "name_field": 4,
+    "bio_first_line": 10,
+    "bio_body": 6,
+    "link": 0,
+    "handle": 5,
+    "category_contact": 0,
+    "grid_legibility": 8,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 33,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "Lmaoo Noob",
+   "bio": "I create fun and light-hearted Valorant trolling videos where I bait, confuse, and shock random teammates all for your entertainment. My goal is simple: make you laugh, even on your worst days.",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Best bio in the set at 630 subs: names the game, the behaviour and the victim. One repeated title template ('... Random Teammates In Valorant Mumbai Server 😹') gives a 10x hit. Proof that a tiny account can have a full-marks bio."
+  },
+  {
+   "handle": "@ytRish",
+   "score": 40,
+   "breakdown": {
+    "name_field": 3,
+    "bio_first_line": 1,
+    "bio_body": 5,
+    "link": 3,
+    "handle": 4,
+    "category_contact": 0,
+    "grid_legibility": 8,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 24,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "RishYT",
+   "bio": "RishYT Official ⚡33. Games are Suppose to be Fun not Stressful. Valorant INDIA Content Creator ❤️",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Wasted first line, but the grid is one promise repeated (Mumbai-server toxicity) and three of those videos hit 13x to 14x on a 1,700 median."
+  },
+  {
+   "handle": "@shreeman31",
+   "score": 45,
+   "breakdown": {
+    "name_field": 5,
+    "bio_first_line": 9,
+    "bio_body": 7,
+    "link": 0,
+    "handle": 2,
+    "category_contact": 0,
+    "grid_legibility": 4,
+    "pinned_three": null,
+    "highlights": null,
+    "photo": null,
+    "recent_activity": null,
+    "story_presence": null,
+    "observed": 27,
+    "observable_max": 60,
+    "basis": "YouTube channel page"
+   },
+   "name_field": "ShreeMan Highlights",
+   "bio": "Welcome to Shreeman Highlights! This is the ultimate fan-made channel dedicated to the legendary Shreeman Legend and his epic gaming moments! ... [publishes highlights at least one month after the original stream, per his rule]",
+   "highlights": "not observable",
+   "pinned": "not observable",
+   "lesson": "Clip editor done properly: says whose clips, what kind, and the permission rule. But near-identical titles ('REPO Funniest Moment 😂 | ShreeMan Legend' x many) blur the grid; the rival fan channel with varied quote-titles gets 300x."
+  }
+ ],
+ "profile_patterns": [
+  "0 of 15 put a searched word in the display name (the IG name-field equivalent). Kevvv FPS and ShreeMan Highlights are the only two with any keyword. 'Srijan | CS2 & R.E.P.O. chaos' style name fields have no competition in this lane.",
+  "The strongest bios name the game, the behaviour and the victim (Lmaoo Noob: 'bait, confuse, and shock random teammates') or carry proof (Meow16K: pro for Rising Esports; Xyaa: org affiliation on IG). Pure joke bios (TheBrownVoid, SauraXD, DEFUSED) give personality and no reason to follow.",
+  "A day-job identity line is rare and memorable: Bhupesh 'I edit videos for a living and play video games sometimes'. Nobody in the 15 claims the office-gamer identity Srijan has.",
+  "Age and city make a gamer a person: HydraFlick '27, Vadodara'. Srijan's '26, Pune' fits the same slot.",
+  "Links are thin: only 5 of 15 descriptions carry a business email, only Xyaa points to a single destination (her second channel), and SkRossi lists six links (a menu).",
+  "Handles drift across platforms in at least 3 of 15 (Salty Boys -> @salty_boys___, JerryVirus -> @ig_jerryvirus, Kevvv FPS -> @kevvv_fps). The accounts that keep one handle everywhere (Xyaa, Meow16K, Harsh Khelraay) score highest on that item.",
+  "Friend-group channels sell the cast by name (Salty Boys' bio is three names; Live Insaan titles name Harshit and Ruchika; ShreeMan's fans title clips 'Why Always Tiwari?'). Named recurring friends are what titles can call out later.",
+  "Legible grids come from one repeated title promise ('... | Valorant Funny Moments India', '... Mumbai Server 😹', '... | REPO Highlights'). Repetition helps search on long-form; on Shorts, identical titles blur (ShreeMan Highlights).",
+  "Not observable without opening Instagram (left null in every breakdown): pinned three, highlights, profile photo, posting recency and story rings. Scores are out of the 60 observable points, scaled to 100."
+ ],
+ "your_version": [
+  {
+   "formula_id": "G11",
+   "formula_name": "Viewer Task CTA",
+   "hook": "Tag karo us dost ko jo R.E.P.O. mein hamesha sabse pehle marta hai.",
+   "why": "Joint-best hit rate in the data (10 of 32 task-titled Shorts cleared 3x, 31%; GodNixon 'Tag Your Squad' 169x). His friend-group game nights supply the clip and the tag spreads it through groups like his own."
+  },
+  {
+   "formula_id": "G2",
+   "formula_name": "Desi Server / Lobby (+ G4 Rage)",
+   "hook": "Mumbai server pe maine bas 'hi' bola. Round 3 tak do log mujhe report kar chuke the.",
+   "why": "Indian-server chaos is how small PC-shooter channels break out (Half Skirmish 271x, ytRish 14x, Lmaoo Noob 10x, Salty Boys 10x), and the CS2 India lane is nearly empty. Specific numbers, self-roast first, per his voice rules."
+  },
+  {
+   "formula_id": "G13",
+   "formula_name": "Desi Pop-Culture Mashup",
+   "hook": "Backrooms Level 0 aur mera Pune wala PG. Spot the difference.",
+   "why": "Recognition is the biggest lift (13 of 41 Shorts over 3x, 32%; Chimkandian 160x, Ezio18rip 57x, Kaash Plays 44x). He says the reference himself, so no copyrighted clip, and it ties gaming to his Pune pillar."
+  },
+  {
+   "formula_id": "candidate: Inner-Monologue Hinglish",
+   "formula_name": "Inner-Monologue Hinglish (from unclassified)",
+   "hook": "Socha bas ek match khel ke so jaunga. Ab 3:40 baj gaye hain aur standup 9:30 ka hai.",
+   "why": "Neyoo 'Socha bahar ride pe jaake aata hoon 🥲' 36x and GodNixon 17x use this exact shape; it is how Srijan already talks, and the office-gamer angle is unclaimed in the 15 profiles studied."
+  },
+  {
+   "formula_id": "G6",
+   "formula_name": "Cryptic Micro-Caption",
+   "hook": "bro is gone 💀",
+   "why": "On-screen text only, over a clip that opens on a friend falling into a R.E.P.O. pit or getting one-tapped. GodNixon's 16 s 'bro is gone 💀' did 138x; it works only when the first frame is the payoff, which fits his under-20-s cut."
+  },
+  {
+   "formula_id": "G5",
+   "formula_name": "Skill Flex Number",
+   "hook": "26 saal, 9 to 6 job, aur yeh 1v4 clutch. Raat ke 2 baje. 💀",
+   "why": "Salty Boys 'Funniest 1V5 Clutch💀' 10x on a 1,500 median; the corporate-guy contrast makes a normal clutch specific to him (Clutch or Choke franchise)."
+  }
+ ],
+ "confidence": "Medium on the shape findings, low on timing. 3,785 videos across 89 channels with medians of 1,000+ (3,905 across 92 in total) is a real sample for 'what over-indexes': G11 Viewer Task (10/32 over 3x), G13 Pop-Culture Mashup (13/41), G4 in long-form (13/71) and the Part/Episode null result (0/47) are findings; most other G-formulas sit within a few points of the 12% Shorts baseline and are not. Limits: (1) hooks are titles, not the spoken first line or the first frame; YouTube's bot wall stopped per-video fetches after 11 videos and captions were not attempted, so the visual hook (what actually decides a Short) is unmeasured. (2) Only 11 outliers are dated; 'viral now' leans on feed position and on brain/research/reports/2026-10-27.md, so treat the 'until' dates as estimates. (3) Multiples include an age effect (older videos had longer to grow). (4) Instagram: web search returned no public reel URLs for these creators (only profile pages, which we did not open), so the Instagram corpus is zero and profile scores use YouTube pages plus search snippets; 40 of 100 rubric points are unobservable. (5) G-formula matching is regex on Hinglish titles and will misfile some rows; 788 Shorts stayed unclassified. (6) Few accounts are within 10x of Srijan's size (928 IG followers); the closest are Salty Boys, Lmaoo Noob, RishYT, No Pressure, BerzereX, Half Skirmish."
+}

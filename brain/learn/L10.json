@@ -1,0 +1,190 @@
+{
+  "id": "L10",
+  "title": "Storyboard first, then let Claude edit",
+  "creator": "Chanyoung Ryu 'Chandler' (@chandlerintelligence), breaking down another creator's reel",
+  "url": "https://www.instagram.com/p/DfAMeazmN77/",
+  "length": "84.9 s",
+  "kind": "ig-reel",
+  "one_liner": "Before Claude edits anything, have it write the whole video as a storyboard table and agree on it first.",
+  "why_it_matters": "When you ask an AI to edit, the biggest waste is a render that's wrong in ten places. A storyboard table (line, on screen, tool, sound cue) lets you fix the plan in a minute instead of re-editing. The reel also hands you concrete recipes you can use on gym and PC content: text behind your head, clean shadow captions, a moody grade with exact numbers, and a whip pan.",
+  "big_idea": {
+    "statement": "Plan the edit as a table first (every line, what's on screen, which tool and which sound cue), approve it, then let Claude build from it.",
+    "support": [
+      "Chandler: 'this part is critical'; he storyboards even before he shoots.",
+      "The source creator's storyboard even plans the music: 'drop 1 on Claude did'.",
+      "Each effect has a short recipe: segmentation + Remotion, Whisper + Remotion, FFmpeg curves.",
+      "Taste still decides: lose the green box, skip the recursive zoom, use a real screenshot."
+    ]
+  },
+  "map": [
+    {"chapter": "Undercut hook and the pause-and-play format", "time": "0:00–0:06", "gist": "Play the rival's best line, then 'I'm giving it away for free'"},
+    {"chapter": "Recipes I: head cut-out, captions, prompt bars", "time": "0:06–0:31", "gist": "Text behind your head, shadow captions, vector UI, a warm-up slider"},
+    {"chapter": "Recipes II: timeline, zoom, moody grade, 3×3 wall", "time": "0:31–1:08", "gist": "Real screenshots, whip over zoom, exact grade numbers, a wall of reels"},
+    {"chapter": "Storyboard first", "time": "1:08–1:22", "gist": "Agree on a beat table before any edit or shoot"},
+    {"chapter": "How the reel is built (measured)", "time": "whole reel", "gist": "−14 LUFS, a change every ~2.1 s, a 0.5 s music dropout"},
+    {"chapter": "The CTA and open questions", "time": "1:22–1:25", "gist": "'Comment edit'; 63 comments vs 53 likes; four clashes"}
+  ],
+  "chapters": [
+    {
+      "title": "Undercut hook and the pause-and-play format",
+      "time": "0:00",
+      "summary": "The reel opens on another creator's strongest line, playing with its own audio: 'I didn't edit a single second of this video. Claude did.' Chandler immediately undercuts it: this guy sells the workflow for 97 dollars, and he's giving it away for free, with a $97 checkout card popping on screen. That's the format, which his own planning doc calls a 'pause-and-play breakdown': the source reel plays in a rounded card, freezes at each effect, shrinks to a thumbnail beside his head while he explains how to make it, then plays on.",
+      "blocks": [
+        {"type": "quote", "text": "I didn't edit a single second of this video. Claude did.", "who": "The source creator (played in a card)", "time": "0:00"},
+        {"type": "quote", "text": "This guy's selling this for 97 bucks. I'm giving it away for free.", "who": "Chandler", "time": "0:03"},
+        {"type": "framework", "style": "cycle", "title": "Pause-and-play breakdown", "items": [
+          {"label": "Play", "text": "The source reel plays in a rounded card, top-right, with its own audio."},
+          {"label": "Freeze", "text": "At an effect, freeze and shrink it to a thumbnail beside your head."},
+          {"label": "Explain", "text": "Say how to make that effect, ideally applying it to yourself."},
+          {"label": "Resume", "text": "Play on until the next effect."}
+        ], "caption": "The source plays 10 times in 84.9 s."},
+        {"type": "stat", "value": "23%", "label": "of the runtime is the other creator's reel (19.9 of 84.9 s)", "note": "Measured from the file.", "evidence": "observed"},
+        {"type": "callout", "tone": "applied", "text": "Gym version of the undercut: play a coach's 'secret' clip, then 'He charges ₹5,000 for this program. Here it is free.' Tech: a paid 'FPS boost' guide, then you do every step on your own PC."}
+      ]
+    },
+    {
+      "title": "Recipes I: head cut-out, captions, prompt bars",
+      "time": "0:06",
+      "summary": "For text behind your head, tell Claude to cut you out with a person-segmentation model, then put the words behind you with Remotion. For captions, use Whisper to get the timing of every word and Remotion to put them on screen, but lose the green box: plain text with a shadow looks cleaner. For the prompt-bar UI in the source, ask Claude to draw them as vector graphics. For 'the whole thing warms up' with a before/after slider, use FFmpeg for the colour change and Remotion again for the slider.",
+      "blocks": [
+        {"type": "framework", "style": "steps", "title": "Text behind your head", "items": [
+          {"label": "Segment", "text": "A person-segmentation model cuts you out of every frame."},
+          {"label": "Layer", "text": "Background → text → you on top."},
+          {"label": "Render", "text": "Remotion places and animates the text layer."},
+          {"label": "Reuse", "text": "Same trick for your name and the CTA keyword."}
+        ], "caption": "He shows the checkerboard cut-out, then 'Chandler Intelligence' behind his head."},
+        {"type": "quote", "text": "I'd lose the green box though. Plain text with shadow looks way cleaner.", "who": "Chandler", "time": "0:18"},
+        {"type": "compare", "title": "Caption styles (an open clash, C29)", "left": {"title": "Boxed / highlight (L03, Rahul, L04)", "items": ["Key word in a coloured box", "Strong emphasis", "Can look busy"]}, "right": {"title": "Plain + soft shadow (L10)", "items": ["White bold sans, 1–3 words", "Soft drop shadow, no box", "Sits just above the lower third", "'Way cleaner'"]}},
+        {"type": "quote", "text": "Ask Claude to draw these for you as vector graphics.", "who": "Chandler, on the prompt-bar UI", "time": "0:24"},
+        {"type": "callout", "tone": "applied", "text": "Gym: '100 KG' behind your head as you set up for the squat. Tech: your PC's name behind you. Keep captions plain white with a shadow for a cleaner look; use one coloured box at most, on the one word that matters."}
+      ]
+    },
+    {
+      "title": "Recipes II: timeline, zoom, moody grade, 3×3 wall",
+      "time": "0:31",
+      "summary": "For the editor-timeline graphic, you could ask for a mock-up, but a real screenshot looks much better. The source's recursive zoom (shrinking the shot into a picture of itself, three levels deep) is too much in Chandler's opinion; he gives the prompt anyway and, in his caption, says he used a whip pan instead. His preferred look is a moody FFmpeg grade: curves pulling highlights down and lifting blacks, saturation down 15%, a soft vignette, shown as an on-screen panel while his own footage changes. Finally, a 3×3 wall of reels, with yt-dlp to download them.",
+      "blocks": [
+        {"type": "quote", "text": "You could create a mock-up of your editor timeline, but a real screenshot would look much better.", "who": "Chandler", "time": "0:37"},
+        {"type": "example", "title": "Transition choice", "before": "Recursive zoom: 'shrink the shot into a picture of itself, 3 levels deep, then push through it with a spin and blur.'", "after": "Whip pan: about 5 frames of horizontal motion blur into the new framing, with a whoosh and a hit.", "why": "'These zooms are a bit too much in my opinion.' His caption: the whip 'looks cleaner'."},
+        {"type": "framework", "style": "equation", "title": "The moody grade (his panel values)", "items": [
+          {"label": "Highlights −35", "text": "Curves pull the bright parts down."},
+          {"label": "Blacks +12", "text": "Lift the blacks so they're soft, not crushed."},
+          {"label": "Saturation −15", "text": "Colours down 15%."},
+          {"label": "Vignette −40", "text": "A soft darkening at the edges."},
+          {"label": "Moody look", "text": "Low-key, filmic, warm practicals."}
+        ], "caption": "All FFmpeg. He applies it to himself as he names each step."},
+        {"type": "quote", "text": "Curves to pull the highlights down and lift the blacks. Saturation down 15%. Then a soft vignette.", "who": "Chandler", "time": "0:53"},
+        {"type": "callout", "tone": "warn", "text": "Possible clash (C32): this grade lifts the blacks and cuts saturation, while L07 and our gym grade go for high contrast and deep blacks. It may be genre-specific: moody desk/tech vs punchy gym."},
+        {"type": "callout", "tone": "applied", "text": "Try the moody grade on a late-night PC or gaming setup reel; keep the punchier, higher-contrast grade for gym footage. Show the 3×3 wall when you claim 'everyone's doing this'."}
+      ]
+    },
+    {
+      "title": "Storyboard first",
+      "time": "1:08",
+      "summary": "The source creator explains his workflow is different because, before rendering, Claude gives him a complete storyboard so he can see what it's thinking. Chandler calls this the critical part: before Claude edits anything, have it write a storyboard so you both agree on what the video looks like, and he does it before he even shoots. Two storyboards appear on screen. Chandler's is a Notion-style table (#, freeze time, what he says, what's on screen). The source creator's is a 24-beat table with timecodes, the spoken line, a direction, EMPHASIS, GOLD and a SCORE column that plans the music, such as 'drop 1 on Claude did'.",
+      "blocks": [
+        {"type": "quote", "text": "Before Claude edits anything, have it write a storyboard, so that you both agree on what the video looks like first. I always do this before I shoot.", "who": "Chandler", "time": "1:15"},
+        {"type": "framework", "style": "steps", "title": "Storyboard-first workflow", "items": [
+          {"label": "Ask for the table", "text": "'Before editing, write the storyboard: # | time | what I say | on screen | tool | sound cue. Wait for my OK.'"},
+          {"label": "Read it", "text": "See what Claude is thinking before anything renders."},
+          {"label": "Fix rows", "text": "Change lines, visuals, tools, music cues."},
+          {"label": "Approve", "text": "Agree on the whole video."},
+          {"label": "Build", "text": "Claude edits from the table."}
+        ], "caption": "Do it before the shoot and you also know every shot you need."},
+        {"type": "compare", "title": "Two storyboard formats", "left": {"title": "Chandler's (Notion-style)", "items": ["#", "Freeze (the second he pauses the source)", "Chandler says", "On screen", "e.g. 2.4 s · text-behind-head line · 'checkerboard, words behind head'"]}, "right": {"title": "Source creator's ('24 beats')", "items": ["Beat # and in/out timecode", "Shot ('Talking head, wide')", "Spoken line", "Direction", "EMPHASIS / GOLD / SCORE ('drop 1 on Claude did')"]}},
+        {"type": "example", "title": "One storyboard row for a gym reel", "before": "Make a reel of my 100 kg squat, make it hype.", "after": "Beat 3 · 0:04.0–0:06.5 · 'Hundred kilos. First time.' · Wide side angle, '100 KG' behind my head · Remotion + segmentation · SCORE: drop the beat on 'first time' · EMPHASIS: '100' in gold.", "why": "Every decision (line, shot, effect, music) is visible and fixable before any render. (Applied.)"},
+        {"type": "callout", "tone": "warn", "text": "Clash C30: plan every line (L10) vs 'just do it' and pause-to-think recording (L06). A middle path: storyboard the structure and the effects, but leave the spoken lines loose."}
+      ]
+    },
+    {
+      "title": "How the reel is built (measured)",
+      "time": "0:00",
+      "summary": "Chandler speaks 250 words in about 65 seconds, roughly 231 words a minute. There are 41 visual events (one every ~2.1 s), but only 6 are full-frame changes; overlays entering, leaving and resizing carry the pace while a single desk camera holds. Proof cards (GitHub repos, the FFmpeg logo, the grade panel) land on the exact word. The mix is loud and compressed at −14.1 LUFS with a music bed 7–10 dB under the voice, and the clearest sound move is a half-second music dropout right after 'Claude did.' There are about 10 SFX across 41 visual events, so not one per event.",
+      "blocks": [
+        {"type": "framework", "style": "timeline", "title": "Sound moments", "items": [
+          {"label": "0:02.5", "text": "0.5 s near-silence after 'Claude did.' (the storyboard's 'drop 1')."},
+          {"label": "0:05.9", "text": "Pop on the $97 card / 'free'."},
+          {"label": "0:42.1", "text": "Hit on the real screenshot."},
+          {"label": "0:49.8", "text": "Whoosh + hit on the whip pan."},
+          {"label": "1:01.4", "text": "Pop as the 3×3 wall fills."},
+          {"label": "1:16.9", "text": "Pop on the storyboard doc."}
+        ], "caption": "About 10 SFX in total; some may come from the source reel's own audio."},
+        {"type": "stat", "value": "~2.1 s", "label": "between visual events (41 events in 84.9 s)", "note": "Only 6 are full-frame changes; overlays do the rest.", "evidence": "observed"},
+        {"type": "stat", "value": "−14.1 LUFS", "label": "integrated loudness, loudness range 2.3 LU", "note": "Heavily compressed; bed ~7–10 dB under the voice.", "evidence": "observed"},
+        {"type": "stat", "value": "~231 wpm", "label": "Chandler's speaking pace", "note": "250 words in about 65 s.", "evidence": "observed"},
+        {"type": "checklist", "title": "Visual tricks to steal", "items": ["Tool/repo card appears on the exact word (Whisper timing)", "Prompt typed into a dark chat-style bar", "Grade panel numbers change as he names each step, and his footage changes with them", "He shrinks into the centre of the 3×3 grid", "Hook text only for 0–2.5 s: condensed caps, one word in lime"]},
+        {"type": "callout", "tone": "applied", "text": "Steal the dropout: on your final rep or the reveal line, cut the music for half a second, then bring the beat back. It hits harder than any SFX."}
+      ]
+    },
+    {
+      "title": "The CTA and open questions",
+      "time": "1:22",
+      "summary": "The reel ends with 'Comment edit for everything I explain in this video', with EDIT in huge outlined letters behind his head, reusing the cut-out effect. The caption restates every step yet holds back 'the exact styling' for the DM. Four hours after posting it had 63 comments and 53 likes, and every visible comment was just 'Edit'. The Brain logs the open questions this reel raises rather than settling them.",
+      "blocks": [
+        {"type": "quote", "text": "Comment edit for everything I explain in this video.", "who": "Chandler (CTA)", "time": "1:22"},
+        {"type": "stat", "value": "63 vs 53", "label": "comments vs likes about 4 h after posting", "note": "All 15 comments returned were 'Edit'. Views not visible.", "evidence": "observed"},
+        {"type": "checklist", "title": "Open clashes this reel adds", "items": ["C29: plain shadow captions vs highlight boxes", "C30: storyboard every line vs just start talking", "C31: building a post around someone else's reel vs the originality rule (may count as commentary if you demo on your own footage)", "C32: lifted blacks vs deep blacks", "Extends C1: 'giving it away free' yet the exact styling is DM-only"]},
+        {"type": "callout", "tone": "warn", "text": "If you try a pause-and-play breakdown, keep the other creator's clip short and do every effect on your own footage. Platforms down-rank low-effort reuse of other people's clips."}
+      ]
+    }
+  ],
+  "production": [
+    {"area": "Hook", "detail": "The source reel's best line plays first, then 'This guy's selling this for 97 bucks. I'm giving it away for free.' Hook text 'HOW TO ACTUALLY EDIT VIDEOS USING CLAUDE' only for 0–2.5 s, condensed bold caps with 'ACTUALLY' in lime."},
+    {"area": "Pacing", "detail": "84.9 s; 41 visual events (~2.1 s apart), 6 full-frame changes; ~231 wpm voice."},
+    {"area": "Camera", "detail": "One locked desk camera (laptop in the foreground, warm lamp, dark office), about 8 framing changes; overlays carry the pace."},
+    {"area": "Layout", "detail": "Him centred in the lower 60%; source reel in a rounded card top-right, shrinking to a ~13%-wide thumbnail while he talks; info cards top-centre."},
+    {"area": "Captions", "detail": "White bold sans, soft drop shadow, no box, 1–3 words at ~61% height; one coral box on 'every word'."},
+    {"area": "Effects", "detail": "Text behind his head (title, brand, CTA keyword); prompt bars typing on; GitHub/FFmpeg cards on the word; animated grade panel; 3×3 reel wall."},
+    {"area": "Transitions", "detail": "Whip/blur cut at 49.6–49.8 s with whoosh + hit; no recursive zoom on his own footage."},
+    {"area": "Grade", "detail": "Low-key moody: mean luma about 25–28%, very low saturation, warm practicals, blacks not crushed."},
+    {"area": "Sound", "detail": "−14.1 LUFS, LRA 2.3 LU; music bed 7–10 dB under the voice; 0.5 s dropout after 'Claude did.'; about 10 SFX total."},
+    {"area": "CTA", "detail": "Spoken 'Comment edit…' plus EDIT in huge outlined letters behind his head; caption repeats it."}
+  ],
+  "takeaways": [
+    {"text": "Storyboard table before any edit (or shoot): # / time / line / on screen / tool / sound cue.", "atom": "l10-storyboard-before-edit"},
+    {"text": "Plan SCORE and EMPHASIS per beat: music drops and gold words.", "atom": "l10-storyboard-score-emphasis"},
+    {"text": "A half-second music dropout right after the punchline.", "atom": "l10-dropout-after-punchline"},
+    {"text": "Pause-and-play breakdown of a reel.", "atom": "l10-pause-and-play-breakdown"},
+    {"text": "Undercut a paid course in the hook.", "atom": "l10-undercut-paid-hook"},
+    {"text": "Text behind your head via segmentation.", "atom": "l10-text-behind-head"},
+    {"text": "Demo each effect on your own shot as you name it.", "atom": "l10-apply-effect-on-yourself"},
+    {"text": "Plain shadowed captions, no box.", "atom": "l10-plain-shadow-captions"},
+    {"text": "Type the real prompt on screen.", "atom": "l10-prompt-bar-on-screen"},
+    {"text": "A real screenshot beats an AI mock-up.", "atom": "l10-real-screenshot-not-mockup"},
+    {"text": "Tool card lands on the exact word.", "atom": "l10-card-on-the-word"},
+    {"text": "Moody grade: highlights −35, blacks +12, saturation −15, vignette −40.", "atom": "l10-moody-grade-recipe"},
+    {"text": "Reveal a grade with a before/after slider.", "atom": "l10-grade-slider-reveal"},
+    {"text": "Whip pan over recursive zoom.", "atom": "l10-whip-not-recursive-zoom"},
+    {"text": "A 3×3 wall of reels proves a trend.", "atom": "l10-3x3-reel-wall"}
+  ],
+  "glossary": [
+    {"term": "Storyboard", "def": "The whole video planned as a table of beats: what's said, what's on screen, which tool, which sound cue."},
+    {"term": "Beat", "def": "One row of the storyboard: a line or moment with its own timing."},
+    {"term": "Pause-and-play breakdown", "def": "A format that plays another reel, freezes at each effect and explains how it's made."},
+    {"term": "Person segmentation", "def": "A model that separates a person from the background in each frame, so layers can go behind them."},
+    {"term": "Remotion", "def": "A React-based code-to-video tool used here for captions, text behind the head and sliders (Remotion License, free for individuals and small teams)."},
+    {"term": "Whisper", "def": "A speech-to-text model that gives timings for every word."},
+    {"term": "Curves", "def": "A grading tool that remaps brightness levels, e.g. pulling highlights down or lifting blacks."},
+    {"term": "Vignette", "def": "Darkening toward the frame edges to pull the eye to the centre."},
+    {"term": "Whip pan", "def": "A fast sideways move with motion blur used as a transition."},
+    {"term": "Recursive zoom", "def": "Shrinking a shot into a picture of itself repeatedly, then pushing through."},
+    {"term": "LUFS", "def": "A loudness unit; −14 LUFS is a common target for social/streaming audio."},
+    {"term": "Music dropout", "def": "Cutting the music briefly (here 0.5 s) to make a line land, then bringing it back."}
+  ],
+  "quiz": [
+    {"q": "What does Chandler say is the critical step?", "a": "Before Claude edits anything, have it write a storyboard so you both agree on the video first; he does it before shooting."},
+    {"q": "What columns does the source creator's storyboard have that most people skip?", "a": "EMPHASIS, GOLD and SCORE, which plan word emphasis and music cues per beat."},
+    {"q": "How do you put text behind your head?", "a": "Cut yourself out with a person-segmentation model, then place the text layer behind you with Remotion."},
+    {"q": "What caption change does he recommend?", "a": "Lose the green box; plain text with a shadow looks cleaner."},
+    {"q": "Give the four values of his moody grade.", "a": "Highlights −35, blacks +12, saturation −15, vignette −40."},
+    {"q": "Which transition did he choose over the recursive zoom, and why?", "a": "A whip pan; the zooms are 'a bit too much' and the whip looks cleaner."},
+    {"q": "What sound move follows 'Claude did.'?", "a": "A half-second music dropout, then the beat returns."},
+    {"q": "Mock-up or real screenshot for UI graphics?", "a": "A real screenshot looks much better."}
+  ],
+  "try_it": [
+    {"title": "Storyboard your next gym reel", "niche": "gym", "steps": ["Before filming, ask Claude for a beat table: # | time | what I say | on screen | tool | sound cue.", "Add SCORE (where the beat drops) and EMPHASIS (which word goes gold).", "Fix any row you don't like and approve it.", "Shoot exactly the shots the table needs.", "Hand Claude the footage and the approved table: 'build it'."]},
+    {"title": "Moody grade on your setup", "niche": "tech", "steps": ["Film your desk/PC at night with the lamp on.", "Grade: highlights −35, blacks +12, saturation −15, soft vignette.", "Make a before/after slider reveal.", "Compare it with your punchier gym grade and keep the one that fits the mood."]},
+    {"title": "Half-second dropout on a clutch", "niche": "gaming", "steps": ["Pick a clutch or rank-up clip with a voice line.", "Put music under the build-up.", "Cut the music for 0.5 s right after the key line or kill.", "Bring the beat back with a hit SFX."]},
+    {"title": "Text behind your head", "niche": "any", "steps": ["Shoot a locked-off tripod shot with space around your head.", "Ask Claude to segment you out and place a word behind you (your series name or the CTA keyword).", "Keep the word large, light and partly hidden by your head.", "Reuse it for the CTA at the end."]}
+  ]
+}

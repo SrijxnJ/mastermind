@@ -1,0 +1,611 @@
+{
+ "id": "L11",
+ "title": "Fill-in-the-blank hook templates",
+ "creator": "Adam Kelada (@adam.kelada.media)",
+ "url": "https://www.instagram.com/p/DeJ8N6lIaLm/",
+ "length": "49.6 s",
+ "kind": "ig-reel",
+ "one_liner": "Great hooks are reusable templates: fill the blanks with your niche, your numbers and your voice.",
+ "why_it_matters": "Srijan's hardest second is the first one. This reel hands over seven proven first lines as fill-in templates, each shown on a real viral reel. Four are new to the Brain (Expertise, Warning, Desire, Promise) and all four fit gym, PC and gaming content, so a blank page becomes three filled openers to choose from.",
+ "big_idea": {
+  "statement": "A hook is a structure you can reuse: template card first, real proof second, your own words last.",
+  "support": [
+   "Each template is said with blanks ([X], [Y], [niche]) while it types on screen.",
+   "Each one is proven with a real reel and its views (339K to 28M).",
+   "The four new ones each do a different job: authority, warning, desire, promise.",
+   "Filling the blanks with Srijan's real numbers and self-roast is what makes them his (C34)."
+  ]
+ },
+ "map": [
+  {
+   "chapter": "The reel and how it teaches",
+   "time": "0:00–0:02 + whole reel",
+   "gist": "7 templates, each followed by a viral example with views"
+  },
+  {
+   "chapter": "Expertise hook",
+   "time": "0:02–0:06",
+   "gist": "'3 years of [niche] in 60 seconds'"
+  },
+  {
+   "chapter": "Warning hook",
+   "time": "0:06–0:13",
+   "gist": "'Never start a [X] if you don't have these [Y] things'"
+  },
+  {
+   "chapter": "Desire hook",
+   "time": "0:27–0:33",
+   "gist": "'This is exactly what you want to see when you're [X]'"
+  },
+  {
+   "chapter": "Promise hook",
+   "time": "0:33–0:43",
+   "gist": "'If you take [B] every single day you're gonna [X], [Y] and [Z]'"
+  },
+  {
+   "chapter": "Three classics, the template bank and the CTA",
+   "time": "0:13–0:27, 0:43–0:49",
+   "gist": "Challenge, Ranking, List; '100 proven viral hooks', comment 'hook'"
+  }
+ ],
+ "chapters": [
+  {
+   "title": "The reel and how it teaches",
+   "time": "0:00",
+   "summary": "Adam opens with '7 hooks that'll always work' while a frosted-glass list of all seven hook names scrolls above his head and a red neon '7HOOK' sits on his chest. Then the same rhythm repeats seven times: a template card (a numbered badge, the template typing on with its blanks in yellow) and right after it a real viral reel that used that template, played full-frame with its own audio and a view-count pill. It is fast: 49.6 s, about 237 words a minute, a new shot every 3.1 s, and almost half the runtime (48%) is other creators' clips. Four of the seven templates are new to the Brain; the other three (Challenge, Ranking, List) already live in it as content mechanisms.",
+   "blocks": [
+    {
+     "type": "quote",
+     "text": "7 hooks that'll always work",
+     "who": "Adam Kelada",
+     "time": "0:00"
+    },
+    {
+     "type": "framework",
+     "style": "cycle",
+     "title": "Template → example, seven times",
+     "items": [
+      {
+       "label": "Badge",
+       "text": "Numbered pill: '1 Expertise Hook'."
+      },
+      {
+       "label": "Template",
+       "text": "He says it with blanks; it types on, blanks in yellow brackets."
+      },
+      {
+       "label": "Proof",
+       "text": "A real viral reel that used it plays with its own audio."
+      },
+      {
+       "label": "Views",
+       "text": "A dark pill shows its view count (40.5M, 339K, 28M…)."
+      }
+     ],
+     "caption": "Template cards 2.0–3.2 s, examples 1.7–7.7 s."
+    },
+    {
+     "type": "stat",
+     "value": "48%",
+     "label": "of the runtime is other creators' example clips (23.8 of 49.6 s)",
+     "note": "Measured from the file; L10 was 23% (C31).",
+     "evidence": "observed"
+    },
+    {
+     "type": "stat",
+     "value": "5,564",
+     "label": "comments on 8,070 likes at download (comment 'hook' CTA)",
+     "note": "Views not exposed by Instagram.",
+     "evidence": "observed"
+    },
+    {
+     "type": "callout",
+     "tone": "tip",
+     "text": "Srijan said 'learn these 4 hooks': the reel has 7, and the 4 that are new to the Brain are Expertise, Warning, Desire and Promise. The other 3 are covered briefly in the last chapter."
+    }
+   ]
+  },
+  {
+   "title": "Expertise hook: years of [niche] in 60 seconds",
+   "time": "0:02",
+   "summary": "The Expertise hook squeezes a big time investment into a tiny time cost: '3 years of [niche] in 60 seconds'. The years give you authority without you ever saying 'I'm an expert'; the seconds tell the viewer that watching costs almost nothing. That one line carries both the context (the niche) and the lean (skip years of pain), which is L01's context-plus-lean in six words. The example is a man filmed close in the dark: '3 years of therapy in 60 seconds', 40.5M views. The body that follows must feel condensed: a quick blitz of lessons, one per cut.",
+   "blocks": [
+    {
+     "type": "framework",
+     "style": "equation",
+     "title": "Expertise hook",
+     "items": [
+      {
+       "label": "Big time spent",
+       "text": "3 years / 2,000 hours / 10 saal"
+      },
+      {
+       "label": "Your niche",
+       "text": "of gym / PC building / Counter-Strike"
+      },
+      {
+       "label": "Tiny time cost",
+       "text": "in 60 seconds"
+      },
+      {
+       "label": "Result",
+       "text": "Authority + 'skip my pain for free'"
+      }
+     ],
+     "caption": "Template on screen: '3 years of [niche] in…'"
+    },
+    {
+     "type": "quote",
+     "text": "3 years of therapy in 60 seconds.",
+     "who": "Example reel (40.5M)",
+     "time": "0:04"
+    },
+    {
+     "type": "compare",
+     "title": "Weak vs strong",
+     "left": {
+      "title": "Weak",
+      "items": [
+       "'Some gym tips for beginners.'",
+       "No number, no cost, no reason to trust you."
+      ]
+     },
+     "right": {
+      "title": "Strong",
+      "items": [
+       "'4 saal ka gym trauma, 60 seconds mein.'",
+       "Years = authority, seconds = cheap to watch, 'trauma' = Srijan's self-roast."
+      ]
+     }
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gym: \"[4] saal ka gym trauma, 60 seconds mein. Physique pe mat jaana, galtiyon pe jaana.\" Then 5 mistakes, one per cut."
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Tech: \"[10] saal ka PC building pain, 60 seconds mein. Thermal paste se RGB tak.\""
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gaming: \"[2,000] hours of Counter-Strike in 60 seconds. Haan, meri life mein aur kuch nahi hai.\" (Use his real hours from Steam.)"
+    }
+   ]
+  },
+  {
+   "title": "Warning hook: never start X without these N things",
+   "time": "0:06",
+   "summary": "The Warning hook stops the viewer before a big, expensive step: 'Never start a [X] if you don't have these [Y] things'. 'Never' triggers loss aversion, the gate ('if you don't have') makes every viewer check themselves, and the number opens a loop they want closed. It is the 'Don't buy X' contrarian take turned into a checklist, so the viewer leaves with something useful rather than just a debunk. In the example a woman says 'Never start a business if you don't have these 4 things' while four green number tiles pop in and a red '4 THINGS' lands (339K).",
+   "blocks": [
+    {
+     "type": "framework",
+     "style": "equation",
+     "title": "Warning hook",
+     "items": [
+      {
+       "label": "Prohibition",
+       "text": "Never start…"
+      },
+      {
+       "label": "Big step",
+       "text": "a business / a bulk / a PC build"
+      },
+      {
+       "label": "Gate",
+       "text": "if you don't have"
+      },
+      {
+       "label": "Count",
+       "text": "these 4 things"
+      },
+      {
+       "label": "Result",
+       "text": "Loss aversion + a checklist loop"
+      }
+     ],
+     "caption": "Template on screen: 'Never start a [X] if you don't have these [y] things'"
+    },
+    {
+     "type": "quote",
+     "text": "Never start a business if you don't have these 4 things.",
+     "who": "Example reel (339K)",
+     "time": "0:09"
+    },
+    {
+     "type": "compare",
+     "title": "Weak vs strong",
+     "left": {
+      "title": "Weak",
+      "items": [
+       "'Don't build a PC.'",
+       "A debunk with nothing to do next."
+      ]
+     },
+     "right": {
+      "title": "Strong",
+      "items": [
+       "'Never build a gaming PC if you don't have these 4 things.'",
+       "A clear step, a gate, a count; the viewer stays to check the list."
+      ]
+     }
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gym: \"Kabhi bhi bulk start mat karna agar tumhare paas ye 3 cheezein nahi hain. Number 3: mummy jo roz 6 roti bana de.\""
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Tech: \"Never build a gaming PC if you don't have these 4 things. Warna shop waala RGB fan bech ke 8 GB GPU pakda dega.\""
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gaming: \"Kabhi bhi CS2 Premier mat khelna agar tumhare paas ye 3 cheezein nahi hain. Pehli: emotional stability.\""
+    }
+   ]
+  },
+  {
+   "title": "Desire hook: this is exactly what you want to see",
+   "time": "0:27",
+   "summary": "The Desire hook points at the ideal result and names the moment the viewer wants it: 'This is exactly what you want to see when you're [situation]'. 'This' only works if the thing is on screen from the first frame, because the spoken context arrives at the end of the sentence (the clash with L01, C35). The right viewers self-select ('that's me, I'm buying one'). The example is a split screen: an aerial map shot of a warehouse with a red pin above a man at his desk, 'when you're buying an industrial property' (3.6M).",
+   "blocks": [
+    {
+     "type": "framework",
+     "style": "equation",
+     "title": "Desire hook",
+     "items": [
+      {
+       "label": "Pointer",
+       "text": "This is"
+      },
+      {
+       "label": "Ideal outcome",
+       "text": "exactly what you want to see"
+      },
+      {
+       "label": "Their situation",
+       "text": "when you're [buying / opening / 6 months in]"
+      },
+      {
+       "label": "Result",
+       "text": "Self-selection + visual proof"
+      }
+     ],
+     "caption": "Template on screen: 'This is exactly what you wanna see when your [x]'"
+    },
+    {
+     "type": "quote",
+     "text": "This is exactly what you want to see when you're buying an industrial prop[erty].",
+     "who": "Example reel (3.6M)",
+     "time": "0:29"
+    },
+    {
+     "type": "compare",
+     "title": "Weak vs strong",
+     "left": {
+      "title": "Weak",
+      "items": [
+       "Face to camera, nothing shown.",
+       "'This' points at nothing; context arrives last and late."
+      ]
+     },
+     "right": {
+      "title": "Strong",
+      "items": [
+       "Frame 1 is the proof: a clean second-hand GPU, seal intact, 62°C on screen.",
+       "The situation is also written as text, so the context is not late."
+      ]
+     }
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gym: \"This is exactly what you wanna see jab gym ko 6 mahine ho gaye\" (mirror shot of the shoulder cap) \"…aur mummy abhi bhi bolti hai 'kuch fark nahi pada'.\""
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Tech: \"This is exactly what you wanna see jab tum second-hand GPU kholte ho.\" (no dust, warranty seal intact, temps on screen)"
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gaming: \"This is exactly what you wanna see jab tum CS2 mein ye ek setting badalte ho.\" (his real FPS counter jumping, recorded on his PC)"
+    }
+   ]
+  },
+  {
+   "title": "Promise hook: a daily habit, three payoffs",
+   "time": "0:33",
+   "summary": "The Promise hook sells a tiny habit with a stacked reward: 'If you [do B] every single day, you're going to [X], [Y] and [Z]'. The cost feels small and repeatable, 'every single day' adds commitment, and three outcomes give three different reasons to care (the rule of three also sounds complete). It was the reel's biggest example and a gym one: creatine, 28M views. Keep the payoffs true and concrete (C7); for Srijan the third payoff is where the joke goes.",
+   "blocks": [
+    {
+     "type": "framework",
+     "style": "equation",
+     "title": "Promise hook",
+     "items": [
+      {
+       "label": "Small habit",
+       "text": "If you take creatine / walk 8,000 steps"
+      },
+      {
+       "label": "Consistency",
+       "text": "every single day"
+      },
+      {
+       "label": "Payoff ×3",
+       "text": "you're going to X, Y and Z"
+      },
+      {
+       "label": "Result",
+       "text": "Low cost, stacked reward"
+      }
+     ],
+     "caption": "Template on screen: 'If you take [B] every single day you gonna [X],[Y] and [Z]'"
+    },
+    {
+     "type": "quote",
+     "text": "If you take creatine every single day, you're going to build more muscle, recover faster, and get way more out of all the hard work that you're putting in in the gym.",
+     "who": "Example reel (28M)",
+     "time": "0:36"
+    },
+    {
+     "type": "compare",
+     "title": "Weak vs strong",
+     "left": {
+      "title": "Weak",
+      "items": [
+       "'Walking is good for you.'",
+       "One vague benefit, no habit size."
+      ]
+     },
+     "right": {
+      "title": "Strong",
+      "items": [
+       "'Agar tum roz 8,000 steps chaloge, fat jaayega, stamina aayega, aur Sunday ki biryani guilt-free ho jaayegi.'",
+       "Sized habit, three concrete payoffs, the last one funny."
+      ]
+     }
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gym: \"Agar tum roz [8,000] steps chaloge, fat jaayega, stamina aayega, aur Sunday ki biryani guilt-free ho jaayegi.\""
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Tech: \"Agar tum roz raat laptop shut down karoge, sleep nahi, toh RAM fresh rahegi, updates time pe honge, aur subah ka lag gayab.\""
+    },
+    {
+     "type": "callout",
+     "tone": "applied",
+     "text": "Gaming: \"If you aim-train [15] minutes every single day, aim sharp hoga, reaction fast hogi, aur teammates tumhe blame karna band kar denge.\""
+    }
+   ]
+  },
+  {
+   "title": "Three classics, the template bank and the CTA",
+   "time": "0:13",
+   "summary": "Between the new hooks sit three classics the Brain already knows as content types: Challenge ('I'm going to X for Y days straight', 4.9M), Ranking ('Rating X so you don't waste your Y', 4.7M) and List ('These are the 5 best ways to use X', 1.9M). The method behind all seven is a template bank: hooks with blanks, each kept with proof, filled per idea. The risk is that anyone can fill the same template (C34), so the words must become Srijan's. The CTA offers the bigger bank: comment 'hook' for '100 proven viral hooks', over a scrolling strip of every example, with 'No emails' in the caption.",
+   "blocks": [
+    {
+     "type": "framework",
+     "style": "steps",
+     "title": "Using a template bank",
+     "items": [
+      {
+       "label": "Collect",
+       "text": "Template | example link | views | niche, in a swipe file."
+      },
+      {
+       "label": "Fill 3",
+       "text": "Fill three different templates for the same idea."
+      },
+      {
+       "label": "Pick",
+       "text": "Keep the one a stranger would understand in 2 s (One Mississippi)."
+      },
+      {
+       "label": "Make it yours",
+       "text": "Swap in real numbers, Hinglish and a self-roast so nobody else could say it."
+      }
+     ],
+     "caption": "A third hook method next to the triple hook (L01) and 'say something crazy' (L08)."
+    },
+    {
+     "type": "quote",
+     "text": "If you want a list of 100 proven viral hooks just like these, comment the word hook and I'll send them to you for free.",
+     "who": "Adam Kelada",
+     "time": "0:43"
+    },
+    {
+     "type": "compare",
+     "title": "The three classics",
+     "left": {
+      "title": "Template",
+      "items": [
+       "I'm going to [X] for [Y] days straight.",
+       "Rating [X] so you don't waste your [Y].",
+       "These are the 5 best ways to use [X]."
+      ]
+     },
+     "right": {
+      "title": "Srijan's version",
+      "items": [
+       "Main 30 din roz 100 push-ups karunga. Day 1: already regret.",
+       "Rating every ₹1,500 gaming mouse so you don't waste your salary.",
+       "Ye hain 5 best ways to use your purana laptop."
+      ]
+     }
+    },
+    {
+     "type": "callout",
+     "tone": "warn",
+     "text": "Templates are structure, not words. If the filled line could be posted by any gym or tech creator, it fails Harry Dry's 'nobody else could say it' test (C34)."
+    }
+   ]
+  }
+ ],
+ "production": [
+  {
+   "area": "Hook",
+   "detail": "0–2 s: blur-in, 30% eased punch-out; frosted-glass numbered list of the 7 hook names scrolls above his head; '7HOOK' heavy rounded red neon sans + white script 'that'll always work'. Loudest part (−12 LUFS short-term)."
+  },
+  {
+   "area": "Pacing",
+   "detail": "49.6 s, ~237 wpm, 23 visual events (~2.07 s apart), 16 shots averaging 3.1 s; template cards 2.0–3.2 s, examples 1.7–7.7 s."
+  },
+  {
+   "area": "Camera",
+   "detail": "One seated shot for every template card (mesh chair, bright window + plant, soft daylight); eased push-ins up to +28%."
+  },
+  {
+   "area": "Type",
+   "detail": "Badge pill (yellow ring number + condensed sans label), template typing on in a casual hand-lettered font with glow, blanks in yellow-orange brackets, centred at ~64% height."
+  },
+  {
+   "area": "Proof",
+   "detail": "Dark rounded view-count pill with an eye icon on every example clip (40.5M, 339K, 4.9M, 4.7M, 1.9M, 3.6M, 28M)."
+  },
+  {
+   "area": "Others' clips",
+   "detail": "23.8 s of 49.6 s (48%) are other creators' reels with their own audio and captions."
+  },
+  {
+   "area": "Sound",
+   "detail": "−14.1 LUFS, LRA 3.8 LU; bed ~5 dB under the voice (funk → glitch hop → future bass); UI pop, hits, a sub-bass drop at the Desire card, whoosh into the creatine clip; 13 of 23 visual changes carry a transient."
+  },
+  {
+   "area": "Grade",
+   "detail": "Muted natural daylight: mean luma 86.5/255, saturation low (SATAVG ~10), slightly warm."
+  },
+  {
+   "area": "CTA",
+   "detail": "Sideways-scrolling strip of every example clip; '100 PROVEN VIRAL HOOKS'; glowing yellow 'HOOK'; 'I'll send them to you for free'."
+  }
+ ],
+ "takeaways": [
+  {
+   "text": "Expertise hook: '[N years] of [niche] in 60 seconds'.",
+   "atom": "l11-expertise-hook"
+  },
+  {
+   "text": "Warning hook: 'Never start a [X] if you don't have these [N] things', then deliver 3–4 real items.",
+   "atom": "l11-warning-hook"
+  },
+  {
+   "text": "Desire hook: 'This is exactly what you want to see when you're [situation]', proof on screen from frame 1.",
+   "atom": "l11-desire-hook"
+  },
+  {
+   "text": "Promise hook: 'If you [habit] every single day, you're going to [X], [Y] and [Z]', all three true.",
+   "atom": "l11-promise-hook"
+  },
+  {
+   "text": "Keep a hook template bank; fill three per idea, then make the words yours.",
+   "atom": "l11-hook-template-bank"
+  },
+  {
+   "text": "Classics: challenge, ranking, list templates with a hard number.",
+   "atom": "l11-classic-hook-templates"
+  },
+  {
+   "text": "Teaching format: template card, then a real example with a view-count pill.",
+   "atom": "l11-template-then-example"
+  },
+  {
+   "text": "Show a number in a small dark pill whenever you cite a result.",
+   "atom": "l11-view-count-proof-pill"
+  },
+  {
+   "text": "Context still belongs in the first words, through all three channels.",
+   "atom": "hook-context-first-words"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Hook template",
+   "def": "A reusable first line with blanks ([X], [Y], [niche]) you fill for each idea."
+  },
+  {
+   "term": "Template bank / swipe file",
+   "def": "Your saved list of templates, each with an example reel and its views."
+  },
+  {
+   "term": "View-count pill",
+   "def": "A small dark rounded label with an eye icon and a view number, shown as proof on an example."
+  },
+  {
+   "term": "Rule of three",
+   "def": "Listing three items (X, Y and Z) feels complete and rhythmic; the Promise hook uses it."
+  },
+  {
+   "term": "Self-selection",
+   "def": "A line that names a situation so the people in it feel addressed ('when you're buying…')."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which four hooks from the reel are new to the Brain?",
+   "a": "Expertise, Warning, Desire and Promise. Challenge, Ranking and List were already covered as content mechanisms."
+  },
+  {
+   "q": "Write the Expertise template and say why it works.",
+   "a": "'[N years] of [niche] in 60 seconds': the years give authority, the seconds make watching cheap, and the line holds context and lean at once."
+  },
+  {
+   "q": "What does the Warning hook add that a plain 'Don't buy X' doesn't?",
+   "a": "A gate and a count ('if you don't have these 4 things'), so it opens a checklist loop and ends with something useful."
+  },
+  {
+   "q": "Why must the Desire hook show the thing from frame 1?",
+   "a": "'This' points at it, and the spoken context comes at the end of the sentence; without the visual the context is late (C35)."
+  },
+  {
+   "q": "Which example got the most views and what template did it use?",
+   "a": "Creatine, 28M, the Promise hook: 'If you take creatine every single day, you're going to build more muscle, recover faster…'"
+  },
+  {
+   "q": "What's the risk of a template bank and how do you fix it?",
+   "a": "Anyone can fill the same template (C34). Fill it with your real numbers, Hinglish and a self-roast so nobody else could say it."
+  }
+ ],
+ "try_it": [
+  {
+   "title": "Three openers for one gym reel",
+   "niche": "gym",
+   "steps": [
+    "Pick tomorrow's gym idea (e.g. walking for fat loss).",
+    "Fill Expertise, Warning and Promise for it in Hinglish.",
+    "Say each to camera once; keep the one you'd stop scrolling for.",
+    "Put its key nouns on screen as text from frame 1."
+   ]
+  },
+  {
+   "title": "Desire hook on PC proof footage",
+   "niche": "tech",
+   "steps": [
+    "Film the proof first: a clean component, a temps screen or a benchmark result.",
+    "Write 'This is exactly what you wanna see jab tum [situation]'.",
+    "Open the reel on the proof shot, add the situation as text.",
+    "Follow with the 3 checks that got you there."
+   ]
+  },
+  {
+   "title": "Warning checklist for gamers",
+   "niche": "gaming",
+   "steps": [
+    "Write 'Kabhi bhi [ranked / a new game / a ₹X monitor] mat lena agar ye 3 cheezein nahi hain'.",
+    "List 3 real items, one reason each; make one of them a joke.",
+    "Number them with 1-2-3 tiles and a hit on the count.",
+    "End with 'kitne tick hue? comment karo'."
+   ]
+  }
+ ]
+}

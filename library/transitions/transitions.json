@@ -1,0 +1,944 @@
+[
+ {
+  "id": "whip-pan",
+  "name": "Whip pan",
+  "what": "A very fast pan that smears the frame into motion blur; the cut hides inside the blur and the next clip continues the same direction.",
+  "when": "Location changes in travel reels, gym-to-street, 'meanwhile' cuts. Any niche; best with energetic music.",
+  "sfx": [
+   "swoosh-fast",
+   "whoosh"
+  ],
+  "frames": "Outgoing: last 4-6 frames whip; cut at the blur peak; incoming: first 4-6 frames still whipping, settling by frame 6-8. Total 8-12 frames.",
+  "easing": "Exit: ease-in (accelerate into the blur). Entry: ease-out (decelerate out of it). Never linear.",
+  "sfx_timing": "Whoosh PEAK on the cut frame (start the file ~0.15-0.3 s before the cut, depending on its peak time in catalog.json).",
+  "capcut": "Split at the blur; Transitions > Camera > 'Whip pan' (or 'Pull in'), duration 0.3 s; or keyframe Position + Motion blur on 3 frames each side.",
+  "edits": "Instagram Edits: Transitions > 'Whip' / 'Swipe', 0.3 s; match direction to camera move.",
+  "vn": "VN: Transition > 'Slide/Blur' and keyframe position; add Motion blur effect.",
+  "filming": "Phone on gimbal or handheld: end shot A with a fast pan right (wrist flick), start shot B with the same flick right. Shutter 1/60 s at 30 fps for real blur; avoid tripod (locked pans are too slow).",
+  "ffmpeg": "xfade=transition=hblur:duration=0.3 for a cheap version; real: crop+translate with expression and tmix=frames=5 for blur. e.g. [a][b]xfade=transition=smoothleft:duration=0.25:offset=T",
+  "hyperframes": "Registry block `whip-pan` (shader transition); add it with `npx hyperframes add whip-pan`, mount between scenes, 0.3-0.4 s.",
+  "sfx_files": {
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ],
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ]
+  }
+ },
+ {
+  "id": "zoom-punch",
+  "name": "Zoom punch (punch-in)",
+  "what": "Instant digital zoom 100% -> 115-130% on a beat or a line to add emphasis without changing shot.",
+  "when": "Talking heads (tech tips), punchlines, gym form cues ('KNEES OUT'). The default emphasis tool.",
+  "sfx": [
+   "hit-impact",
+   "bass-drop-boom",
+   "pop"
+  ],
+  "frames": "Zoom in over 2-3 frames, hold until the next sentence, snap back on a cut (0 frames) or over 4 frames.",
+  "easing": "Ease-out (fast start, soft land) or a spring with 3-5% overshoot for meme energy.",
+  "sfx_timing": "Hit transient on frame 0 of the zoom.",
+  "capcut": "Select clip > Animation > In > 'Zoom in' 0.1 s, or keyframe Scale 100% -> 120% across 3 frames; Graph: 'Ease out'.",
+  "edits": "Edits: Adjust > Zoom keyframes; or 'Zoom' effect in Effects.",
+  "vn": "VN: Keyframe Scale, curve 'Ease Out'.",
+  "filming": "Shoot 4K (or 1080p with the subject centred, extra headroom) so 120-130% crop stays sharp. Tripod, locked off, eye-line at lens.",
+  "ffmpeg": "zoompan is slow; use scale+crop with an expression: crop=w=iw/Z:h=ih/Z where Z steps 1->1.2 at t0 (e.g. Z='if(gte(t,T0),1.2,1)'), then scale=1080:1920.",
+  "hyperframes": "GSAP tween on the scene wrapper: gsap.fromTo(el,{scale:1},{scale:1.2,duration:0.08,ease:'power3.out'}). Component `camera-shake` for the accent.",
+  "sfx_files": {
+   "hit-impact": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "bass-drop-boom": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ],
+   "pop": [
+    "sfx/pop/oga-pop-sounds-pop4.mp3",
+    "sfx/pop/oga-pop-sounds-pop8.mp3",
+    "sfx/pop/oga-pop-effect-sounds-p_2.mp3"
+   ]
+  }
+ },
+ {
+  "id": "match-cut",
+  "name": "Match cut",
+  "what": "Cut between two shots that share shape, motion or position (bar on shoulders -> backpack straps; mug -> fan; same hand pose in two cities).",
+  "when": "Travel transformations, gym 'day 1 vs day 300', tech setup evolution. The most 'premium' looking transition.",
+  "sfx": [
+   "whoosh",
+   "swoosh-fast"
+  ],
+  "frames": "Hard cut (0 frames). Align the matching object to the same pixels (use overlay/opacity 50% to line up).",
+  "easing": "None (cut). If the object moves, the motion speed must match across the cut.",
+  "sfx_timing": "Optional soft whoosh peaking on the cut; often better with no SFX and a music downbeat.",
+  "capcut": "Overlay clip B over A at 50% opacity to align, then cut at the matching frame and reset opacity.",
+  "edits": "Edits: use 'Overlay' to line up, trim on the beat.",
+  "vn": "VN: PiP at 50% opacity to align, then cut.",
+  "filming": "Tripod and a framing guide: mark subject position on the phone screen (tape/grid). Same lens, same height, same distance. Shoot B right after A or film with the grid overlay on.",
+  "ffmpeg": "Plain concat at the frame index; check alignment with blend=all_mode=difference.",
+  "hyperframes": "Two scene clips back to back with data-start equal to the cut time; no block needed.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ]
+  }
+ },
+ {
+  "id": "object-mask-wipe",
+  "name": "Mask / object wipe (walk-past wipe)",
+  "what": "Something (a person, pole, door, hand, dumbbell) crosses the lens; the next shot is revealed behind its edge.",
+  "when": "Travel (people/pillars passing), gym (plate or dumbbell passing the lens), tech (laptop lid closing).",
+  "sfx": [
+   "whoosh",
+   "swoosh-fast"
+  ],
+  "frames": "8-15 frames as the object crosses. Cut at the frame the object fully covers the lens, or mask-track its edge.",
+  "easing": "Follows real motion; if you animate a mask, use ease-in-out.",
+  "sfx_timing": "Whoosh peak at full coverage frame.",
+  "capcut": "Overlay clip A over B; Mask > Linear/Split; keyframe the mask edge to follow the object every 2 frames (or use 'Remove background' on A).",
+  "edits": "Edits: 'Cutout' on the moving object and layer B under it.",
+  "vn": "VN: Mask (linear) with keyframes on the PiP layer.",
+  "filming": "Locked tripod. Have someone walk close past the lens (or swing a plate/towel across) at the end of A and the start of B, same direction.",
+  "ffmpeg": "Hard cut at the full-cover frame; for masked edges use alphamerge with a keyframed drawbox/geq mask.",
+  "hyperframes": "CSS clip-path inset animation following the object edge; `transitions-cover` gallery has cover/uncover patterns.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ]
+  }
+ },
+ {
+  "id": "j-cut",
+  "name": "J-cut",
+  "what": "Audio of the next clip starts before its picture ('J' shape on the timeline).",
+  "when": "Talking-head tech explainers, travel vlogs: hear the waves before you see the beach. Smooths every hard cut.",
+  "sfx": [],
+  "frames": "Lead the audio 8-20 frames (0.27-0.67 s) before the picture cut.",
+  "easing": "Fade the incoming audio up over 4-6 frames.",
+  "sfx_timing": "None; the incoming ambience/voice is the sound.",
+  "capcut": "Detach audio (Extract audio) from clip B, drag its start 10-15 frames earlier under clip A.",
+  "edits": "Edits: Detach audio, slide it earlier.",
+  "vn": "VN: Extract audio, move it left.",
+  "filming": "Record 2-3 s of room tone/ambience before every take and after. Use a lav mic so audio is clean enough to lead.",
+  "ffmpeg": "Delay video vs audio: adelay on clip B's audio is negative -> instead start B's audio earlier with atrim/asetpts, then amix with A's tail; or acrossfade=d=0.4 with B's audio offset.",
+  "hyperframes": "Place the audio element's data-start 0.3-0.6 s before the video's data-start.",
+  "sfx_files": {}
+ },
+ {
+  "id": "l-cut",
+  "name": "L-cut",
+  "what": "Audio of the outgoing clip continues over the next clip's picture.",
+  "when": "B-roll over voice (tech: keep talking over screen recording; gym: coach voice over the set).",
+  "sfx": [],
+  "frames": "Hold outgoing audio 10-30 frames into clip B.",
+  "easing": "Fade the trailing audio out over 6-10 frames if it doesn't end on a word.",
+  "sfx_timing": "None.",
+  "capcut": "Extract audio from A and extend it past the cut.",
+  "edits": "Edits: Detach audio, extend.",
+  "vn": "VN: Extract audio, extend right.",
+  "filming": "Shoot plenty of B-roll matching your script; leave 1 s of silence after lines.",
+  "ffmpeg": "Use the voice track as a separate input and overlay video segments on top (concat video, single continuous audio).",
+  "hyperframes": "Voice audio as one continuous element; video scenes cut under it.",
+  "sfx_files": {}
+ },
+ {
+  "id": "speed-ramp",
+  "name": "Speed ramp (velocity edit)",
+  "what": "Clip speeds up then slows (or vice versa) to land a moment on the beat in slow motion.",
+  "when": "Gym lifts (fast approach, slow-mo lockout), travel walks and drone shots, gaming clips; the phonk/velocity edit staple.",
+  "sfx": [
+   "whoosh",
+   "riser"
+  ],
+  "frames": "Fast section 300-500% for 10-20 frames, ramp down over 6-10 frames to 25-50% for the hero moment, ramp back up over 6 frames.",
+  "easing": "Bezier speed curve: ease-in into slow-mo, ease-out out of it (CapCut 'Curve > Custom' or 'Montage').",
+  "sfx_timing": "Whoosh peak on the moment speed drops; a sub hit on the first slow-mo frame.",
+  "capcut": "Speed > Curve > 'Montage'/'Hero time' or Custom with 4 points; enable 'Smooth slow-mo' (optical flow).",
+  "edits": "Edits: Speed > Curve presets.",
+  "vn": "VN: Speed > Curve with custom points.",
+  "filming": "Shoot 60 fps (or 120/240 for big slow-mo) at shutter 1/120+; keep the hero moment in the middle of the clip with 2 s before and after.",
+  "ffmpeg": "Split into segments with trim, setpts=PTS/4 (fast) and setpts=PTS*2 + minterpolate=fps=30 (slow), concat. Example: [0:v]trim=0:2,setpts=(PTS-STARTPTS)/4[a];[0:v]trim=2:3,setpts=(PTS-STARTPTS)*2[b];[a][b]concat=n=2:v=1",
+  "hyperframes": "Pre-render the ramp with ffmpeg (HyperFrames plays footage at fixed rate), then mount the clip.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "riser": [
+    "sfx/riser/inhouse-riser_inhouse_tonal_5s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_4s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_8s.mp3"
+   ]
+  }
+ },
+ {
+  "id": "glitch",
+  "name": "Glitch transition",
+  "what": "RGB split, block displacement and stutter for a few frames at the cut.",
+  "when": "Tech reviews, gaming, 'system error' jokes. Avoid in calm travel content.",
+  "sfx": [
+   "glitch"
+  ],
+  "frames": "4-8 frames total (2-4 each side of the cut). Stutter: repeat 1-2 frames twice.",
+  "easing": "None (stepped/random) - that's the point.",
+  "sfx_timing": "Glitch sound spans the effect; the loudest burst on the cut frame.",
+  "capcut": "Transitions > Glitch > 'Glitch' or 'Signal'; or Effects > Basic > 'Glitch' 0.2 s across the cut.",
+  "edits": "Edits: Effects > 'Glitch'.",
+  "vn": "VN: Effects > Glitch / RGB.",
+  "filming": "Nothing special; works best when both shots have contrast and edges.",
+  "ffmpeg": "Over the cut frames: rgbashift=rh=-12:bh=12, noise=alls=40:allf=t, and a stutter via select/loop; e.g. enable='between(t,T-0.07,T+0.07)' on rgbashift.",
+  "hyperframes": "Registry block `glitch` (shader transition) or `chromatic-radial-split`; `transitions-distortion` gallery.",
+  "sfx_files": {
+   "glitch": [
+    "sfx/glitch/inhouse-glitch_inhouse_stutter.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_data.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_zap.mp3"
+   ]
+  }
+ },
+ {
+  "id": "flash-white",
+  "name": "Flash / white dip",
+  "what": "Frame flashes to white (or a brightness spike) for 1-4 frames at the cut.",
+  "when": "Photo dumps, beat drops, before/after reveals, camera-shutter moments.",
+  "sfx": [
+   "camera-shutter",
+   "hit-impact"
+  ],
+  "frames": "1-2 frames of full white for a hard flash, or 4-6 frames fading 100%->0 for a dip.",
+  "easing": "Exit of flash: ease-out (fast fade). Don't hold white more than 2 frames (photosensitivity, and it looks cheap).",
+  "sfx_timing": "Shutter or hit exactly on the white frame.",
+  "capcut": "Transitions > Basic > 'Flash' 0.1-0.2 s, or insert a white Background clip of 2 frames.",
+  "edits": "Edits: Transitions > 'Flash'.",
+  "vn": "VN: Transition 'Flash white'.",
+  "filming": "Nothing special; works best on high-contrast cuts.",
+  "ffmpeg": "xfade=transition=fadewhite:duration=0.13:offset=T or eq=brightness=0.6:enable='between(t,T,T+0.066)'.",
+  "hyperframes": "Block `flash-through-white` or overlay `editorial-flash-overlay`. Use sparingly (the registry itself warns it is rarely a good neutral default).",
+  "sfx_files": {
+   "camera-shutter": [
+    "sfx/camera-shutter/oga-camera-photo.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_a.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_b.mp3"
+   ],
+   "hit-impact": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ]
+  }
+ },
+ {
+  "id": "spin",
+  "name": "Spin / rotation transition",
+  "what": "The frame rotates 90-360 degrees with blur into the next clip.",
+  "when": "Fun travel montages, gaming highlights, outfit/gear changes. Overuse = 2016 vibe.",
+  "sfx": [
+   "whoosh",
+   "swoosh-fast"
+  ],
+  "frames": "8-12 frames; cut at max rotational blur (frame 4-6).",
+  "easing": "Ease-in out of A, ease-out into B; add motion blur.",
+  "sfx_timing": "Whoosh peak at the cut.",
+  "capcut": "Transitions > Camera > 'Spin' / 'Rotate', 0.3 s; add Motion blur.",
+  "edits": "Edits: Transitions > 'Spin'.",
+  "vn": "VN: Transition 'Rotate', or keyframe Rotation.",
+  "filming": "Rotate the phone (roll) at the end of A and start of B in the same direction, gimbal off.",
+  "ffmpeg": "rotate='if(lt(t,T),0,PI*2*min((t-T)/0.3,1))':ow=iw:oh=ih with tmix for blur; or xfade=transition=radial.",
+  "hyperframes": "GSAP rotation tween on the scene container with filter:blur; `transitions-3d` gallery.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ]
+  }
+ },
+ {
+  "id": "light-leak",
+  "name": "Light leak / lens burn",
+  "what": "Warm orange light flare washes over the cut, film style.",
+  "when": "Travel, sunset, nostalgic recaps, cinematic intros. Not for tech tutorials.",
+  "sfx": [
+   "whoosh",
+   "riser"
+  ],
+  "frames": "12-24 frames; leak peaks on the cut.",
+  "easing": "Ease-in-out opacity (sine).",
+  "sfx_timing": "Soft whoosh or reverse swell peaking on the cut.",
+  "capcut": "Transitions > Light > 'Light leak' / Effects > 'Lens flare', 0.5-0.8 s. Or overlay a light-leak clip with blend 'Screen'.",
+  "edits": "Edits: Effects > 'Light leak'.",
+  "vn": "VN: Overlay a light-leak video in 'Screen' blend.",
+  "filming": "Shoot real leaks: point the phone near the sun/lamp and pan slowly; save as overlays.",
+  "ffmpeg": "Overlay a leak clip with blend=all_mode=screen, or a gradient: geq to make an orange radial and fade it with fade=in/out.",
+  "hyperframes": "Registry block `light-leak` (shader) or `transitions-light` gallery.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "riser": [
+    "sfx/riser/inhouse-riser_inhouse_tonal_5s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_4s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_8s.mp3"
+   ]
+  }
+ },
+ {
+  "id": "camera-shake",
+  "name": "Camera shake / impact shake",
+  "what": "Frame jitters for a few frames to sell an impact.",
+  "when": "Barbell drop, punchline, bass drop, memes (metal pipe, vine boom).",
+  "sfx": [
+   "hit-impact",
+   "bass-drop-boom",
+   "gym"
+  ],
+  "frames": "4-8 frames, amplitude 8-20 px decaying to 0 (half each frame).",
+  "easing": "Decaying (exponential) amplitude, random direction each frame.",
+  "sfx_timing": "Shake starts on the transient frame.",
+  "capcut": "Effects > Basic > 'Shake' 0.2 s, or keyframe Position (+12,-8,+6,-3,0).",
+  "edits": "Edits: Effects > 'Shake'.",
+  "vn": "VN: Effects > 'Shake'.",
+  "filming": "Shoot slightly wider so the shake doesn't show edges (or scale clip to 105%).",
+  "ffmpeg": "crop=iw-40:ih-40:x='20+15*sin(t*90)*exp(-(t-T)*12)*gte(t,T)':y='20+12*cos(t*77)*exp(-(t-T)*12)*gte(t,T)', then scale back.",
+  "hyperframes": "Component `camera-shake` (camera moves).",
+  "sfx_files": {
+   "hit-impact": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "bass-drop-boom": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ],
+   "gym": [
+    "sfx/gym/oga-75-cc0-breaking-falling-hit--bfh1_metal_falling_01.mp3",
+    "sfx/gym/oga-75-cc0-breaking-falling-hit--bfh1_metal_falling_02.mp3",
+    "sfx/gym/oga-75-cc0-breaking-falling-hit--bfh1_metal_falling_03.mp3"
+   ]
+  }
+ },
+ {
+  "id": "hand-cover",
+  "name": "Hand / palm cover transition",
+  "what": "Hand (or object) moves over the lens to cover it; next clip starts with the hand moving away.",
+  "when": "Outfit/gym changes, before/after, travel 'teleport'. Classic TikTok transition.",
+  "sfx": [
+   "whoosh",
+   "pop"
+  ],
+  "frames": "Cover over 6-10 frames, cut on the fully dark frame, uncover over 6-10 frames.",
+  "easing": "Natural motion; cut at the darkest frame.",
+  "sfx_timing": "Whoosh peak on the dark frame (or a pop when the new shot appears).",
+  "capcut": "Cut on the darkest frame; optionally add 'Blur' transition 0.1 s to hide differences.",
+  "edits": "Edits: trim on the darkest frame.",
+  "vn": "VN: trim at the darkest frame.",
+  "filming": "Tripod, locked. End A: palm to the lens. Start B: palm on lens, then pull away. Keep the same hand and direction.",
+  "ffmpeg": "Cut at the darkest frame: find with signalstats YAVG minimum, then concat.",
+  "hyperframes": "Plain cut between scenes at the computed frame.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "pop": [
+    "sfx/pop/oga-pop-sounds-pop4.mp3",
+    "sfx/pop/oga-pop-sounds-pop8.mp3",
+    "sfx/pop/oga-pop-effect-sounds-p_2.mp3"
+   ]
+  }
+ },
+ {
+  "id": "jump-through",
+  "name": "Jump-through / jump cut transition",
+  "what": "You jump (or step) toward the camera and land in a new place/outfit.",
+  "when": "Travel destinations, gym outfit reveals, 'POV' trends.",
+  "sfx": [
+   "whoosh",
+   "bass-drop-boom"
+  ],
+  "frames": "Cut at the jump apex (body blurred/closest); total motion 10-16 frames.",
+  "easing": "Follows real motion; add a 2-frame zoom punch on landing.",
+  "sfx_timing": "Whoosh rising into the apex; boom on landing frame.",
+  "capcut": "Cut at apex; add 'Pull in' transition 0.2 s.",
+  "edits": "Edits: Transitions > 'Zoom'.",
+  "vn": "VN: cut at apex, 'Zoom' transition.",
+  "filming": "Same framing in both places (tripod height marked). Jump the same way both times; shoot 60 fps.",
+  "ffmpeg": "Concat at apex frame; add zoom punch on landing (see zoom-punch).",
+  "hyperframes": "Cut + `cinematic-zoom` block for the blur.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "bass-drop-boom": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ]
+  }
+ },
+ {
+  "id": "rack-focus",
+  "name": "Rack focus",
+  "what": "Focus shifts from foreground to background (or vice versa) to redirect attention; can also hide a cut in the blur.",
+  "when": "Tech product shots (focus from cable to GPU), travel details (flower -> landscape), gym (chalk bowl -> lifter).",
+  "sfx": [
+   "whoosh"
+  ],
+  "frames": "15-30 frames for the pull; a cut can hide at the blurriest frame.",
+  "easing": "Ease-in-out (sine).",
+  "sfx_timing": "Very soft air whoosh, peak at the blurriest frame, or no SFX.",
+  "capcut": "Real rack focus is in camera; fake: keyframe 'Blur' effect 0->40->0 across the cut.",
+  "edits": "Edits: Effects > 'Blur' keyframes.",
+  "vn": "VN: Blur keyframes.",
+  "filming": "iPhone Cinematic mode (tap to change focus) or Blackmagic Cam/manual focus app; tripod; foreground subject 20-40 cm from lens.",
+  "ffmpeg": "gblur=sigma='...'(no per-frame expression); use boxblur with enable segments, or split/overlay with xfade=transition=hblur.",
+  "hyperframes": "CSS filter: blur() tween on the scene, `transitions-blur` gallery, component `blur-in`.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ]
+  }
+ },
+ {
+  "id": "split-reveal",
+  "name": "Split reveal / split screen",
+  "what": "Frame splits (vertical/horizontal/diagonal) to reveal the next shot, or shows two shots side by side.",
+  "when": "Before/after (gym progress, desk setup), comparisons (GPU A vs B), travel 'expectation vs reality'.",
+  "sfx": [
+   "swoosh-fast",
+   "whoosh",
+   "click-ui"
+  ],
+  "frames": "Split opens over 8-12 frames; panels hold; close over 6-8.",
+  "easing": "Ease-out on open with a 3% spring overshoot; ease-in on close.",
+  "sfx_timing": "Swoosh peak as panels reach position; click when each panel locks.",
+  "capcut": "Overlay + Mask > Split/Linear; keyframe mask position. Or Template 'Split screen'.",
+  "edits": "Edits: Layout > split.",
+  "vn": "VN: PiP + crop keyframes.",
+  "filming": "Same framing for both halves (tripod position marked), subject on one side of frame.",
+  "ffmpeg": "hstack/vstack for side-by-side; xfade=transition=vertopen / horzopen / diagtl for a reveal.",
+  "hyperframes": "Component `before-after-wipe`; `transitions-push` gallery.",
+  "sfx_files": {
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ],
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "click-ui": [
+    "sfx/click-ui/oga-10-clicks-and-switches-click.9.mp3",
+    "sfx/click-ui/oga-button-click-sound-effect-cc-qubodup-click2.mp3",
+    "sfx/click-ui/kenney-interface-tick_001.mp3"
+   ]
+  }
+ },
+ {
+  "id": "beat-sync-cut",
+  "name": "Beat-synced cut",
+  "what": "Cuts land exactly on beats (kick/snare) of the music.",
+  "when": "Montages: gym day, travel recap, setup tour. The backbone of most reels.",
+  "sfx": [],
+  "frames": "Cut on the beat frame; at 120 BPM a beat = 15 frames at 30 fps, 140 BPM = 12.86 frames (alternate 13/13/13/12).",
+  "easing": "N/A (cuts). Move cuts 1 frame EARLY so the picture change reads with the transient (perception lag).",
+  "sfx_timing": "The music is the SFX; add an accent hit only on the drop.",
+  "capcut": "Audio > Beat > Auto generate (or tap beats manually), clips snap to beat markers.",
+  "edits": "Edits: 'Beat sync' / auto-cut to music.",
+  "vn": "VN: Music > Beat markers > Snap.",
+  "filming": "Shoot 2-3x more clips than beats; short actions that complete within 1-2 beats.",
+  "ffmpeg": "Get beat times (earshot timeline gives a beat grid, or aubio/librosa), then trim segments to those frame indexes and concat.",
+  "hyperframes": "`npx hyperframes beats --json` gives hit times; set scene data-start to beat times; block `beat-freeze-cut`.",
+  "sfx_files": {}
+ },
+ {
+  "id": "smash-cut",
+  "name": "Smash cut",
+  "what": "Abrupt cut from a loud/calm moment to the opposite with no transition, often to silence.",
+  "when": "Comedy ('I'll just do one set' -> 3 hours later), expectation vs reality, hook openers.",
+  "sfx": [
+   "record-scratch",
+   "hit-impact"
+  ],
+  "frames": "0 frames. Cut audio and picture on the same frame; silence 6-15 frames is powerful.",
+  "easing": "None.",
+  "sfx_timing": "Optional record scratch ending on the cut, or kill all audio.",
+  "capcut": "Split, delete; no transition. Cut music at the same frame.",
+  "edits": "Edits: Split.",
+  "vn": "VN: Split.",
+  "filming": "Plan the contrast shot (quiet, static, deadpan face).",
+  "ffmpeg": "concat; ensure audio is cut at the same frame (afade=t=out:d=0.01 to avoid clicks).",
+  "hyperframes": "Plain cut; audio element ends at the cut time.",
+  "sfx_files": {
+   "record-scratch": [
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby.mp3",
+    "sfx/record-scratch/oga-scratch-vocal-sound-scroutch.mp3",
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby_fast.mp3"
+   ],
+   "hit-impact": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ]
+  }
+ },
+ {
+  "id": "freeze-frame",
+  "name": "Freeze frame + label",
+  "what": "Picture freezes for emphasis or to introduce a person/object with text.",
+  "when": "'That's me', gear callouts, meme punchlines, form-check pause in gym tutorials.",
+  "sfx": [
+   "record-scratch",
+   "camera-shutter",
+   "hit-impact"
+  ],
+  "frames": "Hold 20-60 frames; text animates in over 6-8 frames.",
+  "easing": "Text: ease-out with spring overshoot (UI feel).",
+  "sfx_timing": "Scratch/shutter/hit on the freeze frame.",
+  "capcut": "Edit > Freeze (creates a 3 s still), trim to length.",
+  "edits": "Edits: Freeze frame.",
+  "vn": "VN: Freeze frame.",
+  "filming": "Make sure the freeze frame is sharp: shoot at 1/120+ shutter for moving subjects.",
+  "ffmpeg": "tpad=stop_mode=clone:stop_duration=1 on the segment, or loop=loop=30:size=1:start=N.",
+  "hyperframes": "Block `beat-freeze-cut`; or a still image scene.",
+  "sfx_files": {
+   "record-scratch": [
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby.mp3",
+    "sfx/record-scratch/oga-scratch-vocal-sound-scroutch.mp3",
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby_fast.mp3"
+   ],
+   "camera-shutter": [
+    "sfx/camera-shutter/oga-camera-photo.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_a.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_b.mp3"
+   ],
+   "hit-impact": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ]
+  }
+ },
+ {
+  "id": "zoom-in-transition",
+  "name": "Zoom-in / zoom-through transition",
+  "what": "Zoom deep into a point of shot A (with blur) and emerge zoomed into shot B.",
+  "when": "Travel (zoom into window -> landscape), tech (zoom into screen -> UI), gaming (zoom into monitor -> gameplay).",
+  "sfx": [
+   "whoosh",
+   "riser"
+  ],
+  "frames": "10-16 frames; cut at max zoom/blur (middle).",
+  "easing": "Ease-in into the zoom, ease-out out of it.",
+  "sfx_timing": "Whoosh/riser peak on the cut.",
+  "capcut": "Transitions > Camera > 'Pull in' / 'Zoom in' 0.3-0.5 s.",
+  "edits": "Edits: Transitions > 'Zoom'.",
+  "vn": "VN: Transition 'Zoom'.",
+  "filming": "Frame a target point (screen, window, door) centred in A; start B centred on related content.",
+  "ffmpeg": "xfade=transition=zoomin:duration=0.4:offset=T (ffmpeg 6.1 has zoomin).",
+  "hyperframes": "Block `cinematic-zoom`; component `parallax-zoom`.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "riser": [
+    "sfx/riser/inhouse-riser_inhouse_tonal_5s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_4s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_8s.mp3"
+   ]
+  }
+ },
+ {
+  "id": "slide-push",
+  "name": "Slide / push",
+  "what": "Shot B pushes shot A out of frame (left/right/up).",
+  "when": "Lists ('3 things'), carousel-like tech comparisons, story chapters.",
+  "sfx": [
+   "swoosh-fast",
+   "whoosh"
+  ],
+  "frames": "8-12 frames.",
+  "easing": "Ease-in-out (cubic) or ease-out for a snappy UI feel.",
+  "sfx_timing": "Swoosh peak at mid-push.",
+  "capcut": "Transitions > Slide > 'Push left'.",
+  "edits": "Edits: Transitions > 'Slide'.",
+  "vn": "VN: Transition 'Push'.",
+  "filming": "Nothing special.",
+  "ffmpeg": "xfade=transition=slideleft (or smoothleft):duration=0.3:offset=T.",
+  "hyperframes": "`transitions-push` gallery (CSS/GSAP).",
+  "sfx_files": {
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ],
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ]
+  }
+ },
+ {
+  "id": "text-mask-reveal",
+  "name": "Text mask reveal",
+  "what": "Big text acts as a window into the next shot, then scales up to fill the frame.",
+  "when": "Travel destination titles ('BALI'), chapter cards, gym program names.",
+  "sfx": [
+   "whoosh",
+   "bass-drop-boom"
+  ],
+  "frames": "Text in 8 frames, hold 15-30, scale-through 10-15 frames.",
+  "easing": "Scale-through: ease-in (exponential) to feel like flying in.",
+  "sfx_timing": "Riser/whoosh into the scale-through, boom when the frame is fully open.",
+  "capcut": "Text > add text > use as Mask? CapCut: overlay video, Mask > 'Text' shape (or a text template 'video in text'), keyframe scale.",
+  "edits": "Edits: text with video fill template.",
+  "vn": "VN: Text mask (Pro).",
+  "filming": "Shot B should be wide and bright so it reads through letters.",
+  "ffmpeg": "Render text as alpha with drawtext on a black canvas, alphamerge with clip B, scale with expression, overlay on A.",
+  "hyperframes": "HTML text with background-clip:text over video, GSAP scale; kinetic type blocks in the registry.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ],
+   "bass-drop-boom": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ]
+  }
+ },
+ {
+  "id": "vhs-rewind",
+  "name": "VHS rewind",
+  "what": "Footage plays backwards fast with scanlines and tracking noise to 'go back in time'.",
+  "when": "'Let's rewind', redo a fail, explain how it started.",
+  "sfx": [
+   "rewind-tape-stop"
+  ],
+  "frames": "15-45 frames of reversed footage at 3-6x.",
+  "easing": "Speed ramps up over the first 6 frames.",
+  "sfx_timing": "Rewind sound spans it; a tape-stop/click at the end.",
+  "capcut": "Reverse the clip, speed 4x, Effects > Retro > 'VHS'.",
+  "edits": "Edits: Reverse + speed + 'VHS' effect.",
+  "vn": "VN: Reverse, Speed, VHS filter.",
+  "filming": "Normal footage; reversal works best on motion (walking, lifting).",
+  "ffmpeg": "reverse,setpts=PTS/4 on a trimmed segment, plus noise=alls=20:allf=t, eq=saturation=0.7, and a drawbox scanline overlay.",
+  "hyperframes": "`transitions-other` (VHS) gallery; pre-reverse footage with ffmpeg.",
+  "sfx_files": {
+   "rewind-tape-stop": [
+    "sfx/rewind-tape-stop/inhouse-tapestop_inhouse_hit.mp3",
+    "sfx/rewind-tape-stop/inhouse-tapestop_inhouse_sax.mp3",
+    "sfx/rewind-tape-stop/inhouse-rewind_inhouse_vhs.mp3"
+   ]
+  }
+ },
+ {
+  "id": "tape-stop-cut",
+  "name": "Tape stop cut",
+  "what": "Music slows to a halt as the picture freezes or cuts to a contrasting scene.",
+  "when": "Comedy breaks, 'wait what?' moments, ending a montage.",
+  "sfx": [
+   "rewind-tape-stop",
+   "record-scratch"
+  ],
+  "frames": "Slow-down 15-30 frames, then 6-12 frames of silence before the next beat.",
+  "easing": "Pitch/speed falls with ease-in (slow first, then drops).",
+  "sfx_timing": "Tape-stop starts 0.5-1 s before the freeze; ends on the freeze frame.",
+  "capcut": "Use the library tape-stop file under a cut music track; or Audio > Speed curve on music.",
+  "edits": "Edits: audio speed ramp (if available) or library SFX.",
+  "vn": "VN: audio speed keyframes.",
+  "filming": "Nothing special.",
+  "ffmpeg": "Library file overlapped with afade on the music; DIY: asetrate ramp isn't keyframeable - use the in-house synth.py tape stop (varispeed).",
+  "hyperframes": "Place the tape-stop audio, kill the music element at the same time.",
+  "sfx_files": {
+   "rewind-tape-stop": [
+    "sfx/rewind-tape-stop/inhouse-tapestop_inhouse_hit.mp3",
+    "sfx/rewind-tape-stop/inhouse-tapestop_inhouse_sax.mp3",
+    "sfx/rewind-tape-stop/inhouse-rewind_inhouse_vhs.mp3"
+   ],
+   "record-scratch": [
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby.mp3",
+    "sfx/record-scratch/oga-scratch-vocal-sound-scroutch.mp3",
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby_fast.mp3"
+   ]
+  }
+ },
+ {
+  "id": "morph-cut",
+  "name": "Morph cut / jump-cut smoothing",
+  "what": "Smooths a jump cut in a talking head so the speaker seems continuous.",
+  "when": "Tech talking heads with removed filler words.",
+  "sfx": [],
+  "frames": "6-10 frames.",
+  "easing": "N/A (optical flow).",
+  "sfx_timing": "None.",
+  "capcut": "CapCut desktop: Transitions > 'Morph' / 'Smooth' (or use zoom-punch alternation instead).",
+  "edits": "Edits: alternate 100%/115% zoom per cut instead.",
+  "vn": "VN: none - alternate zoom levels.",
+  "filming": "Tripod, consistent position; keep hands still between sentences.",
+  "ffmpeg": "minterpolate across a short xfade; often better: alternate scale 100%/110% on every other jump cut.",
+  "hyperframes": "Alternate scene scale between cuts.",
+  "sfx_files": {}
+ },
+ {
+  "id": "cross-dissolve",
+  "name": "Cross dissolve",
+  "what": "Gradual blend between shots.",
+  "when": "Time passing, calm travel sequences, emotional endings. Rare in fast reels.",
+  "sfx": [
+   "chime-success"
+  ],
+  "frames": "12-30 frames.",
+  "easing": "Linear opacity is acceptable; ease-in-out looks smoother.",
+  "sfx_timing": "Optional soft chime/ambience swell.",
+  "capcut": "Transitions > Basic > 'Mix', 0.5-1 s.",
+  "edits": "Edits: 'Dissolve'.",
+  "vn": "VN: 'Dissolve'.",
+  "filming": "Nothing special; static shots dissolve best.",
+  "ffmpeg": "xfade=transition=fade:duration=0.6:offset=T; audio acrossfade=d=0.6.",
+  "hyperframes": "`transitions-dissolve` gallery.",
+  "sfx_files": {
+   "chime-success": [
+    "sfx/chime-success/uisfx-glass-achievement.mp3",
+    "sfx/chime-success/uisfx-glass-success.mp3",
+    "sfx/chime-success/uisfx-studio-complete.mp3"
+   ]
+  }
+ },
+ {
+  "id": "blur-transition",
+  "name": "Blur transition",
+  "what": "Shot A blurs out while B blurs in.",
+  "when": "Dreamy travel, soft tech product shots, scene changes without energy.",
+  "sfx": [
+   "whoosh"
+  ],
+  "frames": "8-15 frames.",
+  "easing": "Ease-in-out.",
+  "sfx_timing": "Soft whoosh peak on the cut.",
+  "capcut": "Transitions > Blur > 'Blur'.",
+  "edits": "Edits: 'Blur'.",
+  "vn": "VN: 'Blur'.",
+  "filming": "Nothing special.",
+  "ffmpeg": "xfade=transition=hblur:duration=0.35:offset=T (or 'fadeblack' + boxblur).",
+  "hyperframes": "`transitions-blur` gallery; component `blur-in`.",
+  "sfx_files": {
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ]
+  }
+ },
+ {
+  "id": "swipe-up-ui",
+  "name": "UI swipe / card swipe (phone screen)",
+  "what": "New scene slides up like a phone screen/app card with a spring.",
+  "when": "Tech/app reviews, 'notes app' storytelling, captions as UI cards.",
+  "sfx": [
+   "swoosh-fast",
+   "click-ui",
+   "pop"
+  ],
+  "frames": "Slide 6-10 frames with a 2-4 frame overshoot settle.",
+  "easing": "Spring (overshoot 3-6%), as in iOS.",
+  "sfx_timing": "Click on touch frame, light swoosh during slide, pop on settle.",
+  "capcut": "Animation > In > 'Slide up' + keyframe overshoot; or Templates.",
+  "edits": "Edits: Animation 'Slide up'.",
+  "vn": "VN: Keyframe position with overshoot.",
+  "filming": "Screen recordings at 60 fps; record your finger taps with a second camera if showing hands.",
+  "ffmpeg": "overlay with y expression: y='H-(H)*min(1,(t-T)/0.25)' (add overshoot with a damped sine).",
+  "hyperframes": "GSAP with ease:'back.out(1.6)'; registry UI cards (`browser-device-stage`).",
+  "sfx_files": {
+   "swoosh-fast": [
+    "sfx/swoosh-fast/oga-3-melee-sounds-melee_sound.mp3",
+    "sfx/swoosh-fast/oga-swishes-sound-pack-swish-9.mp3",
+    "sfx/swoosh-fast/oga-3-melee-sounds-sword_sound.mp3"
+   ],
+   "click-ui": [
+    "sfx/click-ui/oga-10-clicks-and-switches-click.9.mp3",
+    "sfx/click-ui/oga-button-click-sound-effect-cc-qubodup-click2.mp3",
+    "sfx/click-ui/kenney-interface-tick_001.mp3"
+   ],
+   "pop": [
+    "sfx/pop/oga-pop-sounds-pop4.mp3",
+    "sfx/pop/oga-pop-sounds-pop8.mp3",
+    "sfx/pop/oga-pop-effect-sounds-p_2.mp3"
+   ]
+  }
+ },
+ {
+  "id": "counter-roll",
+  "name": "Number counter / stat roll",
+  "what": "Numbers count up (weight, price, FPS) with ticks, landing on the final value.",
+  "when": "Gym PR weights, PC benchmark FPS, travel budget totals.",
+  "sfx": [
+   "click-ui",
+   "gaming",
+   "chime-success",
+   "cash-register"
+  ],
+  "frames": "20-40 frames count, final value holds 30+ frames.",
+  "easing": "Ease-out (fast start, slow finish) so the final digits are readable.",
+  "sfx_timing": "Tick every 2-3 frames during count (slowing), chime/cash on the final value frame.",
+  "capcut": "Text templates 'counter'; or keyframe multiple text layers.",
+  "edits": "Edits: text templates.",
+  "vn": "VN: text keyframes.",
+  "filming": "Film the real display (bar, scale, FPS overlay) in focus as proof.",
+  "ffmpeg": "drawtext with text='%{eif\\:min(225\\,225*(t-T)/1)\\:d}' style expression.",
+  "hyperframes": "GSAP number tween (textContent snap), data-chart blocks.",
+  "sfx_files": {
+   "click-ui": [
+    "sfx/click-ui/oga-10-clicks-and-switches-click.9.mp3",
+    "sfx/click-ui/oga-button-click-sound-effect-cc-qubodup-click2.mp3",
+    "sfx/click-ui/kenney-interface-tick_001.mp3"
+   ],
+   "gaming": [
+    "sfx/gaming/oga-50-cc0-retro-synth-sfx-power_up_01.mp3",
+    "sfx/gaming/oga-50-cc0-retro-synth-sfx-power_up_04.mp3",
+    "sfx/gaming/oga-10-8bit-coin-sounds-coin2.mp3"
+   ],
+   "chime-success": [
+    "sfx/chime-success/uisfx-glass-achievement.mp3",
+    "sfx/chime-success/uisfx-glass-success.mp3",
+    "sfx/chime-success/uisfx-studio-complete.mp3"
+   ],
+   "cash-register": [
+    "sfx/cash-register/inhouse-register_inhouse_chaching.mp3",
+    "sfx/cash-register/oga-purchasing-sound-effect-snd_purchase_0.mp3",
+    "sfx/cash-register/oga-80-cc0-rpg-sfx-item_coins_04.mp3"
+   ]
+  }
+ },
+ {
+  "id": "photo-dump-shutter",
+  "name": "Photo-dump shutter sequence",
+  "what": "Rapid stills, each with a white flash and shutter, often on the beat.",
+  "when": "Travel trips, gym 'month recap', setup builds.",
+  "sfx": [
+   "camera-shutter"
+  ],
+  "frames": "6-10 frames per photo; 1-frame white flash on entry.",
+  "easing": "Optional 102%->100% scale settle (ease-out) per photo.",
+  "sfx_timing": "Shutter on each photo's first frame.",
+  "capcut": "Import photos, 0.3 s each, Beat sync; Transition 'Flash' 0.1 s.",
+  "edits": "Edits: Photo template; 'Flash'.",
+  "vn": "VN: photos 0.3 s + flash.",
+  "filming": "Shoot burst/Live Photos during the day.",
+  "ffmpeg": "Image concat demuxer with duration 0.3, then eq brightness flash on each boundary.",
+  "hyperframes": "Image scenes with data-start on beats; `editorial-flash-overlay`.",
+  "sfx_files": {
+   "camera-shutter": [
+    "sfx/camera-shutter/oga-camera-photo.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_a.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_b.mp3"
+   ]
+  }
+ },
+ {
+  "id": "iris-circle",
+  "name": "Iris / circle reveal",
+  "what": "Circle opens from (or closes to) a point, cartoon style.",
+  "when": "Comedic endings ('That's all folks' feel), gaming, focus on a detail.",
+  "sfx": [
+   "pop",
+   "whoosh"
+  ],
+  "frames": "10-15 frames.",
+  "easing": "Ease-in for close, ease-out for open.",
+  "sfx_timing": "Pop on full close; whoosh on open.",
+  "capcut": "Transitions > 'Circle' / Mask > Circle keyframes.",
+  "edits": "Edits: Mask circle.",
+  "vn": "VN: Mask circle.",
+  "filming": "Leave the subject's face where the iris will close.",
+  "ffmpeg": "xfade=transition=circleclose / circleopen:duration=0.4:offset=T.",
+  "hyperframes": "Block `sdf-iris`; `transitions-radial` gallery.",
+  "sfx_files": {
+   "pop": [
+    "sfx/pop/oga-pop-sounds-pop4.mp3",
+    "sfx/pop/oga-pop-sounds-pop8.mp3",
+    "sfx/pop/oga-pop-effect-sounds-p_2.mp3"
+   ],
+   "whoosh": [
+    "sfx/whoosh/inhouse-whoosh_inhouse_big_dark.mp3",
+    "sfx/whoosh/inhouse-whoosh_inhouse_air_soft.mp3",
+    "sfx/whoosh/oga-swishes-sound-pack-swish-5.mp3"
+   ]
+  }
+ },
+ {
+  "id": "pixelate",
+  "name": "Pixelate transition",
+  "what": "Picture breaks into big pixels and resolves into the next clip.",
+  "when": "Gaming content, retro/8-bit themes, tech.",
+  "sfx": [
+   "glitch",
+   "gaming"
+  ],
+  "frames": "8-12 frames.",
+  "easing": "Stepped (pixel size halves each 2 frames).",
+  "sfx_timing": "8-bit blip or glitch across the effect.",
+  "capcut": "Transitions > Glitch > 'Pixelate'/'Mosaic'.",
+  "edits": "Edits: 'Pixelate'.",
+  "vn": "VN: 'Mosaic'.",
+  "filming": "Nothing special.",
+  "ffmpeg": "xfade=transition=pixelize:duration=0.35:offset=T.",
+  "hyperframes": "Component `grid-pixelate-wipe`.",
+  "sfx_files": {
+   "glitch": [
+    "sfx/glitch/inhouse-glitch_inhouse_stutter.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_data.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_zap.mp3"
+   ],
+   "gaming": [
+    "sfx/gaming/oga-50-cc0-retro-synth-sfx-power_up_01.mp3",
+    "sfx/gaming/oga-50-cc0-retro-synth-sfx-power_up_04.mp3",
+    "sfx/gaming/oga-10-8bit-coin-sounds-coin2.mp3"
+   ]
+  }
+ }
+]

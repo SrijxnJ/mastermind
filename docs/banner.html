@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500&family=Instrument+Serif:ital@1&family=JetBrains+Mono&display=swap">
+<style>
+:root{--bg:#0a0c13;--fg:#ecebf4;--muted:#9aa0b6;--spark:#ffd27a;--c1:#ffb547;--c2:#5cc8ff;--c3:#b18cff;--c4:#4fd1b5;--c5:#ff7aa8}
+html,body{margin:0;background:var(--bg);color:var(--fg);font-family:'Instrument Sans',system-ui,sans-serif;overflow:hidden}
+.wrap{position:relative;width:1600px;height:640px;background:radial-gradient(900px 420px at 72% 50%,#171b2c 0%,#0a0c13 70%)}
+.wrap.social{width:1280px;height:640px}
+svg{position:absolute;inset:0}
+.txt{position:absolute;left:84px;top:150px;z-index:2}
+.social .txt{left:72px;top:140px}
+h1{font-family:Anton,Impact,sans-serif;font-size:132px;line-height:.92;margin:0;letter-spacing:.5px;text-transform:uppercase}
+h1 em{font-style:normal;color:var(--spark)}
+.tag{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:40px;color:#d9d7e6;margin:18px 0 0}
+.sub{font-size:19px;color:var(--muted);margin:16px 0 0;max-width:640px;line-height:1.45}
+.pills{display:flex;gap:10px;margin-top:30px}
+.pill{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;border:1px solid #2a3147;border-radius:999px;padding:8px 14px;color:#c9cbe0;background:rgba(16,19,29,.8)}
+.spec{position:absolute;left:0;right:0;bottom:0;height:8px;display:flex}
+.spec i{flex:1}
+</style>
+<body>
+<div class="wrap" id="wrap">
+<svg id="net" viewBox="0 0 1600 640" width="1600" height="640"></svg>
+<div class="txt">
+  <h1>Master <em>Mind</em></h1>
+  <p class="tag">Everything a creator learns, wired together.</p>
+  <p class="sub">An open-source second brain that turns Claude Code into your social media manager. 322 ideas, 183 style options, 12 decoded courses, 2,151 sounds. Local-first. No API keys.</p>
+  <div class="pills"><span class="pill">Claude Code</span><span class="pill">Local-first</span><span class="pill">MIT</span><span class="pill">Reels · Shorts · Carousels</span></div>
+</div>
+<div class="spec"><i style="background:#ffb547"></i><i style="background:#ffc861"></i><i style="background:#ffd27a"></i><i style="background:#5cc8ff"></i><i style="background:#7fd5ff"></i><i style="background:#b18cff"></i><i style="background:#4fd1b5"></i><i style="background:#ff5d73"></i><i style="background:#ff7aa8"></i><i style="background:#ff9ec0"></i></div>
+</div>
+<script>
+const social = location.hash === '#social';
+if (social) { document.getElementById('wrap').className = 'wrap social'; document.getElementById('net').setAttribute('viewBox','0 0 1280 640'); document.getElementById('net').setAttribute('width',1280); }
+const W = social ? 1280 : 1600, cx = social ? 980 : 1190, cy = 320;
+const cols = ['#ffb547','#5cc8ff','#b18cff','#4fd1b5','#ff7aa8'];
+let seed = 7; const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+const hubs = []; for (let i = 0; i < 5; i++) { const a = i / 5 * Math.PI * 2 + .6; hubs.push({x: cx + Math.cos(a) * 190, y: cy + Math.sin(a) * 150, c: cols[i]}); }
+const pts = [];
+hubs.forEach((h, hi) => { for (let j = 0; j < 34; j++) { const a = rnd() * Math.PI * 2, r = 30 + rnd() * rnd() * 170; pts.push({x: h.x + Math.cos(a) * r, y: h.y + Math.sin(a) * r * .8, c: h.c, r: 2 + rnd() * 4, hi}); } });
+let s = '';
+pts.forEach((p, i) => { for (let k = 0; k < 2; k++) { const q = pts[Math.floor(rnd() * pts.length)]; const d = Math.hypot(p.x - q.x, p.y - q.y); if (d < 150) s += `<line x1="${p.x}" y1="${p.y}" x2="${q.x}" y2="${q.y}" stroke="${p.c}" stroke-opacity="${(.5 - d / 300).toFixed(2)}" stroke-width="1"/>`; } });
+hubs.forEach((h, i) => { const n = hubs[(i + 2) % 5]; s += `<line x1="${h.x}" y1="${h.y}" x2="${n.x}" y2="${n.y}" stroke="${h.c}" stroke-opacity=".35" stroke-dasharray="4 6"/>`; });
+pts.forEach(p => s += `<circle cx="${p.x}" cy="${p.y}" r="${p.r}" fill="${p.c}" fill-opacity=".85"/>`);
+hubs.forEach(h => s += `<circle cx="${h.x}" cy="${h.y}" r="30" fill="${h.c}" fill-opacity=".18"/><circle cx="${h.x}" cy="${h.y}" r="17" fill="${h.c}"/>`);
+document.getElementById('net').innerHTML = s;
+</script>
+</body></html>

@@ -1,0 +1,1710 @@
+[
+ {
+  "id": "vine-boom",
+  "name": "Vine boom",
+  "group": "impact & reaction",
+  "sounds_like": "One deep, reverbed bass 'BOOM' (sub thump + tail), about 1.5 s.",
+  "meaning": "Realisation, shock, 'did he really just say that'. The universal punchline marker.",
+  "timing": "Transient lands ON the reaction/punchline frame (frame 0 of the face or text). Freeze or hold 8-12 frames (0.27-0.4 s) at 30 fps, then cut. Never let it run under speech.",
+  "visual": "Zoom punch to 115-120% in 2-3 frames (ease-out), optional 1-frame flash, freeze on the face, slight shake (2-4 px) for 4 frames.",
+  "niches": [
+   "gym",
+   "tech",
+   "gaming",
+   "travel",
+   "general"
+  ],
+  "risk": "Overused: one per video, max. Original sample is not CC0; the library boom is a similar-feel substitute, not the meme itself.",
+  "edits_search": "Instagram Edits > Audio > search \"vine boom\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"vine boom\"",
+  "cc0_in_library": {
+   "category": "bass-drop-boom",
+   "files": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ],
+   "closeness": "similar-feel substitute, NOT the vine boom sample",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "bruh",
+  "name": "Bruh",
+  "group": "impact & reaction",
+  "sounds_like": "Flat male voice saying 'bruh' (~0.6 s).",
+  "meaning": "Disappointment at something dumb (yours or someone else's).",
+  "timing": "Land 3-6 frames AFTER the fail frame so the fail reads first; hold a freeze 12-15 frames.",
+  "visual": "Freeze + slow 105% push-in; desaturate slightly.",
+  "niches": [
+   "gaming",
+   "gym",
+   "general"
+  ],
+  "risk": "Voice clip: no CC0 recreation in library (record your own 'bruh' - it is a word, not a copyrighted performance). Dated/cringe in 2026 if used straight; works best ironic.",
+  "edits_search": "Instagram Edits > Audio > search \"bruh\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"bruh\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "metal-pipe",
+  "name": "Metal pipe falling",
+  "group": "impact & reaction",
+  "sounds_like": "A loud, long, clangy steel pipe hitting concrete with ringing tail (~2 s).",
+  "meaning": "Absurd sudden fail; something falling that should not; chaos.",
+  "timing": "Transient exactly on the contact frame; let the ring play over 20-30 frames of freeze or slow-mo.",
+  "visual": "Hard camera shake 6-8 frames (8-12 px, decaying), no zoom.",
+  "niches": [
+   "gym",
+   "gaming",
+   "general"
+  ],
+  "risk": "Very loud: drop it 6 dB under your boom level. Gym plate clank in library is a real-recording alternative that fits gym content without the meme baggage.",
+  "edits_search": "Instagram Edits > Audio > search \"metal pipe\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"metal pipe falling\"",
+  "cc0_in_library": {
+   "category": "gym",
+   "files": [
+    "sfx/gym/oga-metal-impact-sounds-clink2.mp3",
+    "sfx/gym/oga-metal-impact-sounds-bing1.mp3",
+    "sfx/gym/oga-metal-impact-sounds-clink1_0.mp3"
+   ],
+   "closeness": "similar-feel metal clank, NOT the meme sample",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "emotional-damage",
+  "name": "\"Emotional damage!\" (Steven He)",
+  "group": "voice lines",
+  "sounds_like": "Shouted 'EMOTIONAL DAMAGE!' in an exaggerated accent (~1 s).",
+  "meaning": "A roast landed; someone got verbally destroyed.",
+  "timing": "Starts on the frame AFTER the insult finishes (no overlap with speech); freeze 20 frames.",
+  "visual": "Red tint flash 2 frames + zoom to 130% on the victim + shake.",
+  "niches": [
+   "gaming",
+   "tech",
+   "general"
+  ],
+  "risk": "Creator-owned voice clip: platform library only. Peak meme was 2021-22; reads dated, use sparingly or ironically.",
+  "edits_search": "Instagram Edits > Audio > search \"emotional damage\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"emotional damage\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "windows-xp-error",
+  "name": "Windows XP error / critical stop",
+  "group": "tech & UI",
+  "sounds_like": "Two-note 'ding-dunk' system error chime (~0.6 s).",
+  "meaning": "Something just broke: a bad take, a failed build, a wrong opinion.",
+  "timing": "On the frame a fake error dialog pops in; dialog scales 0->100% over 4 frames with a spring overshoot (105%).",
+  "visual": "Fake error dialog overlay (make your own, no Microsoft logo), 2-frame shake.",
+  "niches": [
+   "tech",
+   "gaming",
+   "general"
+  ],
+  "risk": "Microsoft-owned sound: in-app library only, never commit. Library ding is a generic substitute. Don't use the Windows logo/branding in the dialog.",
+  "edits_search": "Instagram Edits > Audio > search \"windows error\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"windows xp error\"",
+  "cc0_in_library": {
+   "category": "ui-error",
+   "files": [
+    "sfx/ui-error/kenney-interface-error_001.mp3",
+    "sfx/ui-error/kenney-interface-error_002.mp3",
+    "sfx/ui-error/kenney-interface-error_003.mp3"
+   ],
+   "closeness": "substitute error buzz",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "windows-xp-shutdown",
+  "name": "Windows XP shutdown",
+  "group": "tech & UI",
+  "sounds_like": "Descending 4-note chime (~2 s).",
+  "meaning": "Giving up, logging off, 'I'm done'.",
+  "timing": "Start the chime on the last frame of the scene and cut to black on its final note (~60 frames).",
+  "visual": "Screen-collapse (scale Y to 1 px then out) or simple fade to black.",
+  "niches": [
+   "tech",
+   "gaming"
+  ],
+  "risk": "Microsoft-owned; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"windows shutdown\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"windows xp shutdown\"",
+  "cc0_in_library": {
+   "category": "downlifter",
+   "files": [
+    "sfx/downlifter/inhouse-downlifter_inhouse_air_5s.mp3",
+    "sfx/downlifter/inhouse-downlifter_inhouse_noise_3s.mp3",
+    "sfx/downlifter/inhouse-downlifter_inhouse_tonal_3s.mp3"
+   ],
+   "closeness": "substitute",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "sad-violin",
+  "name": "Sad violin / world's smallest violin",
+  "group": "music stings",
+  "sounds_like": "Slow, over-emotional solo violin phrase (3-6 s).",
+  "meaning": "Mock sympathy; first-world problem.",
+  "timing": "Start on the 'sad' frame, duck everything else -12 dB, cut the violin hard at the next scene cut.",
+  "visual": "Slow push-in 100->108% over the whole clip, desaturate, optional rain overlay.",
+  "niches": [
+   "gym",
+   "tech",
+   "travel",
+   "general"
+  ],
+  "risk": "Many versions; use the in-app one. Overuse = cringe; best for genuinely petty moments (missed PR by 2.5 kg, flight delayed 20 min).",
+  "edits_search": "Instagram Edits > Audio > search \"sad violin\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"sad violin\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "record-scratch-freeze",
+  "name": "Record scratch + freeze ('Yep, that's me')",
+  "group": "impact & reaction",
+  "sounds_like": "Vinyl scratch stopping the music, then silence and a voiceover: 'Yep, that's me. You're probably wondering how I ended up in this situation.'",
+  "meaning": "Cold-open: start at the chaotic climax, then flash back.",
+  "timing": "Scratch ends on the freeze frame; music must stop on the same frame. Hold freeze 45-60 frames for the VO line, then hard cut to 'earlier' card.",
+  "visual": "Freeze-frame, slight desaturation, label/arrow pointing at you.",
+  "niches": [
+   "travel",
+   "gym",
+   "general"
+  ],
+  "risk": "Safe if you record the VO line yourself; the library scratch is CC0.",
+  "edits_search": "Instagram Edits > Audio > search \"record scratch\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"record scratch\"",
+  "cc0_in_library": {
+   "category": "record-scratch",
+   "files": [
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby.mp3",
+    "sfx/record-scratch/oga-scratch-vocal-sound-scroutch.mp3",
+    "sfx/record-scratch/inhouse-scratch_inhouse_baby_fast.mp3"
+   ],
+   "closeness": "CC0 scratch; record the VO line yourself",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "anime-wow",
+  "name": "Anime 'wow' / 'sugoi'",
+  "group": "voice lines",
+  "sounds_like": "High-pitched anime-girl 'wooow' (~1 s).",
+  "meaning": "Exaggerated amazement at something mundane.",
+  "timing": "Begin 2 frames before the reveal so the vowel peaks on the reveal frame.",
+  "visual": "Sparkle overlay, 110% zoom, pastel colour pop.",
+  "niches": [
+   "tech",
+   "gaming",
+   "travel"
+  ],
+  "risk": "Anime voice clips are copyrighted performances; in-app only. Can read as cringe in serious tech reviews.",
+  "edits_search": "Instagram Edits > Audio > search \"anime wow\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"anime wow\"",
+  "cc0_in_library": {
+   "category": "chime-success",
+   "files": [
+    "sfx/chime-success/uisfx-glass-achievement.mp3",
+    "sfx/chime-success/uisfx-glass-success.mp3",
+    "sfx/chime-success/uisfx-studio-complete.mp3"
+   ],
+   "closeness": "sparkle chime only (no voice)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "phonk-gigachad",
+  "name": "Phonk / Gigachad edit",
+  "group": "music formats",
+  "sounds_like": "Drift/Brazilian phonk: cowbell melody, distorted 808, Memphis vocal chops; or the slowed 'Gigachad theme' (Can You Feel My Heart).",
+  "meaning": "Aura, dominance, 'he's him'. Gym transformation and gaming highlight edits.",
+  "timing": "Cut every 1/2 beat in the build, then on the drop: hard cut to the hero shot exactly on the first kick; flash 1 frame; slow-mo after.",
+  "visual": "Black-and-white high-contrast grade, shake on kicks, velocity speed ramps, glow/bloom.",
+  "niches": [
+   "gym",
+   "gaming"
+  ],
+  "risk": "Music is copyrighted: only via in-app library. Business accounts get a restricted library (may not have it). Format is saturated; pair with real progress footage to avoid cringe.",
+  "edits_search": "Instagram Edits > Audio > search \"phonk\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"gigachad phonk\"",
+  "cc0_in_library": {
+   "category": "bass-drop-boom",
+   "files": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ],
+   "closeness": "boom for the drop only; the music must come from the app",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "aura-farming",
+  "name": "Aura farming / aura points",
+  "group": "music formats",
+  "sounds_like": "Slow guitar chords (viral 2024 cover of 'Imagine'/'Yesterday' meme audio) or the phonk track 'AURA' by Ogryzek.",
+  "meaning": "+1000 aura: calm flex, composure under pressure. '-500 aura' for a fail.",
+  "timing": "Text '+1000 aura' pops on the downbeat (4-frame scale-in with overshoot); hold until next bar.",
+  "visual": "Slow-mo walk, low angle, counter text '+aura' with pop SFX.",
+  "niches": [
+   "gym",
+   "gaming",
+   "travel",
+   "general"
+  ],
+  "risk": "Peaked 2024-25; still used in 2026 but stale. Music only via app.",
+  "edits_search": "Instagram Edits > Audio > search \"aura\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"aura edit phonk\"",
+  "cc0_in_library": {
+   "category": "pop",
+   "files": [
+    "sfx/pop/oga-pop-sounds-pop4.mp3",
+    "sfx/pop/oga-pop-sounds-pop8.mp3",
+    "sfx/pop/oga-pop-effect-sounds-p_2.mp3"
+   ],
+   "closeness": "pop for the '+aura' counter text only",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "stay-hard",
+  "name": "'Stay hard' (David Goggins)",
+  "group": "gym motivation",
+  "sounds_like": "Gravelly intense voice: 'Stay hard!' / 'Who's gonna carry the boats?'",
+  "meaning": "Discipline, no excuses; the grind.",
+  "timing": "Put the line at the START of the hardest rep or set (the grimace frame), not after. Music dips -10 dB for the line.",
+  "visual": "Black-and-white, grain, slow push-in, bold captions word-by-word.",
+  "niches": [
+   "gym"
+  ],
+  "risk": "Real person's voice: in-app only, never rip podcast audio. Overused in gym edits; a heartbeat bed + your own VO is a fresh alternative.",
+  "edits_search": "Instagram Edits > Audio > search \"stay hard goggins\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"goggins stay hard\"",
+  "cc0_in_library": {
+   "category": "heartbeat",
+   "files": [
+    "sfx/heartbeat/oga-heartbeat-sounds-heartbeat_fast_reverb.mp3",
+    "sfx/heartbeat/oga-heartbeat-sounds-heartbeat_slow_reverb.mp3",
+    "sfx/heartbeat/oga-heartbeat-sounds-heartbeat_fast_0.mp3"
+   ],
+   "closeness": "heartbeat bed + your own VO",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "light-weight-baby",
+  "name": "'Yeah buddy! Light weight baby!' (Ronnie Coleman)",
+  "group": "gym motivation",
+  "sounds_like": "Ronnie Coleman shouting 'YEAH BUDDY! LIGHT WEIGHT BABY!' / 'Ain't nothin' but a peanut'.",
+  "meaning": "Ironic hype on a heavy (or very light) lift.",
+  "timing": "'Yeah buddy' lands on the lockout frame of the rep; hold 15-20 frames.",
+  "visual": "Zoom punch on lockout, shake, text 'LIGHTWEIGHT'.",
+  "niches": [
+   "gym"
+  ],
+  "risk": "Real person's voice; in-app only. Works best ironic (on a 2.5 kg lateral raise).",
+  "edits_search": "Instagram Edits > Audio > search \"light weight baby\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"yeah buddy light weight\"",
+  "cc0_in_library": {
+   "category": "crowd-cheer-applause",
+   "files": [
+    "sfx/crowd-cheer-applause/oga-applause-in-a-large-hall-or--applause-clapping-church-crowd-immersive.mp3",
+    "sfx/crowd-cheer-applause/oga-well-done-Well_Done_CCBY3.mp3",
+    "sfx/crowd-cheer-applause/oga-oooooooooooooo-oooooooooo.mp3"
+   ],
+   "closeness": "crowd only; no voice",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "goku-power-up",
+  "name": "Super Saiyan power-up scream",
+  "group": "gym motivation",
+  "sounds_like": "Building energy hum + scream + aura crackle (~3-5 s).",
+  "meaning": "Gearing up for a max attempt; pre-workout kicking in.",
+  "timing": "Riser starts ~2 s before the unrack; the scream peaks on the unrack frame; cut to the lift.",
+  "visual": "Golden glow overlay, shake building over 30 frames, lightning flashes.",
+  "niches": [
+   "gym",
+   "gaming"
+  ],
+  "risk": "Dragon Ball audio is Toei-owned: in-app only. The library riser + your own yell is a clean recreation.",
+  "edits_search": "Instagram Edits > Audio > search \"power up\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"super saiyan power up\"",
+  "cc0_in_library": {
+   "category": "riser",
+   "files": [
+    "sfx/riser/inhouse-riser_inhouse_tonal_5s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_4s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_8s.mp3"
+   ],
+   "closeness": "riser substitute + your own yell",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "rocky-montage",
+  "name": "Training montage (Rocky / Eye of the Tiger)",
+  "group": "gym motivation",
+  "sounds_like": "Brass fanfare 'Gonna Fly Now' or 'Eye of the Tiger' riff.",
+  "meaning": "Classic progress montage; earnest or ironic.",
+  "timing": "Cut on every bar (4 beats); the final reveal (before/after) lands on the last brass hit.",
+  "visual": "Split-screen before/after, date stamps, 4:3 film look for irony.",
+  "niches": [
+   "gym"
+  ],
+  "risk": "Copyrighted songs; only via in-app music (availability varies by region/account type).",
+  "edits_search": "Instagram Edits > Audio > search \"Gonna Fly Now\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"Eye of the Tiger\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "zyzz-hardstyle",
+  "name": "Zyzz / aesthetics hardstyle",
+  "group": "gym motivation",
+  "sounds_like": "Euphoric hardstyle/trance lead, kicks at ~150 BPM.",
+  "meaning": "'We're all gonna make it' aesthetic physique culture.",
+  "timing": "Pose/flex changes on every 2nd kick; drop = shirt-off reveal or best-angle shot.",
+  "visual": "Flash on kicks, chromatic aberration, low-angle mirror shots.",
+  "niches": [
+   "gym"
+  ],
+  "risk": "Copyrighted music; respect the Zyzz legacy (avoid mocking). In-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"zyzz hardstyle\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"zyzz\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "nah-id-win",
+  "name": "'Nah, I'd win' (Gojo, JJK)",
+  "group": "voice lines",
+  "sounds_like": "Calm anime voice 'Nah, I'd win.' over tense strings.",
+  "meaning": "Confidence before facing something huge (a 3-plate deadlift, a boss, a 20-hour layover).",
+  "timing": "Line ends 4-6 frames before the cut to the challenge; hold a stare 20 frames.",
+  "visual": "Slow push-in on your face, subtitles, then smash cut to the attempt.",
+  "niches": [
+   "gym",
+   "gaming",
+   "travel"
+  ],
+  "risk": "Anime IP; in-app only. Peaked 2024; fine as ironic.",
+  "edits_search": "Instagram Edits > Audio > search \"nah id win\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"nah id win\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "let-him-cook",
+  "name": "'Let him cook'",
+  "group": "voice lines",
+  "sounds_like": "Voice line 'let him cook' / 'let him cook, let him cook' chant; often over a beat.",
+  "meaning": "Trust the process, he's onto something.",
+  "timing": "Line drops when someone tries to interrupt; continue the action underneath.",
+  "visual": "Chef emoji/flame overlay, slow-mo.",
+  "niches": [
+   "tech",
+   "gaming",
+   "gym",
+   "general"
+  ],
+  "risk": "Voice clip; in-app only. Slang aging.",
+  "edits_search": "Instagram Edits > Audio > search \"let him cook\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"let him cook\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "gta-wasted",
+  "name": "GTA 'Wasted'",
+  "group": "gaming",
+  "sounds_like": "Slow-mo whoosh, low drone, then a sting as red 'WASTED' text appears.",
+  "meaning": "Total failure / comic death.",
+  "timing": "Slow down to 30-40% speed over 6 frames on the fail, desaturate to grey over 15 frames, 'WASTED' text lands at frame ~20 with the sting; hold 45 frames.",
+  "visual": "Grey grade, slow-mo, red serif 'WASTED' text (use your own font, not Rockstar's pricedown asset).",
+  "niches": [
+   "gaming",
+   "gym",
+   "travel",
+   "general"
+  ],
+  "risk": "Rockstar-owned sound and look; in-app SFX only. Downlifter + boom from library recreates the feel legally.",
+  "edits_search": "Instagram Edits > Audio > search \"wasted\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"gta wasted\"",
+  "cc0_in_library": {
+   "category": "downlifter",
+   "files": [
+    "sfx/downlifter/inhouse-downlifter_inhouse_air_5s.mp3",
+    "sfx/downlifter/inhouse-downlifter_inhouse_noise_3s.mp3",
+    "sfx/downlifter/inhouse-downlifter_inhouse_tonal_3s.mp3"
+   ],
+   "closeness": "substitute: downlifter + Kenney 'game over' announcer clip",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "minecraft-oof",
+  "name": "Minecraft damage 'oof' / Roblox 'oof'",
+  "group": "gaming",
+  "sounds_like": "Short grunt 'oof' (~0.3 s).",
+  "meaning": "Small damage, mild pain, 'that hurt'.",
+  "timing": "On the contact frame (bump, dropped dumbbell on foot, stubbed toe).",
+  "visual": "Red flash 2 frames (damage tint), 3-frame shake.",
+  "niches": [
+   "gaming",
+   "gym",
+   "general"
+  ],
+  "risk": "Roblox replaced its 'oof' in 2022 after a licensing dispute (composer Tommy Tallarico); both are third-party IP. In-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"oof\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"minecraft oof\"",
+  "cc0_in_library": {
+   "category": "hit-impact",
+   "files": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "closeness": "substitute hit (no voice)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "mario-coin",
+  "name": "Mario coin",
+  "group": "gaming",
+  "sounds_like": "Two-note bright chiptune 'ba-ding' (~0.4 s).",
+  "meaning": "Small win, money saved, +1.",
+  "timing": "On the frame the item/price/rep counter appears; stack on each item in a list (min 6 frames apart).",
+  "visual": "Item pops up 8 px with a spring; coin icon or '+1'.",
+  "niches": [
+   "gaming",
+   "tech",
+   "travel",
+   "gym"
+  ],
+  "risk": "Nintendo IP: in-app only. Library 8-bit coin (CC0) is an original chiptune coin, not the Mario one; use it to stay safe.",
+  "edits_search": "Instagram Edits > Audio > search \"coin\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"mario coin\"",
+  "cc0_in_library": {
+   "category": "gaming",
+   "files": [
+    "sfx/gaming/oga-10-8bit-coin-sounds-coin2.mp3",
+    "sfx/gaming/oga-10-8bit-coin-sounds-coin3.mp3",
+    "sfx/gaming/oga-10-8bit-coin-sounds-coin1.mp3"
+   ],
+   "closeness": "original CC0 8-bit coins (not Nintendo's)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "level-up",
+  "name": "Level-up fanfare (RPG)",
+  "group": "gaming",
+  "sounds_like": "Ascending chiptune arpeggio / FF victory fanfare (~1-2 s).",
+  "meaning": "Progress, upgrade, new PR, new gear.",
+  "timing": "Arpeggio's last note lands on the reveal (new PB on the bar display / new GPU in the case).",
+  "visual": "'LEVEL UP' text with glow, particle burst, stat bars filling.",
+  "niches": [
+   "gaming",
+   "gym",
+   "tech"
+  ],
+  "risk": "Final Fantasy fanfare is Square Enix IP; use the library CC0 level-up instead.",
+  "edits_search": "Instagram Edits > Audio > search \"level up\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"level up\"",
+  "cc0_in_library": {
+   "category": "gaming",
+   "files": [
+    "sfx/gaming/oga-50-cc0-retro-synth-sfx-power_up_01.mp3",
+    "sfx/gaming/oga-50-cc0-retro-synth-sfx-power_up_04.mp3",
+    "sfx/gaming/kenney-music-jingles-jingles_NES05.mp3"
+   ],
+   "closeness": "original CC0 chiptune level-up/power-up (+ voice 'level up' in voice-announcer)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "mlg-hitmarker",
+  "name": "MLG hitmarker + airhorn",
+  "group": "gaming",
+  "sounds_like": "Sharp tick 'hitmarker' clicks + 3-burst air horn, dubstep wub.",
+  "meaning": "Ironic 'pro gamer' montage (MLG 2014 parody).",
+  "timing": "Hitmarker on each hit frame; airhorn bursts on the 3 beats after the play.",
+  "visual": "Hitmarker cross overlays, Doritos/Mountain Dew parody props, 'wow' text, shake.",
+  "niches": [
+   "gaming"
+  ],
+  "risk": "Deeply retro/ironic. Air horn is generic, but the CoD hitmarker is Activision audio; use a library click for the hitmarker.",
+  "edits_search": "Instagram Edits > Audio > search \"hitmarker\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"mlg hitmarker\"",
+  "cc0_in_library": {
+   "category": "click-ui",
+   "files": [
+    "sfx/click-ui/oga-10-clicks-and-switches-click.9.mp3",
+    "sfx/click-ui/oga-button-click-sound-effect-cc-qubodup-click2.mp3",
+    "sfx/click-ui/kenney-interface-tick_001.mp3"
+   ],
+   "closeness": "click as hitmarker",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "mission-failed",
+  "name": "'Mission failed, we'll get 'em next time'",
+  "group": "gaming",
+  "sounds_like": "Military voice line + failure sting (CoD MW2).",
+  "meaning": "Failed attempt, try again tomorrow.",
+  "timing": "After the fail, black overlay fades in over 10 frames, line plays, text centred.",
+  "visual": "Desaturated, 'MISSION FAILED' text, slow zoom-out.",
+  "niches": [
+   "gaming",
+   "gym"
+  ],
+  "risk": "Activision audio; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"mission failed\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"mission failed\"",
+  "cc0_in_library": {
+   "category": "voice-announcer",
+   "files": [
+    "sfx/voice-announcer/kenney-voiceover-pack-mission_failed-2.mp3",
+    "sfx/voice-announcer/kenney-voiceover-pack-mission_failed.mp3"
+   ],
+   "closeness": "CC0 voice line 'Mission failed' (Kenney), not the CoD actor",
+   "is_recreation": true
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "among-us-emergency",
+  "name": "Among Us emergency meeting / 'sus'",
+  "group": "gaming",
+  "sounds_like": "Alarm-like emergency meeting horn / 'dun-dun' imposter stinger.",
+  "meaning": "Someone is acting suspicious; betrayal.",
+  "timing": "Hit on the frame you catch the 'imposter' (friend skipping leg day, someone eating your fries).",
+  "visual": "Red 'EMERGENCY MEETING' text, red vignette pulse.",
+  "niches": [
+   "gaming",
+   "general"
+  ],
+  "risk": "Innersloth IP; in-app only. Dated (2020) unless ironic.",
+  "edits_search": "Instagram Edits > Audio > search \"among us\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"emergency meeting\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "zelda-secret",
+  "name": "Secret discovered / item get",
+  "group": "gaming",
+  "sounds_like": "Short ascending 'da-na-na-naaa' discovery jingle.",
+  "meaning": "Found something cool: a hidden cafe, a BIOS setting, a gym hack.",
+  "timing": "Jingle's final note on the reveal frame; raise item over head (literally) for 30 frames.",
+  "visual": "Hold item up, light rays overlay, text 'You found: ...'.",
+  "niches": [
+   "travel",
+   "tech",
+   "gaming"
+  ],
+  "risk": "Nintendo IP; in-app only. Library chime-success is the safe swap.",
+  "edits_search": "Instagram Edits > Audio > search \"secret discovered\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"zelda secret\"",
+  "cc0_in_library": {
+   "category": "chime-success",
+   "files": [
+    "sfx/chime-success/uisfx-glass-achievement.mp3",
+    "sfx/chime-success/uisfx-glass-success.mp3",
+    "sfx/chime-success/uisfx-studio-complete.mp3"
+   ],
+   "closeness": "substitute chime",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "ps1-startup",
+  "name": "PlayStation 1 / PS2 startup",
+  "group": "gaming",
+  "sounds_like": "Swelling synth pad + chime (PS1) / deep ambient (PS2).",
+  "meaning": "Nostalgia, boot-up, 'the setup is complete'.",
+  "timing": "Swell starts at frame 0, logo-like reveal of your setup at the chime.",
+  "visual": "Black screen to your desk setup, lens flare.",
+  "niches": [
+   "gaming",
+   "tech"
+  ],
+  "risk": "Sony-owned; in-app only. Don't show Sony logos.",
+  "edits_search": "Instagram Edits > Audio > search \"playstation startup\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"ps1 startup\"",
+  "cc0_in_library": {
+   "category": "riser",
+   "files": [
+    "sfx/riser/inhouse-riser_inhouse_tonal_5s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_4s.mp3",
+    "sfx/riser/inhouse-riser_inhouse_noise_8s.mp3"
+   ],
+   "closeness": "substitute swell",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "curb-outro",
+  "name": "Curb Your Enthusiasm outro ('Frolic')",
+  "group": "music stings",
+  "sounds_like": "Bouncy tuba + mandolin circus theme, starting abruptly.",
+  "meaning": "Awkward self-own ending; things went wrong in a comedic way.",
+  "timing": "Freeze on the most awkward frame, music starts on that exact frame, 'Directed by Robert B. Weide' credit fades up ~1 s in; total 3-5 s.",
+  "visual": "Freeze + slow zoom to 110% over 3 s, black-and-white optional, credits text.",
+  "niches": [
+   "gym",
+   "tech",
+   "travel",
+   "general"
+  ],
+  "risk": "Copyrighted composition (Luciano Michelini). In-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"curb your enthusiasm\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"curb your enthusiasm\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "spongebob-time-card",
+  "name": "SpongeBob time card ('A few moments later')",
+  "group": "music stings",
+  "sounds_like": "French-accented narrator: 'A few moments later...' / 'Two thousand years later...' with a ukulele sting.",
+  "meaning": "Time skip (waiting for a flight, food, a render, a rest timer).",
+  "timing": "Full-screen card 45-60 frames, hard cut in and out (no transition).",
+  "visual": "Bright text card in the SpongeBob style (use a similar font, not the logo).",
+  "niches": [
+   "travel",
+   "tech",
+   "gym",
+   "general"
+  ],
+  "risk": "Nickelodeon IP; in-app only. Very well known; best as a quick time-skip, not as the joke.",
+  "edits_search": "Instagram Edits > Audio > search \"a few moments later\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"few moments later\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "taco-bell-bong",
+  "name": "Taco Bell bong",
+  "group": "impact & reaction",
+  "sounds_like": "Big resonant bell-like 'BONG' with long decay.",
+  "meaning": "Dramatic emphasis on something stupid or suspicious.",
+  "timing": "On the punchline frame; freeze 15-20 frames; let the tail ring.",
+  "visual": "Zoom punch + freeze, no shake.",
+  "niches": [
+   "general",
+   "gaming"
+  ],
+  "risk": "Brand sound; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"taco bell bong\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"taco bell\"",
+  "cc0_in_library": {
+   "category": "bass-drop-boom",
+   "files": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ],
+   "closeness": "similar-feel substitute",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "fahhh",
+  "name": "'Fahhh'",
+  "group": "voice lines",
+  "sounds_like": "Strained, frustrated shout 'FAHHH!' (from streamer Taileons, viral on TikTok via football edits from Sept 2025).",
+  "meaning": "Missed it by THAT much: a near-miss, failed rep, missed shot, missed flight.",
+  "timing": "Shout starts on the miss frame (ball hits post, bar stalls); freeze or slow-mo for the shout (~25 frames).",
+  "visual": "Slow-mo replay, zoom on the near-miss, 'so close' text.",
+  "niches": [
+   "gym",
+   "gaming",
+   "general"
+  ],
+  "risk": "Creator's voice: in-app only. Peak trend late 2025: still recognisable in 2026 but fading; don't stack with other voice memes.",
+  "edits_search": "Instagram Edits > Audio > search \"fahhh\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"fahh\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "censor-beep",
+  "name": "Censor beep",
+  "group": "impact & reaction",
+  "sounds_like": "1 kHz sine beep.",
+  "meaning": "Covers a swear; also implies a swear for comedy.",
+  "timing": "Beep exactly spans the word (cut in on its first frame, out on its last); mute the original under it.",
+  "visual": "Black bar or pixelate over mouth for the same frames.",
+  "niches": [
+   "general",
+   "gym",
+   "gaming"
+  ],
+  "risk": "Safe (a sine tone is not copyrightable): generate with ffmpeg: ffmpeg -f lavfi -i sine=f=1000:d=0.5 -af volume=-12dB beep.wav.",
+  "edits_search": "Instagram Edits > Audio > search \"censor beep\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"censor beep\"",
+  "cc0_in_library": {
+   "category": "meme-cc0",
+   "files": [
+    "sfx/meme-cc0/inhouse-censor_beep_1khz.mp3"
+   ],
+   "closeness": "recreation (a 1 kHz beep is the real thing)",
+   "is_recreation": true
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "oh-no",
+  "name": "'Oh no, oh no, oh no no no no no'",
+  "group": "music stings",
+  "sounds_like": "Kreepa 'Oh No' song: chanted 'oh no' over a beat.",
+  "meaning": "Disaster about to happen; anticipation of a fail.",
+  "timing": "Start 1-1.5 s BEFORE the fail so the 'no no no' hits on it.",
+  "visual": "Slow-mo on approach, then real-speed fail.",
+  "niches": [
+   "gym",
+   "travel",
+   "general"
+  ],
+  "risk": "Copyrighted song; in-app only. Overused 2020-22.",
+  "edits_search": "Instagram Edits > Audio > search \"oh no oh no\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"oh no oh no no no\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "coffin-dance",
+  "name": "Coffin dance (Astronomia)",
+  "group": "music formats",
+  "sounds_like": "EDM track 'Astronomia' synth lead.",
+  "meaning": "Fatal fail, 'rest in peace'.",
+  "timing": "Cut to the coffin-dance segment on the first synth hit after the fail.",
+  "visual": "Pallbearers green-screen or just slow-mo of the fail.",
+  "niches": [
+   "gaming",
+   "general"
+  ],
+  "risk": "Copyrighted song; very dated (2020).",
+  "edits_search": "Instagram Edits > Audio > search \"coffin dance\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"astronomia\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "to-be-continued",
+  "name": "'To Be Continued' (Roundabout)",
+  "group": "music stings",
+  "sounds_like": "Yes - 'Roundabout' guitar intro, then freeze.",
+  "meaning": "Cliffhanger right before a disaster.",
+  "timing": "Song intro starts ~2 s before the fail; freeze on the frame before impact; sepia + 'To Be Continued' arrow slides in from the left over 8 frames.",
+  "visual": "Freeze, sepia grade, arrow graphic.",
+  "niches": [
+   "gym",
+   "travel",
+   "gaming",
+   "general"
+  ],
+  "risk": "Copyrighted song; in-app only. Also good as a part-1/part-2 hook.",
+  "edits_search": "Instagram Edits > Audio > search \"to be continued\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"to be continued\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "wilhelm-scream",
+  "name": "Wilhelm scream",
+  "group": "impact & reaction",
+  "sounds_like": "Classic film scream of a man falling.",
+  "meaning": "Cartoonish fall / someone 'dies' (wipeout).",
+  "timing": "Starts on the frame the person loses balance.",
+  "visual": "Slow-mo fall.",
+  "niches": [
+   "travel",
+   "gym",
+   "general"
+  ],
+  "risk": "Studio-owned recording (Warner); in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"wilhelm scream\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"wilhelm scream\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "crickets",
+  "name": "Crickets",
+  "group": "impact & reaction",
+  "sounds_like": "Night crickets chirping.",
+  "meaning": "Awkward silence, no one laughed, empty gym/no likes.",
+  "timing": "Cut all music; crickets for 45-60 frames over a static shot.",
+  "visual": "Static wide shot, tumbleweed optional.",
+  "niches": [
+   "general",
+   "tech",
+   "gym"
+  ],
+  "risk": "Generic nature sound; CC0 cricket recordings exist on Freesound (not in this library yet).",
+  "edits_search": "Instagram Edits > Audio > search \"crickets\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"crickets\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "rimshot",
+  "name": "Ba-dum-tss (rimshot)",
+  "group": "impact & reaction",
+  "sounds_like": "Drum fill: snare-snare-cymbal.",
+  "meaning": "Bad pun / dad joke.",
+  "timing": "Cymbal hit lands 6 frames after the punchline word.",
+  "visual": "Wink to camera, small zoom.",
+  "niches": [
+   "general",
+   "tech"
+  ],
+  "risk": "Generic; easy to record yourself. Cringe if the joke is not deliberately bad.",
+  "edits_search": "Instagram Edits > Audio > search \"ba dum tss\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"rimshot\"",
+  "cc0_in_library": {
+   "category": "meme-cc0",
+   "files": [
+    "sfx/meme-cc0/inhouse-rimshot_badumtss_inhouse.mp3"
+   ],
+   "closeness": "recreation (synthesized snare-snare-cymbal)",
+   "is_recreation": true
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "sad-trombone",
+  "name": "Sad trombone ('wah wah wah waaah')",
+  "group": "impact & reaction",
+  "sounds_like": "Descending 4-note muted trombone.",
+  "meaning": "Failure, game-show loss.",
+  "timing": "Last long note on the fail freeze, 60 frames total.",
+  "visual": "Freeze, desaturate.",
+  "niches": [
+   "gym",
+   "gaming",
+   "general"
+  ],
+  "risk": "Generic melody, but recordings are owned; in-app or record your own.",
+  "edits_search": "Instagram Edits > Audio > search \"sad trombone\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"sad trombone\"",
+  "cc0_in_library": {
+   "category": "meme-cc0",
+   "files": [
+    "sfx/meme-cc0/inhouse-sad_trombone_inhouse.mp3"
+   ],
+   "closeness": "recreation (synthesized from scratch, same 4-note motif)",
+   "is_recreation": true
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "airhorn",
+  "name": "Air horn",
+  "group": "impact & reaction",
+  "sounds_like": "Stadium air horn blasts.",
+  "meaning": "Hype, celebration, MLG irony.",
+  "timing": "Bursts on the beat right after the win, 3 x 8 frames.",
+  "visual": "Shake, confetti.",
+  "niches": [
+   "gaming",
+   "gym"
+  ],
+  "risk": "Ear-fatiguing; keep it 6 dB under the boom level.",
+  "edits_search": "Instagram Edits > Audio > search \"air horn\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"mlg air horn\"",
+  "cc0_in_library": {
+   "category": "crowd-cheer-applause",
+   "files": [
+    "sfx/crowd-cheer-applause/oga-applause-in-a-large-hall-or--applause-clapping-church-crowd-immersive.mp3",
+    "sfx/crowd-cheer-applause/oga-well-done-Well_Done_CCBY3.mp3",
+    "sfx/crowd-cheer-applause/oga-oooooooooooooo-oooooooooo.mp3"
+   ],
+   "closeness": "crowd substitute (no CC0 air horn passed QA)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "bonk",
+  "name": "Bonk",
+  "group": "impact & reaction",
+  "sounds_like": "Hollow cartoon wood/plastic 'bonk'.",
+  "meaning": "Smack for a bad thought ('go to horny jail', 'stop it').",
+  "timing": "On contact frame; 3-frame squash on the target.",
+  "visual": "Cheems/dog meme bat, squash-and-stretch.",
+  "niches": [
+   "general",
+   "gaming"
+  ],
+  "risk": "Generic sound; library hit-impact (CC0) is a usable recreation.",
+  "edits_search": "Instagram Edits > Audio > search \"bonk\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"bonk\"",
+  "cc0_in_library": {
+   "category": "hit-impact",
+   "files": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "closeness": "similar-feel CC0 hit",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "boing",
+  "name": "Cartoon boing / slide whistle",
+  "group": "impact & reaction",
+  "sounds_like": "Spring 'boing' or rising/falling slide whistle.",
+  "meaning": "Silly bounce, sudden jump, things falling over.",
+  "timing": "Boing on the bounce apex; slide whistle spans the fall (start on loss of balance, end on landing).",
+  "visual": "Squash and stretch, bounce ease.",
+  "niches": [
+   "general",
+   "travel"
+  ],
+  "risk": "Cringe in serious content.",
+  "edits_search": "Instagram Edits > Audio > search \"boing\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"cartoon boing\"",
+  "cc0_in_library": {
+   "category": "pop",
+   "files": [
+    "sfx/pop/oga-pop-sounds-pop4.mp3",
+    "sfx/pop/oga-pop-sounds-pop8.mp3",
+    "sfx/pop/oga-pop-effect-sounds-p_2.mp3"
+   ],
+   "closeness": "pop substitute",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "dun-dun-dun",
+  "name": "Dramatic 'dun dun DUNNN'",
+  "group": "music stings",
+  "sounds_like": "Three dramatic orchestral/organ hits.",
+  "meaning": "Shocking reveal (dramatic chipmunk).",
+  "timing": "Three hits on three zooms: 100->115->130->150%, 8 frames apart, ending on the reveal.",
+  "visual": "Triple zoom punch on the face.",
+  "niches": [
+   "general",
+   "gym",
+   "tech"
+  ],
+  "risk": "Generic; library impacts can rebuild it.",
+  "edits_search": "Instagram Edits > Audio > search \"dun dun dun\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"dramatic sound\"",
+  "cc0_in_library": {
+   "category": "hit-impact",
+   "files": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "closeness": "build from 3 CC0 hits",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "law-and-order",
+  "name": "Law & Order 'dun-dun'",
+  "group": "music stings",
+  "sounds_like": "Two heavy metallic 'DUN DUN' clanks.",
+  "meaning": "Case closed / scene change with gravity.",
+  "timing": "Over a black card with a location/time stamp; 2 hits 10 frames apart.",
+  "visual": "White typewriter text on black: 'GYM - 06:03 AM'.",
+  "niches": [
+   "travel",
+   "gym",
+   "general"
+  ],
+  "risk": "NBC-owned; in-app only. Library gym clank + boom makes a legal version.",
+  "edits_search": "Instagram Edits > Audio > search \"law and order\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"law and order\"",
+  "cc0_in_library": {
+   "category": "gym",
+   "files": [
+    "sfx/gym/oga-metal-impact-sounds-clink2.mp3",
+    "sfx/gym/oga-metal-impact-sounds-bing1.mp3",
+    "sfx/gym/oga-metal-impact-sounds-clink1_0.mp3"
+   ],
+   "closeness": "build from 2 metal clanks",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "jeopardy-think",
+  "name": "Jeopardy 'Think!' music / Kahoot lobby",
+  "group": "music stings",
+  "sounds_like": "30-s game show countdown tune / Kahoot lobby loop.",
+  "meaning": "Waiting, thinking, loading.",
+  "timing": "Under a time-lapse of waiting (render bar, queue, rest timer). Cut on any bar line.",
+  "visual": "Countdown timer overlay, fast-forward.",
+  "niches": [
+   "tech",
+   "gym",
+   "travel"
+  ],
+  "risk": "Copyrighted; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"jeopardy\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"jeopardy think music\"",
+  "cc0_in_library": {
+   "category": "typing",
+   "files": [
+    "sfx/typing/oga-keyboard-soundpack-1-typing--generated-003_slow.mp3",
+    "sfx/typing/oga-keyboard-soundpack-1-typing--generated-004_medium.mp3",
+    "sfx/typing/oga-typing-soundeffect-typing_0.mp3"
+   ],
+   "closeness": "weak substitute (waiting bed)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "wii-shop",
+  "name": "Wii Shop / Mii Channel music",
+  "group": "music formats",
+  "sounds_like": "Chill bossa-nova muzak.",
+  "meaning": "Calm browsing, shopping, waiting; ironic calm in chaos.",
+  "timing": "Loop under shopping/building montage, duck -20 dB under voice.",
+  "visual": "Cozy shots, setup tour.",
+  "niches": [
+   "tech",
+   "gaming"
+  ],
+  "risk": "Nintendo IP; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"wii shop\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"wii shop channel\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "hello-darkness",
+  "name": "'Hello darkness, my old friend'",
+  "group": "music stings",
+  "sounds_like": "Opening line of 'The Sound of Silence'.",
+  "meaning": "Sad realisation / back to the grind.",
+  "timing": "Start on the realisation frame; slow zoom; fade to black.",
+  "visual": "Dim lighting, slow push.",
+  "niches": [
+   "general",
+   "gym",
+   "tech"
+  ],
+  "risk": "Copyrighted song; dated.",
+  "edits_search": "Instagram Edits > Audio > search \"hello darkness my old friend\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"sound of silence\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "owen-wilson-wow",
+  "name": "Owen Wilson 'wow'",
+  "group": "voice lines",
+  "sounds_like": "Drawn-out 'woooow'.",
+  "meaning": "Unimpressed/impressed sarcasm.",
+  "timing": "On the reveal; hold 20 frames.",
+  "visual": "Static reaction.",
+  "niches": [
+   "tech",
+   "travel",
+   "general"
+  ],
+  "risk": "Film audio; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"owen wilson wow\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"wow owen wilson\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "rizz",
+  "name": "Rizz sound ('boing' + eyebrow)",
+  "group": "voice lines",
+  "sounds_like": "A wobbling 'bwomp/boing' with a pitch bend (the TikTok 'rizz' effect).",
+  "meaning": "Smooth flirt / smooth move.",
+  "timing": "On the eyebrow raise / smooth line; 1 per video.",
+  "visual": "Eyebrow raise, wink, zoom to 115%.",
+  "niches": [
+   "general",
+   "gaming"
+  ],
+  "risk": "Slang aging; cringe risk high for gym/tech audiences.",
+  "edits_search": "Instagram Edits > Audio > search \"rizz\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"rizz sound effect\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "cat-laughing",
+  "name": "Cat laughing / 'huh' cat",
+  "group": "voice lines",
+  "sounds_like": "Looped cartoonish laugh / one confused 'huh?'.",
+  "meaning": "Laughing at a fail / confusion.",
+  "timing": "'Huh' on the frame the confusing thing is shown; laugh 12 frames after a fail.",
+  "visual": "Cat cut-in (green screen) or just reaction.",
+  "niches": [
+   "general",
+   "gaming",
+   "tech"
+  ],
+  "risk": "Trending 2024-26 in TikTok soundboard lists; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"cat laughing\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"huh cat\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "yippee",
+  "name": "'Yippee!'",
+  "group": "voice lines",
+  "sounds_like": "Tiny high-pitched creature cheering 'yippee!'.",
+  "meaning": "Wholesome tiny win.",
+  "timing": "On the success frame (bar locks out, package arrives, flight boards).",
+  "visual": "Confetti burst, tiny bounce.",
+  "niches": [
+   "general",
+   "gym",
+   "travel"
+  ],
+  "risk": "Popular in 2025-26 meme soundboards; in-app only.",
+  "edits_search": "Instagram Edits > Audio > search \"yippee\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"yippee\"",
+  "cc0_in_library": {
+   "category": "chime-success",
+   "files": [
+    "sfx/chime-success/uisfx-glass-achievement.mp3",
+    "sfx/chime-success/uisfx-glass-success.mp3",
+    "sfx/chime-success/uisfx-studio-complete.mp3"
+   ],
+   "closeness": "chime only (no voice)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "sheesh",
+  "name": "'Sheesh'",
+  "group": "voice lines",
+  "sounds_like": "Drawn-out 'sheeeesh'.",
+  "meaning": "Impressed (a big lift, a clean build).",
+  "timing": "Start on the reveal, let it run over a slow pan (~1.5 s).",
+  "visual": "Slow pan over the build/physique.",
+  "niches": [
+   "gym",
+   "tech",
+   "gaming"
+  ],
+  "risk": "Peaked 2021; record your own for authenticity.",
+  "edits_search": "Instagram Edits > Audio > search \"sheesh\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"sheesh\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "nani",
+  "name": "'Omae wa mou shindeiru... NANI?!'",
+  "group": "voice lines",
+  "sounds_like": "Calm Japanese line followed by a shocked 'NANI?!'.",
+  "meaning": "You're already finished; shocked reaction.",
+  "timing": "Calm line over a stare, 'NANI' on the hard zoom punch.",
+  "visual": "Zoom punch + red flash.",
+  "niches": [
+   "gaming",
+   "gym"
+  ],
+  "risk": "Anime IP; dated.",
+  "edits_search": "Instagram Edits > Audio > search \"nani\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"omae wa mou shindeiru\"",
+  "cc0_in_library": {
+   "category": "hit-impact",
+   "files": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "closeness": "hit for the zoom punch only",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "directed-by",
+  "name": "'Directed by Robert B. Weide'",
+  "group": "music stings",
+  "sounds_like": "Same as Curb outro.",
+  "meaning": "End-credit self-own.",
+  "timing": "Use with the Curb outro: credit text 1 s after the freeze.",
+  "visual": "White text on black.",
+  "niches": [
+   "general"
+  ],
+  "risk": "See curb-outro.",
+  "edits_search": "Instagram Edits > Audio > search \"directed by robert b weide\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"directed by robert b weide\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "dial-up",
+  "name": "Dial-up modem",
+  "group": "tech & UI",
+  "sounds_like": "56k modem handshake screech (~5-20 s, use 2 s).",
+  "meaning": "Slow internet, old tech, 'loading...'.",
+  "timing": "Over a frozen loading bar; cut at a screech peak.",
+  "visual": "Loading spinner, pixelated image loading top-down.",
+  "niches": [
+   "tech",
+   "travel"
+  ],
+  "risk": "Recordings of real modems on Wikimedia Commons are often PD/CC; check the file page.",
+  "edits_search": "Instagram Edits > Audio > search \"dial up\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"dial up internet\"",
+  "cc0_in_library": {
+   "category": "glitch",
+   "files": [
+    "sfx/glitch/inhouse-glitch_inhouse_stutter.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_data.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_zap.mp3"
+   ],
+   "closeness": "weak substitute",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "im-in",
+  "name": "Hacker 'I'm in'",
+  "group": "tech & UI",
+  "sounds_like": "Fast typing bed + a deadpan 'I'm in.'",
+  "meaning": "Breaking into something trivial (BIOS, router settings, a jar lid).",
+  "timing": "Typing for 30-60 frames, 'I'm in' on the frame the screen changes, then 1 click.",
+  "visual": "Green terminal text, hoodie, dark room.",
+  "niches": [
+   "tech",
+   "gaming"
+  ],
+  "risk": "Safe if you voice it yourself.",
+  "edits_search": "Instagram Edits > Audio > search \"hacker typing\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"keyboard typing\"",
+  "cc0_in_library": {
+   "category": "typing",
+   "files": [
+    "sfx/typing/oga-keyboard-soundpack-1-typing--generated-003_slow.mp3",
+    "sfx/typing/oga-keyboard-soundpack-1-typing--generated-004_medium.mp3",
+    "sfx/typing/oga-typing-soundeffect-typing_0.mp3"
+   ],
+   "closeness": "CC0 typing bed; voice the line yourself",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "mac-startup",
+  "name": "Startup chime (Mac / Windows boot)",
+  "group": "tech & UI",
+  "sounds_like": "Big C-major chord 'bong' (Mac) or ambient Windows startup swell.",
+  "meaning": "New build boots / first power-on.",
+  "timing": "Chime on the exact frame the RGB/monitor turns on.",
+  "visual": "Black to lit setup, bloom.",
+  "niches": [
+   "tech",
+   "gaming"
+  ],
+  "risk": "Apple/Microsoft-owned sounds; in-app only. Library chime-success is a safe substitute.",
+  "edits_search": "Instagram Edits > Audio > search \"startup sound\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"mac startup\"",
+  "cc0_in_library": {
+   "category": "chime-success",
+   "files": [
+    "sfx/chime-success/uisfx-glass-achievement.mp3",
+    "sfx/chime-success/uisfx-glass-success.mp3",
+    "sfx/chime-success/uisfx-studio-complete.mp3"
+   ],
+   "closeness": "substitute chime",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "notification-ping",
+  "name": "Fake phone notification / message ping",
+  "group": "tech & UI",
+  "sounds_like": "Short 'ding'/'tri-tone' message notification.",
+  "meaning": "A text/DM arrives (from your gym bro, your mom, the airline).",
+  "timing": "Notification banner slides down over 5 frames (ease-out) with the ding on its first frame.",
+  "visual": "Custom banner (no Apple/WhatsApp branding).",
+  "niches": [
+   "tech",
+   "travel",
+   "gym",
+   "general"
+  ],
+  "risk": "Avoid real iPhone tri-tone (Apple-owned). Library dings are CC0.",
+  "edits_search": "Instagram Edits > Audio > search \"notification\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"notification\"",
+  "cc0_in_library": {
+   "category": "notification-ding",
+   "files": [
+    "sfx/notification-ding/oga-alertnotification-sound-alert.mp3",
+    "sfx/notification-ding/uisfx-studio-notification.mp3",
+    "sfx/notification-ding/kenney-interface-confirmation_001.mp3"
+   ],
+   "closeness": "CC0 equivalent (no Apple/WhatsApp tones)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "cash-register",
+  "name": "Cha-ching cash register",
+  "group": "impact & reaction",
+  "sounds_like": "Register bell + drawer open.",
+  "meaning": "Money spent/saved, deal found, 'that's expensive'.",
+  "timing": "On the price-tag reveal frame.",
+  "visual": "Price text pops in with spring overshoot.",
+  "niches": [
+   "tech",
+   "travel",
+   "gym"
+  ],
+  "risk": "Library has CC0 versions; safe.",
+  "edits_search": "Instagram Edits > Audio > search \"cash register\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"ka ching\"",
+  "cc0_in_library": {
+   "category": "cash-register",
+   "files": [
+    "sfx/cash-register/inhouse-register_inhouse_chaching.mp3",
+    "sfx/cash-register/oga-purchasing-sound-effect-snd_purchase_0.mp3",
+    "sfx/cash-register/oga-80-cc0-rpg-sfx-item_coins_04.mp3"
+   ],
+   "closeness": "CC0 equivalent",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "heartbeat-tension",
+  "name": "Heartbeat tension",
+  "group": "impact & reaction",
+  "sounds_like": "Slow 'lub-dub' heartbeat, speeding up.",
+  "meaning": "Nerves before a max attempt, landing approach, unboxing price.",
+  "timing": "Beat interval shrinks toward the moment; silence on the moment itself (1 frame before the action), then hit.",
+  "visual": "Vignette pulse on each beat (2-frame 103% scale).",
+  "niches": [
+   "gym",
+   "travel",
+   "tech"
+  ],
+  "risk": "Library has CC0 heartbeat; safe.",
+  "edits_search": "Instagram Edits > Audio > search \"heartbeat\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"heartbeat\"",
+  "cc0_in_library": {
+   "category": "heartbeat",
+   "files": [
+    "sfx/heartbeat/oga-heartbeat-sounds-heartbeat_fast_reverb.mp3",
+    "sfx/heartbeat/oga-heartbeat-sounds-heartbeat_slow_reverb.mp3",
+    "sfx/heartbeat/oga-heartbeat-sounds-heartbeat_fast_0.mp3"
+   ],
+   "closeness": "CC0 equivalent",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "crowd-cheer",
+  "name": "Crowd cheer / sitcom applause",
+  "group": "impact & reaction",
+  "sounds_like": "Stadium crowd roar or studio audience applause.",
+  "meaning": "Celebration (ironic for small wins).",
+  "timing": "Start on the success frame, fade out over 30 frames.",
+  "visual": "Slow-mo, confetti.",
+  "niches": [
+   "gym",
+   "gaming",
+   "general"
+  ],
+  "risk": "Library has CC0 crowd recordings; safe.",
+  "edits_search": "Instagram Edits > Audio > search \"crowd cheer\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"applause\"",
+  "cc0_in_library": {
+   "category": "crowd-cheer-applause",
+   "files": [
+    "sfx/crowd-cheer-applause/oga-applause-in-a-large-hall-or--applause-clapping-church-crowd-immersive.mp3",
+    "sfx/crowd-cheer-applause/oga-well-done-Well_Done_CCBY3.mp3",
+    "sfx/crowd-cheer-applause/oga-oooooooooooooo-oooooooooo.mp3"
+   ],
+   "closeness": "CC0 equivalent",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "airplane-chime",
+  "name": "Airplane cabin chime (seatbelt 'bing-bong')",
+  "group": "travel",
+  "sounds_like": "Two-tone cabin PA chime.",
+  "meaning": "Departure/arrival, 'we are now landing', new chapter.",
+  "timing": "On the cut to the window/wing shot; second tone on the title card.",
+  "visual": "Plane window, location title slides in.",
+  "niches": [
+   "travel"
+  ],
+  "risk": "Record it on your own flight (your recording = your copyright) or use the library ding.",
+  "edits_search": "Instagram Edits > Audio > search \"airplane chime\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"seatbelt sign\"",
+  "cc0_in_library": {
+   "category": "notification-ding",
+   "files": [
+    "sfx/notification-ding/oga-alertnotification-sound-alert.mp3",
+    "sfx/notification-ding/uisfx-studio-notification.mp3",
+    "sfx/notification-ding/kenney-interface-confirmation_001.mp3"
+   ],
+   "closeness": "similar-feel CC0 ding",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "suitcase-transition",
+  "name": "'Where to next?' passport stamp / suitcase zip",
+  "group": "travel",
+  "sounds_like": "Stamp thud + zip.",
+  "meaning": "Trip announcement, next destination.",
+  "timing": "Stamp thud on the frame the destination text slams in.",
+  "visual": "Passport stamp graphic, map zoom.",
+  "niches": [
+   "travel"
+  ],
+  "risk": "Generic foley; easy to record on your own.",
+  "edits_search": "Instagram Edits > Audio > search \"stamp\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"stamp\"",
+  "cc0_in_library": {
+   "category": "hit-impact",
+   "files": [
+    "sfx/hit-impact/oga-thwack-sounds-thwack-07.mp3",
+    "sfx/hit-impact/oga-thwack-sounds-thwack-03.mp3",
+    "sfx/hit-impact/oga-75-cc0-breaking-falling-hit--bfh1_hit_08.mp3"
+   ],
+   "closeness": "CC0 thud",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "camera-shutter-snap",
+  "name": "Camera shutter 'photo dump'",
+  "group": "travel",
+  "sounds_like": "Mechanical shutter click.",
+  "meaning": "Photo dump / still frame / 'snapshot'.",
+  "timing": "Each still flashes white for 1 frame with the shutter on that frame; 6-10 frames per photo on the beat.",
+  "visual": "White flash + still frame + polaroid border.",
+  "niches": [
+   "travel",
+   "tech",
+   "gym"
+  ],
+  "risk": "Library has CC0 shutters; safe.",
+  "edits_search": "Instagram Edits > Audio > search \"camera shutter\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"camera shutter\"",
+  "cc0_in_library": {
+   "category": "camera-shutter",
+   "files": [
+    "sfx/camera-shutter/oga-camera-photo.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_a.mp3",
+    "sfx/camera-shutter/inhouse-shutter_inhouse_mech_b.mp3"
+   ],
+   "closeness": "CC0 equivalent",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "rewind-tape",
+  "name": "VHS rewind 'let's go back'",
+  "group": "impact & reaction",
+  "sounds_like": "Tape rewind squeal / tape-stop.",
+  "meaning": "Let's rewind to how this started / redo.",
+  "timing": "Reverse the clip at 3-4x for 15-30 frames with the rewind sound; tape-stop on the last frame before a reset.",
+  "visual": "VHS overlay, scanlines, '<< REW' text.",
+  "niches": [
+   "general",
+   "tech",
+   "gym",
+   "travel"
+  ],
+  "risk": "Library has CC0; safe.",
+  "edits_search": "Instagram Edits > Audio > search \"rewind\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"vhs rewind\"",
+  "cc0_in_library": {
+   "category": "rewind-tape-stop",
+   "files": [
+    "sfx/rewind-tape-stop/inhouse-tapestop_inhouse_hit.mp3",
+    "sfx/rewind-tape-stop/inhouse-tapestop_inhouse_sax.mp3",
+    "sfx/rewind-tape-stop/inhouse-rewind_inhouse_vhs.mp3"
+   ],
+   "closeness": "CC0 equivalent (in-house tape stop / VHS rewind)",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "glitch-error",
+  "name": "Glitch / data corruption",
+  "group": "tech & UI",
+  "sounds_like": "Digital stutter/buzz.",
+  "meaning": "System malfunction, brain lag, mind blown.",
+  "timing": "Glitch spans 4-8 frames at the cut point.",
+  "visual": "RGB split + block displacement for 4-8 frames.",
+  "niches": [
+   "tech",
+   "gaming"
+  ],
+  "risk": "Library CC0; safe.",
+  "edits_search": "Instagram Edits > Audio > search \"glitch\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"glitch\"",
+  "cc0_in_library": {
+   "category": "glitch",
+   "files": [
+    "sfx/glitch/inhouse-glitch_inhouse_stutter.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_data.mp3",
+    "sfx/glitch/inhouse-glitch_inhouse_zap.mp3"
+   ],
+   "closeness": "CC0 equivalent",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "chill-guy",
+  "name": "'Just a chill guy' lo-fi",
+  "group": "music formats",
+  "sounds_like": "Mellow lo-fi/jazzy piano loop (the 'my new character' chill guy trend).",
+  "meaning": "Unbothered calm while chaos happens.",
+  "timing": "Bed at -22 dB under VO, text 'just a chill guy' as the hook in frame 0.",
+  "visual": "Calm static shots, you doing nothing during chaos.",
+  "niches": [
+   "general",
+   "travel",
+   "gaming"
+  ],
+  "risk": "Peaked late 2024-25; character art is the artist's copyright (Phillip Banks) - don't use the drawing.",
+  "edits_search": "Instagram Edits > Audio > search \"chill guy\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"chill guy\"",
+  "cc0_in_library": null,
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "sigma-stare",
+  "name": "Sigma stare / 'Rizzler' bass boosted",
+  "group": "music formats",
+  "sounds_like": "Slowed, bass-boosted track + reverbed bass hit as the stare starts.",
+  "meaning": "Ironic 'sigma male' persona.",
+  "timing": "Bass hit on the frame the stare begins; zoom 100->120% over 30 frames.",
+  "visual": "Black-and-white, stare into lens.",
+  "niches": [
+   "gym",
+   "gaming"
+  ],
+  "risk": "High cringe risk with 20-30 audiences outside ironic gaming; avoid in serious tech content.",
+  "edits_search": "Instagram Edits > Audio > search \"sigma\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"sigma bass boosted\"",
+  "cc0_in_library": {
+   "category": "bass-drop-boom",
+   "files": [
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_000.mp3",
+    "sfx/bass-drop-boom/oga-muffled-distant-explosion-NenadSimic_-_Muffled_Distant_Explosion.mp3",
+    "sfx/bass-drop-boom/kenney-sci-fi-lowFrequency_explosion_001.mp3"
+   ],
+   "closeness": "similar-feel substitute",
+   "is_recreation": false
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "flawless-victory",
+  "name": "'Flawless victory' (Mortal Kombat announcer)",
+  "group": "gaming",
+  "sounds_like": "Deep announcer voice: 'Flawless victory.'",
+  "meaning": "Total domination with zero damage: perfect set, perfect build, perfect trip.",
+  "timing": "Line starts on the final frame of the win (last rep locked, last cable tied); freeze 30-45 frames under it.",
+  "visual": "Freeze, desaturate the loser/background, gold text 'FLAWLESS VICTORY'.",
+  "niches": [
+   "gaming",
+   "gym"
+  ],
+  "risk": "The MK line is Warner Bros. IP: in-app only. The Kenney CC0 'flawless victory' voice line in this library is a legal stand-in.",
+  "edits_search": "Instagram Edits > Audio > search \"flawless victory\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"flawless victory\"",
+  "cc0_in_library": {
+   "category": "voice-announcer",
+   "files": [
+    "sfx/voice-announcer/kenney-voiceover-pack-fighter-flawless_victory.mp3"
+   ],
+   "closeness": "CC0 voice line 'Flawless victory' (Kenney fighter pack)",
+   "is_recreation": true
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ },
+ {
+  "id": "combo-breaker",
+  "name": "'C-C-C-COMBO BREAKER' (Killer Instinct)",
+  "group": "gaming",
+  "sounds_like": "Hyped announcer stutter 'C-C-C-COMBO BREAKER!'",
+  "meaning": "Someone interrupts your streak/flow (phone call mid-set, mom mid-game).",
+  "timing": "On the frame of the interruption; 2-3 quick zoom punches on the stutter syllables (6 frames apart).",
+  "visual": "Stutter zooms + shake, red flash.",
+  "niches": [
+   "gaming",
+   "gym"
+  ],
+  "risk": "Killer Instinct line is Microsoft/Rare IP: in-app only. Kenney CC0 'combo breaker' (no stutter) is in the library; stutter it yourself by repeating the first 80 ms 3 times.",
+  "edits_search": "Instagram Edits > Audio > search \"combo breaker\" (Sound effects tab for SFX, Music tab for songs)",
+  "capcut_search": "CapCut > Audio > Sound effects (or Sounds) > search \"combo breaker\"",
+  "cc0_in_library": {
+   "category": "voice-announcer",
+   "files": [
+    "sfx/voice-announcer/kenney-voiceover-pack-fighter-combo.mp3",
+    "sfx/voice-announcer/kenney-voiceover-pack-fighter-combo_breaker.mp3"
+   ],
+   "closeness": "CC0 voice line 'Combo breaker' (Kenney fighter pack)",
+   "is_recreation": true
+  },
+  "legal_route": "Use the in-app library (licensed for use inside the app) or the CC0 file listed; never rip from YouTube/TikTok/myinstants."
+ }
+]

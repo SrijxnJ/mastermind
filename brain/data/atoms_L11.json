@@ -1,0 +1,301 @@
+{
+ "source": {
+  "id": "L11",
+  "title": "Fill-in-the-blank hook templates: Expertise, Warning, Desire, Promise (+ Challenge, Ranking, List)",
+  "creator": "Adam Kelada (@adam.kelada.media)",
+  "url": "https://www.instagram.com/p/DeJ8N6lIaLm/",
+  "kind": "ig-reel",
+  "file": "lessons/11_viral-hook-templates.md",
+  "summary": "Seven hook templates with blanks, each followed by a real viral reel that used it and its view count. New to the Brain: Expertise ('3 years of [niche] in 60 seconds'), Warning ('Never start a [X] if you don't have these [Y] things'), Desire ('This is exactly what you want to see when you're [X]') and Promise ('If you take [B] every single day you're going to [X], [Y] and [Z]'); plus a template-bank hook method and a template-then-example teaching format."
+ },
+ "atoms": [
+  {
+   "id": "l11-expertise-hook",
+   "title": "Expertise hook: years of niche in 60 seconds",
+   "text": "Template: \"[N years] of [niche] in [60 seconds]\". A big time investment, the topic and a tiny time cost in one line: authority without saying 'I'm an expert', plus a compression promise (my years, your minute). Context and lean land together. Reel's example: \"3 years of therapy in 60 seconds\" (on-screen '3 years of Therapy in 1 minute', pill 40.5M).",
+   "how": "Say it in the first second with the number and the niche as on-screen text. Follow with a fast blitz of the condensed lessons. Use Srijan's real number: \"[4] saal ka gym trauma, 60 seconds mein.\" / \"[2,000] hours of Counter-Strike in 60 seconds.\"",
+   "topic": "hooks",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C7"
+   ],
+   "evidence": "stated",
+   "quote": "3 years of niche in 60 seconds."
+  },
+  {
+   "id": "l11-warning-hook",
+   "title": "Warning hook: never start X without these N things",
+   "text": "Template: \"Never start a [X] if you don't have these [Y] things\". A prohibition on a big action the viewer is considering, gated by a counted checklist. Loss aversion plus an open loop (which things? do I have them?); unlike a pure 'don't buy X' debunk it ends with something useful. Reel's example: \"Never start a business if you don't have these 4 things\" (number tiles 1-2-3-4, red '4 THINGS', pill 339K).",
+   "how": "Pick an action your viewer is about to take (bulk, build a PC, start ranked). Give 3–4 real items, each with a one-line reason; number them on screen with tiles or n/4 badges. \"Never build a gaming PC if you don't have these 4 things.\"",
+   "topic": "hooks",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C15"
+   ],
+   "evidence": "stated",
+   "quote": "Never start a business if you don't have these 4 things."
+  },
+  {
+   "id": "l11-desire-hook",
+   "title": "Desire hook: this is exactly what you want to see",
+   "text": "Template: \"This is exactly what you want to see when you're [situation]\". 'This' points at a visual of the ideal outcome; the situation lets the right viewer self-select. The spoken context arrives at the end of the sentence, so the visual must carry it from frame 1. Reel's example: \"This is exactly what you want to see when you're buying an industrial prop[erty]\" over an aerial warehouse shot with a map pin (pill 3.6M).",
+   "how": "Open on the proof shot (clean second-hand GPU, FPS counter jumping, shoulder cap in the mirror) and say the line over it; add the situation as text on frame 1 so the context is not late. A snapback line works after it for the funny version.",
+   "topic": "hooks",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C35"
+   ],
+   "evidence": "stated",
+   "quote": "This is exactly what you want to see when you're buying an industrial prop[erty]."
+  },
+  {
+   "id": "l11-promise-hook",
+   "title": "Promise hook: daily habit, three payoffs",
+   "text": "Template: \"If you [do B] every single day, you're going to [X], [Y] and [Z]\". A tiny repeatable habit, 'every single day', then three concrete outcomes (rule of three). Each outcome is another reason to care. Reel's example: \"If you take creatine every single day, you're going to build more muscle, recover faster, and get way more out of all the hard work that you're putting in in the gym\" (pill 28M, the reel's biggest example).",
+   "how": "Keep each payoff concrete and true (no invented percentages). Make the third payoff the funny one for Srijan: \"…aur Sunday ki biryani guilt-free ho jaayegi.\" Pop the three payoffs as text one by one.",
+   "topic": "hooks",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "gym",
+    "tech",
+    "gaming",
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C7"
+   ],
+   "evidence": "stated",
+   "quote": "If you take B every single day, you're going to X, Y, and Z."
+  },
+  {
+   "id": "l11-hook-template-bank",
+   "title": "Hook template bank (fill in the blanks)",
+   "text": "Hooks as reusable fill-in templates with blanks ([X], [Y], [niche]) harvested from proven viral reels, each kept with its proof (the example reel and its views). Pick a template, fill the blanks for your niche. A third hook method next to the engineered triple hook (L01) and 'say something crazy' (L08). Adam sells the full bank as a lead magnet: '100+ Proven Viral Hook Templates'.",
+   "how": "Keep a swipe file: template | example reel link | views | niche. Before scripting, fill 3 templates for the idea and pick the strongest; then replace generic words with Srijan's own numbers and self-roast so it passes 'can nobody else say it' (C34).",
+   "topic": "hooks",
+   "stage": "idea",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short",
+    "carousel"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C34",
+    "C17"
+   ],
+   "evidence": "stated",
+   "quote": "7 hooks that'll always work"
+  },
+  {
+   "id": "l11-classic-hook-templates",
+   "title": "Challenge, ranking and list templates",
+   "text": "The three classic templates spelled out: Challenge \"I'm going to [X] for [Y] days straight\" (example: study 8 hours, 5 days straight, 4.9M); Ranking \"Rating [X] so you don't waste your [Y]\" (example: rating supplements so you don't waste your money, S–F tier board, 4.7M); List \"These are the 5 best ways to use [X]\" (example: sound effects, 1.9M). Each carries a hard number or names what the viewer saves.",
+   "how": "Challenge: \"Main 30 din roz 100 push-ups karunga.\" Ranking: \"Rating every ₹1,500 gaming mouse so you don't waste your salary.\" List: \"5 best ways to use your purana laptop.\" Use a day counter, tier board or n/5 badges.",
+   "topic": "hooks",
+   "stage": "script",
+   "formats": [
+    "reel30",
+    "reel60",
+    "reel90",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C3",
+    "C20"
+   ],
+   "evidence": "stated",
+   "quote": "Rating X so you don't waste your Y."
+  },
+  {
+   "id": "l11-template-then-example",
+   "title": "Teaching format: template card, then a real example",
+   "text": "Each item = a template card (~2–3 s: numbered badge, the template typing on with blanks in yellow) followed by a real viral reel that used it (~2–3.5 s, full-frame with its own audio and a view-count pill). 7 pairs in 49.6 s; 48% of the runtime is other creators' clips.",
+   "how": "For a 'N hooks / N edits / N settings' reel: say the pattern, then show one proof clip, ideally your own (reduces the C31 originality risk). Cut on the last word of the template; keep the same seated shot for every card so the examples feel like inserts.",
+   "topic": "editing",
+   "stage": "edit",
+   "formats": [
+    "reel30",
+    "reel60",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C31"
+   ],
+   "evidence": "observed",
+   "quote": "This is exactly what you want to see when you're X."
+  },
+  {
+   "id": "l11-view-count-proof-pill",
+   "title": "View-count pill on every example",
+   "text": "A dark rounded pill with an eye icon and the example's views (40.5M, 339K, 4.9M, 4.7M, 1.9M, 3.6M, 28M) sits lower-centre on every borrowed clip, so each claim arrives with proof. The numbers are the creator's overlay, not verified.",
+   "how": "When citing any result (your old reel, a benchmark, a lift), show the number in a small dark pill with an icon; HyperFrames card or a CapCut text box with rounded background.",
+   "topic": "effects",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "yt-short",
+    "carousel"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": ""
+  },
+  {
+   "id": "l11-template-card-typography",
+   "title": "Template card type: badge + hand-lettered text, yellow blanks",
+   "text": "A dark translucent pill badge (yellow ring number + condensed sans label, e.g. '1 Expertise Hook') with a thin rule under it, then the template typing on word by word in a casual hand-lettered font with a white glow; blanks [X] [Y] [niche] in yellow-orange with glow. Centred at ~64% height on his chest.",
+   "how": "Use for any 'formula' or 'template' line: casual hand font (Patrick Hand / Gaegu-like) for the template, yellow for the blanks, numbered badge above. Type-on synced to Whisper word timings.",
+   "topic": "text",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": ""
+  },
+  {
+   "id": "l11-toc-intro",
+   "title": "Visual table of contents in the first 2 s",
+   "text": "0–2 s: a blur-in and a 30% eased punch-out while a frosted-glass numbered list of all 7 hook names scrolls up above his head and '7HOOK' (heavy rounded red neon sans + white script 'that'll always work') sits on his chest. The viewer sees the whole menu (and the count) before the first item.",
+   "how": "For list reels, flash the numbered menu of items in the first 1–2 s (glass cards scrolling up) under the spoken title; it is the visual form of a promised-list open loop.",
+   "topic": "hooks",
+   "stage": "graphics",
+   "formats": [
+    "reel30",
+    "reel60",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [],
+   "evidence": "observed",
+   "quote": "7 hooks that'll always work"
+  },
+  {
+   "id": "l11-lead-magnet-recap-cta",
+   "title": "Lead-magnet CTA over a recap strip",
+   "text": "CTA: \"If you want a list of 100 proven viral hooks just like these, comment the word hook and I'll send them to you for free\", over a sideways-scrolling strip of every example clip, '100 PROVEN VIRAL HOOKS' and a glowing yellow 'HOOK'. Caption: '(No emails)'. Result at download: 5,564 comments on 8,070 likes.",
+   "how": "Offer the bigger version of what the reel taught (e.g. '50 gym hooks', 'my full PC settings list'), recap the reel's examples in a scrolling strip under the CTA, and say what they will NOT have to do ('no email').",
+   "topic": "growth",
+   "stage": "publish",
+   "formats": [
+    "reel30",
+    "reel60",
+    "yt-short"
+   ],
+   "niches": [
+    "all"
+   ],
+   "sources": [
+    "L11"
+   ],
+   "clashes": [
+    "C1",
+    "C23"
+   ],
+   "evidence": "observed",
+   "quote": "comment the word hook and I'll send them to you for free"
+  }
+ ],
+ "clashes": [
+  {
+   "id": "C34",
+   "topic": "Template hooks vs originality",
+   "a": "L11: proven fill-in hook templates 'that'll always work'; fill the blanks for your niche",
+   "b": "L09: 'can nobody else say it?' and never say what a competitor could also sign; L05: formats wear out ('getting a little tiresome'); triple hook weak spot 'formulaic if every reel uses it'",
+   "status": "open"
+  },
+  {
+   "id": "C35",
+   "topic": "Context position (Desire hook)",
+   "a": "L11 Desire hook: 'This is exactly what you want to see when you're [situation]' puts the topic at the end of the sentence (the visual carries it)",
+   "b": "L01: context in the first words; delaying it even to the back half of the first sentence sharply raises skip rate",
+   "status": "open"
+  }
+ ]
+}

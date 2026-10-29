@@ -1,0 +1,234 @@
+{
+  "id": "R1",
+  "title": "Creator study: @rahulmhinduja",
+  "creator": "Rahul Hinduja (505K followers, tech / PC builds, Hinglish)",
+  "url": "https://www.instagram.com/rahulmhinduja/",
+  "length": "12 reels studied (42–179 s each), posted 6–27 Oct 2026",
+  "kind": "creator",
+  "one_liner": "Number in the first second, something new every 1.2–2 s, yellow on black, and a comment keyword at the end.",
+  "why_it_matters": "Rahul is the closest big creator to your tech/PC lane: Indian, Hinglish, PC builds by budget, filmed from one home set. Breaking down his 12 latest reels shows a repeatable system (hooks, layouts, pace, sound, covers, CTA) that you can copy in structure, and the data shows which of his formats bring loyal fans and which bring reach.",
+  "big_idea": {
+    "statement": "Rahul runs a fast, number-first Hinglish format: verdict in the first second, constant visual change, one brand colour, and a comment-to-DM funnel that delivers a living resource.",
+    "support": [
+      "Every hook puts the topic and a number (price, score, date) on screen and in the voice within 1–2 s.",
+      "Something new appears on screen roughly every 1.2–2 s in every reel.",
+      "Yellow on black is his identity: labels, prices, banners, the face-cam ring.",
+      "Keyword-CTA reels get about 10× the comments-per-like of his one no-CTA reel.",
+      "PC builds bring the most loyal engagement; universal tech tricks bring the biggest reach."
+    ]
+  },
+  "map": [
+    {"chapter": "Snapshot: who and the numbers", "time": "12 reels, 6–27 Oct 2026", "gist": "505K followers, median 202K plays, one paid outlier"},
+    {"chapter": "Pillars and the running story", "time": "10 organic reels", "gist": "Budget PC builds as a monthly franchise inside a 'prices rising' narrative"},
+    {"chapter": "Hooks: verdict first, no intro", "time": "first 1–2 s", "gist": "Price, score or date immediately; contrarian, local or sarcastic openers"},
+    {"chapter": "Layouts and pace", "time": "whole reels", "gist": "Five layouts, switching every few seconds; a change every 1.2–2 s"},
+    {"chapter": "Covers, text and colour", "time": "covers + labels", "gist": "Meme payoff frame, ₹ number, face, yellow accent"},
+    {"chapter": "Sound", "time": "all 12 reels", "gist": "−14 LUFS, voice-led, no trending audio, no dead air"},
+    {"chapter": "CTA: the comment-to-DM funnel", "time": "last 2–4 s", "gist": "Keyword label, mock comment, DM preview with a living resource"},
+    {"chapter": "Outliers and what to copy", "time": "best and worst reels", "gist": "Paid reach isn't a benchmark; universal tricks reach, builds bond"}
+  ],
+  "chapters": [
+    {
+      "title": "Snapshot: who and the numbers",
+      "time": "6–27 Oct 2026",
+      "summary": "Rahul Hinduja is a verified tech creator with about 505K followers and 1.3K posts; his bio reads 'Making tech easy :)'. He speaks Hindi/Hinglish with English captions and covers Indian PC-hardware buying advice plus everyday tech tricks. The study covers his 12 most recent reels (the listing caps at 12, so 12 of a planned 30), two of them pinned sponsored reels. Median plays are 202K (0.40× his followers). The mean is 1.21M only because one sponsored Flipkart reel hit 11.3M; without it the mean is 293K.",
+      "blocks": [
+        {"type": "stat", "value": "505.1K", "label": "followers (1.3K posts)", "note": "From the vidIQ listing, 27 Oct 2026.", "evidence": "observed"},
+        {"type": "stat", "value": "202K", "label": "median plays per reel (0.40× followers)", "note": "Organic median is also 202K.", "evidence": "observed"},
+        {"type": "stat", "value": "11.3M", "label": "plays on the sponsored Flipkart reel (22× followers)", "note": "Only 0.3% like rate and 334 comments: fits paid amplification. Don't benchmark it.", "evidence": "observed"},
+        {"type": "framework", "style": "steps", "title": "How the study was done", "items": [
+          {"label": "Download", "text": "12 reels with yt-dlp, for analysis only (not stored or shared)."},
+          {"label": "Measure", "text": "Scene cuts, frame-difference beats, loudness, noise floor."},
+          {"label": "Look", "text": "1 fps contact sheets + 4 fps sheets of the first 3 s."},
+          {"label": "Listen", "text": "Whisper language check and rough translation of the first 15 s."}
+        ], "caption": "Labels used: measured, seen, inferred."},
+        {"type": "callout", "tone": "warn", "text": "Small sample: 10 organic reels from one month and one news cycle (the RAM/GPU price spike). Saves, shares, watch time and ad spend aren't visible."}
+      ]
+    },
+    {
+      "title": "Pillars and the running story",
+      "time": "10 organic reels",
+      "summary": "Four of ten organic reels are PC builds by budget (₹75K, ₹1L, ₹1.5L, ₹2L), all labelled 'October 2026', and they have his best like rates (4.8–5.3%). Two are PC buying help (CPU ratings, a shop checklist), two are everyday tech tricks or tool finds (widest reach), one is a how-it-works explainer and one is AI tips (his weakest). A running narrative ties the builds together: PC prices are rising every week because of AI data centres and the RAM crisis, so buy now. That gives each build a reason to exist this week and makes the series feel like live news.",
+      "blocks": [
+        {"type": "framework", "style": "pyramid", "title": "His content pillars (base first, by share)", "items": [
+          {"label": "PC builds by budget (4/10)", "text": "₹75K / 1L / 1.5L / 2L, 'October 2026'. Best like rates."},
+          {"label": "PC buying help (2/10)", "text": "CPU ratings → tier list; 'before you go to the shop' checklist."},
+          {"label": "Everyday tricks / tool finds (2/10)", "text": "Gmail URL trick, free Photoshop alternative. Widest reach."},
+          {"label": "How-it-works explainer (1/10)", "text": "Google Authenticator. Good reach, few comments (no CTA)."},
+          {"label": "AI tips (1/10)", "text": "ChatGPT prompt debunk. Weakest organic reel."}
+        ], "caption": "Builds are the base; tricks are the reach play."},
+        {"type": "quote", "text": "A 1 lakh PC build I made on Oct 10th is 1 lakh 10 thousand on 18th… We are really cooked.", "who": "Rahul (reel 12 caption)", "time": "18 Oct 2026"},
+        {"type": "framework", "style": "cycle", "title": "The monthly franchise", "items": [
+          {"label": "Name the series", "text": "'₹X PC Build – October 2026', 'CPU Ratings – October 2026'."},
+          {"label": "Tie it to the news", "text": "'Prices are rising every week.'"},
+          {"label": "Post the budgets", "text": "Four budgets in 10 days."},
+          {"label": "Refresh next month", "text": "Same series, new month, new prices."}
+        ], "caption": "The date label makes old reels a reason to come back for the new one."},
+        {"type": "callout", "tone": "applied", "text": "Your version: 'Pune gym budget – November 2026' (membership, supplements, shoes by price tier) or a monthly 'best ₹60K gaming PC' build, each tied to a running story ('my PC vs Pune summer', 'my comeback, month 3')."}
+      ]
+    },
+    {
+      "title": "Hooks: verdict first, no intro",
+      "time": "first 1–2 s",
+      "summary": "Every reel puts the topic and a number (price, score or date) on screen and in the voice within the first one or two seconds, with no greeting. The patterns: verdict first (name, price, score), 'do this right now' demos the viewer can try while watching, curiosity plus a tiny effort, hyper-local conditionals that name real markets, date-stamped mockery, contrarian 'don't buy X' spending advice, 'stop doing X' rants and sarcastic congratulations. Sponsored reels use tier framing or festive hype instead.",
+      "blocks": [
+        {"type": "framework", "style": "equation", "title": "His hook formula", "items": [
+          {"label": "Topic", "text": "The product, budget or trick, named."},
+          {"label": "Number", "text": "₹ price, x/10 score or a date."},
+          {"label": "Attitude", "text": "Verdict, sarcasm or a contrarian 'don't'."},
+          {"label": "Hook in 1–2 s", "text": "Said and on screen together. No 'hey guys'."}
+        ], "caption": "Seen in every one of the 12 reels."},
+        {"type": "checklist", "title": "Hook patterns, with his real openings", "items": ["Verdict first: 'Core i9 14900K, ₹46,000, 3 out of 10… as hot as a heater… Come on Intel' (translated)", "Do this now: airplane mode, Wi-Fi off, open Google Authenticator: the code still changes", "Hyper-local: Nehru Place, Lamington Road, SP Road, 'listen before you walk into the shop'", "Date-stamped mockery: October 2026, a ₹1L PC, 'the shopkeeper will laugh at you'", "Contrarian: 'in 2026 an 8 GB GPU is a waste of money'", "Stop doing X: 'stop paying ₹8,000 a year for Photoshop'", "Sarcastic congratulations: 'Wow, congratulations! ₹75,000… your first PC…'"]},
+        {"type": "quote", "text": "Achchha, October 2026 mein ek laakh rupe ka PC uthaane ki soch rahe ho? To dukaandaar tum pe hansega.", "who": "Rahul (reel 12 opening)", "time": "0:00"},
+        {"type": "example", "title": "Generic vs Rahul-style opener (tech)", "before": "Hey guys, today I'm showing you a 1 lakh PC build.", "after": "October 2026 mein ₹1 lakh ka PC? Dukaandaar hansega. (with '₹1,00,000' and the date on screen from frame 1)", "why": "Topic, number, date and attitude in under 2 s; no greeting to skip past. (Applied in his style.)"},
+        {"type": "example", "title": "Hyper-local for Pune (gym)", "before": "Here are some tips for joining a gym.", "after": "Agar is mahine Kothrud ya Baner mein gym join kar rahe ho, counter pe paise dene se pehle yeh sun lo.", "why": "Naming real places makes the right viewer feel spoken to, like his Nehru Place / Lamington Road / SP Road hook. (Applied.)"}
+      ]
+    },
+    {
+      "title": "Layouts and pace",
+      "time": "whole reels",
+      "summary": "He uses five layouts and most organic reels switch between them every few seconds. A: designed motion graphics on the top ~55% over a face cam (60 fps, smooth animation). B: full-frame talking head with yellow pop-up labels over the chest. C: screen or card full-frame with a circular yellow-ringed face cam and an app badge. D: a yellow banner on top with the face below. E: 1–3 s meme cutaways with the product or price pasted into the meme. Something new appears roughly every 1.2–2 s, and the sponsored Flipkart reel is fastest at 1.2 s.",
+      "blocks": [
+        {"type": "framework", "style": "cycle", "title": "The layout rotation (organic reels)", "items": [
+          {"label": "B: Talking head + labels", "text": "Waist-up, mic in frame, punch-ins, yellow labels ('HEATER', 'RAM CRISIS')."},
+          {"label": "C: Screen + circle face cam", "text": "Article, parts card or app full-frame; yellow-ringed face cam with an app badge."},
+          {"label": "E: Meme cutaway", "text": "1–3 s full-screen meme with the product or price pasted in."},
+          {"label": "Back to B", "text": "Repeat every few seconds."}
+        ], "caption": "Layout A (motion graphics over face cam) and D (yellow banner) are used in specific reels."},
+        {"type": "stat", "value": "1.2–2 s", "label": "between visual changes in every reel", "note": "Measured beats; smooth Layout-A animation is under-counted, so contact sheets were checked by eye.", "evidence": "observed"},
+        {"type": "checklist", "title": "Recurring effects", "items": ["Punch-in zoom on emphasis", "Black-and-white freeze for sarcastic punchlines", "Old price struck through, then the new price", "Red 'DON'T BUY' stamp; green '₹60,000 SAVED' / 'FREE' pills", "Date stamps ('10 OCT 2026')", "Odometer-style ₹ counter", "Live-build parts card filling slot by slot with a budget bar", "TV colour-bar glitch transition", "Proof screenshots with yellow highlighter on the key line"]},
+        {"type": "compare", "title": "Two edit pipelines", "left": {"title": "Layout A reels (10, 11, 12)", "items": ["60 fps", "Designed motion graphics: URL bars, road signs, receipts", "Top graphic changes state about every 1 s", "Caption words change every ~0.3–0.5 s"]}, "right": {"title": "Other reels", "items": ["30 fps", "Talking head + labels + memes + cards", "Hard cuts and layout swaps", "Beats every ~1.4–2.3 s"]}},
+        {"type": "callout", "tone": "applied", "text": "You can do B + C + E with an iPhone and Edits: talking head with a yellow label on the key word, a screen recording of the benchmark with a circular face cam, and a 1–2 s meme cutaway with your PC or barbell pasted in."}
+      ]
+    },
+    {
+      "title": "Covers, text and colour",
+      "time": "covers + labels",
+      "summary": "Covers follow five types: a meme with a price tag (DiCaprio toast with '₹1,50,000 2K BUILD'), a data card (budget grid, receipt, rating card), a proof split ('SAME CODE' on phone and server), Hinglish provocation text, and a UI screenshot. The meme frames come from the reel's own payoff near the end, so the cover promises the ending. Rules that hold across all of them: a ₹ number or score whenever there is one, a face somewhere, and yellow as the accent. On screen, labels are heavy condensed caps in yellow, prices are big yellow ₹ figures, red means bad or price up and green means saved.",
+      "blocks": [
+        {"type": "checklist", "title": "Cover formula", "items": ["A ₹ number or score whenever there is one", "A face somewhere on the cover", "Yellow as the accent colour", "Often the reel's own payoff frame (the meme near the end)", "Types: meme + price tag, data card, proof split, Hinglish provocation, UI screenshot"]},
+        {"type": "framework", "style": "steps", "title": "Text hierarchy", "items": [
+          {"label": "Labels", "text": "1–3 words, heavy condensed caps, yellow, often in a black box ('WI-FI OFF')."},
+          {"label": "Prices", "text": "Large yellow bold ₹ figures with a slight drop shadow."},
+          {"label": "Captions (Layout A)", "text": "Small white sans, one phrase at a time, key word in yellow or a selection box."},
+          {"label": "Data cards", "text": "Off-white 'receipt/paper' or dark UI cards that look like real documents."}
+        ], "caption": "Palette: yellow (≈ #F5B800) on black; red = bad / price up; green = saved / good."},
+        {"type": "compare", "title": "Colour meaning", "left": {"title": "Red", "items": ["Bad choice", "Price went up", "'DON'T BUY' stamp"]}, "right": {"title": "Green", "items": ["Money saved", "Good choice", "'FREE' / '₹60,000 SAVED' pills"]}},
+        {"type": "callout", "tone": "applied", "text": "Pick one accent colour and keep it on every label and cover so your reels are recognisable at thumbnail size. Use the reel's funniest frame (your face mid-fail) as the cover with the number on it ('100 KG?')."}
+      ]
+    },
+    {
+      "title": "Sound",
+      "time": "all 12 reels",
+      "summary": "All 12 reels measure −14 LUFS integrated with a loudness range of 2.2–4.8 LU, so the mix is heavily compressed and consistent. Fewer than 2.5% of 100 ms windows sit more than 25 dB under the median, meaning breaths and pauses are cut and there's no dead air. The quietest audio sits 9–21 dB below speech but never at true silence, which suggests a constant low bed of music, room tone or SFX (inferred, not confirmed by ear). The voice dominates, and none of the 12 uses trending audio.",
+      "blocks": [
+        {"type": "stat", "value": "−14 LUFS", "label": "integrated loudness on all 12 reels", "note": "Identical values suggest normalisation by the editor or Instagram (inferred).", "evidence": "observed"},
+        {"type": "stat", "value": "<2.5%", "label": "of 100 ms windows more than 25 dB below the speech median", "note": "Breaths and pauses are cut: no dead air.", "evidence": "observed"},
+        {"type": "checklist", "title": "His sound rules", "items": ["Voice leads, always", "No trending audio (no track listed on any of the 12)", "Cut every breath and pause", "A low constant bed under the voice (inferred)", "Mix compressed to a steady −14 LUFS"]},
+        {"type": "callout", "tone": "tip", "text": "For talking tech reels, voice-led with no trending song is fine; it lets the hook line carry. Save trending audio for gym montage reels where you aren't talking."}
+      ]
+    },
+    {
+      "title": "CTA: the comment-to-DM funnel",
+      "time": "last 2–4 s",
+      "summary": "Nearly every reel ends with 'Comment KEYWORD, I'll send it over', the keyword appearing in the caption and as a big yellow label in the last 2–4 seconds. The Layout-A reels show the funnel itself: a mock Instagram comment box with the keyword being typed, then a DM preview with the freebie attached. The freebies are living resources (live-price part lists, a full tier list, a component checklist), not a repeat of the video. His CPU ratings reel shows only six CPUs and flashes the full tier list, with 'Comment CPU for the rest'. The one organic reel with no CTA got about a tenth of the comments-per-like.",
+      "blocks": [
+        {"type": "framework", "style": "funnel", "title": "The funnel he shows on screen", "items": [
+          {"label": "Big yellow keyword label", "text": "Last 2–4 s, plus the keyword in the caption."},
+          {"label": "Mock comment box", "text": "The keyword being typed (e.g. GMAIL, SHOP)."},
+          {"label": "DM preview", "text": "From @rahulmhinduja with the freebie attached."},
+          {"label": "Living resource", "text": "'Verified part list · LIVE PRICES', 'Component checklist', 'Top 10 Gmail shortcuts'."}
+        ], "caption": "The viewer sees exactly what they'll get before commenting."},
+        {"type": "stat", "value": "~10×", "label": "comments-per-like with a keyword CTA (median ≈13%) vs the no-CTA reel (1.3%)", "note": "Strong signal but it rests on one no-CTA reel (n = 1).", "evidence": "observed"},
+        {"type": "example", "title": "Withhold the remainder", "before": "Rate all CPUs in the video.", "after": "Rate 6 CPUs, flash the full 'October CPU Tier List' at the end, caption: 'Comment CPU for the rest'.", "why": "The video gives real value but deliberately leaves the full answer for the DM, which drives comments."},
+        {"type": "callout", "tone": "applied", "text": "Gym: 'Comment SPLIT' for your actual weekly split as a checklist. Tech: 'Comment BUILD' for your parts list with prices and dates. Show the mock comment and DM preview so they know what they'll get."}
+      ]
+    },
+    {
+      "title": "Outliers and what to copy",
+      "time": "best and worst reels",
+      "summary": "The 11.3M Flipkart reel looks like paid amplification (0.3% like rate, 334 comments), so it isn't a benchmark. His best organic reel, the 1.2M Gmail one-word trick, works because its audience is everyone, the effort is tiny and testable on the spot, the URL bar is shown not told, and a strong freebie drove 2.7K comments. The 552K ₹1.5L gaming-and-streaming build is the best at scale for likes: a realistic budget, a contrarian '8 GB GPU is a waste' hook, proof on screen and a meme rhythm. The weakest (ChatGPT prompts debunk, the long Meld sponsor, a niche Photoshop alternative) leave viewers with less or sit off-pillar.",
+      "blocks": [
+        {"type": "framework", "style": "matrix", "title": "Reach vs loyalty in his catalogue", "axes": {"x": "Niche → universal topic", "y": "Low → high engagement per play"}, "items": [
+          {"label": "PC builds (high loyalty, niche)", "text": "₹1.5L build: 552K plays, 4.8% likes, 2.3K comments."},
+          {"label": "Universal tricks (reach)", "text": "Gmail trick: 1.2M plays (2.38×), low 1.8% like rate."},
+          {"label": "Off-pillar / debunk (weak)", "text": "ChatGPT prompts: 0.14×; 'no cheat codes' leaves them with less."},
+          {"label": "Paid outlier (not a benchmark)", "text": "Flipkart: 11.3M plays, 0.3% likes."}
+        ], "caption": "Builds bond the core audience; universal tricks bring new people."},
+        {"type": "stat", "value": "1.2M", "label": "plays on the Gmail one-word trick (best organic, 2.38× followers)", "note": "2.7K comments for 'Top 10 Gmail shortcuts'.", "evidence": "observed"},
+        {"type": "stat", "value": "552K", "label": "plays on the ₹1.5L gaming + streaming build (1.09×, 26.6K likes)", "note": "Best like rate at scale.", "evidence": "observed"},
+        {"type": "compare", "title": "Copy vs don't copy", "left": {"title": "Copy", "items": ["Number in the first second", "A change every 1.2–2 s", "One accent colour everywhere", "Monthly franchise naming", "Keyword CTA with a living resource", "Proof screenshots with a highlighter"]}, "right": {"title": "Don't copy", "items": ["Benchmarking against the paid 11.3M reel", "Debunks that leave viewers with less", "Off-pillar trend topics", "161–179 s reels for a small account", "His exact jokes or memes (originality rule)"]}},
+        {"type": "callout", "tone": "applied", "text": "For your mix: a universal 'do this now' trick (iPhone camera setting for gym videos, a Windows setting that boosts FPS) for reach, and a running series (gym comeback or budget build) for loyal followers. Your humour is the part he doesn't have."}
+      ]
+    }
+  ],
+  "production": [
+    {"area": "Hook", "detail": "Topic and a number (price, score, date) spoken and on screen in the first 1–2 s; no greeting."},
+    {"area": "Pacing", "detail": "Something new on screen roughly every 1.2–2 s; layout swaps between talking head, screen + circle face cam and meme cutaways."},
+    {"area": "Layout", "detail": "Five layouts: motion graphics over face cam, talking head with labels, screen with circular yellow-ringed face cam, yellow banner + face, full-screen meme cutaways."},
+    {"area": "Type", "detail": "Heavy condensed yellow caps labels, big yellow ₹ figures, small white sans phrase captions with a yellow key word, receipt-style data cards."},
+    {"area": "Colour", "detail": "Yellow (≈ #F5B800) on black as the brand accent; red = bad / price up; green = saved / good."},
+    {"area": "Effects", "detail": "Punch-ins, B&W freeze on punchlines, price strike-throughs, DON'T BUY stamps, date stamps, odometer ₹ counter, live parts card with budget bar, colour-bar glitch transition."},
+    {"area": "Sound", "detail": "−14 LUFS on all 12; voice-led, no trending audio, no dead air; a low bed inferred from the noise floor."},
+    {"area": "Set", "detail": "One fixed home studio: purple/blue wall wash, warm accent lamp, plant with fairy lights, dynamic mic on an arm in frame, plain tee."},
+    {"area": "Cover", "detail": "Payoff meme frame or data card with a ₹ number or score, a face and yellow accents."},
+    {"area": "CTA", "detail": "'Comment KEYWORD' in caption and as a big yellow label in the last 2–4 s; mock comment → DM preview with a living resource."},
+    {"area": "Cadence", "detail": "About one reel a day (10 in 10 days), mostly 10:00–11:30 or 17:30–19:30 IST; sponsored reels pinned."}
+  ],
+  "takeaways": [
+    {"text": "No intro: topic and number in the first second.", "atom": "hook-no-intro-payoff-first"},
+    {"text": "Verdict first: name, price, score.", "atom": "hook-verdict-first"},
+    {"text": "Contrarian 'don't buy X' openers.", "atom": "hook-contrarian-statement"},
+    {"text": "'Do this now': a tiny effort with an instant payoff.", "atom": "hook-do-this-now"},
+    {"text": "Hyper-local conditional hooks.", "atom": "hook-hyper-local-conditional"},
+    {"text": "Sarcastic or date-stamped mockery openers.", "atom": "hook-sarcastic-opener"},
+    {"text": "Something new on screen every 1.2–2 s.", "atom": "edit-change-every-1-5-2-5s"},
+    {"text": "Switch layouts every few seconds.", "atom": "edit-layout-switching"},
+    {"text": "Screen content with a circular face cam.", "atom": "edit-screen-card-circle-facecam"},
+    {"text": "Meme cutaways with the product pasted in.", "atom": "edit-meme-cutaways"},
+    {"text": "Show proof on screen.", "atom": "edit-proof-inserts"},
+    {"text": "Mix at −14 LUFS, voice-led, no trending audio.", "atom": "sound-loudness-minus-14"},
+    {"text": "B&W freeze for sarcastic punchlines.", "atom": "fx-bw-freeze-punchline"},
+    {"text": "Price strikes, stamps, pills and ticks.", "atom": "fx-price-strike-through"},
+    {"text": "Live-build parts card with a budget bar.", "atom": "fx-live-build-parts-card"},
+    {"text": "Yellow caps labels and big ₹ figures.", "atom": "text-yellow-condensed-labels"},
+    {"text": "Covers: payoff frame, number, face, accent.", "atom": "text-cover-meme-payoff"},
+    {"text": "Fixed set and colour identity.", "atom": "brand-fixed-set-identity"},
+    {"text": "Keyword CTA: about 10× more comments.", "atom": "growth-keyword-cta-comment-gap"},
+    {"text": "Show the comment → DM funnel on screen.", "atom": "growth-show-the-funnel"},
+    {"text": "Withhold the rest: 'comment for the rest'.", "atom": "growth-withheld-remainder"},
+    {"text": "Monthly franchise and a running storyline.", "atom": "growth-monthly-franchise"},
+    {"text": "Don't benchmark a paid outlier.", "atom": "growth-outlier-paid-not-benchmark"},
+    {"text": "Universal tricks bring reach; niche builds bring engagement.", "atom": "ideas-universal-vs-niche-reach"}
+  ],
+  "glossary": [
+    {"term": "Views/follower", "def": "Plays divided by follower count; 1× means as many plays as followers."},
+    {"term": "Like rate", "def": "Likes divided by plays; a rough measure of how much viewers liked it."},
+    {"term": "Comments/likes", "def": "Comments divided by likes; jumps when there's a comment-keyword CTA."},
+    {"term": "Pillar", "def": "A recurring content category a creator keeps returning to."},
+    {"term": "Franchise", "def": "A named, repeatable series (e.g. 'PC Build – October 2026') refreshed on a schedule."},
+    {"term": "Living resource", "def": "A freebie that stays useful and updates (live prices, a tier list), unlike a recap of the video."},
+    {"term": "Paid amplification", "def": "Reach bought by a brand or platform; inflates plays but not engagement."},
+    {"term": "Face cam", "def": "A small video of the creator's face over screen content."},
+    {"term": "Meme cutaway", "def": "A 1–3 s full-screen meme cut into the reel, often with the product pasted in."},
+    {"term": "LUFS", "def": "A loudness unit; −14 LUFS is a common target for social and streaming audio."},
+    {"term": "Hinglish", "def": "Hindi and English mixed in one sentence."}
+  ],
+  "quiz": [
+    {"q": "What does every Rahul hook have in the first 1–2 s?", "a": "The topic and a number (price, score or date), spoken and on screen, with no greeting."},
+    {"q": "Which pillar has his best like rates?", "a": "PC builds by budget (4.8–5.3%)."},
+    {"q": "Why shouldn't you benchmark the 11.3M Flipkart reel?", "a": "Its 0.3% like rate and few comments fit paid amplification, not organic virality."},
+    {"q": "Why did the Gmail trick get his biggest organic reach?", "a": "Everyone has a spammy inbox, the trick is tiny and testable on the spot, it's shown visually, and the freebie was strong."},
+    {"q": "How often does something change on screen?", "a": "Roughly every 1.2–2 s."},
+    {"q": "What's his brand colour and what do red and green mean?", "a": "Yellow on black; red = bad / price up, green = saved / good."},
+    {"q": "What happens in the last 2–4 s of most reels?", "a": "A big yellow keyword label (and in some, a mock comment box and DM preview with the freebie)."},
+    {"q": "What was the comment gap between CTA and no-CTA reels?", "a": "About 10× in comments-per-like (median ≈13% vs 1.3%), though the no-CTA side is one reel."},
+    {"q": "At what loudness are all 12 reels mixed?", "a": "−14 LUFS integrated."}
+  ],
+  "try_it": [
+    {"title": "A Rahul-style budget build", "niche": "tech", "steps": ["Pick a budget and date it: '₹60K Gaming PC – November 2026'.", "Open with price + verdict in the first second, on screen and spoken.", "Fill a parts card slot by slot with prices and a budget bar.", "Add one 'don't buy X' moment with a red stamp.", "End: 'Comment BUILD' + big yellow label + a DM preview of the parts list."]},
+    {"title": "Verdict-first gym rating", "niche": "gym", "steps": ["Rate one gym machine, supplement or shoe: name, price, x/10 in the first second.", "Give a one-word yellow label for the reason ('USELESS', 'UNDERRATED').", "B&W freeze on the sarcastic line.", "Show 3 items, then flash the full tier list and say 'comment TIER for the rest'."]},
+    {"title": "Universal 'do this now' trick", "niche": "any", "steps": ["Find a tiny trick anyone can try in 10 seconds (an iPhone camera setting, a Windows shortcut).", "Hook: 'Do one thing right now…'", "Show it on screen with a circular face cam.", "Keep it under 60 s; add a keyword CTA with a related freebie."]},
+    {"title": "Pick your accent colour", "niche": "any", "steps": ["Choose one accent colour that isn't Rahul's yellow.", "Use it on every label, price and cover for the next 5 reels.", "Keep the same set and framing each time.", "Check the grid: are the reels recognisable at thumbnail size?"]}
+  ]
+}

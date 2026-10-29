@@ -1,0 +1,1941 @@
+{
+  "id": "L07",
+  "title": "The Most Valuable Marketing Training You'll Ever Watch",
+  "creator": "Oren John",
+  "url": "https://www.youtube.com/watch?v=daCB1kVOtMA",
+  "length": "2 h 47 min",
+  "kind": "youtube",
+  "one_liner": "Building is easy now; win on positioning, then turn free social attention into measurable money.",
+  "why_it_matters": "This is the business side Srijan's editing lessons don't cover: what you're known for, how to plan posts as a system, and how attention becomes income (collabs, ads, email, sales). It gives him the words and numbers brands use when they pay creators, and a monthly system to grow without guessing.",
+  "big_idea": {
+    "statement": "In a world where anyone can build anything, distribution is king: know what you stand for, then systematically turn attention into leads and sales.",
+    "support": [
+      "Positioning ('what you're known for') is the north star that makes ads cheaper and content memorable.",
+      "Social media gives free attention, and most competitors still use it badly.",
+      "Run content as a system: 3–5 pillars, a monthly review, swap what loses.",
+      "Money comes from the flow after the view: CTA → landing page → follow-up.",
+      "Get close to the dollars: analytics, ads, email and sales support are where marketers get paid."
+    ]
+  },
+  "map": [
+    {
+      "chapter": "Distribution is king & the four types of marketing",
+      "time": "0:00–5:32",
+      "gist": "AI made building cheap; attention is the bottleneck. Four marketing types blend."
+    },
+    {
+      "chapter": "Lore: positioning, the shelf test and the catalogue",
+      "time": "5:32–15:36",
+      "gist": "Positioning = what you're known for; pick one of ~15 types."
+    },
+    {
+      "chapter": "Brand world mapping (whiteboard)",
+      "time": "15:36–24:31",
+      "gist": "Map characters, sets, an events calendar and plot; fill the holes."
+    },
+    {
+      "chapter": "Messaging: one statement, one style",
+      "time": "24:31–31:25",
+      "gist": "One positioning statement plus one of four copy styles."
+    },
+    {
+      "chapter": "The brand project and the five levels of AI",
+      "time": "31:25–38:17",
+      "gist": "Brand project in ChatGPT; AI levels from chatting to a 'brain'."
+    },
+    {
+      "chapter": "Demand and organic social: networks and Instagram strategies",
+      "time": "38:17–49:20",
+      "gist": "Three demand channels; network guide; three Instagram strategies."
+    },
+    {
+      "chapter": "Goals, metrics and the content funnel",
+      "time": "49:20–52:13",
+      "gist": "Hook rate, views, saves, shares; top, middle and bottom of funnel."
+    },
+    {
+      "chapter": "Context: you compete with the whole feed",
+      "time": "52:13–58:02",
+      "gist": "You compete with the whole feed; make it shareable; concept beats face."
+    },
+    {
+      "chapter": "The pillar system",
+      "time": "58:02–1:02:47",
+      "gist": "3–5 format pillars, monthly review, swap after two bad months."
+    },
+    {
+      "chapter": "Idea tools and hook anatomy",
+      "time": "1:02:47–1:07:15",
+      "gist": "Break references into title, verbal and visual hooks plus an outline."
+    },
+    {
+      "chapter": "Ad maths and which platform when",
+      "time": "1:07:15–1:16:50",
+      "gist": "ROAS, CAC, LTV, 3:1; Meta first, then TikTok, YouTube, Google."
+    },
+    {
+      "chapter": "Running Meta ads (plus outbound)",
+      "time": "1:16:50–1:30:58",
+      "gist": "One concept per ad set, $50/day, 3–10 ads, judge at 3–5× CPA."
+    },
+    {
+      "chapter": "Characters: creators, influencers and the brief",
+      "time": "1:30:58–1:42:54",
+      "gist": "Creator pyramid, the modular brief, whitelisting vs darklisting."
+    },
+    {
+      "chapter": "Tactics: the flow from attention to money",
+      "time": "1:42:54–1:53:26",
+      "gist": "Attention → CTA → landing page → CRM → fast touches → close."
+    },
+    {
+      "chapter": "Landing pages",
+      "time": "1:53:26–2:02:43",
+      "gist": "Pages remove every objection; PDP order vs luxury pages."
+    },
+    {
+      "chapter": "Narrative: strategy roles, campaigns and PR",
+      "time": "2:02:43–2:13:34",
+      "gist": "Brand vs creative strategy vs direction; campaign types; PR now."
+    },
+    {
+      "chapter": "Email & SMS",
+      "time": "2:13:34–2:28:02",
+      "gist": "Campaigns vs flows, 1–3 a week, plain text from a person."
+    },
+    {
+      "chapter": "Sales support, the campaign map and the weekly update",
+      "time": "2:28:02–2:46:42",
+      "gist": "Collateral, speed, 11th touch; campaign map; weekly wins/blockers email."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Distribution is king & the four types of marketing",
+      "time": "0:00",
+      "summary": "Oren opens with his thesis: AI made building things cheap, the way Alibaba and the internet did for physical products, so the hard part now is getting seen. He says the barriers are taste, distribution and attention, and that marketing has become the most wanted skill. He lays out the course in four parts (Lore, Demand, Tactics, Narrative) and promises a free 'marketing.zip' of tools. Then he defines the four classic types of marketing plus marketing ops, and says the walls between them are melting: one modern marketer now does several of these jobs at once.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "In a world where you can build anything, distribution is king.",
+          "who": "Oren John",
+          "time": "0:00"
+        },
+        {
+          "type": "quote",
+          "text": "The barriers are now taste, distribution, and attention.",
+          "who": "Oren John",
+          "time": "0:15"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The course in four parts",
+          "items": [
+            {
+              "label": "1. Lore",
+              "text": "Positioning, messaging and your 'brand world': what you stand for before you post or pay for anything."
+            },
+            {
+              "label": "2. Demand",
+              "text": "Getting attention: organic social, ads, outbound, and the people (creators, influencers, staff) who make it."
+            },
+            {
+              "label": "3. Tactics",
+              "text": "How attention turns into money: CTA, landing page, lead or sale, follow-up."
+            },
+            {
+              "label": "4. Narrative",
+              "text": "Campaigns, PR, email, sales support, and explaining marketing inside the company."
+            }
+          ],
+          "caption": "He calls Tactics the section 'if you want to make money in marketing'."
+        },
+        {
+          "type": "framework",
+          "style": "matrix",
+          "title": "The four types of marketing",
+          "items": [
+            {
+              "label": "Brand marketing",
+              "text": "Perception and 'untracked attention': positioning, feel, purpose. Patagonia, Rhode, Ramp's stunts."
+            },
+            {
+              "label": "Product marketing",
+              "text": "What makes the product special and how to say it: messaging, packaging, presentation. Graza's 'sizzle and drizzle'."
+            },
+            {
+              "label": "Content marketing",
+              "text": "Social plus decks and sales assets. Red Bull, where the media matters as much as the drink."
+            },
+            {
+              "label": "Demand gen",
+              "text": "Buying media and placing ads to drive sales. HexClad, Grüns, TikTok Shop and Meta brands."
+            }
+          ],
+          "caption": "Plus a fifth: marketing ops (systems, Shopify back end, AI projects). He says content and demand gen 'are becoming one'. Axes are our framing, not his.",
+          "axes": {
+            "x": "Feel (brand, content) → Numbers (product, demand)",
+            "y": "Long-term perception → Direct sales"
+          }
+        },
+        {
+          "type": "quote",
+          "text": "Content marketing and demand genen are becoming one.",
+          "who": "Oren John",
+          "time": "5:17"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "For a solo creator like Srijan, all four are one person: your gym/PC persona is brand marketing, your reel is content marketing, a pinned 'what I use' post is product marketing, and any paid boost is demand gen. That's why the course matters even at ~930 followers."
+        }
+      ]
+    },
+    {
+      "title": "Lore: positioning, the shelf test and the catalogue",
+      "time": "5:32",
+      "summary": "Positioning is 'what you're known for': the idea people link to you and the lens you see the world through. It must not be generic, it must be remembered, and it must be 'AI-legible' because ChatGPT and Google's AI answers need a reason to recommend you. His exercise is the shelf test: stand at the energy-drink shelf and every brand has a reason to be there. He then walks through about 15 positioning types, from performance (the best, rarest one) to oddball name positioning. Pick one; it becomes the north star for every ad, post, page and email.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "positioning is simply what you're known for.",
+          "who": "Oren John",
+          "time": "5:50"
+        },
+        {
+          "type": "quote",
+          "text": "The number one goal here is to be remembered.",
+          "who": "Oren John",
+          "time": "6:06"
+        },
+        {
+          "type": "framework",
+          "style": "matrix",
+          "title": "The shelf test (energy drinks)",
+          "items": [
+            {
+              "label": "Monster",
+              "text": "Counterculture."
+            },
+            {
+              "label": "Alani Nu",
+              "text": "Female-centric."
+            },
+            {
+              "label": "Celsius",
+              "text": "Comes across almost like a health product."
+            },
+            {
+              "label": "Red Bull",
+              "text": "Sold on its content and perception."
+            }
+          ],
+          "caption": "Each one has a reason to exist on the shelf. Ask: what is my reason? (Axes are an illustrative framing; Oren only names the four positions.)",
+          "axes": {
+            "x": "Lifestyle ↔ Function",
+            "y": "Edgy ↔ Clean"
+          }
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The positioning catalogue (pick one)",
+          "items": [
+            {
+              "label": "Performance",
+              "text": "Quantifiably better (David protein vs a cod fillet). 'The best positioning you can have, but most brands don't have it.'"
+            },
+            {
+              "label": "Category creation",
+              "text": "A known thing in a new form factor (Oura: a fitness tracker as a ring)."
+            },
+            {
+              "label": "Counter-positioning",
+              "text": "A better experience against a big incumbent for one group (Grüns gummies vs AG1; Apple 'I'm a Mac')."
+            },
+            {
+              "label": "Smart",
+              "text": "Add tech to a 'dumb' category (Eight Sleep, Nest)."
+            },
+            {
+              "label": "Value",
+              "text": "Cheaper. Weaker now against Chinese supply chains, still strong for services and new agencies."
+            },
+            {
+              "label": "Niche / generational",
+              "text": "'For us by us' (language, body type, subculture) or one generation (Jones Road vs Half Magic). Pure marketing choices."
+            },
+            {
+              "label": "Single attribute",
+              "text": "Own one word (Volvo = safety)."
+            },
+            {
+              "label": "Premium",
+              "text": "True performance (Satisfy Running), lifestyle performance (Arc'teryx), designer (Teenage Engineering), bespoke."
+            },
+            {
+              "label": "Counter-luxury / name",
+              "text": "'Luxury quality without the markup' (Quince); or borrow an audience through a name ('Satoshi Nakamoto' clothing)."
+            }
+          ],
+          "caption": "In the order he presents them. Performance, category creation and smart need a real product edge; niche and generational can be done purely through marketing."
+        },
+        {
+          "type": "quote",
+          "text": "You build that strong position, everything else gets easier, your ads get cheaper, people remember it, they refer more.",
+          "who": "Oren John",
+          "time": "15:19"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Shelf test for Srijan's feed: next to Pune gym bros, PC-build channels and gaming clip pages, what's your reason to exist? 'Funny/unhinged guy who actually lifts and builds PCs' is a niche + single-attribute position (own the word 'unhinged' in desi gym/tech). Write it down before the next reel."
+        }
+      ]
+    },
+    {
+      "title": "Brand world mapping (whiteboard)",
+      "time": "15:36",
+      "summary": "A whiteboard exercise he used to sell as a paid workshop. You map four things: characters (everyone who could appear on camera for the brand), sets (places to film, evergreen and temporary), an events calendar (company, culture and industry moments by month or quarter) and plot (events, enemies, friends and specials). Then you look for holes: no one willing to be on camera, ugly locations, or an empty quarter. You refresh it monthly or quarterly, and it feeds your email and social planning. He also uses a mapped brand world, or a 60–90-day plan, as a job-interview weapon.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Map the brand world",
+          "items": [
+            {
+              "label": "Characters",
+              "text": "Founder on camera, experts (Mango's designers), the social team or a hired creator, customers who make content, collaborators, execs with podcasts."
+            },
+            {
+              "label": "Sets",
+              "text": "Evergreen: warehouse, factory, an aesthetic office corner, a monthly studio day. Temporary: the trade-show booth the night before."
+            },
+            {
+              "label": "Events calendar",
+              "text": "Company (launches, offsites), culture (New Year, Coachella, back to school, Black Friday), industry (CES, WWDC, competitor launches)."
+            },
+            {
+              "label": "Plot",
+              "text": "Events, enemies (competitor moves), friends (partners to piggyback), specials (your own show or event to fill a gap)."
+            },
+            {
+              "label": "Find the holes",
+              "text": "No one on camera → hire. Bad-looking content → turn an area into a set. Empty quarter → create a special."
+            }
+          ],
+          "caption": "Put it on a big whiteboard and update it every month or quarter."
+        },
+        {
+          "type": "quote",
+          "text": "So, basically plot, we have events, we have enemies, we have friends, and we have specials. Think of this like TV.",
+          "who": "Oren John",
+          "time": "20:35"
+        },
+        {
+          "type": "story",
+          "title": "Away's late-summer social show",
+          "text": "Away launched a short 'social show' (a directed series that plays out on Instagram) with seven episodes in late summer, normally a dead period for luggage. Oren reads it as building affinity right before people shop for Labor Day, Q3 and Black Friday: a 'special' placed in a hole in the calendar."
+        },
+        {
+          "type": "compare",
+          "title": "Sets",
+          "left": {
+            "title": "Evergreen",
+            "items": [
+              "Gym you train at",
+              "Your desk / PC corner",
+              "A monthly 'studio day' with a backdrop",
+              "Warehouse or factory floor (for brands)"
+            ]
+          },
+          "right": {
+            "title": "Temporary",
+            "items": [
+              "Trade-show booth the night before",
+              "A launch event",
+              "A festival or match day",
+              "A friend's new build or new gym opening"
+            ]
+          }
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Srijan's brand world in one sitting: Characters = you, your gym partner, your PC-builder friend, your mum reacting. Sets = your gym, your desk setup, a Pune street, a café LAN. Culture events = New Year gym rush, Diwali PC sales, a new GPU or GTA release, IPL season. Enemies = 'gym influencers who never train legs', overpriced prebuilt PCs. Specials = a 7-day 'build a budget PC from scrap' series in a quiet month."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Interview hack he swears by: show up to a job or client pitch with their brand world already mapped, or a 60–90-day plan. He says it got him hired at high-paying jobs."
+        }
+      ]
+    },
+    {
+      "title": "Messaging: one statement, one style",
+      "time": "24:31",
+      "summary": "Mission statements, vision statements and taglines 'really doesn't matter' today. What you need is one positioning statement and one copy style, which you can then use with AI to write scripts, captions and emails. He gives a fill-in-the-blanks positioning statement (his spin on Geoffrey Moore's) and four copy styles. Direct response is the scariest style for most marketers but, he says, 'by far the highest efficacy'. You can test your way into more than one style.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "I think you need one statement and one style.",
+          "who": "Oren John",
+          "time": "25:34"
+        },
+        {
+          "type": "framework",
+          "style": "equation",
+          "title": "The positioning statement",
+          "items": [
+            {
+              "label": "For [target]",
+              "text": "Who exactly? Start here. 'For distance runners…'"
+            },
+            {
+              "label": "who [need]",
+              "text": "What they want. Can be emotional: look cool, attract someone, make friends. '…who deal with side pain'"
+            },
+            {
+              "label": "[Brand] is the [category] that [benefit]",
+              "text": "'Brand X is the electrolyte supplement that solves it permanently in seconds.'"
+            },
+            {
+              "label": "Unlike [competitor], we [difference]",
+              "text": "'Unlike sugary electrolyte drinks, we provide instant relief with no crash.'"
+            },
+            {
+              "label": "= Your one statement",
+              "text": "Paste it into every AI project and brief so the model understands target, need, category and edge."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "compare",
+          "title": "Four copy styles",
+          "left": {
+            "title": "Direct response & evidence-led",
+            "items": [
+              "Direct response: urgent, confrontational, numbers, exact timelines, no 'ifs or buts' (Hims: 'Finish this sentence. The worst part of going bald is blank.'). Reference: Dan Kennedy.",
+              "Evidence-led: calm, methodical, testimonials and user results. Reference: Claude Hopkins."
+            ]
+          },
+          "right": {
+            "title": "Human & culturally savvy",
+            "items": [
+              "Human / story-driven: a person or a story in everything, casual words, building in public (Bad Ombres burritos). Reference: John Caples.",
+              "Culturally savvy: pop-culture wordplay (Reformation's subject lines). Only works if the brand and its buyers are fluent in that culture."
+            ]
+          }
+        },
+        {
+          "type": "quote",
+          "text": "This is the copy style that most marketers shy away from. It's intimidating to them, but is also by far the highest efficacy of any of the ones we're going to work through.",
+          "who": "Oren John",
+          "time": "28:00"
+        },
+        {
+          "type": "example",
+          "title": "One statement for Srijan",
+          "before": "I post gym, tech and gaming stuff. Funny reels. Follow for more.",
+          "after": "For broke 20-somethings in India who want to look jacked and game on a good PC, Srijan is the unhinged gym-and-tech guy who shows what actually works on a budget. Unlike polished fitness and tech influencers, I test it on myself and I'm honest when it flops.",
+          "why": "It names a target, a need, a category and a difference, so every caption, hook and AI prompt can be written from it."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "His advice: once a style clicks for you, read the books of that writer. Reading one and practising it puts you ahead of most marketers."
+        }
+      ]
+    },
+    {
+      "title": "The brand project and the five levels of AI",
+      "time": "31:25",
+      "summary": "Make a shared ChatGPT project for the brand. Feed it the positioning statement, product details, website copy and real testimonials, but not big brand guides. Give it feedback so it learns. Then add the human layer yourself: real stories and funny company moments on top of the AI draft. He then ranks how teams use AI in five levels. Most teams (his '90%') only chat. The money skill for an individual is maintaining projects and turning repeated tasks into skills.",
+      "blocks": [
+        {
+          "type": "checklist",
+          "title": "What to upload to a brand project",
+          "items": [
+            "Your one positioning statement",
+            "Product sheets / landing-page info for every product",
+            "Website copy",
+            "Testimonials, comments, review exports",
+            "Leave out: big brand-guide PDFs ('some of the stuff isn't really pertinent')"
+          ]
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Five levels of AI in marketing",
+          "items": [
+            {
+              "label": "1. Chatting",
+              "text": "Asking ChatGPT random things. 'That's 90% of teams.'"
+            },
+            {
+              "label": "2. Projects",
+              "text": "Context applied to the intelligence: your products, testimonials, statement."
+            },
+            {
+              "label": "3. Skills",
+              "text": "Repeated processes saved as skills (a quiz-maker, a comparison-ad generator, his copy-styles skill)."
+            },
+            {
+              "label": "4. Agents",
+              "text": "Doing tasks for you on a schedule, e.g. his Friday Meta-ads summary agent with read-only access."
+            },
+            {
+              "label": "5. A 'true brain'",
+              "text": "One repository connected to ads, creative strategy and costs that makes business decisions with you."
+            }
+          ],
+          "caption": "Go from single-player to multiplayer: one named owner per project and per skill."
+        },
+        {
+          "type": "quote",
+          "text": "So repeatable things become skills.",
+          "who": "Oren John",
+          "time": "35:06"
+        },
+        {
+          "type": "quote",
+          "text": "That's what separates doing this mediocre versus doing it like all the big brands are doing it now.",
+          "who": "Oren John",
+          "time": "33:00"
+        },
+        {
+          "type": "stat",
+          "value": "90%",
+          "label": "of teams are only at level 1 (chatting)",
+          "note": "His estimate from workshops with brands.",
+          "evidence": "claim"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Srijan's Master Mind is already a level-2/3 setup: the Brain is the project, the mastermind skill is a skill. Oren's rule to copy: after any AI draft (script, caption), add one real moment (the gym uncle who stole your bench, the PC that wouldn't POST) so it doesn't read as AI copy."
+        }
+      ]
+    },
+    {
+      "title": "Demand and organic social: networks and Instagram strategies",
+      "time": "38:17",
+      "summary": "A marketing team's real job: define what makes you different, map your toolkit, then generate attention that converts. There are three main ways to capture demand: organic social, ads and outbound. His 'alpha' is that social media gives free attention, which didn't exist when he started. Organic social needs narrative, taste, focus and credibility. He rates each network: TikTok needs an 'army' of accounts, Instagram is the primary for most, YouTube is a lead magnet for services, LinkedIn is a team sport. On Instagram, 90% of brands should pick one of three strategies, and for most it's an expert on camera.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "social media gives you free attention.",
+          "who": "Oren John",
+          "time": "40:07"
+        },
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "What organic social runs on",
+          "items": [
+            {
+              "label": "Narrative + taste",
+              "text": "The story you tell, and how it looks and comes across."
+            },
+            {
+              "label": "Focus",
+              "text": "Get good at one or two networks rather than 'mid at all of them'."
+            },
+            {
+              "label": "Credibility",
+              "text": "Do people actually believe you?"
+            }
+          ],
+          "caption": "His four ingredients: narrative, taste, focus, credibility."
+        },
+        {
+          "type": "compare",
+          "title": "Network guide",
+          "left": {
+            "title": "TikTok & Instagram",
+            "items": [
+              "TikTok: rewards video quality instantly, but a branded business account 'is going to have a hard time'. Winners build 'an army': multiple accounts, creators, slideshows.",
+              "Instagram: views from the start, and you can change your trajectory any time by posting better. Primary network for most; reuse the content everywhere."
+            ]
+          },
+          "right": {
+            "title": "YouTube & LinkedIn",
+            "items": [
+              "YouTube: great for services. 1–2K views a video can still bring enough quality leads. Needs someone who cares about thumbnails and titles.",
+              "LinkedIn: 'a team sport'. Air has 5–10 staff posting; Buffer has 80%+ of employees active."
+            ]
+          }
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Three Instagram strategies (pick one)",
+          "items": [
+            {
+              "label": "1. Expert on camera",
+              "text": "One person talking about the world around the business (Opal's whiteboard creator; Ken Sakata for Front Office). His #1. At least 3 posts a week."
+            },
+            {
+              "label": "2. Storytelling",
+              "text": "Hero's-journey content about an interesting business (Bad Ombres took over an old Taco Bell). About 2 posts a week (a vlog and a carousel)."
+            },
+            {
+              "label": "3. Extremely art-directed",
+              "text": "Every post is a concept made by a singular creative talent (Meshki). Slow and expensive."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "quote",
+          "text": "This is the number one most effective and easiest way to promote your business on Instagram.",
+          "who": "Oren John",
+          "time": "44:04"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Srijan is already strategy 1 (expert on camera) with a comedic angle. Oren's cadence rule: at least 3 posts a week on Instagram as the primary, then cross-post the same reels to YouTube Shorts."
+        }
+      ]
+    },
+    {
+      "title": "Goals, metrics and the content funnel",
+      "time": "49:20",
+      "summary": "Social has two goals: brand awareness and sales. For each post, measure hook rate (did people choose to watch), views, saves and shares. For the account, measure monthly reach, leads or sign-ups, and sales you can attribute to social. Then he explains the content funnel. Top-of-funnel content gets attention and may not mention the product. It 'raises the floor' of everything else. Middle educates about you; bottom exists to sell or get sign-ups, often with low views.",
+      "blocks": [
+        {
+          "type": "compare",
+          "title": "What to measure",
+          "left": {
+            "title": "Per post",
+            "items": [
+              "Hook rate (did they choose to watch?)",
+              "Views",
+              "Saves",
+              "Shares"
+            ]
+          },
+          "right": {
+            "title": "Per account (monthly)",
+            "items": [
+              "Total reach (awareness)",
+              "Leads / sign-ups / email adds",
+              "Sales attributed to social"
+            ]
+          }
+        },
+        {
+          "type": "framework",
+          "style": "funnel",
+          "title": "The content funnel",
+          "items": [
+            {
+              "label": "Top",
+              "text": "Gets attention. May not mention the product at all (Ken Sakata's general fashion deep dives). Most views."
+            },
+            {
+              "label": "Middle",
+              "text": "Educates about your brand and experience. Core content, usually fewer views."
+            },
+            {
+              "label": "Bottom",
+              "text": "Only there to sell or get sign-ups. Often low views, and that's fine."
+            }
+          ],
+          "caption": "His fashion example: viral stunts → fit and styling breakdowns → founder's 'my 4–5 favourite pieces, get them before they sell out'."
+        },
+        {
+          "type": "quote",
+          "text": "It's there to raise the floor of all your content.",
+          "who": "Oren John",
+          "time": "50:55"
+        },
+        {
+          "type": "example",
+          "title": "Srijan's funnel in one week",
+          "before": "Every reel is a random meme with the same 'follow for more' ending.",
+          "after": "Top: 'Gym bros when the AC breaks' skit (no product). Middle: 'My ₹40K budget PC, part by part' breakdown. Bottom: 'Everything in my setup, links in bio' or a brand collab reel.",
+          "why": "Each layer has a different job, so you stop judging a bottom-of-funnel post by its views."
+        }
+      ]
+    },
+    {
+      "title": "Context: you compete with the whole feed",
+      "time": "52:13",
+      "summary": "Three principles for an organic plan. First, 'the world is more important than the brand accounts': experts, founders and creators drive more impact than a brand handle, because 'people gravitate towards personalities'. Second, you're not competing with niche rivals but with everything in your ideal viewer's feed: people, skits, attractive people, funny and relatable content. Build a fake account that follows what they follow and study it 10–15 minutes a day for a couple of weeks. Third, it has to be shareable. He then shows real examples, including a faceless POV-hands TikTok account in Mexico that 'blew up' to 800,000 (he doesn't say views or followers).",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "You are not competing with them. You are competing with everything else that shows up when your ICP, your ideal customer profile, opens their phone.",
+          "who": "Oren John",
+          "time": "53:15"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Three context rules for an organic plan",
+          "items": [
+            {
+              "label": "1. The world > the brand account",
+              "text": "Experts, founders, creators and influencers drive more impact than a brand handle: 'people gravitate towards personalities'."
+            },
+            {
+              "label": "2. Compete with the feed",
+              "text": "Your rival is what your viewer sees: 'individual people… skits… hot guys and hot girls… funny and relatable content'. Study it with an account that follows what they follow, 10–15 min a day for two weeks."
+            },
+            {
+              "label": "3. Make it shareable",
+              "text": "'The most important factor': give people a reason to send it to someone, then measure whether they do."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "checklist",
+          "title": "Shareability: is there a reason to send it?",
+          "items": [
+            "A relatable experience",
+            "Expertise that drives real value",
+            "A tutorial",
+            "Funny",
+            "Interesting",
+            "Aesthetically beautiful"
+          ]
+        },
+        {
+          "type": "story",
+          "title": "Gel Blaster's Mexico TikTok",
+          "text": "When Oren ran marketing at Gel Blaster (a toy company), they ran regional TikTok accounts. The Mexico one, Spanish versions of US content shot as POV skits that showed only hands with a voiceover, 'blew up' to 800,000 (he doesn't say whether views or followers). His lesson: you don't need a face, you need a concept."
+        },
+        {
+          "type": "quote",
+          "text": "you don't necessarily have to have someone on camera, but you have to have a concept.",
+          "who": "Oren John",
+          "time": "57:14"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Do the ICP feed exercise: make a second Instagram that follows only what an 18–26-year-old Indian gym/gaming guy follows (meme pages, BGMI clips, desi comedy, fitness creators). Scroll it 10–15 minutes a day for two weeks. That feed, not other PC channels, is what your reel has to beat."
+        }
+      ]
+    },
+    {
+      "title": "The pillar system",
+      "time": "58:02",
+      "summary": "Level one of an organic plan: a minimum team (someone running social plus someone on camera) and 3–5 formats, called pillars, each run 3–4 times a month (12–16 posts). A couple of days after each month ends, compare views, saves, shares, hook rate and new vs old followers, pillar against pillar and month against month. Report it in about an hour. A pillar that does worse two months in a row gets swapped, which is also how you test a boss's idea without arguing. Cross-post everything. Only once you're good at one network do you build per-network strategies (level two). He also recommends a collaborator pillar.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "every business should have, in my opinion, between three and five formats you're testing.",
+          "who": "Oren John",
+          "time": "58:35"
+        },
+        {
+          "type": "framework",
+          "style": "cycle",
+          "title": "The monthly pillar loop",
+          "items": [
+            {
+              "label": "Pick 3–5 formats",
+              "text": "e.g. carousels, vlogs, sit-down explainers, green screen."
+            },
+            {
+              "label": "Post each 3–4× a month",
+              "text": "12–16 posts in total."
+            },
+            {
+              "label": "Review a few days after month end",
+              "text": "Views, saves, shares, hook rate, new vs old followers; pillar vs pillar, month vs month."
+            },
+            {
+              "label": "Report",
+              "text": "Top performers, what's improving, the changes you'll make. About 1 hour a month."
+            },
+            {
+              "label": "Swap or keep",
+              "text": "Worse two months running → replace it with a new pillar."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "quote",
+          "text": "They validate it with numbers.",
+          "who": "Oren John",
+          "time": "1:00:25"
+        },
+        {
+          "type": "stat",
+          "value": "3–5 months",
+          "label": "to traction with a pillar system",
+          "note": "And 'good social content 6 months latest', even if you start bad.",
+          "evidence": "claim"
+        },
+        {
+          "type": "compare",
+          "title": "Level 1 vs Level 2",
+          "left": {
+            "title": "Level 1 (now)",
+            "items": [
+              "One primary network",
+              "Pillar system + monthly review",
+              "Cross-post everywhere: 'it compounds over time'"
+            ]
+          },
+          "right": {
+            "title": "Level 2 (later)",
+            "items": [
+              "Separate per-network strategies",
+              "e.g. TikTok 'more personal, a bit more candid… shoot it on iPhone'",
+              "Only once you're good at one network"
+            ]
+          }
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Srijan's pillars, 4 × 3 = 12 reels a month: (1) gym skit, (2) PC/tech explainer, (3) gaming rage/clip reaction, (4) a 'day in the life' vlog. Keep a simple sheet; on the 3rd of each month compare them and kill the weakest after two bad months. Add a collab pillar: one reel a month with a Pune gym or tech creator."
+        }
+      ]
+    },
+    {
+      "title": "Idea tools and hook anatomy",
+      "time": "1:02:47",
+      "summary": "Oren shows three idea sources. His free 'Content Oracle' GPT generates ideas from a short brief (for an SF accountant: 'The 300k salary trap', 'Your equity is not cash'). Social Growth Engineers has paid case studies of fringe winners. His Video Database app sorts references by format, topic and outliers. The useful part for any creator is how he breaks a reference down: a title hook, a verbal hook and a visual hook, the narrative framework, and a 'simple outline' such as controversial question → rapid-fire opinions → justifications → punchline. He insists you look outside your niche.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "Hook anatomy: three hooks at once",
+          "items": [
+            {
+              "label": "Title hook",
+              "text": "The text on screen or the title."
+            },
+            {
+              "label": "Verbal hook",
+              "text": "The first words spoken."
+            },
+            {
+              "label": "Visual hook",
+              "text": "What the first frame shows."
+            }
+          ],
+          "caption": "Every reference gets broken into these three, plus its narrative framework and a simple outline."
+        },
+        {
+          "type": "quote",
+          "text": "What was their title hook, their verbal hook, and their visual hook?",
+          "who": "Oren John",
+          "time": "1:06:12"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "A simple outline he uses 'all the time'",
+          "items": [
+            {
+              "label": "Controversial question",
+              "text": "Open with something people will argue about."
+            },
+            {
+              "label": "Rapid-fire opinions",
+              "text": "Quick takes, one after another."
+            },
+            {
+              "label": "Justifications",
+              "text": "Why you think each one."
+            },
+            {
+              "label": "Punchline",
+              "text": "Land it with a joke or a twist."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "quote",
+          "text": "I'd highly recommend looking outside your niche.",
+          "who": "Oren John",
+          "time": "1:05:41"
+        },
+        {
+          "type": "example",
+          "title": "Controversial-question outline on a PC reel",
+          "before": "Here are my thoughts on RGB in PC builds.",
+          "after": "Q: 'Is RGB making your PC slower?' → rapid fire: 'RGB fans, cringe. RGB RAM, crime. RGB keyboard, fine.' → justifications (heat, price, cables) → punchline: 'My PC has no RGB. My personality is the RGB.'",
+          "why": "It follows his outline exactly and gives the comments something to argue about."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "When saving references, only keep outliers: videos that did at least 2× that account's normal views. His database sorts by that."
+        }
+      ]
+    },
+    {
+      "title": "Ad maths and which platform when",
+      "time": "1:07:15",
+      "summary": "He defines the numbers every marketer should know. ROAS is return on ad spend. His worked example: a $100 product that costs $25, at 2× ROAS, means $50 of ads and $25 profit. CPA is cost per action, CAC is customer acquisition cost, LTV is lifetime value. Young, cash-poor brands need first-order profit; later you judge CAC against LTV with a 3:1 target. Ad-level numbers like CPM, CPC and thumb stop are indicators, not goals. Then the platform order: Meta first for 90% of brands, then TikTok, YouTube, Google, LinkedIn for B2B, incremental platforms, and underrated newsletter sponsorships.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "equation",
+          "title": "ROAS maths for one sale (his example)",
+          "items": [
+            {
+              "label": "Sale price $100",
+              "text": "4× markup is typical in fashion."
+            },
+            {
+              "label": "Ad spend $50",
+              "text": "At 2× ROAS, $50 of ads bought the $100 sale."
+            },
+            {
+              "label": "Product cost $25",
+              "text": "What the item cost to make."
+            },
+            {
+              "label": "Profit $25",
+              "text": "$100 − $50 − $25. 'That is the math that basically makes all of online advertising go round and round.'"
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "stat",
+          "value": "3:1",
+          "label": "LTV : CAC north star",
+          "note": "If customers spend $100 over time, aim for a $33 acquisition cost. He credits 'the common thread guys' for popularising it.",
+          "evidence": "stated"
+        },
+        {
+          "type": "quote",
+          "text": "So CPM, CPC, thumb stop, those don't really matter in my opinion.",
+          "who": "Oren John",
+          "time": "1:12:36"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Ad platform order",
+          "items": [
+            {
+              "label": "1. Meta",
+              "text": "Facebook + Instagram. 'It is a money printing machine.' First for 90% of brands."
+            },
+            {
+              "label": "2. TikTok",
+              "text": "Repurpose Meta ads; about 30%, sometimes 50%, of Meta's scale in some categories."
+            },
+            {
+              "label": "3. YouTube",
+              "text": "Horizontal versions. 'Kind of underpriced', a great second."
+            },
+            {
+              "label": "4. Google",
+              "text": "Where there is search demand. Hard interface."
+            },
+            {
+              "label": "5. LinkedIn",
+              "text": "Expensive; B2B or high-ticket only."
+            },
+            {
+              "label": "6. Incremental",
+              "text": "AppLovin, Shop app, Snapchat at 3–7% of spend once you spend six to seven figures a month."
+            },
+            {
+              "label": "Bonus: newsletters",
+              "text": "Underrated sponsorships via Beehiiv's network or rate cards."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "callout",
+          "tone": "myth",
+          "text": "Myth: 'a bad thumb-stop rate means the ad is bad.' Oren: if it hits the ROAS goal, a bad thumb stop doesn't matter. For organic posts, though, he does track hook rate. Don't mix up the two contexts."
+        }
+      ]
+    },
+    {
+      "title": "Running Meta ads (plus outbound)",
+      "time": "1:16:50",
+      "summary": "Media buying is 'simply directing money to things that are working', plus testing new things every week. The biggest levers are the customer and message, the product you pick, the price point, the offer and the creative. His setup: Sales objective, ad-set budgets (ABO) for beginners, one concept per ad set with 3–10 truly different ads, about $50 a day per ad set, and lookalike audiences (3% then 10%) before broad. Spend 3–5× your target cost per sale before judging. He reads results through a Meta connector in ChatGPT but never lets AI auto-publish ads. Outbound (cold email, LinkedIn) is a 'game of sheer will and attrition'.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "media buying is simply directing money to things that are working.",
+          "who": "Oren John",
+          "time": "1:17:23"
+        },
+        {
+          "type": "framework",
+          "style": "cycle",
+          "title": "The weekly creative-strategy loop",
+          "items": [
+            {
+              "label": "Creative strategy",
+              "text": "Decide the new concepts and hooks to test."
+            },
+            {
+              "label": "Buy media",
+              "text": "Launch new ad sets: one concept each, 3–10 ads."
+            },
+            {
+              "label": "Report",
+              "text": "Read what worked (he uses the Meta MCP in ChatGPT)."
+            },
+            {
+              "label": "New strategy",
+              "text": "Spend more on winners, kill losers, brief new ideas. 'Repeat forever.'"
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "quote",
+          "text": "Three to 10 ads per set is a good rule.",
+          "who": "Oren John",
+          "time": "1:24:51"
+        },
+        {
+          "type": "framework",
+          "style": "matrix",
+          "title": "Reading a test (target $50 per sale, $250 over 5 days)",
+          "items": [
+            {
+              "label": "5+ sales",
+              "text": "Hitting the target: spend more (scale)."
+            },
+            {
+              "label": "About 3 sales",
+              "text": "Close: keep testing."
+            },
+            {
+              "label": "No sales, but add-to-carts and checkouts",
+              "text": "The ad works, the page or message downstream doesn't: fix the landing page."
+            },
+            {
+              "label": "Terrible across the board",
+              "text": "Turn it off."
+            }
+          ],
+          "caption": "Spend 3–5× the target cost per action before deciding. (Axes are our framing of his four outcomes.)",
+          "axes": {
+            "x": "Sales at target cost",
+            "y": "Buying signals (carts, checkouts, sign-ups)"
+          }
+        },
+        {
+          "type": "stat",
+          "value": "$50/day",
+          "label": "per ad set to test",
+          "note": "About $1,500 a month. $10 works but is slow; $100 is better.",
+          "evidence": "stated"
+        },
+        {
+          "type": "callout",
+          "tone": "warn",
+          "text": "Use AI to read the ad account and make light changes (budgets, pausing). Don't let it publish ads: 'Meta will kind of shut accounts down that are automating it.' Name ad sets by customer profile + creative type so the AI can reason over them."
+        }
+      ]
+    },
+    {
+      "title": "Characters: creators, influencers and the brief",
+      "time": "1:30:58",
+      "summary": "A creator is up-and-coming (zero to a couple of hundred thousand followers). An influencer is established and can shift a campaign. Brands use creators for ad creative (with 'creative diversity'), seeding (free product, no ask), affiliates (commission) and on-account content. The ideal set-up is a pyramid: micro creators for volume, a mid-tier core, and a few big anchors. Everything hinges on the brief. His 'modular brief' is a long checklist you shrink or expand; the best 10% of creators ignore it, the other 90% need it. He ends with whitelisting (a brand runs a creator's post as an ad) and darklisting.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "pyramid",
+          "title": "The creator pyramid",
+          "items": [
+            {
+              "label": "Micro / new creators (base)",
+              "text": "Volume and experiments; most of the ad-account creative."
+            },
+            {
+              "label": "Mid-tier (30K–100K in a niche)",
+              "text": "'Form the core of it.'"
+            },
+            {
+              "label": "A few big influencers (top)",
+              "text": "Anchors who make standout creative and get the creators below them excited."
+            }
+          ],
+          "caption": "'And all three of those work in concert to make amazing marketing.'"
+        },
+        {
+          "type": "compare",
+          "title": "Creator vs influencer",
+          "left": {
+            "title": "Creator",
+            "items": [
+              "Up-and-coming, 0 to 'a couple hundred thousand followers max'",
+              "No celebrity status",
+              "Good for ad creative, seeding, affiliates, on-account content"
+            ]
+          },
+          "right": {
+            "title": "Influencer",
+            "items": [
+              "Established, 'outsized result with their audience'",
+              "Can be a face or a voice",
+              "Anchors launches (Oren for Shopify Editions)"
+            ]
+          }
+        },
+        {
+          "type": "checklist",
+          "title": "The modular brief",
+          "items": [
+            "The two most important messages (not 5–10)",
+            "Target-audience pitch (a short persona summary)",
+            "Content type (vlog, yap, static) and how flexible it is",
+            "Hook inspiration: text on screen, visuals, what to say",
+            "References (high performers, saved outliers)",
+            "Mechanism (optional): e.g. 'blitz' lists, storytime",
+            "A simple outline: hook → scenario → product point → joke → …",
+            "Assets: B-roll, graphics",
+            "Variants: comment-CTA vs ad-CTA versions, 2–3 hooks, alternate endings"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "but the bottom 90% really need the brief.",
+          "who": "Oren John",
+          "time": "1:38:08"
+        },
+        {
+          "type": "stat",
+          "value": "30–50%",
+          "label": "of ads in some top accounts are whitelisted",
+          "note": "Whitelisted creator ads 'often perform way higher than regular ads' (his claim, from a panel).",
+          "evidence": "claim"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Flip it: when a Pune supplement shop or PC-parts store DMs Srijan, ask for their brief. If they want to run your reel as an ad from your handle, that's whitelisting via an ad/partnership code: charge for the usage rights on top of the post."
+        }
+      ]
+    },
+    {
+      "title": "Tactics: the flow from attention to money",
+      "time": "1:42:54",
+      "summary": "'Your goal as marketing is not to do cool campaigns'; it's leads and sales. He whiteboards the flow: attention (ads, organic, referral, search, foot traffic) → a CTA → a landing page → a lead or a sale → the CRM → touches and automations → the thank-you page and 'close assets'. Bios get a three-line structure ending in a CTA. Landing-page conversion maths decides your real cost. Speed to touch (minutes, not days) and an underrated thank-you page matter. His two north-star numbers: landing-page conversion rate and lead close rate.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "your goal as marketing is not to do cool campaigns.",
+          "who": "Oren John",
+          "time": "1:43:09"
+        },
+        {
+          "type": "framework",
+          "style": "funnel",
+          "title": "The flow",
+          "items": [
+            {
+              "label": "Attention",
+              "text": "Ads, organic social, referral, search (Google and ChatGPT), foot traffic."
+            },
+            {
+              "label": "CTA",
+              "text": "Every piece asks for something: buy, waitlist, free cheat sheet, consultation."
+            },
+            {
+              "label": "Landing page",
+              "text": "The page built to convert, not your homepage."
+            },
+            {
+              "label": "Lead or sale",
+              "text": "Email/phone captured, or the purchase."
+            },
+            {
+              "label": "CRM + touches",
+              "text": "HubSpot/Klaviyo; fast human touches plus automations (abandoned cart)."
+            },
+            {
+              "label": "Close",
+              "text": "Thank-you page, popular videos, testimonials, FAQs and objection answers."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The 3-line bio",
+          "items": [
+            {
+              "label": "Line 1",
+              "text": "What you actually do."
+            },
+            {
+              "label": "Line 2",
+              "text": "Why follow / what you'll learn."
+            },
+            {
+              "label": "Line 3",
+              "text": "A CTA (his: 'join my brand strategy newsletter')."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "stat",
+          "value": "4% → $25",
+          "label": "cost per conversion",
+          "note": "100 visitors at $1 each, a 4% landing page = 4 people at $25 each. 11–12 conversions is far better; 1 is far worse.",
+          "evidence": "stated"
+        },
+        {
+          "type": "quote",
+          "text": "obsess about the conversion rate here. This is your northstar metrics.",
+          "who": "Oren John",
+          "time": "1:52:25"
+        },
+        {
+          "type": "example",
+          "title": "Srijan's bio, rewritten",
+          "before": "Gym | Tech | Gaming 🎮 Pune 📍 DM for collabs",
+          "after": "Line 1: Unhinged gym + PC + gaming guy from Pune. Line 2: I test budget fitness and tech so you don't waste money. Line 3: ↓ Free 'my ₹40K PC parts list'.",
+          "why": "Oren's three lines: what you do, why follow, a CTA that turns a profile visit into a lead."
+        }
+      ]
+    },
+    {
+      "title": "Landing pages",
+      "time": "1:53:26",
+      "summary": "A landing page's whole job is to remove every question or objection before purchase. There are two main types: the product page (PDP) and the listicle page (BuzzFeed-style education that then sells). From his Van Group builds (Rhode, HexClad, Ridge Wallet) he gives a section order for '90% of your PDP landing pages'. Luxury pages (Jacob & Co.) instead overwhelm you with craft: sketches, development, macro shots. His habit: whenever you click an ad, list the page's sections as 'recipes'. He generates page copy in three voices and builds pages in Codex from a brand 'skill'.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "So the entire role of this entire page is to remove any questions or objections that someone may have about buying the product.",
+          "who": "Oren John",
+          "time": "1:54:45"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "PDP section order (his formula)",
+          "items": [
+            {
+              "label": "1",
+              "text": "Lifestyle photo/video carousel"
+            },
+            {
+              "label": "2",
+              "text": "Buy the whole routine up top"
+            },
+            {
+              "label": "3",
+              "text": "Results on real people"
+            },
+            {
+              "label": "4",
+              "text": "Benefits reframed to the user: what does it feel like?"
+            },
+            {
+              "label": "5",
+              "text": "Value props"
+            },
+            {
+              "label": "6",
+              "text": "How to use"
+            },
+            {
+              "label": "7",
+              "text": "Ingredients / materials"
+            },
+            {
+              "label": "8",
+              "text": "Data: clinical and consumer results"
+            },
+            {
+              "label": "9",
+              "text": "FAQ for objections"
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "compare",
+          "title": "Product page vs luxury page",
+          "left": {
+            "title": "Product page (PDP)",
+            "items": [
+              "Answer 'does it work for me?'",
+              "Proof on real people, how to use, FAQ",
+              "Ten Thousand: a short video per feature"
+            ]
+          },
+          "right": {
+            "title": "Luxury page",
+            "items": [
+              "Answer 'why is this worth this money?'",
+              "Design inspiration, animated sketches, development, macro craft shots",
+              "CTA = inquire"
+            ]
+          }
+        },
+        {
+          "type": "quote",
+          "text": "The job is basically to overwhelm you with how incredible it is.",
+          "who": "Oren John",
+          "time": "2:00:22"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Same order works for a link-in-bio page or a carousel selling Srijan's future product (a workout plan or a PC-build guide): lifestyle shot → the full bundle → results on real people → what it feels like → what's inside → how to use → FAQ."
+        }
+      ]
+    },
+    {
+      "title": "Narrative: strategy roles, campaigns and PR",
+      "time": "2:02:43",
+      "summary": "Once demand works, marketing becomes about narrative. He separates three roles people mix up: brand strategy (macro positioning, messages and big bets), creative strategy (weekly ad concepts and briefs) and creative direction, which 'drives the brand vision that enables creative strategy'. A campaign is an idea in a moment in time that pulls the whole brand world onto one theme (Set Active, Sunnies Face, Shopify Editions, Equinox). PR coverage has 'a fraction of the efficacy it used to', but it's still useful for crisis and narrative role-play.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "Three roles people confuse",
+          "items": [
+            {
+              "label": "Brand strategy",
+              "text": "Macro: positioning, which messages to test, tone of voice, big bets for a launch, quarter or year."
+            },
+            {
+              "label": "Creative strategy",
+              "text": "Tactical and weekly: new hook angles and messages → briefs → distribution → feedback. Mostly the ad account."
+            },
+            {
+              "label": "Creative direction",
+              "text": "The campaign vision, build-outs, packaging. Can personally shoot, style or design, and has a network to call."
+            }
+          ],
+          "caption": "'There's obviously some overlap between those three topics.'"
+        },
+        {
+          "type": "quote",
+          "text": "The creative director drives the brand vision that enables creative strategy.",
+          "who": "Oren John",
+          "time": "2:06:27"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Campaign types he shows",
+          "items": [
+            {
+              "label": "Always-campaigning feed",
+              "text": "Set Active: state fair → 'out of office' Italy, little in between."
+            },
+            {
+              "label": "Anchor-influencer launch",
+              "text": "Sunnies Face fragrance: spend more on one big face to enter a new category."
+            },
+            {
+              "label": "Release event",
+              "text": "Shopify Editions: event, stream, micro-site, explainer videos, influencers."
+            },
+            {
+              "label": "Annual theme",
+              "text": "Equinox's yearly signature campaign across stores and feed."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "quote",
+          "text": "It propels that moment forward bigger than any of these individuals.",
+          "who": "Oren John",
+          "time": "2:09:55"
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "His PR use today: role-play a crisis in ChatGPT ('you're a crisis PR person, this is what they're saying about us') and then judge the options 'through a human lens'."
+        }
+      ]
+    },
+    {
+      "title": "Email & SMS",
+      "time": "2:13:34",
+      "summary": "A mentor told him to get certified in marketing automation, and that he'd never lack a six-figure job. Email has campaigns (one-off sends) and flows (automated by a trigger). He likes 1–3 emails a week for most brands, and calls daily discount emails 'constant list attrition'. He shows a toolkit of campaign types, says small or service businesses should send from a person in plain text, and lists the core flows. His Monday workflow reuses last week's posts, community moments and sales objections, so email becomes a flywheel. 'One a month is better than none.'",
+      "blocks": [
+        {
+          "type": "compare",
+          "title": "Two kinds of email",
+          "left": {
+            "title": "Campaigns",
+            "items": [
+              "One-off sends",
+              "e.g. a lookbook, a new release, a founder update",
+              "1–3 a week for most brands"
+            ]
+          },
+          "right": {
+            "title": "Flows",
+            "items": [
+              "Automated, triggered by an action",
+              "Welcome, abandoned cart, browse abandonment, repeat/milestone",
+              "Start from the templates"
+            ]
+          }
+        },
+        {
+          "type": "checklist",
+          "title": "Campaign toolkit",
+          "items": [
+            "Shop the content: reuse a carousel or video with more detail",
+            "New release",
+            "From the community",
+            "Business update ('Hey, Julie here…')",
+            "Better together: context and adjacent items (recipes for a pan, a packing list)",
+            "Category / history / curation",
+            "FAQ (two or three 'cards' are enough)",
+            "Deals (sell the most, but mix in the rest)"
+          ]
+        },
+        {
+          "type": "framework",
+          "style": "cycle",
+          "title": "The Monday email flywheel",
+          "items": [
+            {
+              "label": "Gather",
+              "text": "What got posted, what came from the community, business news, sales objections."
+            },
+            {
+              "label": "Decide",
+              "text": "Plain text from a person, or designed?"
+            },
+            {
+              "label": "Assign",
+              "text": "Owners, dates, subject lines."
+            },
+            {
+              "label": "Send & reuse",
+              "text": "Good emails feed sales assets and new content ideas."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "stat",
+          "value": "35% / 7.3%",
+          "label": "open rate / placed-order rate",
+          "note": "The first email of a small brand's Klaviyo welcome flow he screen-shared.",
+          "evidence": "observed"
+        },
+        {
+          "type": "quote",
+          "text": "One a month is better than none.",
+          "who": "Oren John",
+          "time": "2:27:30"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "When Srijan starts a list (Substack or Kit), a weekly plain-text 'what I tested this week' email can reuse the week's reels and carousels: Oren's 'shop the content' type. He says he does exactly this on his own list, pasting Instagram carousel slides into the email with more detail."
+        }
+      ]
+    },
+    {
+      "title": "Sales support, the campaign map and the weekly update",
+      "time": "2:28:02",
+      "summary": "'The closer you are to the dollars, the more money you make', which is why creative strategists are well paid. Marketing arms sales with collateral for each stage, pushes speed of response, plans enough touches (his ~$9K high-ticket product converted most at the 11th touch) and triages engaged followers to sales. Work with 'the hungriest salesperson', and feed sales-call notes to ChatGPT to find objections. He whiteboards campaign planning (teaser → campaign → unveil → sustain, plus a refresh) across internal and external channels. He closes with the weekly update up the chain (wins, what's next, blockers, stats), which he says 'will change your life'.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "the closer you are to the dollars, the more money you make.",
+          "who": "Oren John",
+          "time": "2:29:22"
+        },
+        {
+          "type": "stat",
+          "value": "11th touch",
+          "label": "most likely to convert (≈$9K order value)",
+          "note": "From his high-ticket outdoors product. People bought on touch 1–2, or around touch 11.",
+          "evidence": "claim"
+        },
+        {
+          "type": "framework",
+          "style": "timeline",
+          "title": "Campaign stages",
+          "items": [
+            {
+              "label": "Teaser",
+              "text": "Before the announcement: build anticipation, waitlists."
+            },
+            {
+              "label": "Campaign",
+              "text": "The core assets and the big release."
+            },
+            {
+              "label": "Unveil",
+              "text": "The first full walkthrough. Best asset for the product page, often a strong ad."
+            },
+            {
+              "label": "Sustain",
+              "text": "Keep adding assets based on feedback."
+            },
+            {
+              "label": "Refresh (optional)",
+              "text": "e.g. 6 months later, a new stage to keep selling."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "framework",
+          "style": "equation",
+          "title": "What a campaign is",
+          "items": [
+            {
+              "label": "Internal channels",
+              "text": "Social, email & SMS, website, physical retail, ads."
+            },
+            {
+              "label": "External channels",
+              "text": "Partners, retailers, influencers and creators, seeding, PR, podcasts. 'The biggest thing.'"
+            },
+            {
+              "label": "= Your campaign",
+              "text": "Map both at every stage, then build an asset list with dates, owners and a work-back schedule."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The weekly email up the chain",
+          "items": [
+            {
+              "label": "Wins",
+              "text": "Call out what went well."
+            },
+            {
+              "label": "What's next",
+              "text": "Your priorities for the week."
+            },
+            {
+              "label": "Blockers",
+              "text": "What you're waiting on, which also gives you a paper trail."
+            },
+            {
+              "label": "Stats",
+              "text": "ROAS, leads, views, the KPIs."
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "quote",
+          "text": "If you're not calling out and cheerleading your wins, no one will.",
+          "who": "Oren John",
+          "time": "2:43:17"
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "area": "Hook",
+      "detail": "Cold open on a 3D globe/app-icon motion graphic reading 'DISTRIBUTION IS KING', then Oren walking a mirrored LED tunnel. Kinetic words float in on the spoken list: TASTE, DISTRIBUTION, ATTENTION, then MARKETING."
+    },
+    {
+      "area": "Structure",
+      "detail": "4 chapters (Lore → Demand → Tactics → Narrative), each opened by a chrome 3D emblem on a CRT TV with a static burst. A companion 'marketing.zip' download is promised throughout as an open loop."
+    },
+    {
+      "area": "Sets",
+      "detail": "6 physical sets rotated every few minutes as pattern interrupts: mirrored neon tunnel (LED colour changes by chapter), wall of CRT TVs, wall of hi-fi speakers, wooden creator desk with a big studio mic, green velvet lounge booth, steel whiteboard room."
+    },
+    {
+      "area": "Camera",
+      "detail": "About 20–24 mm wide in the tunnel and whiteboard room (exaggerated depth); 35–50 mm shallow depth of field at the desk and lounge."
+    },
+    {
+      "area": "Pacing",
+      "detail": "Talking shots average about 2.5–4.5 s; whiteboard demos hold 8–15 s. Axial jump cuts (medium → digital punch-in on the same angle) every 3–6 words on emphasis words."
+    },
+    {
+      "area": "Zooms",
+      "detail": "Smooth 1.15–1.3× punch-ins on punchlines and framework declarations."
+    },
+    {
+      "area": "B-roll",
+      "detail": "100+ real brand examples (Rhode, Ten Thousand, AG1, Equinox, Jacob & Co, Graza…) as full-screen overlays, phone mock-ups or split screens every 10–15 s. Live screen shares (Meta Ads Manager, Klaviyo, ChatGPT/Codex) as proof; subtle speed ramps remove dead time on scrolls."
+    },
+    {
+      "area": "Music",
+      "detail": "Changes by section: driving synthwave with sub-bass for the hook, lo-fi/chill-hop under teaching, atmospheric deep house for tactics, an emotional synth swell into a clean cut at the outro."
+    },
+    {
+      "area": "Sound",
+      "detail": "Airy low-passed whooshes on every slide or wipe; mechanical keyboard clicks, UI bubble pops and switch clicks on bullets and badges; risers + sub-boom impacts at chapter starts and ends; CRT degauss/static on chapter cards; marker squeaks on the whiteboard. Voice: broadcast chain (tight compression, ~10–12 kHz air, de-essing, no room reverb)."
+    },
+    {
+      "area": "Motion",
+      "detail": "3D chrome/liquid-metal chapter emblems and an 'MZ' mark; kinetic text slide-ins and horizontal wipes; UI cards with spring/ease-out; screen recordings in dark rounded cards with drop shadows and a floating circular face cam."
+    },
+    {
+      "area": "Type",
+      "detail": "Extended bold geometric sans titles (Druk Wide / Monument Extended style) + Inter/Neue Haas-style body; white on dark with cyan, lime and neon-pink highlights on numbers and acronyms (CAC, ROAS, LTV, $)."
+    },
+    {
+      "area": "Grade",
+      "detail": "High contrast, deep blacks, saturated neon accents (cyan, magenta, amber/tungsten)."
+    }
+  ],
+  "takeaways": [
+    {
+      "text": "Positioning is what you're known for: not generic, remembered, AI-legible. Pass the shelf test.",
+      "atom": "brand-positioning-known-for"
+    },
+    {
+      "text": "Pick one positioning type and use it as the north star for every post, ad and email.",
+      "atom": "brand-positioning-types"
+    },
+    {
+      "text": "Map your brand world (characters, sets, events, plot) and refresh it monthly or quarterly.",
+      "atom": "brand-world-characters-sets"
+    },
+    {
+      "text": "Plan around a calendar of personal, culture and industry moments.",
+      "atom": "brand-events-calendar"
+    },
+    {
+      "text": "Four copy styles: direct response (highest efficacy), evidence-led, human/story, culturally savvy.",
+      "atom": "text-four-copy-styles"
+    },
+    {
+      "text": "Feed an AI project your statement, product info and testimonials, then add a human layer on top.",
+      "atom": "ai-brand-project-human-layer"
+    },
+    {
+      "text": "Repeated tasks become skills; go from single-player to multiplayer AI.",
+      "atom": "ai-turn-into-skill"
+    },
+    {
+      "text": "Expert on camera is the #1 Instagram strategy, at a minimum of three posts a week.",
+      "atom": "brand-instagram-strategies"
+    },
+    {
+      "text": "You compete with everything in your viewer's feed, not niche rivals; look outside your niche.",
+      "atom": "ideas-compete-with-feed"
+    },
+    {
+      "text": "Shareability test: what reason would someone have to send this to a friend?",
+      "atom": "ideas-shareability-test"
+    },
+    {
+      "text": "No face is required if there is a concept (POV-hands skits).",
+      "atom": "ideas-faceless-with-concept"
+    },
+    {
+      "text": "Content funnel: top raises the floor, middle educates, bottom sells.",
+      "atom": "growth-content-funnel"
+    },
+    {
+      "text": "Per post: hook rate, views, saves, shares. Per account: reach, leads, attributed sales.",
+      "atom": "growth-post-and-account-metrics"
+    },
+    {
+      "text": "Pillar system: 3–5 formats × 3–4 a month, monthly review, swap after two worse months.",
+      "atom": "growth-pillar-system"
+    },
+    {
+      "text": "Master one network, cross-post everywhere, add per-network strategies later.",
+      "atom": "growth-master-one-cross-post"
+    },
+    {
+      "text": "Break references into title / verbal / visual hook plus a simple outline.",
+      "atom": "hook-title-verbal-visual"
+    },
+    {
+      "text": "Outline: controversial question → rapid-fire opinions → justifications → punchline.",
+      "atom": "story-controversial-outline"
+    },
+    {
+      "text": "Bio in three lines: what you do, why follow, a CTA.",
+      "atom": "growth-bio-three-lines"
+    },
+    {
+      "text": "Creator pyramid and the modular brief are how brands buy creators. Learn both to sell to them.",
+      "atom": "biz-modular-brief"
+    },
+    {
+      "text": "Whitelisting = a brand runs your post as an ad from your handle; price the usage.",
+      "atom": "biz-whitelisting"
+    },
+    {
+      "text": "Ad maths: ROAS, CAC, LTV, 3:1; test at ~$50/day and judge at 3–5× target CPA.",
+      "atom": "biz-ad-maths"
+    },
+    {
+      "text": "Attention → CTA → landing page → fast follow-up. North stars: page conversion and close rate.",
+      "atom": "biz-closer-to-dollars"
+    },
+    {
+      "text": "Email: 1–3 a week, plain text from a person, reuse your posts.",
+      "atom": "biz-email-cadence"
+    },
+    {
+      "text": "Weekly update: wins, next, blockers, stats.",
+      "atom": "proc-weekly-update"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Positioning",
+      "def": "What you're known for: the one idea people link to your brand and the lens you see the world through."
+    },
+    {
+      "term": "Shelf test",
+      "def": "Imagine yourself on a shelf next to every competitor; name your reason to exist there."
+    },
+    {
+      "term": "AI-legible",
+      "def": "Positioned clearly enough that ChatGPT or Google's AI answers have a reason to recommend you."
+    },
+    {
+      "term": "Counter-positioning",
+      "def": "Offering a better experience than a big incumbent for one group of people (Grüns gummies vs AG1 powder)."
+    },
+    {
+      "term": "Brand world",
+      "def": "The map of a brand's characters, filming sets, events calendar and plot (events, enemies, friends, specials)."
+    },
+    {
+      "term": "Direct response",
+      "def": "Urgent, numbers-driven, confrontational copy that asks for action now."
+    },
+    {
+      "term": "ICP",
+      "def": "Ideal customer profile: the exact person you are making content or products for."
+    },
+    {
+      "term": "Top / middle / bottom of funnel",
+      "def": "Content that gets attention / educates about you / sells or gets sign-ups."
+    },
+    {
+      "term": "Hook rate (thumb stop)",
+      "def": "The share of viewers who chose to keep watching past the first seconds."
+    },
+    {
+      "term": "Pillar",
+      "def": "A repeatable content format (carousel, vlog, green screen) you post several times a month and measure."
+    },
+    {
+      "term": "Outlier",
+      "def": "A video that did far better than that account's normal (Oren's database flags 2× and up)."
+    },
+    {
+      "term": "ROAS",
+      "def": "Return on ad spend: money back per $1 of ads (2 ROAS = $2 back for $1)."
+    },
+    {
+      "term": "CPA / CAC",
+      "def": "Cost per action (e.g. per sale) / cost to acquire one new customer."
+    },
+    {
+      "term": "LTV",
+      "def": "Lifetime value: what a customer spends with you over time."
+    },
+    {
+      "term": "First-order profitability",
+      "def": "Making a profit on the very first purchase, which matters when a brand is short of cash."
+    },
+    {
+      "term": "CPM / CPC / CTR",
+      "def": "Cost per 1,000 views / cost per click / share of viewers who click."
+    },
+    {
+      "term": "ABO vs CBO",
+      "def": "Budget set per ad set (you control it) vs per campaign (Meta's algorithm spreads it)."
+    },
+    {
+      "term": "Lookalike audience",
+      "def": "People Meta finds who resemble an uploaded customer list (1% = closest, 10% = broader)."
+    },
+    {
+      "term": "Creative strategy",
+      "def": "The weekly job of inventing new ad concepts and hooks, briefing them, and reading the results."
+    },
+    {
+      "term": "Creative diversity",
+      "def": "Running ads from many different people and styles so each appeals to a different audience."
+    },
+    {
+      "term": "Seeding",
+      "def": "Sending free product to creators with no ask, hoping they post."
+    },
+    {
+      "term": "Affiliate",
+      "def": "A creator paid a commission on the sales from their link or code."
+    },
+    {
+      "term": "Whitelisting / darklisting",
+      "def": "A brand runs a creator's posted video as an ad from their account / runs an ad from their account that never appeared on their feed."
+    },
+    {
+      "term": "Modular brief",
+      "def": "A long checklist brief you shrink or expand for each creator and campaign."
+    },
+    {
+      "term": "CTA",
+      "def": "Call to action: the specific thing you ask the viewer to do next."
+    },
+    {
+      "term": "PDP / listicle page",
+      "def": "Product detail page / a content-heavy 'X things you need to know' page that educates then sells."
+    },
+    {
+      "term": "CRM",
+      "def": "Customer relationship manager (e.g. HubSpot) that stores leads and customers."
+    },
+    {
+      "term": "Speed to touch",
+      "def": "How fast sales contacts a new lead; he wants minutes."
+    },
+    {
+      "term": "Campaign vs flow",
+      "def": "A one-off email send vs an automated email series triggered by an action."
+    },
+    {
+      "term": "MCP",
+      "def": "A connector that lets ChatGPT read (and lightly change) data in tools like Meta Ads or Klaviyo."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What three barriers does Oren say matter now that AI makes building easy?",
+      "a": "Taste, distribution and attention."
+    },
+    {
+      "q": "Define positioning in his words, and name its three rules.",
+      "a": "What you're known for. It can't be generic, it must be remembered, and it must be AI-legible."
+    },
+    {
+      "q": "Fill in the positioning statement template.",
+      "a": "For [target] who [need], [brand] is the [category] that [benefit]. Unlike [competitor], we [difference]."
+    },
+    {
+      "q": "Which copy style does he say has 'by far the highest efficacy'?",
+      "a": "Direct response: urgent, numbers-driven, confrontational."
+    },
+    {
+      "q": "What are the four parts of 'plot' in brand world mapping?",
+      "a": "Events, enemies, friends and specials."
+    },
+    {
+      "q": "Who are you really competing with on social, and how do you find out?",
+      "a": "Everything in your ideal viewer's feed (people, skits, funny and relatable content). Make an account that follows what they follow and check it 10–15 minutes a day for a couple of weeks."
+    },
+    {
+      "q": "How many pillars, how often, and when do you swap one?",
+      "a": "3–5 formats, each 3–4 times a month; swap a pillar after it does worse two months in a row."
+    },
+    {
+      "q": "What three hooks does he analyse in every reference?",
+      "a": "The title hook, the verbal hook and the visual hook."
+    },
+    {
+      "q": "$100 product, $25 cost, 2× ROAS: what's the profit?",
+      "a": "$25 (ads cost $50; 100 − 50 − 25)."
+    },
+    {
+      "q": "How much should you spend before judging a new ad set?",
+      "a": "3–5× your target cost per action (e.g. $250 over 5 days for a $50 target)."
+    },
+    {
+      "q": "What's the difference between whitelisting and darklisting?",
+      "a": "Whitelisting runs a creator's posted content as an ad from their account; darklisting runs an ad from their account that never appeared on their feed."
+    },
+    {
+      "q": "What are his two north-star metrics in the flow?",
+      "a": "Landing-page conversion rate and lead close rate."
+    },
+    {
+      "q": "What are the four stages of a campaign?",
+      "a": "Teaser, campaign, unveil, sustain (plus an optional refresh)."
+    },
+    {
+      "q": "What goes in the weekly update email?",
+      "a": "Wins, what's next, blockers, and stats/KPIs."
+    }
+  ],
+  "try_it": [
+    {
+      "title": "Shelf test + one statement",
+      "niche": "any",
+      "steps": [
+        "List the 5 creators an Indian gym/tech/gaming viewer would see next to you.",
+        "Write each one's reason to exist in 3 words.",
+        "Write yours with the template: For ___ who ___, Srijan is the ___ that ___. Unlike ___, I ___.",
+        "Pin it in the Brain and paste it into every AI script prompt."
+      ]
+    },
+    {
+      "title": "Build a 4-pillar month",
+      "niche": "any",
+      "steps": [
+        "Pick 4 formats: gym skit, PC explainer, gaming clip reaction, vlog.",
+        "Schedule each 3× this month (12 reels) on Instagram, cross-posted to YouTube Shorts.",
+        "On the 3rd of next month log views, saves, shares, hook rate, follows for each pillar.",
+        "Keep the top 3; give the weakest one more month; swap it if it loses again."
+      ]
+    },
+    {
+      "title": "Controversial-question gym reel",
+      "niche": "gym",
+      "steps": [
+        "Question hook: 'Is cardio killing your gains?' (title hook on screen, say it to camera, visual: you on a treadmill looking betrayed).",
+        "Rapid-fire opinions: 'Walking? Fine. HIIT after legs? Crime. Treadmill with incline 12? Personality.'",
+        "Justify each in one line.",
+        "Punchline that invites comments."
+      ]
+    },
+    {
+      "title": "ICP feed account",
+      "niche": "gaming",
+      "steps": [
+        "Make a fresh Instagram account.",
+        "Follow 30 accounts your ideal 18–26-year-old gamer follows (BGMI/Valorant clip pages, desi meme pages, gaming creators).",
+        "Scroll 10–15 min a day for 14 days; screenshot the 10 posts you'd share.",
+        "Write one reel idea that could beat each of those in the same feed."
+      ]
+    },
+    {
+      "title": "Bio + mini funnel",
+      "niche": "tech",
+      "steps": [
+        "Rewrite the bio in 3 lines: what you do / why follow / CTA.",
+        "Make a free 'my budget PC parts list' page (Notion or Substack) as the CTA destination.",
+        "End one tech reel a week with 'comment PC and I'll send the list'.",
+        "Count profile visits → link clicks → sign-ups each month (your landing-page conversion)."
+      ]
+    },
+    {
+      "title": "Brand world whiteboard",
+      "niche": "any",
+      "steps": [
+        "Draw 4 boxes: characters, sets, events (12 months), plot.",
+        "Fill the culture row: New Year gym rush, IPL, Diwali sales, GTA/GPU launches.",
+        "Mark one empty month and plan a 'special' (a 7-day series) to fill it.",
+        "Revisit on the first Sunday of each month."
+      ]
+    }
+  ]
+}

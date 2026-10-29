@@ -1,0 +1,136 @@
+{
+  "id": "L03",
+  "title": "Easing: why animations look robotic",
+  "creator": "Unnamed (promo for the Ugoki motion course)",
+  "url": "",
+  "length": "48.6 s",
+  "kind": "upload",
+  "one_liner": "Nothing real moves at constant speed: ease out entrances, ease in exits, spring the interface, nothing linear.",
+  "why_it_matters": "Every text pop, rep counter, zoom and pan in your reels is an animation, and the default in most tools (and in our own ffmpeg builds) is linear, which reads as cheap. Three rules and a four-line prompt make every motion feel hand-placed, whether you keyframe in Edits/CapCut or ask Claude to build it.",
+  "big_idea": {
+    "statement": "Animations look robotic because they move at constant speed; give every movement a curve that matches what it's doing.",
+    "support": [
+      "In the real world nothing starts or stops instantly, so linear motion looks fake.",
+      "Things arriving should arrive fast and brake slowly (ease out).",
+      "Things leaving should start slowly and then get away (ease in).",
+      "Interface elements should spring: overshoot slightly, then settle.",
+      "Saying these exact words to Claude upgrades any AI-built motion."
+    ]
+  },
+  "map": [
+    {"chapter": "The problem is speed", "time": "0:00–0:14", "gist": "Linear motion starts and stops all at once; the trail shows it"},
+    {"chapter": "Three rules for three kinds of motion", "time": "0:14–0:37", "gist": "Ease out to enter, ease in to leave, spring for UI"},
+    {"chapter": "The four-line prompt", "time": "0:37–0:42", "gist": "Paste it whenever an AI builds motion graphics"},
+    {"chapter": "How the video teaches it", "time": "whole video", "gist": "Robot vs pro hook, dotted trails, one-word captions with red boxes"},
+    {"chapter": "Fixing our own edits", "time": "applied", "gist": "Our Khandala pans were linear; ease every pan, zoom and pop"}
+  ],
+  "chapters": [
+    {
+      "title": "The problem is speed",
+      "time": "0:00",
+      "summary": "The video opens with a question about a pain point, 'Does your animation look robotic?', over a side-by-side of a ROBOT slider and a PRO slider. The diagnosis: the problem is its speed. Nothing in the real world moves at a constant speed, but a linear animation does. A dotted trail behind the moving object makes this visible: every step is the same distance apart, so it starts all at once and stops all at once.",
+      "blocks": [
+        {"type": "quote", "text": "Does your animation look robotic?", "who": "Narrator (hook)", "time": "0:00"},
+        {"type": "quote", "text": "Nothing in the real world moves at a constant speed.", "who": "Narrator", "time": "0:04"},
+        {"type": "compare", "title": "Read the trail", "left": {"title": "ROBOT (linear)", "items": ["Dots evenly spaced", "Same speed the whole way", "Starts all at once", "Stops all at once"]}, "right": {"title": "PRO (eased)", "items": ["Dots bunch up where it slows", "Speed changes along the way", "Accelerates or brakes", "Feels placed by a hand"]}},
+        {"type": "callout", "tone": "tip", "text": "To spot linear motion in your own edit, scrub frame by frame: if the object moves the same distance every frame, it's linear."}
+      ]
+    },
+    {
+      "title": "Three rules for three kinds of motion",
+      "time": "0:14",
+      "summary": "Each kind of motion gets its own curve. Everything that comes in should ease out: it arrives fast, then brakes for a long time, as if set down by a steady hand. Everything that leaves gets the opposite, ease in: it starts slowly, then gets away. And for the interface (buttons, cards, pop-ups, labels) use a spring: it overshoots its target just a little, then settles back.",
+      "blocks": [
+        {"type": "framework", "style": "steps", "title": "Match the curve to the job", "items": [
+          {"label": "Entrances → ease out", "text": "Arrives fast, then brakes for a long time."},
+          {"label": "Exits → ease in", "text": "Starts slowly, then gets away."},
+          {"label": "Interface → spring", "text": "Overshoots a little, then settles back."},
+          {"label": "Everything → not linear", "text": "No constant-speed moves anywhere."}
+        ], "caption": "Three curves cover almost every motion in a reel."},
+        {"type": "quote", "text": "It arrives fast, then brakes for a long time, as if set down by a steady hand.", "who": "Narrator, on ease out", "time": "0:17"},
+        {"type": "quote", "text": "It overshoots its target just a little, then settles back.", "who": "Narrator, on springs", "time": "0:32"},
+        {"type": "compare", "title": "Ease out vs ease in", "left": {"title": "Ease out (entering)", "items": ["Fast at the start", "Long, gentle stop", "Text sliding in, a card landing, a zoom settling"]}, "right": {"title": "Ease in (leaving)", "items": ["Slow at the start", "Fast at the end", "Text flying off, a card leaving, a whip out"]}},
+        {"type": "callout", "tone": "applied", "text": "Gym reel: the '75 KG' label eases out as it lands, the rep counter springs (slight overshoot) on each rep, and the old text eases in as it leaves. Gaming: the kill-feed style text springs; the scoreboard slides in with ease out."}
+      ]
+    },
+    {
+      "title": "The four-line prompt",
+      "time": "0:37",
+      "summary": "The reusable part is a prompt shown on screen. The narrator says to tell Claude in exactly these words, and your animation jumps to a whole new level. It's four short lines that cover entrances, exits, interface elements and a ban on linear motion. It works the same for HyperFrames, Remotion, CSS or any tool where an AI writes the motion.",
+      "blocks": [
+        {"type": "quote", "text": "Tell Claude in exactly these words, and your animation jumps to a whole new level.", "who": "Narrator", "time": "0:37"},
+        {"type": "checklist", "title": "The prompt (paste as-is)", "items": ["Entrances: ease out.", "Exits: ease in.", "Interface: spring, slight overshoot.", "Nothing linear."]},
+        {"type": "example", "title": "Asking an AI for a rep counter", "before": "Make a counter that goes from 0 to 75 kg and a label that slides in.", "after": "Make a counter that goes from 0 to 75 kg and a label that slides in. Entrances: ease out. Exits: ease in. Interface: spring, slight overshoot. Nothing linear.", "why": "Without the four lines, most tools default to linear or a generic ease. With them, the label lands, the counter settles and nothing moves like a robot."}
+      ]
+    },
+    {
+      "title": "How the video teaches it",
+      "time": "0:00",
+      "summary": "The video is faceless and all motion graphics. The hook pairs the pain question with visual proof: ROBOT vs PRO sliders side by side. Position-versus-time graphs with dotted trails turn an abstract idea into something you can see. Captions appear one word at a time in white bold sans, with the key word in a red highlight box ('speed.', 'out.', 'brakes'). The palette is near-black with a red glow and red as the only accent. A new caption word lands every 0.3–0.5 s while the graph animates continuously with no cuts. It ends on a locked card for the Ugoki course and 'DM me UGOKI' typed into a DM box.",
+      "blocks": [
+        {"type": "framework", "style": "timeline", "title": "48.6 s structure", "items": [
+          {"label": "0:00", "text": "Pain question + ROBOT vs PRO side by side."},
+          {"label": "0:02–0:14", "text": "Diagnosis: constant speed; the dotted trail shows it."},
+          {"label": "0:14–0:37", "text": "Ease out, ease in, spring, each with its graph."},
+          {"label": "0:37–0:42", "text": "'Tell Claude in exactly these words' + the prompt."},
+          {"label": "0:42–0:48", "text": "Locked course card, 'DM me UGOKI'."}
+        ], "caption": "Every rule is shown, not just said."},
+        {"type": "stat", "value": "0.3–0.5 s", "label": "between caption words", "note": "One word at a time; the key word gets a red box.", "evidence": "observed"},
+        {"type": "checklist", "title": "Style to steal", "items": ["One-word captions, white bold sans", "Key word in a red highlight box", "Near-black background, one accent colour (red)", "A graph or trail that makes the idea visible", "No cuts: one continuous animation"]},
+        {"type": "callout", "tone": "applied", "text": "Tech reel version: show two FPS graphs side by side, 'STUTTER' vs 'SMOOTH', in the first two seconds, the same way this video shows ROBOT vs PRO."}
+      ]
+    },
+    {
+      "title": "Fixing our own edits",
+      "time": "applied",
+      "summary": "Our own Khandala reel breaks the rule: the photo pans and push-ins in the ffmpeg build move at constant speed. The fix is to ease every pan and zoom: ease out on moves that arrive, ease in on exits. In Edits, CapCut or VN, keyframes have ease curves; in ffmpeg, replace the plain t/d progress with an eased expression. The rep-counter pop in the incline reel was already close to a spring (fast in, settle), so that stays.",
+      "blocks": [
+        {"type": "example", "title": "An ffmpeg push-in", "before": "zoom = 1 + 0.1 × (t/d)  (linear: same zoom step every frame)", "after": "zoom = 1 + 0.1 × (1 − (1 − t/d)³)  (cubic ease out: fast start, long gentle stop)", "why": "Same start and end zoom; only the speed curve changes, and the move now 'lands'."},
+        {"type": "checklist", "title": "Easing audit for every reel", "items": ["Each pan and push-in: eased, not linear?", "Text entering: ease out?", "Text leaving: ease in?", "Counters, labels, cards: spring with slight overshoot?", "Any element moving at constant speed? Fix it."]},
+        {"type": "callout", "tone": "applied", "text": "In Edits/CapCut: add two keyframes, tap the curve between them and pick an ease-out preset for anything arriving. For your gym clips, a slow eased push-in on the final rep sells the effort."}
+      ]
+    }
+  ],
+  "production": [
+    {"area": "Hook", "detail": "Pain question ('Does your animation look robotic?') with a ROBOT vs PRO slider animation side by side in 0–2 s."},
+    {"area": "Visual proof", "detail": "Position-vs-time graphs with a dotted trail: evenly spaced dots = linear, bunched dots = eased."},
+    {"area": "Captions", "detail": "One word at a time, white bold sans; the key word sits in a red highlight box."},
+    {"area": "Palette", "detail": "Near-black with a red glow; red is the only accent."},
+    {"area": "Pacing", "detail": "A new caption word every ~0.3–0.5 s; the graph animates continuously with no cuts."},
+    {"area": "CTA", "detail": "Locked card 'The full method → inside the Ugoki course', then 'DM me UGOKI' typed into a DM box."}
+  ],
+  "takeaways": [
+    {"text": "Entrances ease out, exits ease in.", "atom": "fx-ease-out-entrances"},
+    {"text": "UI and text pops spring with a slight overshoot.", "atom": "fx-spring-ui"},
+    {"text": "Nothing linear.", "atom": "fx-nothing-linear"},
+    {"text": "Paste the four-line easing prompt whenever an AI builds motion.", "atom": "ai-easing-prompt"},
+    {"text": "Our Khandala pans and push-ins were linear: ease them.", "atom": "fx-khandala-linear-moves"},
+    {"text": "Make motion visible with a dotted trail or graph.", "atom": "fx-trail-visual-proof"},
+    {"text": "Word-by-word captions with the key word highlighted.", "atom": "text-word-by-word-highlight"},
+    {"text": "Near-black with one accent colour.", "atom": "colour-near-black-one-accent"},
+    {"text": "Hook with a pain question plus side-by-side visual proof.", "atom": "hook-bold-claim-visual-proof"}
+  ],
+  "glossary": [
+    {"term": "Easing", "def": "Changing an animation's speed over time instead of moving at constant speed."},
+    {"term": "Linear", "def": "Constant speed from start to finish; looks robotic."},
+    {"term": "Ease out", "def": "Fast at the start, slowing to a gentle stop. For things arriving."},
+    {"term": "Ease in", "def": "Slow at the start, speeding up. For things leaving."},
+    {"term": "Spring", "def": "Motion that overshoots its target slightly, then settles back. For interface elements."},
+    {"term": "Overshoot", "def": "Going a little past the end position before settling."},
+    {"term": "Keyframe", "def": "A point in time where you set a value (position, scale); the editor animates between keyframes."},
+    {"term": "Motion trail", "def": "Dots showing where an object was on each frame; even spacing means linear motion."}
+  ],
+  "quiz": [
+    {"q": "Why do linear animations look robotic?", "a": "Nothing real moves at constant speed; linear motion starts and stops all at once."},
+    {"q": "Which curve for something entering the frame?", "a": "Ease out: arrives fast, brakes for a long time."},
+    {"q": "Which curve for something leaving?", "a": "Ease in: starts slowly, then gets away."},
+    {"q": "What should interface elements do?", "a": "Spring: overshoot slightly, then settle back."},
+    {"q": "What does an evenly spaced dotted trail tell you?", "a": "The motion is linear."},
+    {"q": "Recite the four-line prompt.", "a": "Entrances: ease out. Exits: ease in. Interface: spring, slight overshoot. Nothing linear."}
+  ],
+  "try_it": [
+    {"title": "Ease a gym reel", "niche": "gym", "steps": ["Open your last gym edit in Edits or CapCut.", "Find every keyframed move (zoom, pan, text slide).", "Set arrivals to ease out and exits to ease in.", "Make the weight label spring in with a slight overshoot.", "Compare old vs new side by side."]},
+    {"title": "Robot vs pro hook for a tech reel", "niche": "tech", "steps": ["Animate the same spec card twice: once linear, once with the four-line prompt.", "Place them side by side, labelled ROBOT and PRO.", "Open the reel on that comparison and ask 'Does your edit look robotic?'"]},
+    {"title": "Spring your gaming overlays", "niche": "gaming", "steps": ["Make a kill-count or rank label overlay.", "Ask Claude (or keyframe) with the four-line prompt.", "Add a pop SFX on the overshoot frame.", "Check it frame by frame: no constant-speed moves."]}
+  ]
+}

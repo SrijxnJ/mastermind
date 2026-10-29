@@ -1,0 +1,1425 @@
+{
+  "id": "L09",
+  "title": "Learn Copywriting in 76 Minutes",
+  "creator": "Harry Dry with David Perell",
+  "url": "https://www.youtube.com/watch?v=TUMjnmfsPeM",
+  "length": "about 71 min (transcript ends at 1:10:49; the title says 76)",
+  "kind": "youtube",
+  "one_liner": "Every line should be something you can see, something you can prove, and something only you could say.",
+  "why_it_matters": "Your hook, your on-screen text and your caption are all copy, and most reels lose the viewer on vague words like 'insane transformation' or 'best budget PC'. Harry's tests turn those into lines people can picture, check and remember. They also give you a way to judge your own scripts before you film, which matters when you only have a tripod, one take and a few seconds to land the hook.",
+  "big_idea": {
+    "statement": "Good copy is simple communication built by rewriting: concrete, provable, impossible for anyone else to sign, and understood in two seconds.",
+    "support": [
+      "Same product, different words: Snickers and Fuse taste the same, but one is the world's best-seller and one was discontinued.",
+      "People remember what they can picture (pitbull, Irishman, leg of lamb), not abstractions (better way, seamless transition).",
+      "A claim that could be proved wrong makes people sit up; adjectives make them think 'you're just saying stuff'.",
+      "Simple lines are never written first time: his course ad took about 2 days and 25 rewrites.",
+      "AI can help research, but taste, conviction and first-hand experience are what make the line."
+    ]
+  },
+  "map": [
+    {
+      "chapter": "Cold open and the three rules",
+      "time": "0:00–2:42",
+      "gist": "Visualize, falsify, nobody else can say it: the test for every sentence"
+    },
+    {
+      "chapter": "Rule 1: Can I visualize it?",
+      "time": "2:42–5:39",
+      "gist": "Concrete beats abstract; zoom in on the words until you hit an object"
+    },
+    {
+      "chapter": "Rule 2: Can I falsify it?",
+      "time": "5:39–9:20",
+      "gist": "You can't talk, you can only point: swap adjectives for checkable facts"
+    },
+    {
+      "chapter": "Rule 3 and why copy matters",
+      "time": "9:20–13:14",
+      "gist": "Never write an ad a competitor can sign; positioning beats a better product"
+    },
+    {
+      "chapter": "Ad wall I: Corvette, One Mississippi, Athletic Greens",
+      "time": "13:14–16:27",
+      "gist": "Enemies, the 2-second test, and 'what do you replace?'"
+    },
+    {
+      "chapter": "Ad wall II: iPod, sedan, Economist, De Beers",
+      "time": "16:27–21:14",
+      "gist": "Metonymy, make them feel smart, one-element ads, juxtaposition"
+    },
+    {
+      "chapter": "The process: A to B, and who you're talking to",
+      "time": "21:14–25:11",
+      "gist": "Current attitude to desired attitude; write for the half-paying-attention passer-by"
+    },
+    {
+      "chapter": "Something to say, and saying it well",
+      "time": "25:11–29:08",
+      "gist": "Build from a belief; Hinge's 'designed to be deleted'; fit the tone"
+    },
+    {
+      "chapter": "Building one ad I: seed, conflict, reference",
+      "time": "29:08–33:52",
+      "gist": "A tweet seed, a conflict line, a borrowed Volkswagen layout"
+    },
+    {
+      "chapter": "Building one ad II: one line, spitball, design",
+      "time": "33:52–41:10",
+      "gist": "Force one line, flush the dirty tap water, get feedback, bold the rhythm"
+    },
+    {
+      "chapter": "Reframes, comparisons, first line to second line",
+      "time": "41:10–45:24",
+      "gist": "22,000 hours, 'tougher than an F-150', and lines that pull the next"
+    },
+    {
+      "chapter": "Facts",
+      "time": "45:24–49:39",
+      "gist": "If in doubt, give me a fact, then build a story on it"
+    },
+    {
+      "chapter": "The newsletter",
+      "time": "49:39–56:05",
+      "gist": "Letter not news: time-and-place intros, conflict, two-line paragraphs"
+    },
+    {
+      "chapter": "Writing simply is rewriting",
+      "time": "56:05–1:00:04",
+      "gist": "Kaplan's Law, one idea, the pull-out test, write 4–5 versions"
+    },
+    {
+      "chapter": "Structure, standards and conflict",
+      "time": "1:00:04–1:05:09",
+      "gist": "Dividing lines plus parallelism; 9/10 or it doesn't ship; stories hinge on 'but'"
+    },
+    {
+      "chapter": "AI, taste and silence",
+      "time": "1:05:09–1:10:49",
+      "gist": "AI is predictive; taste, conviction, experience; silence and action"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Cold open and the three rules",
+      "time": "0:00",
+      "summary": "The video opens on a montage of later moments: a word-memory game, the three rules, 'Write copy that can't be copied' and the One Mississippi test. David introduces Harry as the person he calls for copy help and names the elephant in the room: copywriting's reputation for tricksters. Harry then gives his core test. Every sentence gets three questions: can I visualize it, can I falsify it, can nobody else say this? He shows a recruitment ad that fails all three and a New Balance line that passes all three.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "equation",
+          "title": "The three-rule test",
+          "items": [
+            {
+              "label": "Visualize",
+              "text": "Close your eyes: can you see it? If not, nobody will remember it."
+            },
+            {
+              "label": "Falsify",
+              "text": "Could it be proved true or false? Then it's a real claim, not wallpaper."
+            },
+            {
+              "label": "Nobody else",
+              "text": "Could a competitor sign it? If yes, rewrite until only you can say it."
+            },
+            {
+              "label": "Copy that can't be copied",
+              "text": "Three yes's: you're onto something. Three no's: probably rubbish."
+            }
+          ],
+          "caption": "Run every hook, on-screen line and caption through all three."
+        },
+        {
+          "type": "quote",
+          "text": "Can I visualize it? Can I falsify it? Can nobody else say this? So, you get three no's, you're probably writing a lot of rubbish. You get three yes's, you're onto something.",
+          "who": "Harry Dry",
+          "time": "1:23"
+        },
+        {
+          "type": "example",
+          "title": "Recruitment ad vs New Balance",
+          "before": "Don't just get a job, change an entire industry. (a recruitment company's ad)",
+          "after": "Worn by supermodels in London and dads in Ohio. (New Balance)",
+          "why": "You can't picture 'change an industry', can't prove it, and any recruiter could sign it. You can picture the supermodel and the dad at a barbecue, it's true, and Prada or Reebok couldn't claim both."
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Gym hook test. 'My insane comeback journey' fails all three. '75 kg on the incline, first time since my shoulder gave out' passes: you can see the bar, the number can be checked, and nobody else has your shoulder story."
+        }
+      ]
+    },
+    {
+      "title": "Rule 1: Can I visualize it?",
+      "time": "2:42",
+      "summary": "Harry plays a memory game: seamless transition, charging pitbull, muscular Irishman, better way, leg of lamb. David remembers the Irishman, the pitbull and the leg of lamb, which are the ones you can picture. That's the gap between concrete and abstract: abstract is intangible, 'you can't drop it on your foot'. His fix is to zoom in on the words: write the vague phrase at the top of a page and keep asking 'what do I actually mean?' until you land on a concrete object. 'Regain fitness' zooms down to Couch to 5K, which he calls the most downloaded fitness programme ever, made by a Boston TV producer rather than Nike.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "ladder",
+          "title": "Zoom in on the words (abstract → concrete)",
+          "items": [
+            {
+              "label": "Regain fitness",
+              "text": "Abstract. You can't drop it on your foot."
+            },
+            {
+              "label": "Get people off the couch",
+              "text": "What do you mean by 'regain'? People who've sat on the couch for 6 months."
+            },
+            {
+              "label": "Running",
+              "text": "What kind of fitness? Running."
+            },
+            {
+              "label": "5K",
+              "text": "How far? Five kilometres."
+            },
+            {
+              "label": "Couch to 5K",
+              "text": "Concrete object. Now it's a name people remember."
+            }
+          ],
+          "caption": "Draw a line down the page: abstract at the top, concrete at the bottom. Rewrite until you hit an object."
+        },
+        {
+          "type": "compare",
+          "title": "The word-memory game",
+          "left": {
+            "title": "Abstract (forgotten)",
+            "items": [
+              "Seamless transition",
+              "Better way"
+            ]
+          },
+          "right": {
+            "title": "Concrete (remembered)",
+            "items": [
+              "Charging pitbull",
+              "Muscular Irishman",
+              "Leg of lamb"
+            ]
+          }
+        },
+        {
+          "type": "quote",
+          "text": "What abstract is is it's intangible. You can't drop it on your foot.",
+          "who": "Harry Dry",
+          "time": "3:30"
+        },
+        {
+          "type": "example",
+          "title": "New Balance, zoomed in",
+          "before": "Not very good. Worn by pretty people in big cities, and old people in non-big cities.",
+          "after": "Worn by supermodels in London and dads in Ohio.",
+          "why": "'Pretty people' becomes a supermodel, 'old people' becomes a dad in Ohio. Both are pictures, and the clash between them (juxtaposition) makes you laugh."
+        },
+        {
+          "type": "example",
+          "title": "An app pitch",
+          "before": "It's about regaining fitness.",
+          "after": "Couch to 5K.",
+          "why": "Each question ('regain how?', 'what fitness?', 'how far?') swaps a vague word for a concrete one until the name does the selling."
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Tech version: 'a better budget build' is abstract. '₹60K PC that runs Valorant at 240 fps' is something you can see on screen. Gaming version: 'a crazy clutch' vs '1v4 with 3 HP on Ascent'."
+        }
+      ]
+    },
+    {
+      "title": "Rule 2: Can I falsify it?",
+      "time": "5:39",
+      "summary": "A sentence that can be proved true or false puts the writer's 'head on the chopping block', so readers sit up. Galileo was punished for saying the earth spins around the sun; nobody would have cared if he'd said it 'has a harmonious connection with a celestial object'. Harry's best tip comes from a deleted Reddit account: you can't talk, you can only point. In a blind-date game, 'good family, great values, funny' sounds like you're just saying stuff, while 'looks like Ryan Gosling, reads on the tube' persuades. Selling gold works the same way: point at the 50-year chart, not at adjectives.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "you can't talk, you can only point.",
+          "who": "Harry Dry (quoting a deleted Reddit account)",
+          "time": "6:45"
+        },
+        {
+          "type": "example",
+          "title": "The blind-date game",
+          "before": "Good family. Great values. Smart. Funny.",
+          "after": "Looks like Ryan Gosling. Six foot two. Reads on the tube.",
+          "why": "Subjective words make the listener think 'you're just saying stuff'. Things that are true or false can be checked, so they persuade."
+        },
+        {
+          "type": "example",
+          "title": "Galileo",
+          "before": "The earth has a harmonious connection with a celestial object.",
+          "after": "The earth spins around the sun.",
+          "why": "The second can be proved wrong, which is exactly why it got attention (and got him punished)."
+        },
+        {
+          "type": "example",
+          "title": "Selling gold",
+          "before": "Gold's a great investment. That stuff will never go out of fashion.",
+          "after": "Point at the gold chart for the last 50 years, at what gold did in the last crash, at how much gold Warren Buffett holds.",
+          "why": "Pointing 'gets you off the adjective trail'. It takes research, which is why it's better."
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Turn talking into pointing",
+          "items": [
+            {
+              "label": "Catch the adjective",
+              "text": "'Great values', 'great investment', 'insane', 'smooth'."
+            },
+            {
+              "label": "Ask 'why?'",
+              "text": "Why does he have good values? Why is gold a good investment?"
+            },
+            {
+              "label": "Find the thing",
+              "text": "A height, a habit, a 50-year chart, a crash, a famous holder."
+            },
+            {
+              "label": "Point at it",
+              "text": "Say only that. It can be checked, so it persuades."
+            }
+          ],
+          "caption": "'This takes work. That's why it's better.' (9:12)"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "A camera is built for pointing. Don't say 'this pre-workout hits different': show the rep counter. Don't say 'this GPU is a beast': show the FPS overlay. Don't say 'I'm cracked at this game': show the scoreboard."
+        }
+      ]
+    },
+    {
+      "title": "Rule 3 and why copy matters",
+      "time": "9:20",
+      "summary": "The third rule comes from a line Harry credits to 'Jim Durkey': never write an ad a competitor can sign. It forces you to look deeper at what you're selling, like the speedometer ad that said your car has five numbers on the speedometer while theirs has six. Then Harry makes the case for copywriting. A Snickers and a Fuse bar look and taste the same, but one is the world's best-seller and one was discontinued in 2006; startups are the same once you strip away the copy. His footballer story shows positioning: Dave Kitson, a modest striker with one England cap, outsold Beckham, Lampard, Gerrard and Owen combined by writing a tell-all as 'The Secret Footballer'.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "never write an ad a competitor can sign.",
+          "who": "Harry Dry (quoting 'Jim Durkey', probably Jim Durfee)",
+          "time": "9:20"
+        },
+        {
+          "type": "checklist",
+          "title": "Can nobody else say this?",
+          "items": [
+            "Swap your brand for a rival's. Does the line still work? Then rewrite it.",
+            "Find the one fact only you have (a place, a job, a constraint, a number).",
+            "Make the visual match the text, like the speedometer with six numbers.",
+            "Ask: what can I do that no one else is doing that people care about?"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "what can I do that no one else is doing that people care about?",
+          "who": "Harry Dry",
+          "time": "12:11"
+        },
+        {
+          "type": "example",
+          "title": "The footballer's book",
+          "before": "A book by Dave Kitson.",
+          "after": "The Secret Footballer.",
+          "why": "Kitson couldn't offer a famous career, but he could tell home truths nobody famous would. The anonymous title turned that into the hook."
+        },
+        {
+          "type": "stat",
+          "value": "1 cap",
+          "label": "Kitson's England caps, yet his book outsold Beckham, Lampard, Gerrard and Owen combined",
+          "note": "Harry's account of the story; not checked.",
+          "evidence": "claim"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your 'Secret Footballer' angle: you're a Pune tech worker at ~930 followers who lifts and games, not a jacked coach. 'What a 26-year-old desk worker actually benches' is something the big fitness pages can't sign."
+        }
+      ]
+    },
+    {
+      "title": "Ad wall I: Corvette, One Mississippi, Athletic Greens",
+      "time": "13:14",
+      "summary": "Harry printed favourite ads as vinyl boards for the set. Corvette's 'They don't write songs about Volvos' is six words with lots of white space, an enemy (a cheap shot at Volvo) and something only Corvette can claim. Good copy is understood instantly, so he introduces the One Mississippi test: show the ad, count two seconds, and if it isn't understood, it fails. David fails it on Athletic Greens' 'You're going to need a smaller cabinet', which is about replacing a shelf of vitamins. Harry says that's fine: if everyone gets it you may be doing something wrong, and a viewer texting a friend 'what is this?' still means it got attention.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Sometimes you know more in 2 seconds than you know in 2 hours.",
+          "who": "Harry Dry",
+          "time": "14:19"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The One Mississippi test",
+          "items": [
+            {
+              "label": "Show it",
+              "text": "Put the ad (or your hook frame) in front of someone cold."
+            },
+            {
+              "label": "Count",
+              "text": "'One Mississippi, two Mississippi.' About two seconds."
+            },
+            {
+              "label": "Ask",
+              "text": "'Do you get it?' If it took longer, it fails."
+            },
+            {
+              "label": "Passer-by check",
+              "text": "For a sign seen out of the corner of the eye, it has to be instant, not even two seconds."
+            }
+          ],
+          "caption": "Harry also allows a twist: an ad some people don't get can still win if it makes them talk about it."
+        },
+        {
+          "type": "quote",
+          "text": "Positioning 101, what do you replace?",
+          "who": "Harry Dry",
+          "time": "15:07"
+        },
+        {
+          "type": "example",
+          "title": "Athletic Greens",
+          "before": "One drink to replace them all.",
+          "after": "You're going to need a smaller cabinet.",
+          "why": "The first has been said a thousand times. The second shows what it replaces (a cabinet of vitamin jars) without saying 'replace'. 'You want to write something that no one said before.'"
+        },
+        {
+          "type": "stat",
+          "value": "2 s",
+          "label": "time a line gets to be understood in the One Mississippi test",
+          "note": "Harry's rule of thumb; a glance at a street sign is 'instant'.",
+          "evidence": "stated"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Freeze your reel on frame 1 and show it to a friend for two seconds. If they can't say what the reel is about ('chest day', 'PC build under ₹70K', 'Valorant rank-up'), rewrite the first line and the on-screen text."
+        }
+      ]
+    },
+    {
+      "title": "Ad wall II: iPod, sedan, Economist, De Beers",
+      "time": "16:27",
+      "summary": "PC ads talked features ('4 GB, how fast it went'); Apple said 'a thousand songs in your pocket'. That's metonymy: a visual word ('pocket') stands in for the literal one ('media player') because it's more visual, surprising and punchy. A plain sports sedan sold itself 'for people who inherited brains instead of wealth', which works because it makes the buyer feel smart. The Economist's 'I've never read The Economist. Management trainee, aged 42' uses one element only, so it doesn't look like an ad and you read it. De Beers' 'How can you make two months' salary last forever?' works through contrast: it shouldn't make sense, and that's the pull.",
+      "blocks": [
+        {
+          "type": "example",
+          "title": "Metonymy (iPod)",
+          "before": "1,000 songs in your media player. (and PC ads: '4 GB… this is how fast it went')",
+          "after": "A thousand songs in your pocket.",
+          "why": "'Pocket' is a picture; 'media player' is a category. Benefit you can see beats a spec sheet."
+        },
+        {
+          "type": "quote",
+          "text": "It's more visual. It's more surprising. It's more punchy.",
+          "who": "Harry Dry",
+          "time": "17:33"
+        },
+        {
+          "type": "framework",
+          "style": "matrix",
+          "title": "Four ads, four moves",
+          "axes": {
+            "x": "Says it straight → says it sideways",
+            "y": "About the product → about the buyer"
+          },
+          "items": [
+            {
+              "label": "iPod: metonymy",
+              "text": "'A thousand songs in your pocket': a visual word for a literal one."
+            },
+            {
+              "label": "De Beers: juxtaposition",
+              "text": "'Make two months' salary last forever': a line that shouldn't work."
+            },
+            {
+              "label": "Sedan: flatter the buyer",
+              "text": "'Brains instead of wealth': make them feel they made the smart choice."
+            },
+            {
+              "label": "Economist: one element",
+              "text": "'I've never read The Economist': no picture, no logo, so you read it."
+            }
+          ],
+          "caption": "Top row is about the product, bottom row about the person buying it."
+        },
+        {
+          "type": "quote",
+          "text": "if you can ever make your customer feel like they're making a smart decision, you did something right.",
+          "who": "Harry Dry (paraphrasing someone)",
+          "time": "18:21"
+        },
+        {
+          "type": "quote",
+          "text": "It doesn't look like an ad, so you read it.",
+          "who": "Harry Dry",
+          "time": "19:39"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Metonymy for PC reels: not '32 GB RAM', but 'Chrome with 80 tabs and Valorant open, no stutter'. 'Brains instead of wealth' for a budget build: 'for people who'd rather spend on games than on RGB'."
+        }
+      ]
+    },
+    {
+      "title": "The process: A to B, and who you're talking to",
+      "time": "21:14",
+      "summary": "Harry starts every piece by asking what he's trying to do: move the reader from a current attitude to a desired one, like stringing a wire between two telephone poles. Three pieces string the wire, and the first is who you're talking to. Snapchat spent a reported £7M on a Super Bowl ad when the average viewer is 39, a mismatch nobody thought about. In St Ives, a café with a huge menu and 17 croissants had no queue, while the Yellow Canary's 'coffee and pastry = £5' sign had a line, because tourists glance, they don't read. He tests copy in context: a billboard mocked up among seven other ads, a newsletter written straight into ConvertKit.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "the current attitude of the consumer is the starting point, and the desired attitude is the finish line. You can't start a race in the middle.",
+          "who": "Harry Dry (quoting 'John Hengly', name unsure)",
+          "time": "21:29"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Two telephone poles",
+          "items": [
+            {
+              "label": "Pole A: current attitude",
+              "text": "What does the viewer think or feel right now?"
+            },
+            {
+              "label": "Pole B: desired attitude",
+              "text": "What should they think, feel or do after?"
+            },
+            {
+              "label": "String the wire",
+              "text": "Three pieces: who you're talking to, something to say, say it well."
+            }
+          ],
+          "caption": "Point A to point B is the job; the three pieces are how."
+        },
+        {
+          "type": "example",
+          "title": "Two cafés in St Ives",
+          "before": "A blown-up menu with every latte price and 17 different croissants.",
+          "after": "Coffee and pastry = £5. (the Yellow Canary, which had the queue)",
+          "why": "The reader is a tourist walking to the beach, looking out of the corner of their eye. Form follows function: tell them the one thing they need."
+        },
+        {
+          "type": "example",
+          "title": "Test in context",
+          "before": "A billboard judged alone in Photoshop, competing with nothing.",
+          "after": "The same billboard pasted into a street photo with seven other ads and people walking by.",
+          "why": "'Does this actually grab my attention or not?' Judge copy where it will really be seen."
+        },
+        {
+          "type": "stat",
+          "value": "39",
+          "label": "average age of a Super Bowl viewer, the audience Snapchat's ad ignored",
+          "note": "Harry's figures, including the £7M ad cost; not checked.",
+          "evidence": "claim"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your St Ives tourist is someone scrolling Reels at 11 pm with thumb ready to skip. Check your hook text at feed size on your iPhone, inside the Instagram UI, next to other reels, not full-screen in the editor."
+        }
+      ]
+    },
+    {
+      "title": "Something to say, and saying it well",
+      "time": "25:11",
+      "summary": "Piece two is having something to say: build from a belief, a vision or 'something you think is wrong with the world'. Harry's belief is that every marketer should learn copywriting; Marketing Examples began because learning marketing meant 'two pages on theory' when he wanted examples. David's podcast came from the same instinct: counter-position and build the opposite of what annoys you. Piece three is saying it well, which is what most people think copywriting is. Hinge's 'The dating app designed to be deleted' uses alliteration (D-D-D), juxtaposition and an implied happy ending. Harry removed Hinge's mascot from his version, because Duolingo is silly and Hinge isn't.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "You need to be building things because of something you believe or a vision that you have or something that you think is wrong with the world.",
+          "who": "Harry Dry",
+          "time": "25:26"
+        },
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "Copywriting = three overlapping pieces",
+          "items": [
+            {
+              "label": "Who you're talking to",
+              "text": "Their age, their attention, where they are when they see it."
+            },
+            {
+              "label": "Something to say",
+              "text": "A belief, or something wrong with the world."
+            },
+            {
+              "label": "Say it well",
+              "text": "Alliteration, juxtaposition, a visual word, the right tone."
+            }
+          ],
+          "caption": "'That's copywriting.' The sweet spot needs all three."
+        },
+        {
+          "type": "example",
+          "title": "Hinge",
+          "before": "We're making an app for people who want long-term relationships, who are fed up of dating apps. (the likely brief)",
+          "after": "The dating app designed to be deleted.",
+          "why": "Alliteration makes it stick, the contradiction ('who wants their app deleted?') makes you think, and it promises the happy ending. Now Hinge owns the phrase."
+        },
+        {
+          "type": "example",
+          "title": "Tone fit",
+          "before": "Hinge visual with its mascot 'Hingey'.",
+          "after": "Mascot removed; a real, beautiful image from Hinge's site.",
+          "why": "Duolingo is silly, so a mascot fits. Hinge is about trying to get married, so it shouldn't be silly."
+        },
+        {
+          "type": "quote",
+          "text": "Who am I talking to? You got to have something to say and you got to say it well. That's copywriting.",
+          "who": "Harry Dry",
+          "time": "29:08"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your 'something wrong with the world': gym content is all shredded guys yelling. Yours could be 'the gym is funny and nobody admits it'. That belief can carry a whole series, the way Rahul's 'PC prices are rising every week' carries his."
+        }
+      ]
+    },
+    {
+      "title": "Building one ad I: seed, conflict, reference",
+      "time": "29:08",
+      "summary": "Harry screen-shares the ad for his copywriting course, about 20 rewrites in. The seed is a tweet he saw years earlier: the difference between 1% and 2% is not 1%, it's 100%, so lifting landing-page conversion from 1% to 2% doubles growth. Luke Sullivan's tip gives the conflict: draw a line down the page and write two opposites (spend twice as much on ads vs convert twice as well). He lists three types of enemy (ABC). Then he borrows the layout of an old Volkswagen ad ('How to prepare your car for winter': a long checklist for an ordinary car, 'change the oil' for the VW) and rewrites his idea into that shape.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "How one ad gets built",
+          "items": [
+            {
+              "label": "Seed",
+              "text": "A line you saved: '1% to 2% is not 1%, it's 100%'."
+            },
+            {
+              "label": "Conflict",
+              "text": "Line down the page, two opposites: ads vs copy."
+            },
+            {
+              "label": "Reference layout",
+              "text": "Borrow a layout you love (VW 'prepare your car for winter')."
+            },
+            {
+              "label": "Rewrite",
+              "text": "Many versions, keep walking down the blind alley."
+            },
+            {
+              "label": "Spitball",
+              "text": "Flush ideas without judging until they run clean."
+            },
+            {
+              "label": "Feedback",
+              "text": "Show people whose taste you respect."
+            },
+            {
+              "label": "Design pass",
+              "text": "Bold the rhythm words, match the illustrations."
+            }
+          ],
+          "caption": "About 2 days and 25 rewrites, built 'piece by piece'."
+        },
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "Three types of enemy (ABC)",
+          "items": [
+            {
+              "label": "A: Approaches",
+              "text": "Different ways of solving the same problem."
+            },
+            {
+              "label": "B: Beliefs",
+              "text": "I believe this, you believe that."
+            },
+            {
+              "label": "C: Competitors",
+              "text": "Apple vs PC, Corvette vs Volvo."
+            }
+          ],
+          "caption": "Conflict 'doesn't have to be complicated': red and blue, before and after."
+        },
+        {
+          "type": "example",
+          "title": "Seed to first headline",
+          "before": "The difference between 1% and 2% is not just 1%, it's 100%.",
+          "after": "Want to grow twice as fast? You've got two choices. Spend twice as much on ads, or increase landing page conversions from 1% to 2%.",
+          "why": "Luke Sullivan's conflict line turns a stat into a choice between two paths."
+        },
+        {
+          "type": "example",
+          "title": "Borrowing the VW layout",
+          "before": "Two choices in one sentence.",
+          "after": "Two columns with tick-boxes: 'Raise twice the cash, hire twice the staff, spend twice as much on ads' vs 'Learn to write and increase landing page conversions from 1% to 2%'.",
+          "why": "The Volkswagen ad's checklist layout shows effort vs ease at a glance; he copied the shape, not the words."
+        },
+        {
+          "type": "example",
+          "title": "Headings and rhythm",
+          "before": "Unlabelled columns.",
+          "after": "'The corporate way' vs 'the copywriting way', plus a fourth box: 'cross both your fingers'.",
+          "why": "The VW ad had headings and more boxes; adding both made the choice simpler and funnier."
+        },
+        {
+          "type": "quote",
+          "text": "I'm going to keep walking down this blind alley to see if it's blind or not",
+          "who": "Harry Dry",
+          "time": "33:21"
+        }
+      ]
+    },
+    {
+      "title": "Building one ad II: one line, spitball, design",
+      "time": "33:52",
+      "summary": "The right-hand line spilled onto two lines, which irritated him, so he forced it onto one by cutting words and moving 'learn copywriting' into the heading. That broke the parallel headings, so he spitballed replacements without judging ('Go full Zuckerberg', 'Roll Monopoly dice', 'Spaghetti at wall'), comparing it to Ed Sheeran's dirty-tap-water idea. After 2–3 hours he couldn't judge it any more, so he texted friends whose taste he respects; the consensus was 'Throw money and pray'. The final pass was design: bold the repeated 'twice' and 'both', add 'That's twice as many', and get the illustrator to make the money-thrower look annoyed. David sums it up as the art of simple communication: a small, sincere claim built from a copy seed and a visual seed.",
+      "blocks": [
+        {
+          "type": "example",
+          "title": "Force it onto one line",
+          "before": "Learn to write and increase landing page conversions from 1% to 2%. (two lines)",
+          "after": "Heading: 'Learn copywriting'. Line: 'Increase conversions from 1% to 2%'.",
+          "why": "Two lines looked messy. Cut 'landing page', then move 'learn to write' up into the heading."
+        },
+        {
+          "type": "example",
+          "title": "Fix the broken parallel",
+          "before": "'The corporate way' vs 'Learn copywriting' (no symmetry). Spitballs: Go full Zuckerberg, Roll Monopoly dice, Spaghetti at wall.",
+          "after": "Throw money and pray.",
+          "why": "'I've created a problem and I've solved a problem.' Friends with taste picked the winner when he no longer could."
+        },
+        {
+          "type": "example",
+          "title": "The design pass",
+          "before": "Plain text.",
+          "after": "Bold 'twice' and 'both', highlight 'twice as fast', add 'That's twice as many.'",
+          "why": "Pull out the rhythm that's already there, and make sure nobody misses the 1-to-2 = 100% point."
+        },
+        {
+          "type": "example",
+          "title": "Illustrations that match the story",
+          "before": "A smiling praying man; a messy '4' in a speech bubble.",
+          "after": "An annoyed man throwing money; a typewriter and a light bulb for the writer.",
+          "why": "'We don't like this guy.' The picture has to tell the same story as the words."
+        },
+        {
+          "type": "framework",
+          "style": "funnel",
+          "title": "From spitball to headline",
+          "items": [
+            {
+              "label": "Spitball freely",
+              "text": "Go full Zuckerberg, roll Monopoly dice, hidden hope, spaghetti at wall… no judging."
+            },
+            {
+              "label": "Let the tap run clean",
+              "text": "'You're getting the dirty water out the tap.' The first ideas are mud; keep flowing."
+            },
+            {
+              "label": "Ask people with taste",
+              "text": "After 2–3 hours he couldn't judge it, so he texted friends."
+            },
+            {
+              "label": "Throw money and pray",
+              "text": "The consensus winner, parallel with 'learn copywriting'."
+            }
+          ],
+          "caption": "Many ideas in, one line out."
+        },
+        {
+          "type": "quote",
+          "text": "I never do anything which is not on the tool I'm using, ever.",
+          "who": "Harry Dry",
+          "time": "36:02"
+        }
+      ]
+    },
+    {
+      "title": "Reframes, comparisons, first line to second line",
+      "time": "41:10",
+      "summary": "Harry's other course ad reads 'Marketers, you'll spend 22,000 hours of your career writing. Spend two learning how to do it well.' He rounded 20,000 up to 22,000 for the parallel with 'two'. David points out the reframe: instead of costing time, the course saves time; and a small number (4 hours a day) becomes big when you expand the time frame. A Tesla ad 'Better truck than an F-150, faster than a Porsche 911' explains a strange product by comparing it to known ones; live, they tighten it to 'Tougher than an F-150, faster than a 911'. Finally, an ad that takes 3.1 seconds to read (Model S 0–60) shows the 'first line, second line' rule.",
+      "blocks": [
+        {
+          "type": "example",
+          "title": "Expand the time frame",
+          "before": "Marketers write about 4 hours a day.",
+          "after": "Marketers, you'll spend 22,000 hours of your career writing. Spend two learning how to do it well.",
+          "why": "A career total lands harder than a daily number, the 22 echoes the 2, and the course becomes a time-saver, not a time cost."
+        },
+        {
+          "type": "example",
+          "title": "Compare to the known (live edit)",
+          "before": "Better truck than an F-150, faster than a Porsche 911.",
+          "after": "Tougher than an F-150, faster than a 911.",
+          "why": "'Tougher' is more concrete than 'better', dropping 'truck' makes it shorter, and both halves now match. No other vehicle can claim both."
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "First line, second line",
+          "items": [
+            {
+              "label": "Line 1 makes you ask",
+              "text": "'It takes 3.1 seconds to read this ad.' What's going on?"
+            },
+            {
+              "label": "Line 2 pays it off",
+              "text": "'The same time it takes a Model S to go from 0 to 60.'"
+            },
+            {
+              "label": "Done",
+              "text": "The reader finished the ad because line 1 only had one job: sell line 2."
+            }
+          ],
+          "caption": "Via Dave Gerhardt, from Joe Sugarman."
+        },
+        {
+          "type": "stat",
+          "value": "22,000 h",
+          "label": "career hours of writing in Harry's ad (rounded up from 20,000 for parallelism)",
+          "note": "He says 4 h × 300 days × 30 years; that actually makes 36,000, so treat it as an illustration.",
+          "evidence": "stated"
+        },
+        {
+          "type": "quote",
+          "text": "you can make a small number bigger, which I've done here, 4 hours a day, just by expanding the time frame.",
+          "who": "Harry Dry",
+          "time": "42:45"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Tech: 'This GPU is as fast as a PS5 and costs less than one' (compare to the known). Gym: '20 minutes a day' becomes '120 hours a year on the treadmill' (expand the time frame). Gaming: '5 hours of Valorant a day is 1,800 hours a year: here's what that bought me'."
+        }
+      ]
+    },
+    {
+      "title": "Facts",
+      "time": "45:24",
+      "summary": "Harry loves facts: Asana spends a reported £345M a year on sales and marketing; Kerouac lived on the road for 7 years and wrote On the Road in 3 weeks. A fact guarantees you say something, while most people say 'wallpaper, word-shaped air'. A raw fact can be dull ('350 million Americans'), so you work it into a story, and it doesn't have to be a number. He spots one in a café (staff pour other ketchup into Heinz bottles) and turns it into 'Even when it's not Heinz, it's Heinz.' A football pundit and a golf announcer show the same thing: specifics carry weight that vague verdicts don't.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "If in doubt, give me a fact.",
+          "who": "Harry Dry",
+          "time": "46:58"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Work a fact into a line",
+          "items": [
+            {
+              "label": "Start with a fact",
+              "text": "Something true you saw or can check. It doesn't have to be a number."
+            },
+            {
+              "label": "Ask what's in it",
+              "text": "'350 million Americans' is dull on its own; why does this one matter?"
+            },
+            {
+              "label": "Build the story",
+              "text": "The 6-hour flight: too short to sleep, too long to be easy."
+            },
+            {
+              "label": "Write the line",
+              "text": "'Even when it's not Heinz, it's Heinz.'"
+            }
+          ],
+          "caption": "Without facts, people say 'wallpaper, word-shaped air'."
+        },
+        {
+          "type": "example",
+          "title": "Heinz (a fact that isn't a number)",
+          "before": "Fact: cafés refill Heinz bottles with cheaper ketchup.",
+          "after": "Even when it's not Heinz, it's Heinz.",
+          "why": "Start with something true, then make something with it. 'A fact doesn't have to be numeric.'"
+        },
+        {
+          "type": "example",
+          "title": "The football pundit",
+          "before": "They're just not playing well. It's all wrong. Southgate this, Southgate that.",
+          "after": "They're playing Kieran Trippier at left-back when he's a right-back.",
+          "why": "The second is checkable and tells you exactly what's wrong."
+        },
+        {
+          "type": "example",
+          "title": "The golf announcer (David's version)",
+          "before": "Tiger Woods just didn't want it bad enough today. He looked a little sloppy.",
+          "after": "He usually averages 11 fairways per round. Today he hit seven, but made it up with 30% more greens in regulation.",
+          "why": "Once you're rooted in facts, 'there is so much more weight and credibility'. (David's numbers are illustrative.)"
+        },
+        {
+          "type": "example",
+          "title": "Adjective to reality",
+          "before": "Don't you think it's a bit unequal?",
+          "after": "Show me a graph. Show me the difference.",
+          "why": "'Unequal' is an adjective; a graph is something you can point at."
+        }
+      ]
+    },
+    {
+      "title": "The newsletter",
+      "time": "49:39",
+      "summary": "Harry's newsletter has well over 100,000 subscribers, about half open it, and David says he's never seen one get so many replies. Harry follows Ann Handley: it's less about the news and more about the letter, so it opens like a letter, with time, place and what's going on in his life (like Rowling opening Chamber of Secrets at breakfast in Privet Drive). Then three habits: density (5–6 examples per issue), conflict in nearly every example (before/after, how they do it vs how these do it), and, since March 2021, no paragraph longer than two lines. His '3:47 a.m.' intro shows what he means by fresh bread: just write what's in front of you.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "It's less about the news and it's more about the letter.",
+          "who": "Harry Dry (quoting Ann Handley)",
+          "time": "51:00"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "How a Marketing Examples issue is built",
+          "items": [
+            {
+              "label": "Intro: time, place, what's going on",
+              "text": "Look out of the window. 'Live from London weather update.'"
+            },
+            {
+              "label": "Density",
+              "text": "Five or six examples. 'It's dense.'"
+            },
+            {
+              "label": "Conflict in each",
+              "text": "Before/after, problem/solution, their way vs this way."
+            },
+            {
+              "label": "Two-line paragraphs",
+              "text": "Monkey bars: easy to swing between on a train."
+            }
+          ],
+          "caption": "We remember things relatively: pickle juice makes orange juice taste sweeter."
+        },
+        {
+          "type": "example",
+          "title": "Loom's positioning (conflict in action)",
+          "before": "An easier-to-use screen recorder. (what every rival said)",
+          "after": "Remote communication sucks. Introducing async video messaging.",
+          "why": "Loom named an enemy (long Zoom calls, cold emails) and stepped out of the 'screen recorder' bucket into a category of its own."
+        },
+        {
+          "type": "example",
+          "title": "The two-line rule",
+          "before": "A paragraph that runs to three lines.",
+          "after": "Two lines: 'Do we need that word? Do we need that sentence? No.'",
+          "why": "A three-line paragraph usually means 'I'm not explaining myself as well as I could be'."
+        },
+        {
+          "type": "quote",
+          "text": "short paragraphs are like monkey bars. They're easy to swing between.",
+          "who": "Harry Dry",
+          "time": "53:58"
+        },
+        {
+          "type": "stat",
+          "value": "100K+ / ~50%",
+          "label": "newsletter subscribers / share who open it",
+          "note": "David says 'easily more than 100,000'; Harry says about 50% open.",
+          "evidence": "claim"
+        }
+      ]
+    },
+    {
+      "title": "Writing simply is rewriting",
+      "time": "56:05",
+      "summary": "David notes Harry writes the shortest sentences of anyone he reads. Harry says you can't write simply, only rewrite simply. His favourite rule is Kaplan's Law of Words: any word not working for you is working against you (and 'Harry's Law': you aren't taking Kaplan's Law seriously enough). It applies to ideas too: the strength of an idea is inversely proportional to its scope, which is why 'and' on a landing page is rarely good and why Hiut Denim says 'We make jeans, that's it'. A paragraph should be a burrito you can throw without it coming apart; if you can pull a sentence out and it still works, it shouldn't be there. He writes 4–5 versions of each paragraph and gets better feedback by showing versions.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "You can't write simply. You can only rewrite simply really.",
+          "who": "Harry Dry",
+          "time": "56:23"
+        },
+        {
+          "type": "quote",
+          "text": "any words that aren't working for you are working against you.",
+          "who": "Harry Dry (Kaplan's Law of Words)",
+          "time": "56:56"
+        },
+        {
+          "type": "checklist",
+          "title": "The rewrite-simply checklist",
+          "items": [
+            "Every word: is it working for me? If not, it's working against me.",
+            "Search for 'and'. One idea per line, one idea per reel.",
+            "Pull-out test: remove each sentence. If the rest still works, cut it.",
+            "Burrito test: can the paragraph be thrown and caught without falling apart?",
+            "Write 4–5 versions side by side; give yourself freedom to be terrible.",
+            "Show versions, not one draft, when asking for feedback."
+          ]
+        },
+        {
+          "type": "example",
+          "title": "One idea (Hiut Denim)",
+          "before": "We sell jeans and t-shirts and socks and we have dressing rooms.",
+          "after": "We make jeans, that's it.",
+          "why": "'The strength of an idea is inversely proportional to its scope.' Same for album covers: one banana, one prism, one lightning bolt."
+        },
+        {
+          "type": "quote",
+          "text": "If you could pull a sentence out and it still works, the sentence probably shouldn't have been in there in the first place.",
+          "who": "Harry Dry",
+          "time": "58:45"
+        },
+        {
+          "type": "story",
+          "title": "Feedback from his brother",
+          "text": "His brother edits everything he writes. Shown one paragraph, he could only say 'I like it' or 'I don't like it'. Shown three versions, he could say 'That one's the best. Use that sentence, but put it in that one.' Versions get you far better feedback."
+        }
+      ]
+    },
+    {
+      "title": "Structure, standards and conflict",
+      "time": "1:00:04",
+      "summary": "Harry structures everything with dividing lines and parallelism: copywriting splits into who, what and how. An essay he wrote for David became 'the first step in getting 10,000 readers is getting 100': part one, things that don't scale; part two, momentum for the next 9,900. David adds the 1971 paper 'That's Interesting': show that two things are one, or one thing is two. On standards, David's mentor said to set a high bar and never let it fall; Harry puts it as 'your work is nothing but your standards'. Nothing under 9/10 goes out, and work is done when, after a walk around the garden, nothing can be added or removed. Conflict in stories comes from hinging on 'but' without writing it.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "structuring is just dividing lines and parallelism.",
+          "who": "Harry Dry",
+          "time": "1:00:21"
+        },
+        {
+          "type": "example",
+          "title": "Dividing line for an essay",
+          "before": "Seven steps to 10,000 readers.",
+          "after": "Part 1: things that don't scale, your first 100 readers. Part 2: momentum, the next 9,900.",
+          "why": "One line splits a big topic into two halves that mirror each other. 'Give me something I can hold onto.'"
+        },
+        {
+          "type": "quote",
+          "text": "your work is nothing but your standards. Nine out of 10 plus, it goes out. If not, you won't see it.",
+          "who": "Harry Dry",
+          "time": "1:03:15"
+        },
+        {
+          "type": "framework",
+          "style": "cycle",
+          "title": "The walk-around-the-garden loop",
+          "items": [
+            {
+              "label": "Draft",
+              "text": "Get it to where you think it's done."
+            },
+            {
+              "label": "Walk away",
+              "text": "Take a walk around the garden."
+            },
+            {
+              "label": "Come back",
+              "text": "Can you add a word and make it better? Take one away?"
+            },
+            {
+              "label": "Ship or rewrite",
+              "text": "Nothing to add or remove and it's 9/10+? Ship. Otherwise loop."
+            }
+          ],
+          "caption": "'Worn by supermodels in London and dads in Ohio': you can't add or remove a word."
+        },
+        {
+          "type": "example",
+          "title": "Conflict via 'but' (how he got to the interview)",
+          "before": "I got on the train. I had a coffee and we started talking.",
+          "after": "I woke up at 8:52. My mum blocked the door: I couldn't do the interview in those blue shorts. Now I'm here, and you're asking why I've got longer trousers on.",
+          "why": "Each beat is a 'but' you never write: what went wrong next? That's conflict."
+        },
+        {
+          "type": "quote",
+          "text": "I'm basically trying to hinge something around the word but… without actually writing the word but.",
+          "who": "Harry Dry",
+          "time": "1:04:04"
+        }
+      ]
+    },
+    {
+      "title": "AI, taste and silence",
+      "time": "1:05:09",
+      "summary": "Pens to typewriters, typewriters to laptops, film to digital: none made the work better, and AI is the same, a tool only as good as your taste. Someone 'zoomed out' Abbey Road with generative fill and called it a revolution; Harry's reaction was 'God help you'. Ogilvy's Rolls-Royce line (the loudest noise at 60 mph is the electric clock) needed taste to spot, conviction to run and experience to know. Writers like Bukowski, Kerouac, Michael Lewis and Plath wrote what they'd lived. Writing about New York without going, Harry would produce 'yellow taxis, city that never sleeps', which is what predictive AI does. He runs on silence and action: no phone-first mornings, silent writing retreats, walks without earphones.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "AI's a tool. It's a tool. It's only as good as your taste.",
+          "who": "Harry Dry (paraphrasing 'John Long')",
+          "time": "1:05:41"
+        },
+        {
+          "type": "framework",
+          "style": "equation",
+          "title": "What AI can't supply",
+          "items": [
+            {
+              "label": "Taste",
+              "text": "Spotting the electric-clock line in a motor magazine."
+            },
+            {
+              "label": "Conviction",
+              "text": "Believing in it enough to make it the headline."
+            },
+            {
+              "label": "Experience",
+              "text": "Someone actually sat in the car at 60 mph."
+            },
+            {
+              "label": "A line nobody's written",
+              "text": "Ogilvy's Rolls-Royce ad, credited with a 50% sales lift."
+            }
+          ],
+          "caption": "'You see something, you believe something, you write about it.'"
+        },
+        {
+          "type": "example",
+          "title": "Writing without experience",
+          "before": "New York: yellow taxis, city that never sleeps.",
+          "after": "(No 'after': Harry hasn't been. That's the point.)",
+          "why": "'I'm gumming together long strips of words already set in order by somebody else… that's quite literally what AI does. It's predictive.'"
+        },
+        {
+          "type": "quote",
+          "text": "You see something, you believe something, you write about it.",
+          "who": "Harry Dry",
+          "time": "1:08:24"
+        },
+        {
+          "type": "quote",
+          "text": "Silence and action. That's what I run on.",
+          "who": "Harry Dry",
+          "time": "1:09:29"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your edge over an AI script is the stuff only you lived: the uncle at your gym who curls in the squat rack, the Pune heat killing your PC thermals, the teammate who rage-quit. Use AI for research and structure; take the details from your own day."
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "area": "Hook",
+      "detail": "About 50 s cold open of later highlights before the intro, opening on an interactive game ('Let's start with a game, six words'). The best lines (three rules, 'Write copy that can't be copied', One Mississippi) are teased up front."
+    },
+    {
+      "area": "Set",
+      "detail": "Harry's favourite print ads were mounted on vinyl boards as the backdrop, 'instead of putting stuff on the screen all the time'. Some were cropped to fit, so logos are missing."
+    },
+    {
+      "area": "Format",
+      "detail": "Two-person conversation. Interactive games with the host (word memory, blind date, One Mississippi) keep it lively; laughter marks run through the transcript."
+    },
+    {
+      "area": "Screen share",
+      "detail": "The course-ad build is a screen share walking through each draft, so viewers see the rewrites, not just the final ad."
+    },
+    {
+      "area": "Props",
+      "detail": "Imagined props for Snickers vs Fuse ('In this hand I got a Snickers bar. Imagine.')."
+    },
+    {
+      "area": "Sound",
+      "detail": "A [music] cue is marked at 0:15 in the cold open; otherwise the transcript shows plain conversation."
+    },
+    {
+      "area": "Caveat",
+      "detail": "The video was studied from the transcript only, not watched, so grade, camera and type are unknown."
+    }
+  ],
+  "takeaways": [
+    {
+      "text": "Run every hook, on-screen line and caption through three questions: can I visualize it, can I falsify it, can nobody else say it?",
+      "atom": "text-three-rules"
+    },
+    {
+      "text": "Turn abstract into concrete by zooming in on the words until you reach an object ('regain fitness' → 'Couch to 5K').",
+      "atom": "text-zoom-in-concrete"
+    },
+    {
+      "text": "You can't talk, you can only point: replace adjectives with things that can be checked. If in doubt, give a fact.",
+      "atom": "text-point-dont-talk"
+    },
+    {
+      "text": "One Mississippi: if the first line or frame isn't understood in about 2 seconds, rewrite it.",
+      "atom": "hook-one-mississippi"
+    },
+    {
+      "text": "The first line's only job is to get the second line read.",
+      "atom": "hook-first-line-second-line"
+    },
+    {
+      "text": "Put conflict everywhere: before/after, their way vs mine, an enemy (approach, belief or competitor).",
+      "atom": "story-conflict-everywhere"
+    },
+    {
+      "text": "Explain new things by comparing them to things people know ('tougher than an F-150, faster than a 911').",
+      "atom": "text-compare-to-known"
+    },
+    {
+      "text": "Make a small number big by expanding the time frame, and reframe a cost as a saving.",
+      "atom": "text-expand-time-frame"
+    },
+    {
+      "text": "Never write a line a competitor could sign: write copy that can't be copied.",
+      "atom": "brand-copy-cant-be-copied"
+    },
+    {
+      "text": "Positioning is 'what do you replace?' and 'what can I do that nobody else is doing that people care about?'",
+      "atom": "brand-what-do-you-replace"
+    },
+    {
+      "text": "Build from a belief or something you think is wrong with the world.",
+      "atom": "brand-something-to-say"
+    },
+    {
+      "text": "Fit the tone (Hinge isn't silly, so no mascot) and make the viewer feel smart.",
+      "atom": "brand-tone-fit"
+    },
+    {
+      "text": "Any word not working for you is working against you; cut sentences that pass the pull-out test.",
+      "atom": "text-kaplans-law"
+    },
+    {
+      "text": "No paragraph or caption block over two lines: monkey bars.",
+      "atom": "text-two-line-paragraphs"
+    },
+    {
+      "text": "One idea beats many: the strength of an idea is inversely proportional to its scope.",
+      "atom": "brand-one-idea"
+    },
+    {
+      "text": "Write and judge in the final tool and in context (on the phone, in the feed), not in a doc.",
+      "atom": "proc-write-in-final-tool"
+    },
+    {
+      "text": "Seed + reference layout → many rewrites → spitball → feedback → design pass.",
+      "atom": "proc-seed-reference-rewrites"
+    },
+    {
+      "text": "Write 4–5 versions side by side, and show versions when you ask for feedback.",
+      "atom": "proc-four-five-versions"
+    },
+    {
+      "text": "Only 9/10+ ships; it's done when nothing can be added or removed.",
+      "atom": "proc-nine-ten-standard"
+    },
+    {
+      "text": "Structure = dividing lines + parallelism.",
+      "atom": "story-dividing-lines-parallelism"
+    },
+    {
+      "text": "Build stories on 'but' without writing it.",
+      "atom": "story-conflict-via-but"
+    },
+    {
+      "text": "Open with time, place and what's going on right now.",
+      "atom": "story-time-place-intro"
+    },
+    {
+      "text": "AI is only as good as your taste; first-hand experience is the material it can't predict.",
+      "atom": "ai-only-as-good-as-taste"
+    },
+    {
+      "text": "Silence and action: don't start the day on the feed.",
+      "atom": "mind-silence-and-action"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Copy",
+      "def": "Any words written to persuade: an ad line, a hook, on-screen text, a caption."
+    },
+    {
+      "term": "Concrete vs abstract",
+      "def": "Concrete words name things you can see or 'drop on your foot' (pitbull, 5K, 75 kg). Abstract words don't (better way, journey, quality)."
+    },
+    {
+      "term": "Zoom in on the words",
+      "def": "Harry's ladder: write the vague phrase at the top, keep asking 'what do I mean?' until you reach a concrete object."
+    },
+    {
+      "term": "Falsifiable",
+      "def": "Able to be proved true or false. A falsifiable line is a real claim; it makes people sit up."
+    },
+    {
+      "term": "Point, don't talk",
+      "def": "Only say things you could point at (a chart, a number, a screenshot), not adjectives."
+    },
+    {
+      "term": "One Mississippi test",
+      "def": "Show the line or frame for about two seconds; if it isn't understood, it fails."
+    },
+    {
+      "term": "Metonymy",
+      "def": "A shorthand word standing in for the literal one, usually more visual: 'pocket' for 'media player'."
+    },
+    {
+      "term": "Juxtaposition",
+      "def": "Putting two unlike things side by side so the contrast makes a point or a joke (supermodels in London, dads in Ohio)."
+    },
+    {
+      "term": "Positioning",
+      "def": "Where you sit in the viewer's mind compared with alternatives: what you replace and what only you can say."
+    },
+    {
+      "term": "Enemy (ABC)",
+      "def": "The conflict a line pushes against: A, a different approach; B, a belief; C, a competitor."
+    },
+    {
+      "term": "Current → desired attitude",
+      "def": "Point A and point B, the two telephone poles; copy is the wire you string between them."
+    },
+    {
+      "term": "Seed",
+      "def": "A saved line or observation that a piece of copy grows from."
+    },
+    {
+      "term": "Spitballing / dirty tap water",
+      "def": "Writing many ideas fast without judging, trusting the bad ones flush out first."
+    },
+    {
+      "term": "Parallelism",
+      "def": "Matching structure across lines ('the corporate way / the copywriting way', '22,000 hours / spend two')."
+    },
+    {
+      "term": "Dividing lines",
+      "def": "Splitting a topic into clear parts (first 100 readers / next 9,900); with parallelism, Harry's whole method for structure."
+    },
+    {
+      "term": "Kaplan's Law of Words",
+      "def": "Any words that aren't working for you are working against you."
+    },
+    {
+      "term": "Pull-out test",
+      "def": "Remove a sentence; if the paragraph still works, the sentence shouldn't be there."
+    },
+    {
+      "term": "Monkey bars",
+      "def": "Harry's image for short (≤2-line) paragraphs: easy to swing between."
+    },
+    {
+      "term": "First line, second line",
+      "def": "The first line exists only to make you read the second (Joe Sugarman via Dave Gerhardt)."
+    },
+    {
+      "term": "Walk around the garden",
+      "def": "Step away, come back; if you can't add or remove anything, it's done."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What are Harry's three rules for every sentence?",
+      "a": "Can I visualize it? Can I falsify it? Can nobody else say this?"
+    },
+    {
+      "q": "Why did David remember 'charging pitbull' but not 'better way'?",
+      "a": "Pitbull is concrete and can be pictured; 'better way' is abstract and fades."
+    },
+    {
+      "q": "How do you 'zoom in on the words'?",
+      "a": "Write the abstract phrase at the top of a page and keep rewriting with 'what do I actually mean?' until you reach a concrete object (regain fitness → Couch to 5K)."
+    },
+    {
+      "q": "What does 'you can't talk, you can only point' mean in practice?",
+      "a": "Replace adjectives with checkable things: a chart, a height, a habit, a number on screen."
+    },
+    {
+      "q": "What is the One Mississippi test and its time limit?",
+      "a": "Show the ad and count two Mississippis; if it isn't understood in about 2 seconds, it fails."
+    },
+    {
+      "q": "What makes 'A thousand songs in your pocket' an example of metonymy?",
+      "a": "'Pocket' (a visual word) stands in for the literal 'media player'."
+    },
+    {
+      "q": "What were the three pieces that string the wire from A to B?",
+      "a": "Who you're talking to, having something to say, and saying it well."
+    },
+    {
+      "q": "What did the St Ives cafés teach?",
+      "a": "Know who you're talking to: a glancing tourist responds to 'coffee and pastry = £5', not a giant menu. Form follows function."
+    },
+    {
+      "q": "Name the three types of enemy.",
+      "a": "A: different approaches; B: beliefs; C: competitors."
+    },
+    {
+      "q": "Why did Harry write 22,000 hours instead of 20,000?",
+      "a": "For parallelism with 'spend two' (22 and 2)."
+    },
+    {
+      "q": "What two changes did David make to the Tesla line?",
+      "a": "'Better' became the more concrete 'tougher', and 'truck' was cut, which made it shorter and parallel."
+    },
+    {
+      "q": "What is Kaplan's Law of Words?",
+      "a": "Any words that aren't working for you are working against you."
+    },
+    {
+      "q": "Why does Harry keep paragraphs to two lines?",
+      "a": "They're monkey bars (easy to swing between), a longer one usually means he's not explaining well, and lines get room to breathe."
+    },
+    {
+      "q": "What does Harry say AI lacks?",
+      "a": "Taste, conviction and experience; it's predictive and doesn't believe anything."
+    }
+  ],
+  "try_it": [
+    {
+      "title": "Three-rule your next gym hook",
+      "niche": "gym",
+      "steps": [
+        "Write the hook you'd normally use (e.g. 'My leg day is insane').",
+        "Score it: visualize? falsify? nobody else? Write yes/no for each.",
+        "Zoom in: replace every abstract word with an object, a number or a place ('140 kg leg press, my legs shaking on rep 9').",
+        "Add one detail only you have (your gym, your injury, your job).",
+        "Do the One Mississippi test with a friend on frame 1."
+      ]
+    },
+    {
+      "title": "Point, don't talk: PC build reel",
+      "niche": "tech",
+      "steps": [
+        "List every adjective in your script ('beast', 'smooth', 'value').",
+        "For each, find something to point at: an FPS counter, a temperature reading, a price tag with a date.",
+        "Rewrite the line around the thing you're pointing at.",
+        "Show that proof on screen on the same word."
+      ]
+    },
+    {
+      "title": "Compare to the known: gaming setup",
+      "niche": "gaming",
+      "steps": [
+        "Pick one gear item (mouse, headset, monitor).",
+        "Write 5 comparisons to things everyone knows ('lighter than an AA battery', 'as loud as a pressure cooker whistle').",
+        "Pick the one that's concrete, true and only fits your item.",
+        "Use it as line 1, and make line 2 the payoff."
+      ]
+    },
+    {
+      "title": "Write five versions of one caption",
+      "niche": "any",
+      "steps": [
+        "Write tonight's caption in Instagram's caption box, not a notes app.",
+        "Copy it and rewrite it four more times, letting some be bad.",
+        "Apply Kaplan's Law: cut every word not working; keep paragraphs to two lines.",
+        "Send all five to a friend and ask 'which line from which version?'",
+        "Ship only if it's a 9/10."
+      ]
+    },
+    {
+      "title": "Find your 'something to say'",
+      "niche": "any",
+      "steps": [
+        "Finish the sentence 'What's wrong with gym/tech/gaming content is…' five times.",
+        "Pick the one you'd argue about with friends.",
+        "Write it as a one-line series promise ('the gym is funny and nobody admits it').",
+        "Plan three reels that each prove it with a concrete scene."
+      ]
+    }
+  ]
+}

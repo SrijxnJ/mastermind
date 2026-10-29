@@ -1,0 +1,535 @@
+{
+  "id": "L01",
+  "title": "The Triple Hook Method",
+  "creator": "Unnamed Instagram creator (teaching Kallaway's hook method)",
+  "url": "https://www.instagram.com/p/De_5mQ0R8PE/",
+  "length": "2 min 14 s",
+  "kind": "ig-reel",
+  "one_liner": "Say what it's about in the first words, give a reason to lean in, then snap their expectation back.",
+  "why_it_matters": "Most of your reels are decided in the first second or two, before the viewer knows it's a gym, PC or gaming video. This three-step hook is a repeatable recipe you can write before you film, and the reel itself shows the editing rhythm and sound design that hold attention after the hook.",
+  "big_idea": {
+    "statement": "A hook nobody skips has three parts in order: context (said, shown and written at once), a lean (a reason to want the next sentence) and a contrarian snapback.",
+    "support": [
+      "Viewers only stay if they know straight away what the video is about and have a stake in it.",
+      "The creator claims even moving the context to the back half of the first sentence sharply raises skip rate.",
+      "A lean (proof, pain/benefit or shock) creates the curiosity that carries them to sentence two.",
+      "The snapback works like setting a fishing hook: let them swim one way, then pull the other."
+    ]
+  },
+  "map": [
+    {
+      "chapter": "Step 1: Context in the first words",
+      "time": "≈0:00 (opening)",
+      "gist": "Say, show and write what the video is about, immediately"
+    },
+    {
+      "chapter": "Step 2: The lean",
+      "time": "early",
+      "gist": "Proof, pain/benefit or shock makes them want the next line"
+    },
+    {
+      "chapter": "Step 3: The contrarian snapback",
+      "time": "middle",
+      "gist": "Set up one expectation, then yank them the other way"
+    },
+    {
+      "chapter": "How the reel holds attention",
+      "time": "whole reel",
+      "gist": "Split layout, a change every 1.5–2.5 s, SFX on every event"
+    },
+    {
+      "chapter": "The CTA",
+      "time": "end",
+      "gist": "Comment a keyword to get the full masterclass, backed by 700K views"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Step 1: Context in the first words",
+      "time": "≈0:00",
+      "summary": "The reel opens on a bold claim, a hook that's 'scientifically impossible to skip', with a retention graph on screen as instant proof. Its first rule: viewers only stay when they have a stake in the topic, so say what the video is about immediately. Deliver that context three ways at once: in what you say, what's on screen and the on-screen text. The creator claims that delaying context even to the back half of the first sentence sharply increases the skip rate.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "scientifically impossible to skip",
+          "who": "The creator's opening claim",
+          "time": "0:00"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "The triple hook ('God-tier hook formula')",
+          "items": [
+            {
+              "label": "1. Context",
+              "text": "What the video is about, in the first words."
+            },
+            {
+              "label": "2. Lean",
+              "text": "A reason to want the next sentence: proof, pain/benefit or shock."
+            },
+            {
+              "label": "3. Snapback",
+              "text": "Let them settle into one expectation, then pull the other way."
+            }
+          ],
+          "caption": "Steps 1 + 2 together he calls the 'Context Lean'."
+        },
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "Context through three channels at once",
+          "items": [
+            {
+              "label": "Audio",
+              "text": "What you say in the first words."
+            },
+            {
+              "label": "Visual",
+              "text": "What's on screen from frame 1 (the bar, the PC, the game)."
+            },
+            {
+              "label": "Text",
+              "text": "On-screen words or captions naming the topic."
+            }
+          ],
+          "caption": "The overlap (all three in the first second) is the target."
+        },
+        {
+          "type": "stat",
+          "value": "½ sentence",
+          "label": "delay that sharply raises skip rate if context comes late",
+          "note": "The creator's data claim, not shown in detail.",
+          "evidence": "claim"
+        },
+        {
+          "type": "example",
+          "title": "Incline comeback reel",
+          "before": "Talking first ('so I've been training for a while and today…'), the bar appears later.",
+          "after": "Frame 1: text '75 KG INCLINE' + the loaded bar on screen + you say 'seventy-five kilo incline'.",
+          "why": "Said, shown and written in the first second: the viewer knows the topic before they can think about scrolling. (Applied from the lesson notes.)"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Tech: 'This ₹60K PC' said while the PC is in frame and '₹60K PC' is on screen. Gaming: 'My Valorant aim routine' with the aim trainer running and the words on screen. No 'hey guys', no warm-up line."
+        }
+      ]
+    },
+    {
+      "title": "Step 2: The lean",
+      "time": "early",
+      "summary": "Once the topic is clear, the viewer needs a reason to lean in and want the next sentence. The reel gives three ways: proof (a stat, a number, a screenshot or a result), a pain point or benefit (a specific struggle they have or an outcome they want) and something shocking (an unexpected image, statement or fact). The check before moving on: is the context instantly clear, and is there a reason to lean in?",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "venn",
+          "title": "Three ways to lean",
+          "items": [
+            {
+              "label": "Proof",
+              "text": "A stat, number, screenshot or result."
+            },
+            {
+              "label": "Pain / benefit",
+              "text": "A specific struggle they have, or an outcome they want."
+            },
+            {
+              "label": "Shock",
+              "text": "An unexpected image, statement or fact."
+            }
+          ],
+          "caption": "Use one, or stack two (proof of a pain is strong)."
+        },
+        {
+          "type": "checklist",
+          "title": "Context Lean check (before you film)",
+          "items": [
+            "Could a stranger say what this is about after the first words?",
+            "Is the topic said, shown and written?",
+            "Is there proof, a pain/benefit, or a shock in the next line?",
+            "Would you want to hear sentence two?"
+          ]
+        },
+        {
+          "type": "example",
+          "title": "Gym form tip",
+          "before": "Context only: 'Let's talk about lateral raises.'",
+          "after": "Context + lean: 'Your lateral raises… are training your traps, not your delts.'",
+          "why": "Same topic, but now it names a pain the viewer might have, so they lean in to check. (Applied from the lesson notes.)"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Proof lean for tech: show the FPS counter jumping. Pain lean for gaming: 'If you keep dying first in every round…'. Shock lean for gym: 'I benched more after skipping chest for a month.' (Only use a shock you can back up.)"
+        }
+      ]
+    },
+    {
+      "title": "Step 3: The contrarian snapback",
+      "time": "middle",
+      "summary": "The last step lets the viewer settle into one expectation, then yanks them the other way. The creator's analogy is setting a fishing hook: you let the fish swim one way, then pull the line in the opposite direction, and that's what sets it. Context, then lean, then snapback is what he calls the 'God-tier hook formula'. The reel draws it as a fishing-line diagram.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Setting the hook (the fishing-line analogy)",
+          "items": [
+            {
+              "label": "Let them swim",
+              "text": "The context and lean build an obvious expectation."
+            },
+            {
+              "label": "Feel the tension",
+              "text": "The viewer thinks they know where this is going."
+            },
+            {
+              "label": "Pull the other way",
+              "text": "Say the opposite of what they expect."
+            },
+            {
+              "label": "Hooked",
+              "text": "They stay to resolve the surprise."
+            }
+          ],
+          "caption": "A snapback is a twist on the expectation you just created, not a random twist."
+        },
+        {
+          "type": "example",
+          "title": "Incline comeback",
+          "before": "'75 kg incline. First time in a long time.' (expectation: a flex)",
+          "after": "'It's not heavy for most people. It was heavy for me.'",
+          "why": "The viewer expects bragging; the snapback flips it into an honest, relatable story. (Applied from the lesson notes.)"
+        },
+        {
+          "type": "example",
+          "title": "Lateral raise fix",
+          "before": "'Your lateral raises are training your traps.' (expectation: 'go lighter')",
+          "after": "'The fix isn't lighter weight. It's your pinky.'",
+          "why": "It names the obvious answer and rejects it, so they have to keep watching for the real one. (Applied from the lesson notes.)"
+        },
+        {
+          "type": "example",
+          "title": "Khandala trip",
+          "before": "'Khandala, 2 hrs from Pune. The sunset point nobody stops at.' (expectation: a travel guide)",
+          "after": "'We went for team bonding. Ended up not talking at all.'",
+          "why": "The twist turns a travel reel into a funny story. (Applied from the lesson notes.)"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Unhinged-gym fit: 'I finally hit a 100 kg squat.' → 'My form coach watched it and asked if I was okay.' Gaming: 'I bought a ₹15K mouse to rank up.' → 'I'm now worse.'"
+        }
+      ]
+    },
+    {
+      "title": "How the reel holds attention",
+      "time": "whole reel",
+      "summary": "The reel practices what it teaches. It's a split screen with the graphic or example on top and the talking head below, switching to a full-screen face for key lines. Something changes on screen every 1.5–2.5 seconds: a cut, a layout swap or an animation. Text is a clean sans in white and yellow on dark, with red for bad and green for good. Frosted-glass cards, drawn diagrams and red circles and arrows guide the eye. A low ambient synth bed runs throughout, with a sound effect on every visual event.",
+      "blocks": [
+        {
+          "type": "stat",
+          "value": "1.5–2.5 s",
+          "label": "gap between visual changes (cut, layout swap or animation)",
+          "note": "From the scene-by-scene walkthrough.",
+          "evidence": "observed"
+        },
+        {
+          "type": "framework",
+          "style": "matrix",
+          "title": "SFX meaning map",
+          "axes": {
+            "x": "Something moves → something appears",
+            "y": "Neutral → emphatic"
+          },
+          "items": [
+            {
+              "label": "Whoosh",
+              "text": "Movement: slide, wipe, push-in."
+            },
+            {
+              "label": "Pop",
+              "text": "Text appears."
+            },
+            {
+              "label": "Thud / click",
+              "text": "Impact or a card change."
+            },
+            {
+              "label": "Chime",
+              "text": "Success: a green check appears."
+            }
+          ],
+          "caption": "All on top of one low ambient synth bed."
+        },
+        {
+          "type": "compare",
+          "title": "Layout switching",
+          "left": {
+            "title": "Split screen (most of the reel)",
+            "items": [
+              "Graphic or example on top",
+              "Talking head at the bottom",
+              "Diagrams, retention graph, frosted cards"
+            ]
+          },
+          "right": {
+            "title": "Full face (key lines)",
+            "items": [
+              "Talking head fills the frame",
+              "Used for the punchlines",
+              "Resets attention"
+            ]
+          }
+        },
+        {
+          "type": "checklist",
+          "title": "Look and type",
+          "items": [
+            "Clean sans (Inter / SF Pro style), white and yellow on dark",
+            "Red = bad, green = good",
+            "Frosted-glass UI cards",
+            "Drawn diagrams (curves, radar, fishing line)",
+            "Red circles and arrows to guide the eye",
+            "Dark matte background, warm key on the face, gold rim light"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your gym version: one music bed, a pop on every text pop, a whoosh on each cut, a thud on the final rep lockout. Edits has these in its SFX library."
+        }
+      ]
+    },
+    {
+      "title": "The CTA",
+      "time": "end",
+      "summary": "The reel ends on a comment-to-DM call to action for Kallaway's full hook masterclass on YouTube. The social proof (700K+ views on that masterclass) raises the value of the freebie, so commenting feels worth it. Comments also signal engagement to the algorithm.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Comment 'hooks' and I'll send it to you.",
+          "who": "The creator (CTA)",
+          "time": "end"
+        },
+        {
+          "type": "stat",
+          "value": "700K+",
+          "label": "views on the masterclass being offered",
+          "note": "Social proof that makes the freebie feel valuable.",
+          "evidence": "stated"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Comment-keyword CTA",
+          "items": [
+            {
+              "label": "Offer something real",
+              "text": "The full masterclass, a checklist, a parts list."
+            },
+            {
+              "label": "Prove it's worth it",
+              "text": "700K views, a result, a number."
+            },
+            {
+              "label": "One keyword",
+              "text": "'Comment HOOKS'."
+            },
+            {
+              "label": "Deliver by DM",
+              "text": "Send the link to everyone who comments."
+            }
+          ],
+          "caption": "The Brain also logs a clash: L04's anti-CTA ('no DM needed') vs this (C1)."
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Comment 'SPLIT' for your weekly gym split, 'BUILD' for your PC parts list with prices, 'SENS' for your Valorant settings. Show the keyword big on screen in the last 2–3 s."
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "area": "Hook",
+      "detail": "Bold claim ('scientifically impossible to skip') with instant visual proof (a retention graph) in the first 0–3 s."
+    },
+    {
+      "area": "Pacing",
+      "detail": "A visual change every 1.5–2.5 s: cuts, layout swaps, animations."
+    },
+    {
+      "area": "Layout",
+      "detail": "Split screen (graphic/example on top, talking head at the bottom), switching to a full-screen face for key lines."
+    },
+    {
+      "area": "Type",
+      "detail": "Clean sans-serif (Inter / SF Pro style), white and yellow on dark; red = bad, green = good highlights."
+    },
+    {
+      "area": "Effects",
+      "detail": "Frosted-glass UI cards, drawn diagrams (curves, radar, fishing line), red circles and arrows."
+    },
+    {
+      "area": "Sound",
+      "detail": "Low ambient synth bed throughout, plus SFX on every visual event: whoosh (move), pop (text in), chime (green check), thud/click (card change)."
+    },
+    {
+      "area": "Grade",
+      "detail": "Dark matte background, warm key light on the face, gold rim light."
+    },
+    {
+      "area": "CTA",
+      "detail": "Comment-to-DM ('Comment hooks and I'll send it to you'), with 700K views as social proof."
+    }
+  ],
+  "takeaways": [
+    {
+      "text": "Hook in three steps: context, lean, contrarian snapback.",
+      "atom": "hook-triple-hook-formula"
+    },
+    {
+      "text": "Context in the first words, said + shown + written.",
+      "atom": "hook-context-first-words"
+    },
+    {
+      "text": "Lean with proof, a pain/benefit, or a shock.",
+      "atom": "hook-lean-three-ways"
+    },
+    {
+      "text": "Back a bold claim with instant visual proof.",
+      "atom": "hook-bold-claim-visual-proof"
+    },
+    {
+      "text": "Change something on screen every 1.5–2.5 s.",
+      "atom": "edit-change-every-1-5-2-5s"
+    },
+    {
+      "text": "Split layout: graphic on top, face below, full face for key lines.",
+      "atom": "edit-split-screen-graphic-face"
+    },
+    {
+      "text": "Put a sound on every visual event.",
+      "atom": "sound-sfx-every-event"
+    },
+    {
+      "text": "Whoosh = movement, pop = text, chime = success, thud = impact.",
+      "atom": "sound-sfx-meaning-map"
+    },
+    {
+      "text": "A quiet music bed under everything.",
+      "atom": "sound-quiet-bed-throughout"
+    },
+    {
+      "text": "Clean sans for teaching; red/green for wrong/right.",
+      "atom": "text-clean-sans-teaching"
+    },
+    {
+      "text": "Comment-keyword CTA backed by social proof.",
+      "atom": "growth-comment-keyword-cta"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Hook",
+      "def": "The first 1–3 seconds of a video, whose job is to stop the scroll."
+    },
+    {
+      "term": "Context",
+      "def": "What the video is about, made clear immediately."
+    },
+    {
+      "term": "Lean",
+      "def": "The reason to want the next sentence: proof, pain/benefit or shock."
+    },
+    {
+      "term": "Context Lean",
+      "def": "His name for steps 1 and 2 together."
+    },
+    {
+      "term": "Snapback",
+      "def": "A contrarian twist that pulls the viewer opposite to the expectation you just built."
+    },
+    {
+      "term": "Skip rate",
+      "def": "The share of viewers who swipe away in the first seconds."
+    },
+    {
+      "term": "Retention graph",
+      "def": "A chart of how many viewers are still watching at each second."
+    },
+    {
+      "term": "Music bed",
+      "def": "Quiet background music under the whole video."
+    },
+    {
+      "term": "Comment-to-DM CTA",
+      "def": "Asking viewers to comment a keyword to get a link or freebie by DM."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What are the three steps of the triple hook, in order?",
+      "a": "Context, lean, contrarian snapback."
+    },
+    {
+      "q": "Through which three channels should the context arrive?",
+      "a": "Audio (what you say), visuals (what's on screen) and on-screen text."
+    },
+    {
+      "q": "Name the three ways to create a lean.",
+      "a": "Proof, a pain point or benefit, something shocking."
+    },
+    {
+      "q": "What's the fishing analogy for the snapback?",
+      "a": "Let the fish swim one way, then pull the line the opposite way to set the hook."
+    },
+    {
+      "q": "How often does something change on screen in this reel?",
+      "a": "Every 1.5–2.5 seconds."
+    },
+    {
+      "q": "What does a chime usually mean in the reel's sound design?",
+      "a": "Success: a green check appearing."
+    },
+    {
+      "q": "What makes the CTA's freebie feel valuable?",
+      "a": "Social proof: the masterclass has 700K+ views."
+    }
+  ],
+  "try_it": [
+    {
+      "title": "Triple-hook your next gym reel",
+      "niche": "gym",
+      "steps": [
+        "Write the context in under 5 words (the lift and the weight).",
+        "Plan how it's said, shown and written in frame 1.",
+        "Write a lean: the proof (rep counter), pain ('my shoulder…') or shock.",
+        "Write the snapback: what does the viewer expect next? Say the opposite.",
+        "Film it and check frame 1 with the sound off."
+      ]
+    },
+    {
+      "title": "Three hooks for one PC video",
+      "niche": "tech",
+      "steps": [
+        "Pick one PC topic (e.g. your thermals).",
+        "Write three versions of the lean: one proof, one pain, one shock.",
+        "Add the same snapback to each.",
+        "Record all three openings and pick the one a friend understands fastest."
+      ]
+    },
+    {
+      "title": "Gaming snapback drill",
+      "niche": "gaming",
+      "steps": [
+        "Write 5 gaming setups where viewers expect a flex ('I hit Immortal…').",
+        "For each, write a self-roasting snapback ('…by accident').",
+        "Keep the two that are true and funniest.",
+        "Film one with a pop on the context text and a thud on the snapback."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "L04",
+  "title": "The 1-prompt edit with Claude",
+  "creator": "Unnamed creator (Srijan upload Video-60622.mp4)",
+  "url": "",
+  "length": "85 s",
+  "kind": "upload",
+  "one_liner": "Give Claude the tools, a reel whose style you like and your footage; then turn the workflow into a skill.",
+  "why_it_matters": "This is close to how we already edit your reels, and it shows the missing pieces: word-level transcripts, reference-driven style, and packaging your style as a reusable skill so the next gym or PC reel is one prompt. It's also a lesson in packaging a tutorial: an anti-CTA, a screenshot moment and a full-map ending that drives saves.",
+  "big_idea": {
+    "statement": "You can edit without a timeline: give Claude Code a toolset, a reference reel and your raw video, steer it with plain-word feedback, then save the whole thing as a skill.",
+    "support": [
+      "Seven open-source repos cover cutting, transcription, downloading, tracking and motion graphics.",
+      "A reference reel tells Claude the style better than any description.",
+      "Feedback in plain words replaces dragging clips on a timeline.",
+      "'Turn this into a skill' makes the next edit a single prompt."
+    ]
+  },
+  "map": [
+    {"chapter": "The hook and the anti-CTA", "time": "0:00–0:09", "gist": "Ride a trend, then promise 'no DM for resources'"},
+    {"chapter": "Setup: Claude Code and seven repos", "time": "0:09–0:34", "gist": "Local folder, then copy the GitHub repos (screenshot moment)"},
+    {"chapter": "Prompt, reference, footage", "time": "0:34–1:13", "gist": "'You are my short form editor', a reel to copy, then your video"},
+    {"chapter": "Turn it into a skill", "time": "1:13–1:25", "gist": "One prompt next time; 'that's why they sell courses'"},
+    {"chapter": "How the video is made", "time": "whole video", "gist": "Face on top, red step board below, caption bar, full-map ending"}
+  ],
+  "chapters": [
+    {
+      "title": "The hook and the anti-CTA",
+      "time": "0:00",
+      "summary": "The creator rides a trend in the first line: you've probably seen people editing videos with Claude or ChatGPT, so let me show you how. Then comes a trust line that runs against almost every creator tutorial: no DM for resources, everything you need is right here. While other reels gate the links behind 'comment X', this one gives everything on screen, which builds trust and makes people save it.",
+      "blocks": [
+        {"type": "quote", "text": "You've probably seen these videos lately where people are editing their videos with Claude or ChatGPT. Let me show you how to do it.", "who": "The creator (hook)", "time": "0:00"},
+        {"type": "quote", "text": "And I promise no DM for resources, everything you need is right here below.", "who": "The creator", "time": "0:05"},
+        {"type": "compare", "title": "Anti-CTA vs comment-keyword CTA", "left": {"title": "Anti-CTA (this reel)", "items": ["'No DM for resources'", "Everything on screen", "Builds trust and saves", "Stands out from everyone gating links"]}, "right": {"title": "Comment-keyword CTA (L01, L02, Rahul)", "items": ["'Comment X and I'll send it'", "Resource sent by DM", "Builds comments", "Lets you follow up by DM"]}},
+        {"type": "callout", "tone": "warn", "text": "This is an open clash in the Brain (C1): give it all away (saves, trust) vs gate it behind a comment (comments, DMs). Pick per reel: a full tutorial suits the anti-CTA; a living resource (parts list with live prices) suits the comment CTA."},
+        {"type": "callout", "tone": "applied", "text": "Trend-riding hook for you: 'You've probably seen people doing the 75 Hard lately. Here's what happened when a desk worker tried week one.'"}
+      ]
+    },
+    {
+      "title": "Setup: Claude Code and seven repos",
+      "time": "0:09",
+      "summary": "Step one is installing Claude Code, switching from the chat to the Code tab, choosing Local and opening a new folder (his is called 'my boss editor'). Next you copy a set of GitHub repositories; he explains GitHub as a place where people share open-source tooling. The repos appear as a table on the red board, and he pauses so you can take a picture, a deliberate save moment.",
+      "blocks": [
+        {"type": "framework", "style": "steps", "title": "Workspace setup", "items": [
+          {"label": "Install Claude Code", "text": "Then move from the chat function to the Code tab."},
+          {"label": "Choose Local", "text": "Work on your own computer's files."},
+          {"label": "Open a new folder", "text": "His is 'my boss editor'; name yours anything."},
+          {"label": "Copy the repos", "text": "Paste the GitHub links for the editing tools."}
+        ], "caption": "Steps 1–2 of his seven."},
+        {"type": "checklist", "title": "The seven-repo stack and each one's job", "items": ["FFmpeg: every cut, crop, mix, mute and render", "faster-whisper: word-level transcription that every cut is placed against", "Whisper: OpenAI's speech model (faster-whisper is a faster runtime for it)", "yt-dlp: downloading the reference video", "OpenCV (+ contrib): following whoever is talking in a vertical crop", "Puppeteer: renders HTML captions and titles to video; took the screenshots", "HyperFrames (HeyGen): agent-built motion graphics from HTML"]},
+        {"type": "quote", "text": "I'll leave it here for a second so you can take a picture.", "who": "The creator", "time": "0:31"},
+        {"type": "stat", "value": "7", "label": "open-source repos in his editing stack", "note": "Read from the on-screen table.", "evidence": "observed"},
+        {"type": "callout", "tone": "tip", "text": "We already run FFmpeg, OpenCV, Python and Claude Code skills. New from this lesson: faster-whisper (word timings for captions and cuts), yt-dlp (reference downloads) and OpenCV's CSRT tracker (auto-follow you in a 9:16 crop), all now installed."}
+      ]
+    },
+    {
+      "title": "Prompt, reference, footage",
+      "time": "0:34",
+      "summary": "He prompts Claude with a role and the links: you are my short-form editor, here are all the GitHub links to help you do your job. Then he finds an edit he likes (a simple list format) and sends it: can we duplicate this style for a video of mine? Claude processes the reference, he shoots his own video, copies the file path, and Claude edits it in the same format and style. There's no timeline editor involved; corrections are given as plain-word feedback.",
+      "blocks": [
+        {"type": "quote", "text": "So you are my short form editor. Here are all the GitHub links to help you do your job.", "who": "The creator (his prompt)", "time": "0:37"},
+        {"type": "framework", "style": "steps", "title": "The reference-driven edit", "items": [
+          {"label": "Role + tools", "text": "'You are my short form editor' + the repo links."},
+          {"label": "Reference", "text": "Send a reel whose style you like: 'Can we duplicate this style?'"},
+          {"label": "Shoot", "text": "Film your own video."},
+          {"label": "Hand over", "text": "Give Claude the file path: 'here's my video'."},
+          {"label": "Review", "text": "Give feedback in plain words, no timeline."}
+        ], "caption": "Steps 3–6 of his seven."},
+        {"type": "quote", "text": "Hey, I like this style of this reel. Can we duplicate this style and use it for a video of mine?", "who": "The creator (his prompt)", "time": "0:46"},
+        {"type": "example", "title": "A vague brief vs a reference brief", "before": "Edit my gym video so it looks good and engaging.", "after": "You are my short-form editor. Here's a reel whose style I like [link]. Duplicate this style for my video at [path]: same caption look, same cut rhythm, same SFX.", "why": "A reference shows pacing, captions and sound at once; 'looks good' tells Claude nothing. (Applied.)"},
+        {"type": "callout", "tone": "applied", "text": "For you: pick one gym reel and one PC reel whose edits you love, send both with your raw iPhone footage, then give notes like 'cut faster in the warm-up' or 'bigger text on the weight'."}
+      ]
+    },
+    {
+      "title": "Turn it into a skill",
+      "time": "1:13",
+      "summary": "The last step is the big idea: prompt Claude Code to turn the whole workflow into a skill, so next time it's one prompt. That's how people are doing their 'one prompt edit with Claude'. He closes honestly: it's a lot, but that's probably why people sell courses on it.",
+      "blocks": [
+        {"type": "quote", "text": "So you just prompt Claude code, Hey, turn this into a skill.", "who": "The creator", "time": "1:15"},
+        {"type": "framework", "style": "cycle", "title": "From workflow to one prompt", "items": [
+          {"label": "Edit once", "text": "Reference + footage + feedback until you love it."},
+          {"label": "Package", "text": "'Turn this into a skill.'"},
+          {"label": "Reuse", "text": "Next video: one prompt with the new footage."},
+          {"label": "Refine", "text": "Update the skill when your style changes."}
+        ], "caption": "Step 7 of his seven: the bonus."},
+        {"type": "quote", "text": "I know it is a lot, but that's also probably why they're selling their courses.", "who": "The creator", "time": "1:22"},
+        {"type": "callout", "tone": "applied", "text": "Parked for us: once your gym-reel style is stable (captions, grade, SFX, pacing), package it as your own skill so each new lift video is one prompt."}
+      ]
+    },
+    {
+      "title": "How the video is made",
+      "time": "0:00",
+      "summary": "The layout is a talking head on top (him with headphones in a home office) and a red whiteboard-style board below with handwritten numbered steps. The camera zooms and pans across the board to each step and its screenshot. Captions are an uppercase bold white bar of 3–4 words between the two halves. The 'take a picture' pause is a save moment, and the ending pulls back to show the whole board, a full map in one frame that people screenshot or save.",
+      "blocks": [
+        {"type": "framework", "style": "steps", "title": "Save-bait structure", "items": [
+          {"label": "Promise everything", "text": "'Everything you need is right here.'"},
+          {"label": "One step at a time", "text": "Zoom/pan the board to each numbered step."},
+          {"label": "Screenshot moment", "text": "'I'll leave it here… take a picture.'"},
+          {"label": "Full-map ending", "text": "Pull back to the whole board in one frame."}
+        ], "caption": "Built for saves rather than comments."},
+        {"type": "checklist", "title": "Layout and type", "items": ["Top: talking head with headphones, home office", "Bottom: red board with handwritten numbered steps", "Uppercase bold white caption bar, 3–4 words, between the halves", "Board zooms/pans to each step and screenshot", "Ending zooms out to the whole board"]},
+        {"type": "callout", "tone": "applied", "text": "Gym version: your weekly split written on a board below you, zooming to each day as you talk, ending on the whole week. Tech version: a parts list board, zooming to each part with its price."}
+      ]
+    }
+  ],
+  "production": [
+    {"area": "Hook", "detail": "Trend-riding line ('You've probably seen these videos lately…') plus the anti-CTA trust line ('no DM for resources')."},
+    {"area": "Layout", "detail": "Talking head with headphones on top; a red whiteboard-style board with handwritten numbered steps below, zooming/panning to each step and screenshot."},
+    {"area": "Captions", "detail": "Uppercase bold white caption bar between the two halves, 3–4 words at a time."},
+    {"area": "Save bait", "detail": "'I'll leave it here for a second so you can take a picture.'"},
+    {"area": "Ending", "detail": "Pulls back to the whole board: the full map in one frame."},
+    {"area": "Honesty", "detail": "Closes with 'I know it is a lot, but that's also probably why they're selling their courses.'"}
+  ],
+  "takeaways": [
+    {"text": "Anti-CTA: 'no DM needed, it's all here' builds trust and saves.", "atom": "growth-anti-cta"},
+    {"text": "'Take a picture' screenshot moment plus a full-map ending.", "atom": "growth-screenshot-save-moment"},
+    {"text": "Trend-riding hook: 'You've probably seen X lately… let me show you how.'", "atom": "hook-trend-riding"},
+    {"text": "Reference-driven editing: send the reel whose style you want, then your footage.", "atom": "ai-reference-driven-edit"},
+    {"text": "Turn a finished workflow into a skill.", "atom": "ai-turn-into-skill"},
+    {"text": "The seven-repo editing stack.", "atom": "ai-seven-tool-stack"},
+    {"text": "Word-level transcription for captions and cuts.", "atom": "ai-word-level-transcription"},
+    {"text": "Download references for local analysis with yt-dlp.", "atom": "ai-yt-dlp-references"},
+    {"text": "Zoom/pan the board to each step.", "atom": "tr-board-zoom-to-step"},
+    {"text": "Uppercase caption bar between split-screen halves.", "atom": "text-uppercase-caption-bar"},
+    {"text": "Split layout: face plus a graphic board.", "atom": "edit-split-screen-graphic-face"}
+  ],
+  "glossary": [
+    {"term": "Claude Code", "def": "Anthropic's coding agent that can run tools on your computer's files (here: video tools)."},
+    {"term": "Repository (repo)", "def": "A project's code on GitHub; 'copy the repos' means giving Claude the tools' links."},
+    {"term": "Skill", "def": "A saved, reusable set of instructions Claude can run again with one prompt."},
+    {"term": "Reference-driven edit", "def": "Editing your video to match the style of a reel you point to."},
+    {"term": "Word-level transcription", "def": "A transcript with a timestamp for every word, used for captions and precise cuts."},
+    {"term": "Anti-CTA", "def": "Telling viewers they don't need to comment or DM because everything is in the video."},
+    {"term": "Save bait", "def": "A moment designed to make viewers save or screenshot (a full list, a 'take a picture' pause)."},
+    {"term": "CSRT tracker", "def": "An OpenCV object tracker that can follow a person to keep them centred in a vertical crop."}
+  ],
+  "quiz": [
+    {"q": "What's the anti-CTA in this reel?", "a": "'No DM for resources, everything you need is right here.'"},
+    {"q": "Name four of the seven repos and their jobs.", "a": "E.g. FFmpeg (cuts/renders), faster-whisper (word timings), yt-dlp (downloads), OpenCV (tracking the speaker), Puppeteer (HTML captions to video), HyperFrames (motion graphics), Whisper (speech model)."},
+    {"q": "What role does he give Claude in the prompt?", "a": "'You are my short form editor.'"},
+    {"q": "How does he tell Claude what style he wants?", "a": "By sending a reel he likes and asking to duplicate its style."},
+    {"q": "What's the final step that makes it a 'one-prompt edit'?", "a": "'Turn this into a skill.'"},
+    {"q": "Which two moments drive saves?", "a": "The 'take a picture' pause and the full-board ending."}
+  ],
+  "try_it": [
+    {"title": "Reference-edit a gym reel", "niche": "gym", "steps": ["Save one gym reel whose edit you love.", "Film your own lift on the tripod.", "Prompt: 'You are my short-form editor. Duplicate this reel's style for my video at [path].'", "Give three plain-word notes and re-run.", "When it's right, say 'turn this into a skill'."]},
+    {"title": "A save-bait PC tutorial", "niche": "tech", "steps": ["Write your PC-tuning steps on a board or card graphic.", "Record yourself on top, the board below.", "Zoom to each step as you say it; pause on the full list with 'take a picture'.", "End on the whole board. Try the anti-CTA: 'everything's right here'."]},
+    {"title": "Trend-riding gaming hook", "niche": "gaming", "steps": ["Find a gaming trend this week.", "Write 'You've probably seen ___ lately. Let me show you ___.'", "Deliver the whole method in the reel itself.", "Compare saves vs your usual comment CTA reels."]}
+  ]
+}

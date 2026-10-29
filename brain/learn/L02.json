@@ -1,0 +1,492 @@
+{
+  "id": "L02",
+  "title": "Sound for AI-made edits (Openverse, Real SFX, earshot)",
+  "creator": "Unnamed Instagram creator",
+  "url": "https://www.instagram.com/p/De9yxpuIG6X/",
+  "length": "42 s",
+  "kind": "ig-reel",
+  "one_liner": "An edit without sound effects feels like a silent movie; give every visual event a real sound.",
+  "why_it_matters": "Your Khandala and incline edits went out silent, with music added later. Sound is half of what makes a reel feel 'pro', and it's the part an AI editor skips because it can't hear. This reel names a free three-part stack (a sound library, a placer and 'ears') that fixes exactly that gap.",
+  "big_idea": {
+    "statement": "AI edits look pro but sound empty; fix it with a library of real sounds, a tool that places them on the exact frame, and a tool that listens back.",
+    "support": [
+      "An AI editing agent can't hear, so it skips sound or fakes it with synthetic beeps.",
+      "Openverse gives millions of openly licensed sounds, searchable with no API key.",
+      "Real SFX finds the moments that need sound and places real recordings on that frame.",
+      "earshot lets the agent listen: it scores a mix against pro launch films and can make whooshes in code.",
+      "Admitting a tool's limit ('only 78 sounds') makes the rest believable."
+    ]
+  },
+  "map": [
+    {
+      "chapter": "The silent-movie problem",
+      "time": "0–3 s",
+      "gist": "Pain question plus 'Looks pro. Sounds like this' contrast"
+    },
+    {
+      "chapter": "The three-part sound stack",
+      "time": "middle",
+      "gist": "Library (Openverse), placement (Real SFX), ears (earshot)"
+    },
+    {
+      "chapter": "What the tools really are",
+      "time": "checked 27 Oct 2026",
+      "gist": "Licences, limits and costs, verified on each tool's site"
+    },
+    {
+      "chapter": "How the reel is built",
+      "time": "whole reel",
+      "gist": "n/3 badges, counters, serif-italic emphasis, a sound on every change"
+    },
+    {
+      "chapter": "The CTA and what it means for us",
+      "time": "end",
+      "gist": "Comment SOUND; pops, whooshes and thuds for our own reels"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The silent-movie problem",
+      "time": "0:00",
+      "summary": "The reel opens with a pain question aimed at anyone editing with AI: why do your Claude edits look pro but sound like a silent movie? The on-screen text sets up a contrast, 'Looks pro. Sounds like this:' followed by a muted-speaker icon. The reason given: an AI editing agent can't hear, so it either skips sound or fakes it with synthetic beeps.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Why do your Claude edits look pro but sound like a silent movie?",
+          "who": "The creator (hook)",
+          "time": "0:00"
+        },
+        {
+          "type": "compare",
+          "title": "The contrast hook",
+          "left": {
+            "title": "Looks…",
+            "items": [
+              "Pro motion graphics",
+              "Clean captions",
+              "Smooth cuts"
+            ]
+          },
+          "right": {
+            "title": "…sounds like",
+            "items": [
+              "Silence (🔇)",
+              "Or synthetic beeps",
+              "Because the AI can't hear"
+            ]
+          }
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Contrast hook formula",
+          "items": [
+            {
+              "label": "Looks X",
+              "text": "Name what's already good: 'Looks pro.'"
+            },
+            {
+              "label": "Sounds/feels Y",
+              "text": "Reveal the gap: 'Sounds like this:' + a mute icon."
+            },
+            {
+              "label": "Why",
+              "text": "One line of cause: the AI can't hear."
+            }
+          ],
+          "caption": "A pain question plus a visible contrast in the first 3 s."
+        },
+        {
+          "type": "example",
+          "title": "Pain question rewrite",
+          "before": "Here are three tools for sound design.",
+          "after": "Why do your Claude edits look pro but sound like a silent movie?",
+          "why": "The first is a list nobody asked for; the second names a problem the viewer already has, then promises the fix."
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Gym: 'Looks shredded. Lifts like this:' + a wobbly rep. Tech: 'Looks like a ₹2L PC. Runs like this:' + a stutter. Gaming: 'Looks like a pro setup. Aims like this:'."
+        }
+      ]
+    },
+    {
+      "title": "The three-part sound stack",
+      "time": "middle",
+      "summary": "The fix is three tools, each with one job. A source library: Openverse, a free search over millions of openly licensed sounds with no API key. Placement: Real SFX, a Claude Code skill that finds every moment in an edit that needs sound and places a real recording on that frame. Ears: earshot, an open-source tool that lets the agent listen, scoring an edit against pro launch films and generating its own whooshes in code. The creator is upfront that Real SFX only ships 78 UI sounds, which is why you pair it with a library.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Library → Placement → Ears",
+          "items": [
+            {
+              "label": "1/3 Library: Openverse",
+              "text": "Millions of openly licensed sounds, searchable free, no key."
+            },
+            {
+              "label": "2/3 Placement: Real SFX",
+              "text": "Finds the moments, puts a real sound on the exact frame, ducks it under the voice."
+            },
+            {
+              "label": "3/3 Ears: earshot",
+              "text": "Listens back, scores the mix against pro films, makes whooshes in code."
+            }
+          ],
+          "caption": "The reel shows them with 1/3, 2/3, 3/3 badges."
+        },
+        {
+          "type": "quote",
+          "text": "The honest part: it only ships 78 sounds.",
+          "who": "The creator, on Real SFX",
+          "time": "mid-reel"
+        },
+        {
+          "type": "stat",
+          "value": "78",
+          "label": "UI sounds bundled with Real SFX (all CC0)",
+          "note": "Too few on their own, hence the library.",
+          "evidence": "observed"
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "The 'honest part' line is a scripting move, not just a fact: naming a limit makes the rest of the pitch believable. Use it in reviews ('the honest part: the fan is loud')."
+        }
+      ]
+    },
+    {
+      "title": "What the tools really are",
+      "time": "checked 27 Oct 2026",
+      "summary": "Each tool was checked on its own site or repo. Openverse is a search API over CC-licensed audio (mostly from Freesound), free and keyless, but every sound carries its own licence: use CC0 for Instagram, and credit CC-BY sounds in the caption. A test search for 'whoosh' returned 240 results. Real SFX needs Python 3.9+ and ffmpeg, places sounds from your own folder, and outputs an MP4, an SFX WAV and a report. earshot is an MIT-licensed CLI and MCP server with commands like critique, timeline, forge and sfx; it downloads about 1.1 GB of models on first run.",
+      "blocks": [
+        {
+          "type": "compare",
+          "title": "Openverse licences for Instagram",
+          "left": {
+            "title": "CC0 (use freely)",
+            "items": [
+              "No credit needed",
+              "Safe for reels",
+              "e.g. 'Deep Whoosh #1'"
+            ]
+          },
+          "right": {
+            "title": "CC-BY (credit needed)",
+            "items": [
+              "Credit the author in the caption",
+              "Easy to forget",
+              "Prefer CC0 when there's a choice"
+            ]
+          }
+        },
+        {
+          "type": "stat",
+          "value": "240",
+          "label": "results for 'whoosh' in a test Openverse search",
+          "note": "Checked 27 Oct 2026.",
+          "evidence": "observed"
+        },
+        {
+          "type": "checklist",
+          "title": "earshot commands worth knowing",
+          "items": [
+            "critique: a launch-film scorecard for your mix",
+            "timeline: a second-by-second listening log",
+            "forge: generate whooshes in code",
+            "sfx: a 252-sound bank"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warn",
+          "text": "earshot downloads about 1.1 GB of models on first run and needs Python 3.10+. Its optional Gemini upload only runs with explicit flags and a key."
+        }
+      ]
+    },
+    {
+      "title": "How the reel is built",
+      "time": "whole reel",
+      "summary": "In 42 seconds the reel goes problem, three numbered tools, a summary card, then the CTA. Something changes every 1.5–2.5 seconds: n/3 badges, slide-in cards and animated number counters (5,220,123 sounds; GitHub stars ticking up). Emphasis words like 'pro' and 'honest' are set in serif italic over a clean sans body, with yellow and orange keyword highlights. Frosted UI cards spring in with a bounce. And it practises its own message: a pop, click, whoosh or snap lands on every visual change.",
+      "blocks": [
+        {
+          "type": "framework",
+          "style": "timeline",
+          "title": "42-second structure",
+          "items": [
+            {
+              "label": "0–3 s",
+              "text": "Pain question + 'Looks pro. Sounds like this: 🔇'."
+            },
+            {
+              "label": "Tools",
+              "text": "1/3 Openverse, 2/3 Real SFX, 3/3 earshot, each with a card and counter."
+            },
+            {
+              "label": "Summary",
+              "text": "One card with all three."
+            },
+            {
+              "label": "End",
+              "text": "'Comment SOUND' with an animated comment badge."
+            }
+          ],
+          "caption": "Problem → numbered fix → recap → CTA."
+        },
+        {
+          "type": "stat",
+          "value": "1.5–2.5 s",
+          "label": "between visual changes",
+          "note": "Badges, slide-in cards, counters.",
+          "evidence": "observed"
+        },
+        {
+          "type": "checklist",
+          "title": "Effects to reuse",
+          "items": [
+            "Animated number counters (5,220,123 sounds; stars ticking up)",
+            "n/3 progress badges in list videos",
+            "Frosted UI cards with spring/bounce slide-ins",
+            "Serif italic for emphasis words + clean sans body",
+            "Yellow/orange keyword highlights",
+            "A pop/click/whoosh/snap on every visual change"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Gym: a counter ticking up to '75 KG' with a tick sound per step and a thud at the top. Tech: '1/3 GPU, 2/3 CPU, 3/3 RAM' badges for a build breakdown, each with a pop."
+        }
+      ]
+    },
+    {
+      "title": "The CTA and what it means for us",
+      "time": "end",
+      "summary": "The reel ends on 'Comment SOUND and I'll send you all three links' with an animated comment badge. For our pipeline this is the exact gap: ffmpeg can measure loudness and levels but can't judge how a mix sounds, and our reels went out silent. With CC0 sounds from Openverse, Real SFX-style placement and an earshot critique, we can add pops on text, whooshes on cuts and a thud on the final lockout ourselves, then check the mix before you add the song in Edits.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Comment SOUND and I'll send you all three links",
+          "who": "The creator (CTA)",
+          "time": "end"
+        },
+        {
+          "type": "framework",
+          "style": "steps",
+          "title": "Our sound pass, before the song",
+          "items": [
+            {
+              "label": "Mark events",
+              "text": "Every text pop, cut, counter tick and lockout."
+            },
+            {
+              "label": "Pick CC0 sounds",
+              "text": "Pop for text, whoosh for cuts, thud for the final rep."
+            },
+            {
+              "label": "Place on the frame",
+              "text": "Real SFX-style, ducked under the voice."
+            },
+            {
+              "label": "Listen back",
+              "text": "earshot critique/timeline for sync and balance."
+            },
+            {
+              "label": "Add the song",
+              "text": "In Edits, low-use track, quiet under everything."
+            }
+          ],
+          "caption": "Our take, built from this lesson."
+        },
+        {
+          "type": "example",
+          "title": "Our Khandala reel's sound",
+          "before": "18 s cut every 1.5 s, exported silent; a song added later in Edits and nothing else.",
+          "after": "A soft whoosh on each photo push-in, a pop on each text line, a chime on the sunset card, then the song tucked underneath.",
+          "why": "Every visual event gets a sound, so the cuts feel intentional instead of floating on a music track. (Applied.)"
+        },
+        {
+          "type": "callout",
+          "tone": "applied",
+          "text": "Your incline reel, redone: whoosh as the bar enters, a tick per rep on the counter, a heavy thud on the lockout, a chime on '75 KG'. Same footage, feels twice as expensive."
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "area": "Hook",
+      "detail": "Pain question plus contrast text in the first 3 s: 'Looks pro. Sounds like this: 🔇'."
+    },
+    {
+      "area": "Structure",
+      "detail": "Problem, 3 numbered tools (1/3, 2/3, 3/3 badges), summary card, CTA. 42 s total."
+    },
+    {
+      "area": "Pacing",
+      "detail": "A visual change every 1.5–2.5 s: badges, slide-in cards, number counters."
+    },
+    {
+      "area": "Type",
+      "detail": "Serif italic for emphasis words (pro, honest) plus a clean sans for body text, with yellow/orange keyword highlights."
+    },
+    {
+      "area": "Effects",
+      "detail": "Animated number counters (5,220,123 sounds; GitHub stars), frosted UI cards, spring/bounce slide-ins."
+    },
+    {
+      "area": "Sound",
+      "detail": "Pop, click, whoosh or snap on every visual change."
+    },
+    {
+      "area": "Trust",
+      "detail": "'The honest part: it only ships 78 sounds.' Admitting a limit."
+    },
+    {
+      "area": "CTA",
+      "detail": "'Comment SOUND and I'll send you all three links' with an animated comment badge."
+    }
+  ],
+  "takeaways": [
+    {
+      "text": "An edit without SFX feels like a silent movie: put a sound on every visual event.",
+      "atom": "sound-sfx-every-event"
+    },
+    {
+      "text": "Free SFX from Openverse, filtered to CC0 for Instagram.",
+      "atom": "sound-openverse-cc0"
+    },
+    {
+      "text": "AI sound stack: a library, a placer (Real SFX) and ears (earshot).",
+      "atom": "ai-real-sfx-placement"
+    },
+    {
+      "text": "Contrast hook: 'Looks X. Sounds/feels like Y.'",
+      "atom": "hook-contrast-looks-sounds"
+    },
+    {
+      "text": "Open on a question about a pain point.",
+      "atom": "hook-pain-question"
+    },
+    {
+      "text": "State an honest limitation to build trust.",
+      "atom": "story-honest-limitation"
+    },
+    {
+      "text": "Animated number counters hold attention.",
+      "atom": "fx-number-counter"
+    },
+    {
+      "text": "n/3 progress badges in list videos.",
+      "atom": "fx-progress-badges"
+    },
+    {
+      "text": "Serif italic for emphasis, sans for body.",
+      "atom": "text-serif-italic-emphasis"
+    },
+    {
+      "text": "UI and text pops spring in with slight overshoot.",
+      "atom": "fx-spring-ui"
+    },
+    {
+      "text": "Comment-keyword CTA.",
+      "atom": "growth-comment-keyword-cta"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "SFX",
+      "def": "Sound effects: short sounds (pop, whoosh, thud) placed on visual events."
+    },
+    {
+      "term": "Openverse",
+      "def": "A free search over openly licensed media, including audio, usable without an API key."
+    },
+    {
+      "term": "CC0",
+      "def": "A licence that puts a work in the public domain: use it anywhere without credit."
+    },
+    {
+      "term": "CC-BY",
+      "def": "A licence that lets you use a work if you credit the author."
+    },
+    {
+      "term": "Real SFX",
+      "def": "A Claude Code skill that detects moments in an edit and places real recorded sounds on them."
+    },
+    {
+      "term": "earshot",
+      "def": "An open-source audio analysis tool that lets an AI agent 'listen' to and critique a mix."
+    },
+    {
+      "term": "Ducking",
+      "def": "Lowering music or SFX automatically while someone is speaking."
+    },
+    {
+      "term": "n/3 badge",
+      "def": "A small '1/3, 2/3, 3/3' label that shows progress through a list."
+    },
+    {
+      "term": "Number counter",
+      "def": "An animation where a number counts up (or down) to its final value."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Why do AI edits often end up silent?",
+      "a": "The AI editing agent can't hear, so it skips sound or fakes it with synthetic beeps."
+    },
+    {
+      "q": "Name the three parts of the sound stack and their jobs.",
+      "a": "Openverse (library), Real SFX (placement), earshot (ears / listening and critique)."
+    },
+    {
+      "q": "Which Openverse licence should you pick for Instagram, and why?",
+      "a": "CC0, because it needs no credit; CC-BY needs credit in the caption."
+    },
+    {
+      "q": "What's the 'honest part' in the reel and why include it?",
+      "a": "Real SFX only ships 78 sounds; admitting a limit makes the rest believable."
+    },
+    {
+      "q": "What contrast does the hook use?",
+      "a": "'Looks pro. Sounds like this:' with a mute icon."
+    },
+    {
+      "q": "What is the reel's CTA keyword?",
+      "a": "SOUND."
+    }
+  ],
+  "try_it": [
+    {
+      "title": "Sound pass on an old gym reel",
+      "niche": "gym",
+      "steps": [
+        "Open your last silent gym edit.",
+        "List every visual event (cut, text pop, counter tick, final rep).",
+        "Find CC0 sounds on Openverse: pop, whoosh, thud, chime.",
+        "Place one sound per event, quieter than your voice.",
+        "Add the song last, well under the SFX."
+      ]
+    },
+    {
+      "title": "Contrast hook for a PC reel",
+      "niche": "tech",
+      "steps": [
+        "Write 'Looks ___. Runs/sounds like ___.' for your PC.",
+        "Film the 'looks' shot (RGB, clean case) and the 'runs like' proof (stutter, fan noise).",
+        "Cut them back to back in the first 3 s with a hard stop in the sound."
+      ]
+    },
+    {
+      "title": "n/3 badge gaming list",
+      "niche": "gaming",
+      "steps": [
+        "Pick three settings that improved your game.",
+        "Give each a 1/3, 2/3, 3/3 badge that springs in with a pop.",
+        "Add a number counter for the before/after stat (FPS, K/D).",
+        "End with 'the honest part:' and one limitation."
+      ]
+    }
+  ]
+}
